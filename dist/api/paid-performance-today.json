@@ -8,19 +8,19 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "47adcd471086041f",
-      "title": "ΜΗΝΙΩΝ",
-      "description": "29 Οκτωβριου ΜΗΝΙΩΝ Κτημα Αριστη",
-      "startDate": "2025-10-29T00:00:00.000+02:00",
+      "id": "e289234b9858a350",
+      "title": "ΚΑΕ ΑΡΗΣ BETSSON ΕΙΣΙΤΗΡΙΑ ΑΓΩΝΩΝ BKT EUROCUP 2025-26",
+      "description": "5 Νοε - 4 Φεβ ΚΑΕ ΑΡΗΣ BETSSON ΕΙΣΙΤΗΡΙΑ ΑΓΩΝΩΝ BKT EUROCUP 2025-26 Nick Galis Hall",
+      "startDate": "2025-11-05T20:00:00+02:00",
       "endDate": null,
       "type": "performance",
       "genres": [
-        "general"
+        "sports"
       ],
       "tags": [],
       "venue": {
-        "name": "Κτημα Αριστη",
-        "address": "",
+        "name": "Nick Galis Hall",
+        "address": "Nick Galis Hall",
         "neighborhood": null,
         "capacity": null
       },
@@ -30,109 +30,16 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/happenings/children/festival/minion/",
+      "url": "https://www.more.com/gr-el/tickets/sports/kae-aris-betsson-eisitiria-agonon-bkt-eurocup-2025-26/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.428Z",
-      "updatedAt": "2025-10-22T17:16:25.428Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "daeb59f1b708653a",
-      "title": "ΜΙΚΡΟΙ ΜΕΓΑΛΟΙ...ΠΑΙΖΟΥΜΕ ΜΑΖΙ",
-      "description": "29 Οκτωβριου ΜΙΚΡΟΙ ΜΕΓΑΛΟΙ...ΠΑΙΖΟΥΜΕ ΜΑΖΙ Κτημα Αριστη",
-      "startDate": "2025-10-29T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κτημα Αριστη",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 5,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/happenings/children/festival/mikroi-megaloi-paizoume-mazi/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.428Z",
-      "updatedAt": "2025-10-22T17:16:25.428Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "038a710e6fddd494",
-      "title": "Παιδικό Parkour",
-      "description": "29 Οκτωβριου Παιδικό Parkour λιλιτζουμ",
-      "startDate": "2025-10-29T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "λιλιτζουμ",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 13,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/children/workshop/paidiko-parkour-1/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.429Z",
-      "updatedAt": "2025-10-22T17:16:25.429Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "b72ea3c39532eb29",
-      "title": "𖡎 ΑΚΑΤΑΣΤΑΤΑ ΠΑΙΧΝΙΔΙΣΜΑΤΑ 𖡎",
-      "description": "29 Οκτωβριου 𖡎 ΑΚΑΤΑΣΤΑΤΑ ΠΑΙΧΝΙΔΙΣΜΑΤΑ 𖡎 Κτημα Αριστη",
-      "startDate": "2025-10-29T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κτημα Αριστη",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/happenings/children/festival/akatastata-paixnidismata-1/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.429Z",
-      "updatedAt": "2025-10-22T17:16:25.429Z",
+      "createdAt": "2025-10-26T21:21:00.918Z",
+      "updatedAt": "2025-10-26T21:21:00.918Z",
       "language": "en"
     }
   ],
   "meta": {
-    "total": 4,
-    "lastUpdate": "2025-10-29T10:59:23.468Z",
+    "total": 1,
+    "lastUpdate": "2025-11-05T11:28:21.522Z",
     "url": "https://agent-athens.netlify.app/paid-performance-today"
   }
 }

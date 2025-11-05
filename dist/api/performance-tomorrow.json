@@ -7,10 +7,10 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "857bdbe5a2a97e04",
-      "title": "PUMPKIN CARVING ΠΕΜΠΤΗ 30/10 8μμ - 10μμ",
-      "description": "30 Οκτωβριου PUMPKIN CARVING ΠΕΜΠΤΗ 30/10 8μμ - 10μμ Δημοτικη Αγορα Κυψελης",
-      "startDate": "2025-10-30T00:00:00.000+02:00",
+      "id": "05384c7acb6cf840",
+      "title": "VRANARAMA COMEDY NIGHTS",
+      "description": "6 Νοε - 10 Ιαν VRANARAMA COMEDY NIGHTS Shamone",
+      "startDate": "2025-11-06T00:00:00.000+02:00",
       "endDate": null,
       "type": "performance",
       "genres": [
@@ -18,30 +18,30 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Δημοτικη Αγορα Κυψελης",
+        "name": "Shamone",
         "address": "",
         "neighborhood": null,
         "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 15,
+        "amount": 12,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/seminar/children/offer/festival/pumpkin-carving-pempti-30/10-8mm-10mm/",
+      "url": "https://www.more.com/gr-el/tickets/standupcomedy/vranarama-comedy-nights/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.431Z",
-      "updatedAt": "2025-10-22T17:16:25.431Z",
+      "createdAt": "2025-10-22T17:16:25.485Z",
+      "updatedAt": "2025-10-22T17:16:25.485Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "a0e271138ada8350",
-      "title": "PUMPKIN CARVING ΠΕΜΠΤΗ 30/10 4μμ - 6μμ",
-      "description": "30 Οκτωβριου PUMPKIN CARVING ΠΕΜΠΤΗ 30/10 4μμ - 6μμ Δημοτικη Αγορα Κυψελης",
-      "startDate": "2025-10-30T00:00:00.000+02:00",
+      "id": "ba19d92c44ed3d77",
+      "title": "Όμορφες Σκέψεις της Ήρας Κατσούδα",
+      "description": "6 Νοε - 1 Ιαν Όμορφες Σκέψεις της Ήρας Κατσούδα Θεατρο OLVIO",
+      "startDate": "2025-11-06T00:00:00.000+02:00",
       "endDate": null,
       "type": "performance",
       "genres": [
@@ -49,69 +49,7 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Δημοτικη Αγορα Κυψελης",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/seminar/children/offer/festival/pumpkin-carving-pempti-30/10-4mm-6mm/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.432Z",
-      "updatedAt": "2025-10-22T17:16:25.432Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "ceff2fca7ef3c348",
-      "title": "PUMPKIN PAINTING",
-      "description": "30 Οκτωβριου PUMPKIN PAINTING Δημοτικη Αγορα Κυψελης",
-      "startDate": "2025-10-30T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Δημοτικη Αγορα Κυψελης",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 20,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/seminar/children/offer/festival/pumpkin-painting/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.432Z",
-      "updatedAt": "2025-10-22T17:16:25.432Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "785f44f28b26d015",
-      "title": "Παιχνίδι & Yoga: Η Αλίκη στη χώρα των θαυμάτων (για παιδιά 3 – 6 ετών)",
-      "description": "30 Οκτωβριου Παιχνίδι & Yoga: Η Αλίκη στη χώρα των θαυμάτων (για παιδιά 3 – 6 ετών) Beesmall Concept Toy Store",
-      "startDate": "2025-10-30T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Beesmall Concept Toy Store",
+        "name": "Θεατρο OLVIO",
         "address": "",
         "neighborhood": null,
         "capacity": null
@@ -122,19 +60,19 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/children/workshop/paixnidi-yoga-i-aliki-sti-xora-ton-thaumaton-gia-paidia-3-6-eton/",
+      "url": "https://www.more.com/gr-el/tickets/standupcomedy/omorfes-skepseis-tis-iras-katsouda/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.432Z",
-      "updatedAt": "2025-10-22T17:16:25.432Z",
+      "createdAt": "2025-10-22T17:16:25.485Z",
+      "updatedAt": "2025-10-22T17:16:25.485Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "091c05114dc41f2a",
-      "title": "ATHENS HALLOWEEN FESTIVAL 2025",
-      "description": "30 Οκτ - 2 Νοε ATHENS HALLOWEEN FESTIVAL 2025 Δημοτικη Αγορα Κυψελης",
-      "startDate": "2025-10-30T20:00:00+02:00",
+      "id": "90a81d4278a3fd9d",
+      "title": "\"Καλά δεν είμαστε;\" | Γιώργος Αλεβίζος – Μάριος Δημητρόπουλος",
+      "description": "6 Νοε - 2 Ιαν \"Καλά δεν είμαστε;\" | Γιώργος Αλεβίζος – Μάριος Δημητρόπουλος Θεατρο Αβατον",
+      "startDate": "2025-11-06T00:00:00.000+02:00",
       "endDate": null,
       "type": "performance",
       "genres": [
@@ -142,30 +80,30 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Δημοτικη Αγορα Κυψελης",
-        "address": "Δημοτικη Αγορα Κυψελης",
+        "name": "Θεατρο Αβατον",
+        "address": "",
         "neighborhood": null,
         "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 20,
+        "amount": 10,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/happenings/festival/athens-halloween-festival-2025/",
+      "url": "https://www.more.com/gr-el/tickets/standupcomedy/kala-den-eimaste/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.890Z",
-      "updatedAt": "2025-10-26T21:21:00.890Z",
+      "createdAt": "2025-10-22T17:16:25.485Z",
+      "updatedAt": "2025-10-22T17:16:25.485Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "0324e0e3ea8d1b0d",
-      "title": "PAINTING WITH KOKO TEXNH - ATHENS HALLOWEEN FESTIVAL 2025",
-      "description": "30 Οκτωβριου PAINTING WITH KOKO TEXNH - ATHENS HALLOWEEN FESTIVAL 2025 Δημοτικη Αγορα Κυψελης",
-      "startDate": "2025-10-30T20:00:00+02:00",
+      "id": "7d0a05a34c20f276",
+      "title": "Ναι μεν, αλλά... | Βαγγέλης Μουλαράς",
+      "description": "6 Νοε - 18 Δεκ Ναι μεν, αλλά... | Βαγγέλης Μουλαράς Θεατρο Ελευθερη Εκφραση",
+      "startDate": "2025-11-06T00:00:00.000+02:00",
       "endDate": null,
       "type": "performance",
       "genres": [
@@ -173,30 +111,30 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Δημοτικη Αγορα Κυψελης",
-        "address": "Δημοτικη Αγορα Κυψελης",
+        "name": "Θεατρο Ελευθερη Εκφραση",
+        "address": "",
         "neighborhood": null,
         "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 16,
+        "amount": 10,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/seminar/offer/festival/carnival/painting-with-koko-texnh/",
+      "url": "https://www.more.com/gr-el/tickets/standupcomedy/nai-men-alla-baggelis-moularas/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.890Z",
-      "updatedAt": "2025-10-26T21:21:00.890Z",
+      "createdAt": "2025-10-22T17:16:25.485Z",
+      "updatedAt": "2025-10-22T17:16:25.485Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "3bddbcc9f7bd389d",
-      "title": "PUMPKIN CARVING ΠΕΜΠΤΗ 30/10 6μμ - 8μμ",
-      "description": "30 Οκτωβριου PUMPKIN CARVING ΠΕΜΠΤΗ 30/10 6μμ - 8μμ Δημοτικη Αγορα Κυψελης",
-      "startDate": "2025-10-30T20:00:00+02:00",
+      "id": "9111256dbd1e92b1",
+      "title": "\"Άνω κάτω μία τάξη… παίζουμε για να αλλάξει!\"",
+      "description": "6 Νοεμβριου \"Άνω κάτω μία τάξη… παίζουμε για να αλλάξει!\" Ελληνικο Παιδικο Μουσειο",
+      "startDate": "2025-11-06T00:00:00.000+02:00",
       "endDate": null,
       "type": "performance",
       "genres": [
@@ -204,8 +142,8 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Δημοτικη Αγορα Κυψελης",
-        "address": "Δημοτικη Αγορα Κυψελης",
+        "name": "Ελληνικο Παιδικο Μουσειο",
+        "address": "",
         "neighborhood": null,
         "capacity": null
       },
@@ -215,47 +153,16 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/seminar/children/offer/festival/pumpkin-carving-pempti-3/10-6mm-8mm/",
+      "url": "https://www.more.com/gr-el/tickets/museums/children/ano-kato-mia-taksi-paizoume-gia-na-allaksei/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.890Z",
-      "updatedAt": "2025-10-26T21:21:00.890Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "71e57cbe67dd484a",
-      "title": "PUMPKIN PAINTING ΠΕΜΠΤΗ 30/10 ΩΡΑ: 2μμ-4μμ",
-      "description": "30 Οκτωβριου PUMPKIN PAINTING ΠΕΜΠΤΗ 30/10 ΩΡΑ: 2μμ-4μμ Δημοτικη Αγορα Κυψελης",
-      "startDate": "2025-10-30T20:00:00+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Δημοτικη Αγορα Κυψελης",
-        "address": "Δημοτικη Αγορα Κυψελης",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 20,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/seminar/children/offer/festival/pumpkin-painting-pempti-30/10-ora-2mm-4mm/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.890Z",
-      "updatedAt": "2025-10-26T21:21:00.890Z",
+      "createdAt": "2025-10-22T17:16:25.486Z",
+      "updatedAt": "2025-10-22T17:16:25.486Z",
       "language": "en"
     }
   ],
   "meta": {
-    "total": 8,
-    "lastUpdate": "2025-10-29T10:59:23.176Z",
+    "total": 5,
+    "lastUpdate": "2025-11-05T11:28:21.219Z",
     "url": "https://agent-athens.netlify.app/performance-tomorrow"
   }
 }

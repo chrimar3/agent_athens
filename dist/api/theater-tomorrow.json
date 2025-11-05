@@ -7,10 +7,10 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "1bbe9f6abd3de9cf",
-      "title": "Η ΜΗΤΕΡΑ ΤΟΥ ΣΚΥΛΟΥ για 2ο χρόνο στο ΘΕΑΤΡΟ ΑΚΡΟΠΟΛ",
-      "description": "30 Οκτ - 11 Ιαν Η ΜΗΤΕΡΑ ΤΟΥ ΣΚΥΛΟΥ για 2ο χρόνο στο ΘΕΑΤΡΟ ΑΚΡΟΠΟΛ ΘΕΑΤΡΟ ΑΚΡΟΠΟΛ",
-      "startDate": "2025-10-30T20:00:00+02:00",
+      "id": "0c2a9d25cd74f5c5",
+      "title": "Χούγια ή Θάνατος || Σοφία Μουτίδου",
+      "description": "6 Νοε - 22 Ιαν Χούγια ή Θάνατος || Σοφία Μουτίδου Vergina Theatro!",
+      "startDate": "2025-11-06T00:00:00.000+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -18,8 +18,8 @@
       ],
       "tags": [],
       "venue": {
-        "name": "ΑΚΡΟΠΟΛ ΘΕΑΤΡΟ ΑΚΡΟΠΟΛ",
-        "address": "ΑΚΡΟΠΟΛ ΘΕΑΤΡΟ ΑΚΡΟΠΟΛ",
+        "name": "Vergina Theatro!",
+        "address": "",
         "neighborhood": null,
         "capacity": null
       },
@@ -29,19 +29,19 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/imiteratouskylou/",
+      "url": "https://www.more.com/gr-el/tickets/theater/xougia-i-thanatos-sofia-moutidou/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.889Z",
-      "updatedAt": "2025-10-26T21:21:00.889Z",
+      "createdAt": "2025-10-22T17:16:25.484Z",
+      "updatedAt": "2025-10-22T17:16:25.484Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "d909fa9da36fdbcd",
-      "title": "STAND UP COMEDY - HA HA HALLOWEEN",
-      "description": "30 Οκτωβριου STAND UP COMEDY - HA HA HALLOWEEN Δημοτικη Αγορα Κυψελης",
-      "startDate": "2025-10-30T20:00:00+02:00",
+      "id": "0b99d8606993b526",
+      "title": "ΜΠΛΕ ΥΓΡΟ",
+      "description": "6 Νοε - 27 Δεκ ΜΠΛΕ ΥΓΡΟ K4",
+      "startDate": "2025-11-06T00:00:00.000+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -49,39 +49,8 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Δημοτικη Αγορα Κυψελης",
-        "address": "Δημοτικη Αγορα Κυψελης",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 12,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/standupcomedy/festival/athens-halloween-festival30102025/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.889Z",
-      "updatedAt": "2025-10-26T21:21:00.889Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "ed7c0701dc4ed609",
-      "title": "ΓΙΑΝΝΗ ΡΙΤΣΟΥ - ΙΣΜΗΝΗ 3ος Χρόνος",
-      "description": "30 Οκτ - 18 Δεκ ΓΙΑΝΝΗ ΡΙΤΣΟΥ - ΙΣΜΗΝΗ 3ος Χρόνος Θεατρο ΔΡΟΜΟΣ",
-      "startDate": "2025-10-30T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Χρόνος Θεατρο ΔΡΟΜΟΣ",
-        "address": "Χρόνος Θεατρο ΔΡΟΜΟΣ",
+        "name": "K4",
+        "address": "",
         "neighborhood": null,
         "capacity": null
       },
@@ -91,16 +60,78 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/ismini/",
+      "url": "https://www.more.com/gr-el/tickets/theater/mple-ygro/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.889Z",
-      "updatedAt": "2025-10-26T21:21:00.889Z",
+      "createdAt": "2025-10-22T17:16:25.485Z",
+      "updatedAt": "2025-10-22T17:16:25.485Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "0b32fd1a0ae6a731",
+      "title": "Το Νόημα της Ζωής Νο 1 - Αθήνα",
+      "description": "6 - 27 Νοεμβριου Το Νόημα της Ζωής Νο 1 - Αθήνα Απο Μηχανης Θεατρο - Κατω Σκηνη",
+      "startDate": "2025-11-06T20:00:00+02:00",
+      "endDate": null,
+      "type": "theater",
+      "genres": [
+        "theater"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "- Κατω Σκηνη",
+        "address": "- Κατω Σκηνη",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 11,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/to-noima-tis-zois-no1/",
+      "source": "more.com",
+      "createdAt": "2025-10-26T21:21:00.919Z",
+      "updatedAt": "2025-10-26T21:21:00.919Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "79823f9e698b18d6",
+      "title": "ΤΟ ΝΟΗΜΑ ΤΟΥ ΣΕΞ 2",
+      "description": "6 Νοε - 4 Δεκ ΤΟ ΝΟΗΜΑ ΤΟΥ ΣΕΞ 2 Θεατρο Λυχνος Τεχνης & Πολιτισμου",
+      "startDate": "2025-11-06T20:00:00+02:00",
+      "endDate": null,
+      "type": "theater",
+      "genres": [
+        "theater"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Τεχνης & Πολιτισμου",
+        "address": "Τεχνης & Πολιτισμου",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 16,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/to-noima-tou-sex-2/",
+      "source": "more.com",
+      "createdAt": "2025-10-26T21:21:00.919Z",
+      "updatedAt": "2025-10-26T21:21:00.919Z",
       "language": "en"
     }
   ],
   "meta": {
-    "total": 3,
-    "lastUpdate": "2025-10-29T10:59:23.135Z",
+    "total": 4,
+    "lastUpdate": "2025-11-05T11:28:21.188Z",
     "url": "https://agent-athens.netlify.app/theater-tomorrow"
   }
 }

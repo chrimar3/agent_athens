@@ -8,10 +8,11 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "2bddd3737b54c9b9",
-      "title": "HALLOWEEN WORKSHOP - PUMPKIN ΦΑΝΑΡΑΚΙ",
-      "description": "31 Οκτωβριου HALLOWEEN WORKSHOP - PUMPKIN ΦΑΝΑΡΑΚΙ Δημοτικη Αγορα Κυψελης",
-      "startDate": "2025-10-31T00:00:00.000+02:00",
+      "id": "248d9c2288e6a7b8",
+      "title": "Η ΑΡΧΙΤΕΚΤΟΝΙΚΉ ΤΗΣ ΚΊΝΗΣΗΣ: WORKSHOP ΧΟΡΟΎ",
+      "description": "8 Νοεμβριου Η ΑΡΧΙΤΕΚΤΟΝΙΚΉ ΤΗΣ ΚΊΝΗΣΗΣ: WORKSHOP ΧΟΡΟΎ Μουσειο Αλεκος Φασιανος",
+      "fullDescription": "The Alekos Fassianos Museum hosts \"The Architecture of Movement,\" a dance workshop that explores the profound connections between the legendary Greek painter's visual language and contemporary choreographic practice. This unique workshop invites participants to inhabit the museum's galleries not as passive observers but as active creators, using Fassianos's bold colors, lyrical figures, and distinctly Greek modernist aesthetic as inspiration for movement exploration.\n\nAlekos Fassianos (1935-2022) created a visual vocabulary that captured the essence of Greek light, mythology, and everyday life through simplified forms, vibrant color palettes, and figures caught in moments of graceful suspension. His cyclists, musicians, and lovers seem perpetually in motion despite their two-dimensional existence, making his work an ideal starting point for investigating how visual art translates into bodily expression. The museum, located in a beautifully restored neoclassical building in Athens, provides an intimate setting where participants can study Fassianos's works up close before translating visual rhythms into physical choreography.\n\nThe workshop bridges visual and performing arts in ways that honor both traditions while creating something entirely new. Participants will study how Fassianos constructed movement through line, color, and composition, then explore how these same principles can inform dance-making. The focus is not on literal interpretation—mimicking painted figures—but on deeper translation: How does Fassianos's particular shade of blue feel in the body? What kind of movement emerges from his characteristic curved lines? How can dancers embody the tension between stillness and motion that defines his work?\n\nScheduled for November 8, the workshop welcomes participants with varying levels of dance experience. The ticketed format ensures an appropriately sized group for meaningful individual attention while maintaining the collaborative energy essential to creative movement work. Workshop leaders guide participants through structured improvisations, compositional exercises, and group choreographic development, all informed by sustained engagement with Fassianos's paintings.\n\nWhat makes this workshop particularly valuable is its location within the museum itself. Rather than studying reproductions in a generic studio, participants work surrounded by original Fassianos paintings, drawings, and sketches. This immersion allows for continuous dialogue between visual and kinetic exploration, with artworks serving as both inspiration and witness to the movement they inspire.\n\nFor dancers seeking to expand their creative practice, visual artists curious about embodied interpretation, or anyone interested in the productive collisions between art forms, \"The Architecture of Movement\" offers a rare opportunity to inhabit a master artist's world through the body's intelligence.",
+      "startDate": "2025-11-08T00:00:00.000+02:00",
       "endDate": null,
       "type": "workshop",
       "genres": [
@@ -19,38 +20,7 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Δημοτικη Αγορα Κυψελης",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 25,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/seminar/offer/festival/carnival/halloween-workshop-pumpkin-fanaraki/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.444Z",
-      "updatedAt": "2025-10-22T17:16:25.444Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "e919494c5da89d46",
-      "title": "Workshop by Miele - Wine Tasting",
-      "description": "31 Οκτωβριου Workshop by Miele - Wine Tasting Miele Experience Center - Αγια Παρασκευη",
-      "startDate": "2025-10-31T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "workshop",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Miele Experience Center - Αγια Παρασκευη",
+        "name": "Μουσειο Αλεκος Φασιανος",
         "address": "",
         "neighborhood": null,
         "capacity": null
@@ -61,19 +31,19 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/workshop/workshop-by-miele-wine-tasting/",
+      "url": "https://www.more.com/gr-el/tickets/museums/i-arxitektoniki-tis-kinisis-workshop-xoroy/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.444Z",
-      "updatedAt": "2025-10-22T17:16:25.444Z",
+      "createdAt": "2025-10-22T17:16:25.503Z",
+      "updatedAt": "2025-11-04 23:04:00",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "747bbc9e5a6a0026",
-      "title": "Το Σπιτάκι των Τεράτων – Halloween themed workshop (για παιδιά 4 – 6 ετών)",
-      "description": "31 Οκτωβριου Το Σπιτάκι των Τεράτων – Halloween themed workshop (για παιδιά 4 – 6 ετών) Beesmall Concept Toy Store",
-      "startDate": "2025-10-31T00:00:00.000+02:00",
+      "id": "43bfd05d807e02ba",
+      "title": "Εργαστήρισ για άτομα 65+: Εργαστήριο Τρισδιάστατης Εκτύπωσης (3D Printing)",
+      "description": "11 Νοε - 9 Φεβ Εργαστήρισ για άτομα 65+: Εργαστήριο Τρισδιάστατης Εκτύπωσης (3D Printing) Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Maker Space",
+      "startDate": "2025-11-11T00:00:00.000+02:00",
       "endDate": null,
       "type": "workshop",
       "genres": [
@@ -81,27 +51,93 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Beesmall Concept Toy Store",
+        "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Maker Space",
+        "address": "",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "with-ticket",
+        "amount": null,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/workshop/ergastirio-trisdiastatis-ektyposis-3d-printing/",
+      "source": "more.com",
+      "createdAt": "2025-10-22T17:16:25.519Z",
+      "updatedAt": "2025-10-22T17:16:25.519Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationEvent",
+      "id": "therapeia-synolon-live-workshop-2025-11-15",
+      "title": "THERAPEIA SYNOLON - Live Workshop",
+      "description": "THERAPEIA SYNOLON - Live WorkshopΒιωματικό σεμινάριο ψυχολογίας με τον Γιάννη Ξηντάρα",
+      "startDate": "2025-11-15T11:00:00+03:00",
+      "endDate": null,
+      "type": "workshop",
+      "genres": [
+        ""
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Θεατρο Altera Pars",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 30,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/seminar/therapeia-synolon-live-workshop/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "366f49a66bb03d0c",
+      "title": "Σεμινάριο «Μέσα στον παιδικό εγκέφαλο»",
+      "description": "16 Νοεμβριου Σεμινάριο «Μέσα στον παιδικό εγκέφαλο» Ελληνικο Παιδικο Μουσειο",
+      "startDate": "2025-11-16T00:00:00.000+02:00",
+      "endDate": null,
+      "type": "workshop",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Ελληνικο Παιδικο Μουσειο",
         "address": "",
         "neighborhood": null,
         "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 10,
+        "amount": 25,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/children/workshop/to-spitaki-ton-teraton-halloween-themed-workshop-gia-paidia-4-6-eton/",
+      "url": "https://www.more.com/gr-el/tickets/museums/seminario-mesa-ston-paidiko-egkefalo/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.445Z",
-      "updatedAt": "2025-10-22T17:16:25.445Z",
+      "createdAt": "2025-10-22T17:16:25.543Z",
+      "updatedAt": "2025-10-22T17:16:25.543Z",
       "language": "en"
     }
   ],
   "meta": {
-    "total": 3,
-    "lastUpdate": "2025-10-29T10:59:23.493Z",
+    "total": 4,
+    "lastUpdate": "2025-11-05T11:28:21.540Z",
     "url": "https://agent-athens.netlify.app/paid-workshop-this-month"
   }
 }

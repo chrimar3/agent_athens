@@ -6,104 +6,116 @@
   "events": [
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "4d187e67dfc2c222",
-      "title": "Μεγάλες Κυρίες τραγουδούν… στο Μουσικό Βαγόνι (2ος χρόνος)",
-      "description": "30 Οκτ - 29 Ιαν Μεγάλες Κυρίες τραγουδούν… στο Μουσικό Βαγόνι (2ος χρόνος) Αμαξοστοιχια - Θεατρο το Τρενο στο Ρουφ - Μουσικο Βαγονι Orient Express",
-      "startDate": "2025-10-30T20:00:00+02:00",
+      "@type": "MusicEvent",
+      "id": "messy-play-with-hehe-1-4-2025-11-06",
+      "title": "Messy Play with Hehe για παιδιά 1-4 ετών",
+      "description": "Οι γνωστές ομάδες Messy Play των Hehe, που εισήγαγαν και καθιέρωσαν το αισθητηριακό παιχνίδι στην Ελλάδα από το 2010!",
+      "startDate": "2025-11-06T11:15:00+03:00",
       "endDate": null,
       "type": "concert",
       "genres": [
-        "music"
+        ""
       ],
       "tags": [],
       "venue": {
-        "name": "Βαγονι Orient Express",
-        "address": "Βαγονι Orient Express",
+        "name": "Messy Play, Art & Therapy • by Hehe",
+        "address": "Athens, Greece",
         "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
         "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 16,
+        "amount": 15,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/music/megales-kyries-tragoudoun-sto-mousiko-bagoni-2os-xronos/",
+      "url": "https://www.more.com/gr-el/tickets/children/workshop/messy-play-with-hehe-gia-paidia-1-4-eton-1/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.889Z",
-      "updatedAt": "2025-10-26T21:21:00.889Z",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "ai-2025-11-06",
+      "title": "AIξέλιξη - Εξελίξου στην Τεχνητή Νοημοσύνη",
+      "description": "AIξέλιξη: Το σεμινάριο που θα σου δώσει τα εργαλεία για να εξελιχθείς στην εποχή του AI. Με τους Δημήτρη Λαζαρίδη & Μιράντα Σμουλιώτη. Πρακτικές στρατηγικές, εφαρμόσιμα εργαλεία. 6 Νοεμβρίου, 18:00-20",
+      "startDate": "2025-11-06T18:00:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        ""
+      ],
+      "tags": [],
+      "venue": {
+        "name": "JOIST Innovation Park",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 14,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/seminar/aikseliksi-ekseliksou-stin-texniti-noimosyni/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "messy-play-with-hehe-2-8-2025-11-06",
+      "title": "Messy Play with Hehe για παιδιά 2-8 ετών",
+      "description": "Οι γνωστές ομάδες Messy Play των Hehe, που εισήγαγαν και καθιέρωσαν το αισθητηριακό παιχνίδι στην Ελλάδα από το 2010!",
+      "startDate": "2025-11-06T18:30:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        ""
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Messy Play, Art & Therapy • by Hehe",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 15,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/children/workshop/messy-play-with-hehe-gia-paidia-2-8-eton/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "b5ffe4a211668948",
-      "title": "ATHENS SPOOKS: Lucifer - The Abbey | ΚΥΤΤΑΡΟ",
-      "description": "30 Οκτωβριου ATHENS SPOOKS: Lucifer - The Abbey | ΚΥΤΤΑΡΟ Κυτταρο Live",
-      "startDate": "2025-10-30T20:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ΚΥΤΤΑΡΟ Κυτταρο Live",
-        "address": "ΚΥΤΤΑΡΟ Κυτταρο Live",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 23,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/festival/athens-spooks/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.889Z",
-      "updatedAt": "2025-10-26T21:21:00.889Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "04cf8d3ad73ffadd",
-      "title": "ANDREAS POLYZOGOPOULOS ELECTRIC 4ET",
-      "description": "30 Οκτωβριου ANDREAS POLYZOGOPOULOS ELECTRIC 4ET Half Note Jazz Club",
-      "startDate": "2025-10-30T20:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Note Jazz Club",
-        "address": "Note Jazz Club",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 12,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/andreas-polyzogopoulos-electric-4et-2/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.889Z",
-      "updatedAt": "2025-10-26T21:21:00.889Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "d5a482aa14eeab25",
-      "title": "“Chants to the Moon” | Marissa Bili & Barry Yuk Bun Wan",
-      "description": "Το “Chants to the Moon” είναι ένας διαλογικός πειραματισμός ανάμεσα στη φωνή και τη δόνηση, τη σιγή και τον ήχο, τη σκιά και το φως — ένα ντουέτο της Μαρίσσας Μπίλη και του Barry Yuk Bun Wan.",
-      "startDate": "2025-10-30T21:00:00+02:00",
+      "id": "2e5aae96a7941430",
+      "title": "Budokan Boys / Eiger Drums Propaganda",
+      "description": "Το ντουέτο των Budokan Boys (ΗΠΑ) παρουσιάζει ζωντανά το νέο του άλμπουμ, “THE OOZE”. Τη βραδιά ανοίγει ο Eiger Drums Propaganda (Γαλλία) με ένα σόλο σετ.",
+      "startDate": "2025-11-06T20:00:00+02:00",
       "endDate": null,
       "type": "concert",
       "genres": [
@@ -122,19 +134,217 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/music/marissa-bili-barry-yuk-bun-wan/",
+      "url": "https://www.more.com/gr-el/tickets/music/budokan-boys/eiger-drums-propaganda/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:20:09.977Z",
-      "updatedAt": "2025-10-26T21:21:01.043Z",
+      "createdAt": "2025-10-26T21:20:09.991Z",
+      "updatedAt": "2025-10-26T21:21:01.050Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "3706749bc5d419dd",
-      "title": "Κρινιώ Νικολάου - “Κόντρα Ρόλος”",
-      "description": "Κρινιώ Νικολάου, Γιώργος Γιαννόπουλος, caja de musica, live music, musicstage, μουσικη βραδια",
-      "startDate": "2025-10-30T21:00:00+02:00",
+      "id": "0d26fdb734514eed",
+      "title": "KATERINA ADAMOPOULOU JAZZ QUARTET",
+      "description": "6 Νοεμβριου KATERINA ADAMOPOULOU JAZZ QUARTET Half Note Jazz Club",
+      "startDate": "2025-11-06T20:00:00+02:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        "music"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Note Jazz Club",
+        "address": "Note Jazz Club",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 12,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/music/katerina-adamopoulou-jazz-quartet/",
+      "source": "more.com",
+      "createdAt": "2025-10-26T21:21:00.919Z",
+      "updatedAt": "2025-10-26T21:21:00.919Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "2a593034f82553a3",
+      "title": "ΠΕΝΝΥ ΜΠΑΛΤΑΤΖΗ- HER SWING MAJESTY",
+      "description": "6 - 27 Νοεμβριου ΠΕΝΝΥ ΜΠΑΛΤΑΤΖΗ- HER SWING MAJESTY Major Seven",
+      "startDate": "2025-11-06T20:00:00+02:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        "music"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "MAJESTY Major Seven",
+        "address": "MAJESTY Major Seven",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 15,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/music/penny-mpaltatzi-her-swing-majesty/",
+      "source": "more.com",
+      "createdAt": "2025-10-26T21:21:00.919Z",
+      "updatedAt": "2025-10-26T21:21:00.919Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "0326ada1b23cd7bf",
+      "title": "Harris Lambrakis Quartet",
+      "description": "6 Νοεμβριου Harris Lambrakis Quartet Theatre of the NO",
+      "startDate": "2025-11-06T20:00:00+02:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        "music"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "of the NO",
+        "address": "of the NO",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 10,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/music/harris-lambrakis-quartet-1/",
+      "source": "more.com",
+      "createdAt": "2025-10-26T21:21:00.919Z",
+      "updatedAt": "2025-10-26T21:21:00.919Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "-2025-11-06",
+      "title": "Γιάξεμπόρε - ένα μουσικό μπουλούκι \"Κατά-φωνή\"",
+      "description": "ΜΟΥΣΙΚΗ ΠΑΡΑΣΤΑΣH «ΓΙΑΞΕΜΠΟΡΕ»ένα μουσικό μπουλούκι στο ιστορικό θέατρο Αμαλία!2ος χρόνοςΜΟΥΣΙΚΗ - ΟΠΕΡΕΤΕΣ - ΣΚΕΤΣ - ΕΛΑΦΡΟ ΤΡΑΓΟΥ?Ι - ΑΛΗΘΙΝΕΣ ΙΣΤΟΡΙΕΣ",
+      "startDate": "2025-11-06T21:00:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        "art music"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Θεατρο Αμαλια",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 12,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/music/giaksempore-sxima-kata-foni-deuteros-xronos/",
+      "source": "viva.gr",
+      "createdAt": "2025-10-30T10:34:38.729Z",
+      "updatedAt": "2025-10-31T12:44:50.892Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "c-r-e-a-m-2025-11-06",
+      "title": "Χρήστος Πέτρου - C.R.E.A.M.",
+      "description": "Ο Χρήστος Πέτρου παρουσιάζει την πρώτη του solo stand up comedy παράσταση!",
+      "startDate": "2025-11-06T21:00:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        ""
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Θεατρο Eliart",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 10,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/xristos-petrou-c-r-e-a-m/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "3-2025-11-06",
+      "title": "ΓΙΑΝΝΗ ΡΙΤΣΟΥ - ΙΣΜΗΝΗ 3ος Χρόνος",
+      "description": "Το Θέατρο ΔΡΟΜΟΣ και η Medea Pictures παρουσιάζουν για 3η χρονιά το έργο του Γιάννη Ρίτσου ΙΣΜΗΝΗ.",
+      "startDate": "2025-11-06T21:15:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        ""
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Θεατρο ΔΡΟΜΟΣ",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 10,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/ismini/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "09634250456c4478",
+      "title": "Μιχάλης Τζουγανάκης στο Caja de Música",
+      "description": "Live music, music stage, caja de musica, Τζουγανακης, ζωντανη μουσικη, μουσικη βραδια, κρητικο τραγουδι, κρητικη βραδια",
+      "startDate": "2025-11-06T22:00:00+02:00",
       "endDate": null,
       "type": "concert",
       "genres": [
@@ -149,80 +359,20 @@
       },
       "price": {
         "type": "paid",
-        "amount": 13,
+        "amount": 12,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/music/krinio-nikolaou-kontra-rolos/",
+      "url": "https://www.more.com/gr-el/tickets/music/mixalis-tzouganakis-sto-caja-de-musica/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:20:09.982Z",
+      "createdAt": "2025-10-26T21:20:09.991Z",
       "updatedAt": "2025-10-26T21:21:01.051Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "3c73cfec9e485c8a",
-      "title": "MONOPHONICS live in Greece",
-      "description": "Οι Monophonics, μία από τις πιο δυναμικές μπάντες της soul σκηνής, επιστρέφουν στην Ελλάδα, στην Θεσσαλονίκη την Πέμπτη 30 Οκτωβρίου 2025 στο WE και στην Αθήνα στο Ground Stage του Gazarte, την Παρασκ",
-      "startDate": "2025-10-30T21:30:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "other"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "Πολλαπλοι χωροι",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 30,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/monophonics-live-in-greece/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:20:09.983Z",
-      "updatedAt": "2025-10-26T21:21:01.015Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "ad13d61c2d0f2f27",
-      "title": "ΓΙΑΝΝΗΣ ΠΑΠΑΝΙΚΟΛΑΟΥ",
-      "description": "ΓΙΑΝΝΗΣ ΠΑΠΑΝΙΚΟΛΑΟΥ, ΓΙΩΤΑ ΒΟΚΑΛΗ, ΓΙΩΡΓΟΣ ΠΑΓΙΑΤΗΣ, ΠΕΜΠΤΗ, ΓΥΑΛΙΝΟ ΜΟΥΣΙΚΟ ΘΕΑΤΡΟ, ΣΚΗΝΗ UPSTAGE",
-      "startDate": "2025-10-30T21:30:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [],
-      "tags": [],
-      "venue": {
-        "name": "Γυαλινο Μουσικο Θεατρο",
-        "address": "Γυαλινο Μουσικο Θεατρο",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/giannis-papanikolaou/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:20:09.983Z",
-      "updatedAt": "2025-10-26T21:21:01.030Z",
       "language": "en"
     }
   ],
   "meta": {
-    "total": 7,
-    "lastUpdate": "2025-10-29T10:59:23.078Z",
+    "total": 11,
+    "lastUpdate": "2025-11-05T11:28:21.105Z",
     "url": "https://agent-athens.netlify.app/concert-tomorrow"
   }
 }

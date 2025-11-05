@@ -6,42 +6,186 @@
   "events": [
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "2301ca6f550fec2f",
-      "title": "ΣΤΑΥΡΟΣ ΤΣΑΝΤΕΣ | Η ΔΗΜΟΚΡΑΤΙΑ ΤΟΥ ΑΧ",
-      "description": "29 Οκτωβριου ΣΤΑΥΡΟΣ ΤΣΑΝΤΕΣ | Η ΔΗΜΟΚΡΑΤΙΑ ΤΟΥ ΑΧ Σταυρος του Νοτου - Σταυρος του Νοτου - Club",
-      "startDate": "2025-10-29T00:00:00.000+02:00",
+      "@type": "MusicEvent",
+      "id": "65-2025-11-05",
+      "title": "Εργαστήρια για άτομα 65+: Σώματα σε Κίνηση",
+      "description": "Ένα εργαστήριο κινητικών παιχνιδιών που απευθύνεται σε άτομα ώριμης ηλικίας.",
+      "startDate": "2025-11-05T10:00:00+03:00",
       "endDate": null,
       "type": "concert",
       "genres": [
-        "music"
+        ""
       ],
       "tags": [],
       "venue": {
-        "name": "Σταυρος του Νοτου - Σταυρος του Νοτου - Club",
-        "address": "",
+        "name": "Πολλαπλοι χωροι",
+        "address": "Athens, Greece",
         "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
         "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 13,
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/workshop/somata-se-kinisi/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "yoga-2025-11-05",
+      "title": "Μαθήματα Yoga και Διαλογισμού",
+      "description": "Μαθήματα Yoga, Θεωρία και Διαλογισμός,στο Κέντρο Πολιτισμού «Ελληνικός Κόσμος»",
+      "startDate": "2025-11-05T10:30:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        ""
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Κεντρο Πολιτισμου Ελληνικος Κοσμος",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 12,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/music/stauros-tsantes-i-dimokratia-tou-ax/",
+      "url": "https://www.more.com/gr-el/tickets/museums/mathimata-yoga-kai-dialogismou/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.427Z",
-      "updatedAt": "2025-10-22T17:16:25.427Z",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "eat-drink-draw-2025-11-05",
+      "title": "Eat, Drink & Draw",
+      "description": "Ένα ταξίδι δημιουργικού πειραματισμού με την Πέρσα Ζαχαριά Καλώς ήρθες σε ένα ταξίδι όπου το τραπέζι γίνεται καμβάς και η γεύση συναντά το χρώμα, τη φαντασία και τη χαρά της δημιουργίας!",
+      "startDate": "2025-11-05T18:00:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        ""
+      ],
+      "tags": [],
+      "venue": {
+        "name": "CHNOPS Flavouring Curiosity",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 30,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/workshop/eat-drink-draw/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "messy-play-with-hehe-1-5-5-2025-11-05",
+      "title": "Messy Play with Hehe για παιδιά 1,5-5 ετών",
+      "description": "Οι γνωστές ομάδες Messy Play των Hehe, που εισήγαγαν και καθιέρωσαν το αισθητηριακό παιχνίδι στην Ελλάδα από το 2010!",
+      "startDate": "2025-11-05T18:30:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        ""
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Messy Play, Art & Therapy • by Hehe",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 15,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/children/workshop/messy-play-with-hehe-gia-paidia-15-5-eton-1/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ExhibitionEvent",
+      "id": "andreas-ragnar-kassapis-shame-is-an-object-in-space-2025-11-05",
+      "title": "Andreas Ragnar Kassapis: Shame is an Object in Space",
+      "description": "",
+      "startDate": "2025-11-05T19:00:00+03:00",
+      "endDate": null,
+      "type": "exhibition",
+      "genres": [
+        "contemporary-art-painting"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "MEGARON - The Athens Concert Hall (Ypiresiaki Avli)",
+        "address": null,
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 5,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.megaron.gr/event/annex-m-andreas-ragknar-kasapis-i-ntropi/",
+      "source": "2025-10-31---------------annex-M.json",
+      "createdAt": "2025-11-03T14:01:45.442Z",
+      "updatedAt": "2025-11-03T14:01:45.442Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "6a83bdf84276b4f8",
-      "title": "Tilemachos Moussas Farm - Half Note",
-      "description": "29 Οκτωβριου Tilemachos Moussas Farm - Half Note Half Note Jazz Club",
-      "startDate": "2025-10-29T00:00:00.000+02:00",
+      "id": "f3d0ba39bc98b2d5",
+      "title": "ΔΗΜΗΤΡΗΣ ΜΠΑΚΟΥΛΗΣ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ CLUB",
+      "description": "5 - 19 Νοεμβριου ΔΗΜΗΤΡΗΣ ΜΠΑΚΟΥΛΗΣ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ CLUB Σταυρος του Νοτου - Σταυρος του Νοτου - Club",
+      "startDate": "2025-11-05T20:00:00+02:00",
       "endDate": null,
       "type": "concert",
       "genres": [
@@ -49,8 +193,39 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Half Note Jazz Club",
-        "address": "",
+        "name": "Νοτου - Club",
+        "address": "Νοτου - Club",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 15,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/music/dimitris-mpakoulis-stauros-tou-notou-club/",
+      "source": "more.com",
+      "createdAt": "2025-10-26T21:21:00.917Z",
+      "updatedAt": "2025-10-26T21:21:00.917Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "0c47c72c04904378",
+      "title": "YIANNIS VAGIANOS QUARTET “Second Take”",
+      "description": "5 Νοεμβριου YIANNIS VAGIANOS QUARTET “Second Take” Half Note Jazz Club",
+      "startDate": "2025-11-05T20:00:00+02:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        "music"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Note Jazz Club",
+        "address": "Note Jazz Club",
         "neighborhood": null,
         "capacity": null
       },
@@ -60,236 +235,81 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/music/tilemachos-moussas-farm-half-note/",
+      "url": "https://www.more.com/gr-el/tickets/music/yiannis-vagianos-quartet-second-take/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.428Z",
-      "updatedAt": "2025-10-22T17:16:25.428Z",
+      "createdAt": "2025-10-26T21:21:00.917Z",
+      "updatedAt": "2025-10-26T21:21:00.917Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "a4f1d1cddd7b3b6a",
-      "title": "Εβδομάδα Halloween Messy Play στο Hehe!",
-      "description": "29 - 31 Οκτωβριου Εβδομάδα Halloween Messy Play στο Hehe! Messy Play, Art & Therapy • by Hehe",
-      "startDate": "2025-10-29T00:00:00.000+02:00",
+      "id": "7d3143dcee37d636",
+      "title": "Η ΔΙΚΗ - Φ.Κάφκα σε σκηνοθεσία Αρη Μπινιάρη",
+      "description": "5 Νοε - 31 Ιαν Η ΔΙΚΗ - Φ.Κάφκα σε σκηνοθεσία Αρη Μπινιάρη ΘΕΑΤΡΟ ARK",
+      "startDate": "2025-11-05T20:00:00+02:00",
       "endDate": null,
-      "type": "exhibition",
+      "type": "theater",
       "genres": [
-        "general"
+        "theater"
       ],
       "tags": [],
       "venue": {
-        "name": "Messy Play, Art & Therapy • by Hehe",
-        "address": "",
+        "name": "Μπινιάρη ΘΕΑΤΡΟ ARK",
+        "address": "Μπινιάρη ΘΕΑΤΡΟ ARK",
         "neighborhood": null,
         "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 15,
+        "amount": 20,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/children/workshop/ebdomada-halloween-messy-play-sto-hehe/",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-diki-tou-kafka/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.428Z",
-      "updatedAt": "2025-10-22T17:16:25.428Z",
+      "createdAt": "2025-10-26T21:21:00.918Z",
+      "updatedAt": "2025-10-26T21:21:00.918Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "47adcd471086041f",
-      "title": "ΜΗΝΙΩΝ",
-      "description": "29 Οκτωβριου ΜΗΝΙΩΝ Κτημα Αριστη",
-      "startDate": "2025-10-29T00:00:00.000+02:00",
+      "id": "5722a4cf34753b93",
+      "title": "Το Νόημα της Ζωής Νο 2 - Αθήνα",
+      "description": "5 - 26 Νοεμβριου Το Νόημα της Ζωής Νο 2 - Αθήνα Απο Μηχανης Θεατρο - Κατω Σκηνη",
+      "startDate": "2025-11-05T20:00:00+02:00",
       "endDate": null,
-      "type": "performance",
+      "type": "theater",
       "genres": [
-        "general"
+        "theater"
       ],
       "tags": [],
       "venue": {
-        "name": "Κτημα Αριστη",
-        "address": "",
+        "name": "- Κατω Σκηνη",
+        "address": "- Κατω Σκηνη",
         "neighborhood": null,
         "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 15,
+        "amount": 11,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/happenings/children/festival/minion/",
+      "url": "https://www.more.com/gr-el/tickets/theater/offer/to-noima-tis-zois-2/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.428Z",
-      "updatedAt": "2025-10-22T17:16:25.428Z",
+      "createdAt": "2025-10-26T21:21:00.918Z",
+      "updatedAt": "2025-10-26T21:21:00.918Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "daeb59f1b708653a",
-      "title": "ΜΙΚΡΟΙ ΜΕΓΑΛΟΙ...ΠΑΙΖΟΥΜΕ ΜΑΖΙ",
-      "description": "29 Οκτωβριου ΜΙΚΡΟΙ ΜΕΓΑΛΟΙ...ΠΑΙΖΟΥΜΕ ΜΑΖΙ Κτημα Αριστη",
-      "startDate": "2025-10-29T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κτημα Αριστη",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 5,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/happenings/children/festival/mikroi-megaloi-paizoume-mazi/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.428Z",
-      "updatedAt": "2025-10-22T17:16:25.428Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "038a710e6fddd494",
-      "title": "Παιδικό Parkour",
-      "description": "29 Οκτωβριου Παιδικό Parkour λιλιτζουμ",
-      "startDate": "2025-10-29T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "λιλιτζουμ",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 13,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/children/workshop/paidiko-parkour-1/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.429Z",
-      "updatedAt": "2025-10-22T17:16:25.429Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "b72ea3c39532eb29",
-      "title": "𖡎 ΑΚΑΤΑΣΤΑΤΑ ΠΑΙΧΝΙΔΙΣΜΑΤΑ 𖡎",
-      "description": "29 Οκτωβριου 𖡎 ΑΚΑΤΑΣΤΑΤΑ ΠΑΙΧΝΙΔΙΣΜΑΤΑ 𖡎 Κτημα Αριστη",
-      "startDate": "2025-10-29T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κτημα Αριστη",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/happenings/children/festival/akatastata-paixnidismata-1/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.429Z",
-      "updatedAt": "2025-10-22T17:16:25.429Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "1e64d9fe1d381a3a",
-      "title": "Τοπία από ήχους και άλλες ιστορίες",
-      "description": "29 Οκτωβριου Τοπία από ήχους και άλλες ιστορίες Μουσειο Μουσικων Οργανων «Θυραθεν»",
-      "startDate": "2025-10-29T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Μουσειο Μουσικων Οργανων «Θυραθεν»",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/to-mouseio-brisketai-stin-plateia-riga-feraio/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.429Z",
-      "updatedAt": "2025-10-22T17:16:25.429Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "e1bb230e6c774242",
-      "title": "All Them Witches - House of Mirrors",
-      "description": "Οι εκρηκτικοί All Them Witches επιστρέφουν στην Αθήνα για μία και μοναδική εμφάνιση στις 29 Οκτωβρίου στο Universe Club!",
-      "startDate": "2025-10-29T20:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "rock"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Universe - Multispace",
-        "address": "Universe - Multispace",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 40,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/all-them-witches-house-of-mirrors/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:20:09.976Z",
-      "updatedAt": "2025-10-26T21:21:01.044Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "5d44aae21a6c85a0",
-      "title": "“200+4 Χρόνια Δανεικά , 1821-2025”",
-      "description": "29 Οκτ - 28 Ιαν “200+4 Χρόνια Δανεικά , 1821-2025” Θεατρο Τζενη Καρεζη",
-      "startDate": "2025-10-29T20:00:00+02:00",
+      "id": "75b30e22514c29d0",
+      "title": "ΑΓΩΝΕΣ ΚΑΙ ΜΕΤΑΜΟΡΦΩΣΕΙΣ ΜΙΑΣ ΓΥΝΑΙΚΑΣ",
+      "description": "5 Νοε - 11 Δεκ ΑΓΩΝΕΣ ΚΑΙ ΜΕΤΑΜΟΡΦΩΣΕΙΣ ΜΙΑΣ ΓΥΝΑΙΚΑΣ Θεατρο Τζενη Καρεζη",
+      "startDate": "2025-11-05T20:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -308,19 +328,19 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/200-xronia-daneika-bmeros/",
+      "url": "https://www.more.com/gr-el/tickets/theater/agones-kai-metamorfoseis-mias-gynaikas/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.885Z",
-      "updatedAt": "2025-10-26T21:21:00.885Z",
+      "createdAt": "2025-10-26T21:21:00.918Z",
+      "updatedAt": "2025-10-26T21:21:00.918Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "0490016e9f40292a",
-      "title": "ΕΚΕΙΝΟΣ & ΕΚΕΙΝΟΣ",
-      "description": "29 Οκτ - 21 Δεκ ΕΚΕΙΝΟΣ & ΕΚΕΙΝΟΣ Θεατρο Αργω - Κεντρικη Σκηνη",
-      "startDate": "2025-10-29T20:00:00+02:00",
+      "id": "852c2d5d67b8656b",
+      "title": "Catastrophe",
+      "description": "5 Νοε - 17 Δεκ Catastrophe Theatre of the NO",
+      "startDate": "2025-11-05T20:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -328,39 +348,8 @@
       ],
       "tags": [],
       "venue": {
-        "name": "- Κεντρικη Σκηνη",
-        "address": "- Κεντρικη Σκηνη",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 18,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/ekeinos-ekeinos/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.887Z",
-      "updatedAt": "2025-10-26T21:21:00.887Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "1958e83d877ff4db",
-      "title": "Ο ΠΑΤΕΡΑΣ ΜΟΥ 2025-26-ΠΡΟΣΦΟΡΑ",
-      "description": "29 Οκτ - 16 Ιαν Ο ΠΑΤΕΡΑΣ ΜΟΥ 2025-26-ΠΡΟΣΦΟΡΑ Θεατρο Στοα",
-      "startDate": "2025-10-29T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Στοα",
-        "address": "Θεατρο Στοα",
+        "name": "of the NO",
+        "address": "of the NO",
         "neighborhood": null,
         "capacity": null
       },
@@ -370,19 +359,50 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/offer/o-pateras-mou-2025-26-prosfora/",
+      "url": "https://www.more.com/gr-el/tickets/theater/catastrophe/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.888Z",
-      "updatedAt": "2025-10-26T21:21:00.888Z",
+      "createdAt": "2025-10-26T21:21:00.918Z",
+      "updatedAt": "2025-10-26T21:21:00.918Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "8cfd2f4bc77bc279",
-      "title": "Κοιμούνται τα ψάρια;",
-      "description": "29 Οκτ - 17 Δεκ Κοιμούνται τα ψάρια; Θεατρο Σταθμος 2023 - Stathmos Theater",
-      "startDate": "2025-10-29T20:00:00+02:00",
+      "id": "e289234b9858a350",
+      "title": "ΚΑΕ ΑΡΗΣ BETSSON ΕΙΣΙΤΗΡΙΑ ΑΓΩΝΩΝ BKT EUROCUP 2025-26",
+      "description": "5 Νοε - 4 Φεβ ΚΑΕ ΑΡΗΣ BETSSON ΕΙΣΙΤΗΡΙΑ ΑΓΩΝΩΝ BKT EUROCUP 2025-26 Nick Galis Hall",
+      "startDate": "2025-11-05T20:00:00+02:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "sports"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Nick Galis Hall",
+        "address": "Nick Galis Hall",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 15,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/sports/kae-aris-betsson-eisitiria-agonon-bkt-eurocup-2025-26/",
+      "source": "more.com",
+      "createdAt": "2025-10-26T21:21:00.918Z",
+      "updatedAt": "2025-10-26T21:21:00.918Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "75c42b186691ca18",
+      "title": "WOLVES / Αυτό το παιδί",
+      "description": "5 - 23 Νοεμβριου WOLVES / Αυτό το παιδί ΠΛΥΦΑ - Κτιριο 7Γ",
+      "startDate": "2025-11-05T20:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -390,8 +410,8 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Θεατρο Σταθμος 2023 - Stathmos Theater",
-        "address": "Θεατρο Σταθμος 2023 - Stathmos Theater",
+        "name": "ΠΛΥΦΑ - Κτιριο 7Γ",
+        "address": "ΠΛΥΦΑ - Κτιριο 7Γ",
         "neighborhood": null,
         "capacity": null
       },
@@ -401,60 +421,99 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/koimountai-ta-psaria/",
+      "url": "https://www.more.com/gr-el/tickets/theater/wolves/ayto-to-paidi/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.888Z",
-      "updatedAt": "2025-10-26T21:21:00.888Z",
+      "createdAt": "2025-10-26T21:21:00.918Z",
+      "updatedAt": "2025-10-26T21:21:00.918Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "70e9e8153d8cad59",
-      "title": "SAMMY OBEID SETTLES IN LIMASSOL",
-      "description": "29 Οκτωβριου SAMMY OBEID SETTLES IN LIMASSOL Κυκλος Μουσικη",
-      "startDate": "2025-10-29T20:00:00+02:00",
+      "id": "4c128491f13603b9",
+      "title": "CATS - Athens",
+      "description": "CATS, CHRISTMAS THEATER, ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ ΘΕΣΣΑΛΟΝΙΚΗΣ, ΜΜΘ, ΓΑΛΑΤΣΙ",
+      "startDate": "2025-11-05T20:30:00+02:00",
       "endDate": null,
-      "type": "theater",
+      "type": "concert",
       "genres": [
-        "theater"
+        "other"
       ],
       "tags": [],
       "venue": {
-        "name": "Κυκλος Μουσικη",
-        "address": "Κυκλος Μουσικη",
+        "name": "CHRISTMAS THEATER",
+        "address": "CHRISTMAS THEATER",
         "neighborhood": null,
         "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 35,
+        "amount": 30,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/sammy-obeid-settles-in-limassol/",
+      "url": "https://www.more.com/gr-el/tickets/music/the-cats/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.888Z",
-      "updatedAt": "2025-10-26T21:21:00.888Z",
+      "createdAt": "2025-10-26T21:20:09.990Z",
+      "updatedAt": "2025-10-26T21:21:01.014Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "2d8d84a8f1b74762",
-      "title": "ΦΥΓΕ… ΑΝ ΜΠΟΡΕΙΣ",
-      "description": "29 Οκτ - 7 Ιαν ΦΥΓΕ… ΑΝ ΜΠΟΡΕΙΣ Θεατρο Αλκμηνη - Κεντρικη Σκηνη",
-      "startDate": "2025-10-29T20:00:00+02:00",
+      "@type": "MusicEvent",
+      "id": "william-shakespeare-2025-11-05",
+      "title": "William Shakespeare - ΤΙΤΟΣ",
+      "description": "Η Θεατρική Ομάδα ΜΗΔΕΙΑ παρουσιάζει σε διασκευή την τραγωδία του William Shakespeare ΤΙΤΟΣ ΑΝΔΡΟΝΙΚΟΣ στο Θέατρο ΔΡΟΜΟΣ κάθε Τετάρτη στις 20:30.",
+      "startDate": "2025-11-05T20:30:00+03:00",
       "endDate": null,
-      "type": "theater",
+      "type": "concert",
       "genres": [
-        "theater"
+        ""
       ],
       "tags": [],
       "venue": {
-        "name": "Θεατρο Αλκμηνη - Κεντρικη Σκηνη",
-        "address": "Θεατρο Αλκμηνη - Κεντρικη Σκηνη",
+        "name": "Θεατρο ΔΡΟΜΟΣ",
+        "address": "Athens, Greece",
         "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 12,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/titus/",
+      "source": "viva.gr",
+      "createdAt": "2025-10-30T10:35:34.383Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "-2025-11-05",
+      "title": "Αφιέρωμα στον Νίκο Καββαδία",
+      "description": "μουσειο θυραθεν",
+      "startDate": "2025-11-05T20:30:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        "art music"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Μουσειο Μουσικων Οργανων «Θυραθεν»",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
         "capacity": null
       },
       "price": {
@@ -463,47 +522,292 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/fyge-an-mporeis/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.888Z",
-      "updatedAt": "2025-10-26T21:21:00.888Z",
+      "url": "https://www.more.com/gr-el/tickets/music/afieroma-ston-niko-kabbadia/",
+      "source": "viva.gr",
+      "createdAt": "2025-10-31T12:22:35.747Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "16f655344badb1a6",
-      "title": "Music Tales",
-      "description": "29 Οκτωβριου Music Tales λιλιτζουμ",
-      "startDate": "2025-10-29T20:00:00+02:00",
+      "@type": "MusicEvent",
+      "id": "dimos-dimitriadis-songs-in-revolution-2025-11-05",
+      "title": "Dimos Dimitriadis: Songs in Revolution",
+      "description": "",
+      "startDate": "2025-11-05T20:30:00+03:00",
       "endDate": null,
       "type": "concert",
       "genres": [
-        "music"
+        "jazz-contemporary-mediterranean"
       ],
       "tags": [],
       "venue": {
-        "name": "λιλιτζουμ",
-        "address": "λιλιτζουμ",
+        "name": "MEGARON - The Athens Concert Hall",
+        "address": null,
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 18,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.megaron.gr/event/dimos-dimitriadis-songs-in-revolution/",
+      "source": "2025-10-23-Jazz-Megaron.json",
+      "createdAt": "2025-11-03T14:01:45.442Z",
+      "updatedAt": "2025-11-03T14:01:45.442Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "8ba859d61dac8ddf",
+      "title": "Δήμος Δημητριάδης: Songs in Revolution",
+      "description": "Δήμος Δημητριάδης: Songs in Revolution Ο Δήμος Δημητριάδης και το κουιντέτο του παρουσιάζουν αποσπάσματα από τα Dream Modes και Songs in Revolution: σύγχρονη τζαζ με μεσογειακές και κινηματογραφικές αποχρώσεις, γεμάτη ρυθμό, αυτοσχεδιασμό και φαντασία.",
+      "startDate": "2025-11-05T20:30:00.000+02:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        "jazz"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Μέγαρο Μουσικής Αθηνών",
+        "address": "Βασ. Σοφίας και Κόκκαλη, 115 21 Αθήνα",
         "neighborhood": null,
         "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 13,
+        "amount": 18,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/children/workshop/music-tales/",
+      "url": "https://www.megaron.gr/event/nikolas-anadolis-aftoschediasmoi/",
+      "source": "\"MEGARON - THE ATHENS CONCERT HALL\" <info@megaron.gr>",
+      "createdAt": "2025-10-26T11:37:07.748Z",
+      "updatedAt": "2025-10-26T11:38:19.790Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "comedy-2025-11-05",
+      "title": "ΡΟΥΛΗ ΜΠΟΥΡΑΝΤΑ-ΠΥΡ ΓΥΝΗ & COMEDY",
+      "description": "ΡΟΥΛΗ ΜΠΟΥΡΑΝΤΑ ?? ΚΑΦΕΘΕΑΤΡΟ ??stand up comedy",
+      "startDate": "2025-11-05T21:00:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        ""
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Καφεθεατρο",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 8,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/offer/rouli-mpouranta-pyr-gyni-comedy/",
+      "source": "viva.gr",
+      "createdAt": "2025-10-30T10:35:34.383Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "2-2025-11-05",
+      "title": "ΤΟ ΕΡΓΟ ΤΩΝ ΔΥΟ ΧΑΡΑΚΤΗΡΩΝ 2ος χρόνος",
+      "description": "«…τι θα ήμουν χωρίς τα σύμβολά μου;» Τενεσί Ουίλιαμς",
+      "startDate": "2025-11-05T21:00:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        ""
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Θεατρο Φουρνος",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 7,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/to-ergo-ton-dyo-xaraktiron-2os-xronos/",
+      "source": "viva.gr",
+      "createdAt": "2025-10-31T12:22:35.747Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "2-salas-2025-11-05",
+      "title": "ΚΩΜΩΔΙΑ ΤΗΣ ΓΕΙΤΟΝΙΑΣ 2 - ΚΩΣΤΑΣ ΜΑΛΙΑΤΣΗΣ SALAS",
+      "description": "Η Κωμωδία της Γειτονιάς με τον Κώστα Μαλιάτση επιστρέφει στο Λοσάντζελε Comedy Club! Κάθε Τέταρτη στις 21:00, έλα παρέα μας να ακούσεις τα νέα κείμενα για γέλιο χωρίς φρένα και την πιο αυθεντική stand",
+      "startDate": "2025-11-05T21:00:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        ""
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Λοσαντζελε Comedy Club",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 12,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/standupcomedy/komodia-tis-geitonias-kostas-maliatsis-salas/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.888Z",
-      "updatedAt": "2025-10-26T21:21:00.888Z",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "final-season-2025-11-05",
+      "title": "Αριστοτέλης Ρήγας «Ιδέα δεν έχω» final season",
+      "description": "Αριστοτέλης Ρήγας «Ιδέα δεν έχω» final seasonStand up comedy & μουσική κωμωδία- Που: Αρχιτεκτονική club live stage Eλασιδών 6 Αθήνα- Πότε: Τετάρτες από 5 Νοεμβρίου- Ώρα έναρξης: 21:00 - Εισιτήρια: προ",
+      "startDate": "2025-11-05T21:00:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        ""
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Αρχιτεκτονικη Live",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 10,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/standupcomedy/aristotelis-rigas-idea-den-exo-final-season/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "nomsferatu-2025-11-05",
+      "title": "Nomsferatu",
+      "description": "Nomsferatu. Μια μαύρη κωμωδία βασιζόμενη στην αισθητική και το ρυθμό του βωβού κινηματογράφου.",
+      "startDate": "2025-11-05T21:00:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        ""
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Θεατρο 104",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 12,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/nomsferatu/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "30-2025-11-05",
+      "title": "ΠΛΗΝ 30 - ΛΟΥΗΣ ΠΑΤΣΑΛΙΔΗΣ",
+      "description": "ΛΟΥΗΣ ΠΑΤΣΑΛΙΔΗΣ ΚΥΠΡΟΣ STAND UP COMEDY ΠΛΗΝ 30",
+      "startDate": "2025-11-05T21:30:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        ""
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Γυαλινο Μουσικο Θεατρο",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 10,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/plin-30-louis-patsalidis/",
+      "source": "viva.gr",
+      "createdAt": "2025-10-30T10:35:34.383Z",
+      "updatedAt": "2025-10-31T12:44:50.787Z",
       "language": "en"
     }
   ],
   "meta": {
-    "total": 16,
-    "lastUpdate": "2025-10-29T10:59:23.246Z",
+    "total": 24,
+    "lastUpdate": "2025-11-05T11:28:21.282Z",
     "url": "https://agent-athens.netlify.app/paid-today"
   }
 }

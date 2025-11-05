@@ -4,10 +4,86 @@
     "price": "free",
     "time": "this-month"
   },
-  "events": [],
+  "events": [
+    {
+      "@context": "https://schema.org",
+      "@type": "ExhibitionEvent",
+      "id": "simone-leigh-anatomy-of-architecture-2025-11-05",
+      "title": "Simone Leigh: Anatomy of Architecture",
+      "description": "",
+      "fullDescription": "American artist Simone Leigh brings her groundbreaking exhibition \"Anatomy of Architecture\" to the Stavros Niarchos Foundation Cultural Center, marking a significant moment for contemporary art in Athens. Leigh, who represented the United States at the 2022 Venice Biennale and has exhibited at major institutions worldwide, explores the intersection of Black feminist thought, architectural form, and sculptural practice through works that challenge Western art historical narratives.\n\nLeigh's sculptures blur boundaries between body and building, figure and shelter, person and place. Her monumental ceramic and bronze works often reference African architecture—particularly the cone-shaped dwellings of the Batammaliba people and the elaborate earthen structures of the Mousgoum—while simultaneously evoking the human form, especially Black women's bodies. This dual reading creates powerful meditations on protection, domesticity, labor, and the historical erasure of African women's contributions to architectural and artistic traditions.\n\nThe SNFCC, designed by Renzo Piano and situated in the Kallithea neighborhood overlooking Faliro Bay, provides an ideal setting for Leigh's architecturally conscious work. The building's soaring spaces and connection to Mediterranean light create dialogue with Leigh's sculptures, which often play with shadow, mass, and the relationship between interior and exterior space. The exhibition's free admission reflects the SNFCC's mission to democratize access to world-class contemporary art.\n\n\"Anatomy of Architecture\" includes signature works from Leigh's evolving practice: towering ceramic figures with vessels for heads, bronze sculptures that function simultaneously as portraits and architectural models, and installations that transform gallery spaces into environments for contemplation and discovery. Each piece invites viewers to reconsider relationships between body and space, between individual and shelter, between African artistic traditions and contemporary sculpture.\n\nWhat makes this exhibition particularly vital is Leigh's role in expanding the canon of contemporary sculpture beyond Eurocentric frameworks. Her work insists that African architectural traditions, craft practices, and philosophical approaches to space-making are central to understanding sculpture's possibilities today. For Athens audiences, this represents an opportunity to engage with an artist reshaping international contemporary art discourse.\n\nThe exhibition opens at 10 AM, allowing for contemplative morning visits before the SNFCC's waterfront park fills with afternoon crowds. Whether you're deeply engaged with contemporary sculpture or encountering Leigh's work for the first time, \"Anatomy of Architecture\" offers a profound experience of art that honors tradition while boldly reimagining sculpture's future.",
+      "startDate": "2025-11-05T10:00:00+03:00",
+      "endDate": null,
+      "type": "exhibition",
+      "genres": [
+        "contemporary-art-sculpture"
+      ],
+      "tags": [
+        "free"
+      ],
+      "venue": {
+        "name": "Stavros Niarchos Foundation Cultural Center (SNFCC)",
+        "address": null,
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "free",
+        "amount": null,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.snfcc.org/event/simone-leigh/",
+      "source": "2025-10-23----------------------------------Simone-Leigh-----.json",
+      "createdAt": "2025-11-03T14:01:45.442Z",
+      "updatedAt": "2025-11-04 23:04:00",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ExhibitionEvent",
+      "id": "contemporary-art-at-gagosian-2025-11-20",
+      "title": "Contemporary Art at Gagosian",
+      "description": "A showcase of contemporary Greek artists.",
+      "startDate": "2025-11-20T10:00:00+03:00",
+      "endDate": "2025-12-20T18:00:00+03:00",
+      "type": "exhibition",
+      "genres": [
+        "contemporary-art"
+      ],
+      "tags": [
+        "free"
+      ],
+      "venue": {
+        "name": "Gagosian Athens",
+        "address": "3 Merlin St, Kolonaki, Athens 106 71",
+        "neighborhood": "Kolonaki",
+        "coordinates": {
+          "lat": 37.9749,
+          "lon": 23.7341
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "free",
+        "amount": null,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://example.com/contemporary-art",
+      "source": "more.com",
+      "createdAt": "2025-10-31T10:00:00Z",
+      "updatedAt": "2025-10-31T10:00:00Z",
+      "language": "en"
+    }
+  ],
   "meta": {
-    "total": 0,
-    "lastUpdate": "2025-10-29T10:59:23.403Z",
+    "total": 2,
+    "lastUpdate": "2025-11-05T11:28:21.470Z",
     "url": "https://agent-athens.netlify.app/free-exhibition-this-month"
   }
 }
