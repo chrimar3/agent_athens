@@ -82,13 +82,20 @@ export function eventToRow(event: Event): Record<string, any> {
  * Convert database row to Event object
  */
 export function rowToEvent(row: any): Event {
+  // Convert full_description from Blob/Buffer to string if needed
+  let fullDesc = row.full_description;
+  if (fullDesc && typeof fullDesc === 'object' && !(typeof fullDesc === 'string')) {
+    // It's a Buffer/Uint8Array - convert to string
+    fullDesc = Buffer.from(fullDesc).toString('utf-8');
+  }
+
   return {
     "@context": "https://schema.org",
     "@type": row.schema_json ? JSON.parse(row.schema_json)["@type"] : "Event",
     id: row.id,
     title: row.title,
     description: row.description || "",
-    fullDescription: row.full_description || undefined,
+    fullDescription: fullDesc || undefined,
     startDate: row.start_date,
     endDate: row.end_date,
     type: row.type,
