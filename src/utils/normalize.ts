@@ -89,7 +89,10 @@ function normalizeVenue(venueName: string, location: string): Venue {
 }
 
 function normalizePrice(priceString: string): Price {
-  if (priceString.toLowerCase() === 'free') {
+  const lower = priceString.toLowerCase();
+
+  // Handle free/open events
+  if (lower === 'free' || lower === 'open') {
     return {
       type: 'free'
     };

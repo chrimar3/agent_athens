@@ -509,7 +509,8 @@ WHERE LENGTH(title) > 10  -- Avoid matching short generic titles
 ## Key Statistics
 
 **Current Database** (as of last run):
-- Total events: 752
+- Total events: 763
+- Upcoming events: 752
 - Unique URLs: 752
 - Unique (title+venue+date): 752
 - **0 duplicates detected** ✅
@@ -519,7 +520,8 @@ WHERE LENGTH(title) > 10  -- Avoid matching short generic titles
 - After URL dedup: 786 events (removed 281)
 - After exact match: 1,608 events (removed 947)
 - After cross-source: 1,242 events (removed 366)
-- Final: 752 events (removed 22 non-Athens + 10 Thessaloniki)
+- After Athens-only filter: 752 events (removed 22 non-Athens + 10 Thessaloniki)
+- Final: 752 upcoming Athens events, fully deduplicated
 
 ---
 

@@ -13,6 +13,14 @@ AI-curated cultural events calendar for Athens, Greece. Transforms daily event n
 **Location:** Athens, Greece (EET/UTC+2)
 **Deployment:** Netlify (auto-deploy on git push)
 
+**Latest Update (Nov 3, 2025)**: ✅ **Full Automation Active - Running Daily at 8 AM**
+- ✅ Email ingestion integrated (Priority 0 - fetches newsletters from Gmail)
+- ✅ Web scraping automation (3-step pipeline with frequency-based scheduling)
+- ✅ Cron job deployed (daily 8 AM Athens time)
+- ✅ State tracking & duplicate prevention
+- ✅ Automated archiving & logging
+- See `docs/EMAIL-INGESTION-INTEGRATION.md` and `docs/CRON-AUTOMATION-SETUP.md`
+
 ## The Vision
 
 Start with Athens. Prove the model. Expand to agent-barcelona, agent-berlin, agent-cities. Become the global cultural events platform for the AI era, monetized through affiliate revenue (tickets, hotels, restaurants) and agent referral networks where AI agents earn commission on bookings they drive.
@@ -27,33 +35,98 @@ In the reputation economy where AI trust = revenue, agent-athens is positioned t
 
 ### Phase 1: Event Collection (Daily, ~8:00 AM Athens)
 
-**1A. Email Ingestion** (**PRIORITY - Need to work on this**):
-1. Connect to Gmail via IMAP (`ggrigo.agent@gmail.com`)
-2. Fetch overnight newsletter arrivals from inbox
-3. Parse emails with `tool_agent`:
-   - Extract event title, date, time, venue, type, genre
-   - Identify price (open/with-ticket)
-   - Extract venue address and URLs
-4. Collect raw events in memory (unenriched)
-5. **Archive processed emails** (remove from inbox → All Mail)
-   - Even if 0 events extracted (confirmations, alerts, etc.)
-   - Prevents reprocessing
-   - Creates audit trail
+**1A. Email Ingestion** (✅ **INTEGRATED** - Automated newsletter fetching):
 
-**Good-to-have:** List of active newsletters for monitoring and documentation of event catchment scope
+**Status**: Integrated into orchestrator as Priority 0 (runs before web scraping)
 
-**1B. Web Scraping** (Current - Manual, needs to become standalone run when Agent SDK is called):
-1. Load website crawl list (**MUST-HAVE - operational config**)
-   - File: `config/scrape-list.json` (site name, URL, selectors, frequency)
-   - Example sites: This is Athens, SNFCC, Gazarte, Bios, Six D.O.G.S, Fuzz Club
-2. For each website in list:
-   - Crawl website URL
-   - Parse HTML/structured data with `tool_agent`
-   - Extract events (title, date, venue, type, short description)
-3. Collect raw events in memory (unenriched)
-4. Track processed URLs (last crawled timestamp)
+**Workflow**:
+1. Connect to Gmail via IMAP (`agentathens.events@gmail.com`)
+2. Fetch unread newsletter emails from INBOX
+3. Save emails to `data/emails-to-parse/` for Claude Code parsing
+4. Mark as processed in `data/processed-emails.json` (prevents reprocessing)
+5. Archive emails (move from INBOX → All Mail)
 
-**Must-have:** Website crawl list configuration
+**Features**:
+- ✅ **Frequency-based scheduling**: daily (integrated into orchestrator)
+- ✅ **Duplicate prevention**: Tracks Message-IDs to avoid reprocessing
+- ✅ **Email archiving**: Keeps inbox clean, creates audit trail
+- ✅ **Timeout handling**: 60-second timeout with 2 retries
+- ✅ **State tracking**: Included in orchestrator state management
+
+**Scripts**:
+- `scripts/ingest-emails.ts` - Standalone email fetching
+- `scripts/parse-emails.ts` - Helper for Claude Code parsing workflow
+- `src/ingest/email-ingestion.ts` - Core email fetching logic
+
+**Usage**:
+```bash
+# Standalone (test only)
+bun run scripts/ingest-emails.ts           # Fetch emails
+bun run scripts/ingest-emails.ts --dry-run # Preview
+
+# Integrated (production)
+bun run scripts/scrape-all-sources.ts      # Runs email ingestion first (Step 0)
+```
+
+**Parsing Workflow**:
+1. Emails saved to `data/emails-to-parse/`
+2. Ask Claude Code: "Parse emails in data/emails-to-parse/ and add events to database"
+3. Claude Code uses FREE `tool_agent` (no API costs!)
+4. Events imported to database with auto-deduplication
+
+**Configuration**: `config/orchestrator-config.json` → `email_ingestion` section
+
+**1B. Web Scraping** (✅ **AUTOMATED** - Standalone orchestrator with frequency scheduling):
+
+**Orchestrator**: `bun run scripts/scrape-all-sources.ts`
+
+**Features**:
+- ✅ **Frequency-based scheduling**: daily/weekly/monthly (only scrapes when due)
+- ✅ **Timeout handling**: kills runaway processes (configurable per source)
+- ✅ **Retry logic**: exponential backoff (2s, 4s, 8s)
+- ✅ **State tracking**: `data/scrape-state.json` (timestamps, counts, errors)
+- ✅ **Rate limiting**: configurable delays between sources
+- ✅ **CLI modes**: `--force`, `--source=X`, `--dry-run`
+
+**Configuration**:
+- `config/orchestrator-config.json` - Pipeline config (timeout, retry, frequency, priority)
+- `config/scrape-list.json` - Scraper config (sites, URLs, user agent)
+- Currently configured: viva.gr (daily), more.com (daily), gazarte.gr (weekly)
+
+**Pipeline** (3-step execution per source):
+1. **Scraper**: Python scraper (`scripts/scrape-all-sites.py --site X`)
+   - Crawls website URL
+   - Saves HTML to `data/html-to-parse/`
+2. **Parser**: Python parser (`scripts/parse_tier1_sites.py`)
+   - Extracts events from HTML
+   - Saves JSON to `data/parsed-events/`
+3. **Importer**: Bun importer (`scripts/import-X-events.ts`)
+   - Imports events to database
+   - Auto-deduplicates by hash(title+date+venue)
+
+**Usage**:
+```bash
+# Run all sources that are due (frequency-based)
+bun run scripts/scrape-all-sources.ts
+
+# Force all sources (ignore frequency)
+bun run scripts/scrape-all-sources.ts --force
+
+# Run specific source
+bun run scripts/scrape-all-sources.ts --source=viva.gr
+
+# Preview without executing
+bun run scripts/scrape-all-sources.ts --dry-run
+```
+
+**Automation**: ✅ **ACTIVE** - Cron job running daily at 8 AM
+
+**Cron Schedule**:
+```bash
+0 8 * * * cd /Users/chrism/Project\ with\ Claude/AgentAthens/agent-athens && /Users/chrism/.bun/bin/bun run scripts/scrape-all-sources.ts >> logs/scrape-$(date +\%Y\%m\%d).log 2>&1
+```
+
+**Documentation**: See `docs/EMAIL-INGESTION-INTEGRATION.md`, `docs/CRON-AUTOMATION-SETUP.md`, and `docs/INTEGRATION-COMPLETE.md`
 
 **1C. Database Upsert** (Deduplication & Storage):
 1. Normalize all collected events (from email + web) to Schema.org format

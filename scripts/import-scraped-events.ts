@@ -24,18 +24,30 @@ async function main() {
   console.log('💾 Importing into database...');
   let newCount = 0;
   let updatedCount = 0;
+  let skippedCount = 0;
 
   for (const event of events) {
-    const success = upsertEvent(event);
-    if (success) {
-      // Check if it's new or updated (simplified check)
-      newCount++;
-      console.log(`  ✓ ${event.title} (${event.type})`);
+    const result = upsertEvent(event);
+
+    if (result.success) {
+      if (result.isNew) {
+        newCount++;
+        console.log(`  ✅ NEW: ${event.title} (${event.type})`);
+      } else {
+        updatedCount++;
+        console.log(`  🔄 UPDATED: ${event.title} (${event.type})`);
+      }
+    } else {
+      skippedCount++;
+      console.log(`  ⏭️  SKIPPED: ${event.title} (non-Athens)`);
     }
   }
 
-  console.log(`\n✅ Import complete!`);
-  console.log(`   New/Updated: ${newCount} events\n`);
+  console.log('\n📊 Database Upsert Results:');
+  console.log(`  ✅ ${newCount} new events inserted`);
+  console.log(`  🔄 ${updatedCount} events updated (price/description changes)`);
+  console.log(`  ⏭️  ${skippedCount} events skipped (non-Athens or already current)`);
+  console.log(`  Total: ${newCount + updatedCount} events processed\n`);
 
   // Show updated statistics
   console.log('📊 Database Statistics:');

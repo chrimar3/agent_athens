@@ -391,9 +391,13 @@
       "tags": [],
       "venue": {
         "name": "BIOS",
-        "address": "BIOS",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Pireos 84, Athens 104 35",
+        "neighborhood": "Keramikos / Gazi",
+        "coordinates": {
+          "lat": 37.9785,
+          "lon": 23.7175
+        },
+        "capacity": 500
       },
       "price": {
         "type": "paid",
@@ -404,7 +408,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/karyothrafstis/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.984Z",
-      "updatedAt": "2025-10-26T21:21:00.984Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -668,9 +672,13 @@
       "tags": [],
       "venue": {
         "name": "CHRISTMAS THEATER",
-        "address": "CHRISTMAS THEATER",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Leof. Veikou 137, Galatsi Olympic Hall, Athens 111 46",
+        "neighborhood": "Galatsi",
+        "coordinates": {
+          "lat": 38.0165,
+          "lon": 23.7545
+        },
+        "capacity": 3600
       },
       "price": {
         "type": "paid",
@@ -681,7 +689,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/il-volo-christmas-theater/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.027Z",
-      "updatedAt": "2025-10-26T21:21:01.016Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -842,7 +850,7 @@
   ],
   "meta": {
     "total": 27,
-    "lastUpdate": "2025-11-05T21:58:58.082Z",
+    "lastUpdate": "2025-11-09T18:52:19.420Z",
     "url": "https://agent-athens.netlify.app/theater-next-month"
   }
 }

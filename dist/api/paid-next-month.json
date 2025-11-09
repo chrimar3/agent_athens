@@ -172,9 +172,13 @@
       "tags": [],
       "venue": {
         "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-        "address": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75",
+        "neighborhood": "Ilissia",
+        "coordinates": {
+          "lat": 37.975,
+          "lon": 23.753
+        },
+        "capacity": 600
       },
       "price": {
         "type": "paid",
@@ -185,7 +189,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/ember-circle/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.024Z",
-      "updatedAt": "2025-10-26T21:21:01.039Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -238,13 +242,13 @@
       "tags": [],
       "venue": {
         "name": "Κυτταρο Live",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "Ipeirou 48, Athens 104 39",
+        "neighborhood": "Metaxourgeio / Viktoria",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.9945,
+          "lon": 23.7278
         },
-        "capacity": null
+        "capacity": 500
       },
       "price": {
         "type": "paid",
@@ -255,7 +259,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/martha-frintzila-the-kubara-project-reloaded-kalogeraki-bros/",
       "source": "viva.gr",
       "createdAt": "2025-10-31T12:22:03.765Z",
-      "updatedAt": "2025-10-31T12:44:50.892Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -521,9 +525,13 @@
       "tags": [],
       "venue": {
         "name": "Δημοτικη Αγορα Κυψελης",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Fokionos Negri 42, Kypseli, Athens 113 61",
+        "neighborhood": "Kypseli",
+        "coordinates": {
+          "lat": 38.0015,
+          "lon": 23.7335
+        },
+        "capacity": 300
       },
       "price": {
         "type": "paid",
@@ -534,7 +542,7 @@
       "url": "https://www.more.com/gr-el/tickets/happenings/marmelada-kypseli-skitsarontas-stin-agora-me-ton-panpan/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.598Z",
-      "updatedAt": "2025-10-22T17:16:25.598Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -680,9 +688,13 @@
       "tags": [],
       "venue": {
         "name": "ARCH",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Petrou Ralli 29 & Kritis 1, Athens 104 47",
+        "neighborhood": "Tavros",
+        "coordinates": {
+          "lat": 37.9625,
+          "lon": 23.6985
+        },
+        "capacity": 700
       },
       "price": {
         "type": "paid",
@@ -693,7 +705,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/godsleep-loud-silence-arch-club/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.600Z",
-      "updatedAt": "2025-10-22T17:16:25.600Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -711,9 +723,13 @@
       "tags": [],
       "venue": {
         "name": "Κυτταρο Live",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Ipeirou 48, Athens 104 39",
+        "neighborhood": "Metaxourgeio / Viktoria",
+        "coordinates": {
+          "lat": 37.9945,
+          "lon": 23.7278
+        },
+        "capacity": 500
       },
       "price": {
         "type": "paid",
@@ -724,7 +740,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/i-giorti-gia-ton-paulo-sidiropoulo-sto-kyttaro-2025/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.601Z",
-      "updatedAt": "2025-10-22T17:16:25.601Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -922,9 +938,13 @@
       "tags": [],
       "venue": {
         "name": "Piraeus Club Academy",
-        "address": "Piraeus Club Academy",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Piraeus 105, Athens 118 54",
+        "neighborhood": "Omonia / Central Athens",
+        "coordinates": {
+          "lat": 37.98,
+          "lon": 23.731
+        },
+        "capacity": 800
       },
       "price": {
         "type": "paid",
@@ -935,7 +955,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/flames-piraeus-club-academy/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.024Z",
-      "updatedAt": "2025-10-26T21:21:01.042Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -953,13 +973,13 @@
       "tags": [],
       "venue": {
         "name": "Death Disco",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "Ogygou 16, Psyrri, Athens 105 54",
+        "neighborhood": "Psyrri",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.977,
+          "lon": 23.7265
         },
-        "capacity": null
+        "capacity": 200
       },
       "price": {
         "type": "paid",
@@ -970,7 +990,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/cilia-katrali-spiros-paraskevakos-live-show/",
       "source": "viva.gr",
       "createdAt": "2025-10-31T12:22:03.765Z",
-      "updatedAt": "2025-10-31T12:44:50.892Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -1054,9 +1074,13 @@
       "tags": [],
       "venue": {
         "name": "Piraeus Club Academy",
-        "address": "Piraeus Club Academy",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Piraeus 105, Athens 118 54",
+        "neighborhood": "Omonia / Central Athens",
+        "coordinates": {
+          "lat": 37.98,
+          "lon": 23.731
+        },
+        "capacity": 800
       },
       "price": {
         "type": "paid",
@@ -1067,7 +1091,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/mirror-passage-stygianpath/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.025Z",
-      "updatedAt": "2025-10-26T21:21:01.047Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -1178,13 +1202,13 @@
       "tags": [],
       "venue": {
         "name": "ARCH",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "Petrou Ralli 29 & Kritis 1, Athens 104 47",
+        "neighborhood": "Tavros",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.9625,
+          "lon": 23.6985
         },
-        "capacity": null
+        "capacity": 700
       },
       "price": {
         "type": "paid",
@@ -1195,7 +1219,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/fundracar-live-in-athens/",
       "source": "viva.gr",
       "createdAt": "2025-10-31T12:22:03.765Z",
-      "updatedAt": "2025-10-31T12:44:50.892Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -1246,9 +1270,13 @@
       "tags": [],
       "venue": {
         "name": "Death Disco",
-        "address": "Death Disco",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Ogygou 16, Psyrri, Athens 105 54",
+        "neighborhood": "Psyrri",
+        "coordinates": {
+          "lat": 37.977,
+          "lon": 23.7265
+        },
+        "capacity": 200
       },
       "price": {
         "type": "paid",
@@ -1259,7 +1287,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/ultra-sunn-2025/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.025Z",
-      "updatedAt": "2025-10-26T21:21:01.032Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -1275,9 +1303,13 @@
       "tags": [],
       "venue": {
         "name": "Gazarte Main Stage!",
-        "address": "Gazarte Main Stage!",
-        "neighborhood": null,
-        "capacity": null
+        "address": "32-34 Voutadon St, Gazi, Athens",
+        "neighborhood": "Gazi / Keramikos",
+        "coordinates": {
+          "lat": 37.9775,
+          "lon": 23.7153
+        },
+        "capacity": 300
       },
       "price": {
         "type": "paid",
@@ -1288,7 +1320,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/john-medeski-live-in-athens/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.025Z",
-      "updatedAt": "2025-10-26T21:21:01.035Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -1335,13 +1367,13 @@
       "tags": [],
       "venue": {
         "name": "Γυαλινο Μουσικο Θεατρο",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "Syngrou Avenue 143, Nea Smyrni, Athens 171 21",
+        "neighborhood": "Nea Smyrni",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.9485,
+          "lon": 23.7205
         },
-        "capacity": null
+        "capacity": 400
       },
       "price": {
         "type": "paid",
@@ -1352,7 +1384,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/ta-swing-tou-manoli-xioti/",
       "source": "viva.gr",
       "createdAt": "2025-10-31T12:22:03.765Z",
-      "updatedAt": "2025-10-31T12:44:50.892Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -1370,9 +1402,13 @@
       "tags": [],
       "venue": {
         "name": "Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Mitropoleos 44, Athens 105 63",
+        "neighborhood": "Syntagma / Technopolis",
+        "coordinates": {
+          "lat": 37.9755,
+          "lon": 23.7305
+        },
+        "capacity": 200
       },
       "price": {
         "type": "paid",
@@ -1383,7 +1419,7 @@
       "url": "https://www.more.com/gr-el/tickets/happenings/children/christmas/avanti-maestro-christmas-edition/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.607Z",
-      "updatedAt": "2025-10-22T17:16:25.607Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -1432,9 +1468,13 @@
       "tags": [],
       "venue": {
         "name": "Floyd",
-        "address": "Floyd",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Pireos 117, Athens 118 54",
+        "neighborhood": "Keramikos / Metaxourgeio",
+        "coordinates": {
+          "lat": 37.9795,
+          "lon": 23.718
+        },
+        "capacity": 2300
       },
       "price": {
         "type": "paid",
@@ -1445,7 +1485,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/asaf-avidan/2025/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.025Z",
-      "updatedAt": "2025-10-26T21:21:01.024Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -1556,9 +1596,13 @@
       "tags": [],
       "venue": {
         "name": "BIOS",
-        "address": "BIOS",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Pireos 84, Athens 104 35",
+        "neighborhood": "Keramikos / Gazi",
+        "coordinates": {
+          "lat": 37.9785,
+          "lon": 23.7175
+        },
+        "capacity": 500
       },
       "price": {
         "type": "paid",
@@ -1569,7 +1613,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/karyothrafstis/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.984Z",
-      "updatedAt": "2025-10-26T21:21:00.984Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -1649,13 +1693,13 @@
       "tags": [],
       "venue": {
         "name": "Floyd",
-        "address": "Keramikos",
-        "neighborhood": null,
+        "address": "Pireos 117, Athens 118 54",
+        "neighborhood": "Keramikos / Metaxourgeio",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.9795,
+          "lon": 23.718
         },
-        "capacity": null
+        "capacity": 2300
       },
       "price": {
         "type": "paid",
@@ -1666,7 +1710,7 @@
       "url": "https://www.thisisathens.org/events/asaf-avidan-floyd-athens-2025",
       "source": "This is Athens",
       "createdAt": "2025-10-29T12:39:42.292Z",
-      "updatedAt": "2025-10-29T12:39:42.292Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -1719,9 +1763,13 @@
       "tags": [],
       "venue": {
         "name": "Κυτταρο Live",
-        "address": "Κυτταρο Live",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Ipeirou 48, Athens 104 39",
+        "neighborhood": "Metaxourgeio / Viktoria",
+        "coordinates": {
+          "lat": 37.9945,
+          "lon": 23.7278
+        },
+        "capacity": 500
       },
       "price": {
         "type": "paid",
@@ -1732,7 +1780,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/deafheaven-live-kyttaro-live-club/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.025Z",
-      "updatedAt": "2025-10-26T21:21:01.031Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -1750,9 +1798,13 @@
       "tags": [],
       "venue": {
         "name": "Gazarte Main Stage!",
-        "address": "Gazarte Main Stage!",
-        "neighborhood": null,
-        "capacity": null
+        "address": "32-34 Voutadon St, Gazi, Athens",
+        "neighborhood": "Gazi / Keramikos",
+        "coordinates": {
+          "lat": 37.9775,
+          "lon": 23.7153
+        },
+        "capacity": 300
       },
       "price": {
         "type": "paid",
@@ -1763,7 +1815,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/oren-ambarchi-tropical-geometry-savvas-metaxas/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.025Z",
-      "updatedAt": "2025-10-26T21:21:01.044Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -1847,9 +1899,13 @@
       "tags": [],
       "venue": {
         "name": "Θεατρο Παλλας",
-        "address": "Θεατρο Παλλας",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Voukourestiou 5, Athens 106 71",
+        "neighborhood": "Syntagma / City Center",
+        "coordinates": {
+          "lat": 37.9785,
+          "lon": 23.734
+        },
+        "capacity": 1500
       },
       "price": {
         "type": "paid",
@@ -1860,7 +1916,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/afieroma-sto-mimi-plessa-theatro-pallas/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.025Z",
-      "updatedAt": "2025-10-26T21:21:01.015Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -1878,13 +1934,13 @@
       "tags": [],
       "venue": {
         "name": "Δημοτικη Αγορα Κυψελης",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "Fokionos Negri 42, Kypseli, Athens 113 61",
+        "neighborhood": "Kypseli",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 38.0015,
+          "lon": 23.7335
         },
-        "capacity": null
+        "capacity": 300
       },
       "price": {
         "type": "paid",
@@ -1895,7 +1951,7 @@
       "url": "https://www.more.com/gr-el/tickets/happenings/offer/kentima-se-kyklo/",
       "source": "more.com",
       "createdAt": "2025-10-31T08:41:14.174Z",
-      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -1913,9 +1969,13 @@
       "tags": [],
       "venue": {
         "name": "Gazarte - Ground Stage",
-        "address": "Gazarte - Ground Stage",
-        "neighborhood": null,
-        "capacity": null
+        "address": "32-34 Voutadon St, Gazi, Athens",
+        "neighborhood": "Gazi / Keramikos",
+        "coordinates": {
+          "lat": 37.9775,
+          "lon": 23.7153
+        },
+        "capacity": 150
       },
       "price": {
         "type": "paid",
@@ -1926,7 +1986,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/night-tapes-live-in-athens/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.025Z",
-      "updatedAt": "2025-10-26T21:21:01.038Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -2068,13 +2128,13 @@
       "tags": [],
       "venue": {
         "name": "Κυτταρο Live",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "Ipeirou 48, Athens 104 39",
+        "neighborhood": "Metaxourgeio / Viktoria",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.9945,
+          "lon": 23.7278
         },
-        "capacity": null
+        "capacity": 500
       },
       "price": {
         "type": "paid",
@@ -2085,7 +2145,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/synaulia-allileggyis-gia-ta-iatrika-eksoda-tou-k-n/",
       "source": "viva.gr",
       "createdAt": "2025-10-30T10:35:34.383Z",
-      "updatedAt": "2025-10-31T12:44:50.892Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -2138,9 +2198,13 @@
       "tags": [],
       "venue": {
         "name": "ARCH",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Petrou Ralli 29 & Kritis 1, Athens 104 47",
+        "neighborhood": "Tavros",
+        "coordinates": {
+          "lat": 37.9625,
+          "lon": 23.6985
+        },
+        "capacity": 700
       },
       "price": {
         "type": "paid",
@@ -2151,7 +2215,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/quantic-uk-live-in-athens/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.615Z",
-      "updatedAt": "2025-10-22T17:16:25.615Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -2516,9 +2580,13 @@
       "tags": [],
       "venue": {
         "name": "Ιδρυμα Βασιλη και Ελιζας Γουλανδρη",
-        "address": "Ιδρυμα Βασιλη και Ελιζας Γουλανδρη",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Eratosthenous 13, Athens 116 35",
+        "neighborhood": "Pangrati",
+        "coordinates": {
+          "lat": 37.9685,
+          "lon": 23.744
+        },
+        "capacity": 200
       },
       "price": {
         "type": "paid",
@@ -2529,7 +2597,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/jazz-sto-mouseio-michalis-christos-kalkanis-seeds-duet-ft-alcmini/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.026Z",
-      "updatedAt": "2025-10-26T21:21:01.048Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -2617,13 +2685,13 @@
       "tags": [],
       "venue": {
         "name": "Piraeus Club Academy",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "Piraeus 105, Athens 118 54",
+        "neighborhood": "Omonia / Central Athens",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.98,
+          "lon": 23.731
         },
-        "capacity": null
+        "capacity": 800
       },
       "price": {
         "type": "paid",
@@ -2634,7 +2702,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/absinthe-green-live-in-athens/",
       "source": "viva.gr",
       "createdAt": "2025-10-31T12:22:03.765Z",
-      "updatedAt": "2025-10-31T12:44:50.892Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -2687,9 +2755,13 @@
       "tags": [],
       "venue": {
         "name": "Fuzz Club",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Patriarchou Ioakeim 1, Moschato, Athens",
+        "neighborhood": "Tavros / Moschato",
+        "coordinates": {
+          "lat": 37.9545,
+          "lon": 23.6905
+        },
+        "capacity": 1000
       },
       "price": {
         "type": "paid",
@@ -2700,7 +2772,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/kadebostany-fuzz-sabbato-13-dekembriou-2025/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.617Z",
-      "updatedAt": "2025-10-22T17:16:25.617Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -2788,9 +2860,13 @@
       "tags": [],
       "venue": {
         "name": "Piraeus Club Academy",
-        "address": "Piraeus Club Academy",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Piraeus 105, Athens 118 54",
+        "neighborhood": "Omonia / Central Athens",
+        "coordinates": {
+          "lat": 37.98,
+          "lon": 23.731
+        },
+        "capacity": 800
       },
       "price": {
         "type": "paid",
@@ -2801,7 +2877,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/degenerate-mind-fighting-flies-voyager-station-piraeus-club-academy/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.989Z",
-      "updatedAt": "2025-10-26T21:21:00.989Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -2881,9 +2957,13 @@
       "tags": [],
       "venue": {
         "name": "AN Club",
-        "address": "AN Club",
-        "neighborhood": null,
-        "capacity": null
+        "address": "13-15 Solomou Street, Athens 106 82",
+        "neighborhood": "Exarchia",
+        "coordinates": {
+          "lat": 37.9885,
+          "lon": 23.733
+        },
+        "capacity": 300
       },
       "price": {
         "type": "paid",
@@ -2894,7 +2974,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/offer/tuber-live-at-an-club/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.026Z",
-      "updatedAt": "2025-10-26T21:21:01.042Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -2941,13 +3021,13 @@
       "tags": [],
       "venue": {
         "name": "Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "Mitropoleos 44, Athens 105 63",
+        "neighborhood": "Syntagma / Technopolis",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.9755,
+          "lon": 23.7305
         },
-        "capacity": null
+        "capacity": 200
       },
       "price": {
         "type": "paid",
@@ -2958,7 +3038,7 @@
       "url": "https://www.more.com/gr-el/tickets/happenings/children/mouseio-kalikantzaroi-girlantes-kai-mousikes/",
       "source": "more.com",
       "createdAt": "2025-10-31T08:41:14.174Z",
-      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -3102,13 +3182,13 @@
       "tags": [],
       "venue": {
         "name": "Gazarte - Roof Stage",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "32-34 Voutadon St, Gazi, Athens",
+        "neighborhood": "Gazi / Keramikos",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.9775,
+          "lon": 23.7153
         },
-        "capacity": null
+        "capacity": 200
       },
       "price": {
         "type": "paid",
@@ -3119,7 +3199,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/boutsikakis-nikolakopoulou-parablepsi-live-in-athens/",
       "source": "viva.gr",
       "createdAt": "2025-10-31T12:22:03.765Z",
-      "updatedAt": "2025-10-31T12:44:50.892Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -3137,9 +3217,13 @@
       "tags": [],
       "venue": {
         "name": "Fuzz Club",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Patriarchou Ioakeim 1, Moschato, Athens",
+        "neighborhood": "Tavros / Moschato",
+        "coordinates": {
+          "lat": 37.9545,
+          "lon": 23.6905
+        },
+        "capacity": 1000
       },
       "price": {
         "type": "paid",
@@ -3150,7 +3234,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/christmas/dj-premier-x-the-alchemist-live-in-athens-hes-the-preemo-im-the-chemist-world-tour-2025/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.619Z",
-      "updatedAt": "2025-10-22T17:16:25.619Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -3234,13 +3318,13 @@
       "tags": [],
       "venue": {
         "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Maker Space",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "Evripidou & Doiranis, Kallithea, Athens 176 74",
+        "neighborhood": "Kallithea / Faliro Bay",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.9395,
+          "lon": 23.689
         },
-        "capacity": null
+        "capacity": 100
       },
       "price": {
         "type": "paid",
@@ -3251,7 +3335,7 @@
       "url": "https://www.more.com/gr-el/tickets/workshop/eikastika-ergastiria/",
       "source": "more.com",
       "createdAt": "2025-10-31T08:41:14.174Z",
-      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -3267,9 +3351,13 @@
       "tags": [],
       "venue": {
         "name": "CHRISTMAS THEATER",
-        "address": "CHRISTMAS THEATER",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Leof. Veikou 137, Galatsi Olympic Hall, Athens 111 46",
+        "neighborhood": "Galatsi",
+        "coordinates": {
+          "lat": 38.0165,
+          "lon": 23.7545
+        },
+        "capacity": 3600
       },
       "price": {
         "type": "paid",
@@ -3280,7 +3368,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/il-volo-christmas-theater/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.027Z",
-      "updatedAt": "2025-10-26T21:21:01.016Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -3523,9 +3611,13 @@
       "tags": [],
       "venue": {
         "name": "ARCH",
-        "address": "ARCH",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Petrou Ralli 29 & Kritis 1, Athens 104 47",
+        "neighborhood": "Tavros",
+        "coordinates": {
+          "lat": 37.9625,
+          "lon": 23.6985
+        },
+        "capacity": 700
       },
       "price": {
         "type": "paid",
@@ -3536,7 +3628,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/night-beats-us-arch-club/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.027Z",
-      "updatedAt": "2025-10-26T21:21:01.041Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -3554,13 +3646,13 @@
       "tags": [],
       "venue": {
         "name": "Fuzz Club",
-        "address": "Athens, Greece",
-        "neighborhood": "Exarcheia",
+        "address": "Patriarchou Ioakeim 1, Moschato, Athens",
+        "neighborhood": "Tavros / Moschato",
         "coordinates": {
-          "lat": 37.9815,
-          "lon": 23.722
+          "lat": 37.9545,
+          "lon": 23.6905
         },
-        "capacity": null
+        "capacity": 1000
       },
       "price": {
         "type": "paid",
@@ -3571,7 +3663,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/anorimoi-fuzz/",
       "source": "viva.gr",
       "createdAt": "2025-10-31T12:22:03.765Z",
-      "updatedAt": "2025-10-31T12:44:50.892Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -3690,13 +3782,13 @@
       "tags": [],
       "venue": {
         "name": "Piraeus Club Academy",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "Piraeus 105, Athens 118 54",
+        "neighborhood": "Omonia / Central Athens",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.98,
+          "lon": 23.731
         },
-        "capacity": null
+        "capacity": 800
       },
       "price": {
         "type": "paid",
@@ -3707,7 +3799,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/vlakasaki-show/",
       "source": "viva.gr",
       "createdAt": "2025-10-31T12:22:03.765Z",
-      "updatedAt": "2025-10-31T12:44:50.892Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -3754,13 +3846,13 @@
       "tags": [],
       "venue": {
         "name": "Gazarte - Roof Stage",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "32-34 Voutadon St, Gazi, Athens",
+        "neighborhood": "Gazi / Keramikos",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.9775,
+          "lon": 23.7153
         },
-        "capacity": null
+        "capacity": 200
       },
       "price": {
         "type": "paid",
@@ -3771,7 +3863,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/monsieur-minimal-live-in-athens/",
       "source": "viva.gr",
       "createdAt": "2025-10-31T12:22:03.765Z",
-      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -3851,13 +3943,13 @@
       "tags": [],
       "venue": {
         "name": "AN Club",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "13-15 Solomou Street, Athens 106 82",
+        "neighborhood": "Exarchia",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.9885,
+          "lon": 23.733
         },
-        "capacity": null
+        "capacity": 300
       },
       "price": {
         "type": "paid",
@@ -3868,7 +3960,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/offer/greek-scene-sings-for-ozzy/",
       "source": "viva.gr",
       "createdAt": "2025-10-31T12:22:03.765Z",
-      "updatedAt": "2025-10-31T12:44:50.892Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -3921,9 +4013,13 @@
       "tags": [],
       "venue": {
         "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75",
+        "neighborhood": "Ilissia",
+        "coordinates": {
+          "lat": 37.975,
+          "lon": 23.753
+        },
+        "capacity": 600
       },
       "price": {
         "type": "paid",
@@ -3934,7 +4030,7 @@
       "url": "https://www.more.com/gr-el/tickets/dance/staxtopouta/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.625Z",
-      "updatedAt": "2025-10-22T17:16:25.625Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -3952,13 +4048,13 @@
       "tags": [],
       "venue": {
         "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75",
+        "neighborhood": "Ilissia",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.975,
+          "lon": 23.753
         },
-        "capacity": null
+        "capacity": 600
       },
       "price": {
         "type": "paid",
@@ -3969,7 +4065,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/xristougenna-sto-odeio-athinon/",
       "source": "more.com",
       "createdAt": "2025-10-31T12:22:03.833Z",
-      "updatedAt": "2025-10-31T12:22:03.833Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -3987,13 +4083,13 @@
       "tags": [],
       "venue": {
         "name": "CHRISTMAS THEATER",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "address": "Leof. Veikou 137, Galatsi Olympic Hall, Athens 111 46",
+        "neighborhood": "Galatsi",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 38.0165,
+          "lon": 23.7545
         },
-        "capacity": null
+        "capacity": 3600
       },
       "price": {
         "type": "paid",
@@ -4004,7 +4100,7 @@
       "url": "https://www.more.com/gr-el/tickets/dance/karyothraustis-ballet-of-varna-state-opera/",
       "source": "more.com",
       "createdAt": "2025-10-31T12:22:35.864Z",
-      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -4057,9 +4153,13 @@
       "tags": [],
       "venue": {
         "name": "Floyd",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Pireos 117, Athens 118 54",
+        "neighborhood": "Keramikos / Metaxourgeio",
+        "coordinates": {
+          "lat": 37.9795,
+          "lon": 23.718
+        },
+        "capacity": 2300
       },
       "price": {
         "type": "paid",
@@ -4070,7 +4170,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/skiadareses-floyd/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.626Z",
-      "updatedAt": "2025-10-22T17:16:25.626Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -4117,9 +4217,13 @@
       "tags": [],
       "venue": {
         "name": "Ιδρυμα Βασιλη και Ελιζας Γουλανδρη",
-        "address": "Ιδρυμα Βασιλη και Ελιζας Γουλανδρη",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Eratosthenous 13, Athens 116 35",
+        "neighborhood": "Pangrati",
+        "coordinates": {
+          "lat": 37.9685,
+          "lon": 23.744
+        },
+        "capacity": 200
       },
       "price": {
         "type": "paid",
@@ -4130,7 +4234,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/jazz-sto-mouseio-sunny-side-trio/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.034Z",
-      "updatedAt": "2025-10-26T21:21:01.048Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -4148,9 +4252,13 @@
       "tags": [],
       "venue": {
         "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75",
+        "neighborhood": "Ilissia",
+        "coordinates": {
+          "lat": 37.975,
+          "lon": 23.753
+        },
+        "capacity": 600
       },
       "price": {
         "type": "paid",
@@ -4161,7 +4269,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/the-italian-tenors-odeio-athinon/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.627Z",
-      "updatedAt": "2025-10-22T17:16:25.627Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -4179,9 +4287,13 @@
       "tags": [],
       "venue": {
         "name": "Gazarte - Ground Stage",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "32-34 Voutadon St, Gazi, Athens",
+        "neighborhood": "Gazi / Keramikos",
+        "coordinates": {
+          "lat": 37.9775,
+          "lon": 23.7153
+        },
+        "capacity": 150
       },
       "price": {
         "type": "paid",
@@ -4192,7 +4304,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/lemmy-lives-tribute-live-party/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.627Z",
-      "updatedAt": "2025-10-22T17:16:25.627Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -4210,9 +4322,13 @@
       "tags": [],
       "venue": {
         "name": "AN Club",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "13-15 Solomou Street, Athens 106 82",
+        "neighborhood": "Exarchia",
+        "coordinates": {
+          "lat": 37.9885,
+          "lon": 23.733
+        },
+        "capacity": 300
       },
       "price": {
         "type": "paid",
@@ -4223,7 +4339,7 @@
       "url": "https://www.more.com/gr-el/tickets/music/offer/agrio-meli-diafana-krina-tribute-band/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.627Z",
-      "updatedAt": "2025-10-22T17:16:25.627Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -4305,13 +4421,13 @@
       "tags": [],
       "venue": {
         "name": "MEGARON - The Athens Concert Hall",
-        "address": null,
-        "neighborhood": null,
+        "address": "Vassilissis Sofias Avenue & Kokkali 1, Athens 115 21",
+        "neighborhood": "Kolonaki / Ilissia",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.975,
+          "lon": 23.757
         },
-        "capacity": null
+        "capacity": 2000
       },
       "price": {
         "type": "paid",
@@ -4322,7 +4438,7 @@
       "url": "https://www.megaron.gr/event/claudio-monteverdi-vespro-della-beata-verginekamerata-orchistra-ton-filon-tis-mousikis/",
       "source": "2025-10-21---------------------------------------------------.json",
       "createdAt": "2025-11-03T14:01:45.442Z",
-      "updatedAt": "2025-11-03T14:01:45.442Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -4390,7 +4506,7 @@
   ],
   "meta": {
     "total": 137,
-    "lastUpdate": "2025-11-05T21:58:58.209Z",
+    "lastUpdate": "2025-11-09T18:52:19.602Z",
     "url": "https://agent-athens.netlify.app/paid-next-month"
   }
 }

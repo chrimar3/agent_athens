@@ -1,32 +1,32 @@
 {
   "gazarte": {
-    "last_crawled": "2025-10-26T21:08:45.227693",
-    "last_success": "2025-10-26T21:08:45.227715",
-    "total_crawls": 4,
+    "last_crawled": "2025-10-30T11:36:12.249770",
+    "last_success": "2025-10-30T11:36:12.249864",
+    "total_crawls": 5,
     "failed_crawls": 1
   },
   "clubber": {
-    "last_crawled": "2025-10-26T21:07:38.423323",
-    "last_success": "2025-10-26T21:07:38.423364",
-    "total_crawls": 4,
+    "last_crawled": "2025-10-31T14:16:17.327637",
+    "last_success": "2025-10-31T14:16:17.327648",
+    "total_crawls": 6,
     "failed_crawls": 1
   },
   "athinorama": {
-    "last_crawled": "2025-10-26T21:08:22.261882",
-    "last_success": "2025-10-26T21:08:22.261905",
-    "total_crawls": 3,
+    "last_crawled": "2025-10-31T14:17:00.254094",
+    "last_success": "2025-10-31T14:17:00.254111",
+    "total_crawls": 6,
     "failed_crawls": 1
   },
   "more": {
-    "last_crawled": "2025-10-26T21:08:06.762261",
-    "last_success": "2025-10-26T21:08:06.762282",
-    "total_crawls": 4,
+    "last_crawled": "2025-10-31T14:16:44.836823",
+    "last_success": "2025-10-31T14:16:44.836836",
+    "total_crawls": 6,
     "failed_crawls": 1
   },
   "viva": {
-    "last_crawled": "2025-10-26T21:07:52.195997",
-    "last_success": "2025-10-26T21:07:52.196030",
-    "total_crawls": 4,
+    "last_crawled": "2025-10-31T14:16:30.508098",
+    "last_success": "2025-10-31T14:16:30.508109",
+    "total_crawls": 6,
     "failed_crawls": 0
   },
   "halfnote": {
@@ -36,9 +36,9 @@
     "failed_crawls": 0
   },
   "culture_athens": {
-    "last_crawled": "2025-10-26T21:08:49.197953",
-    "last_success": "2025-10-26T21:08:49.197972",
-    "total_crawls": 2,
+    "last_crawled": "2025-10-30T11:36:19.358454",
+    "last_success": "2025-10-30T11:36:19.358497",
+    "total_crawls": 3,
     "failed_crawls": 0
   },
   "greek_festival": {
@@ -48,9 +48,9 @@
     "failed_crawls": 2
   },
   "romantso": {
-    "last_crawled": "2025-10-26T21:09:29.127620",
-    "last_success": "2025-10-26T21:09:29.127629",
-    "total_crawls": 2,
+    "last_crawled": "2025-10-30T11:36:22.231520",
+    "last_success": "2025-10-30T11:36:22.231554",
+    "total_crawls": 3,
     "failed_crawls": 0
   },
   "gagarin205": {

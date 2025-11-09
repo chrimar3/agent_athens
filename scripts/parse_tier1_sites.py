@@ -170,15 +170,15 @@ def parse_viva_html(file_path: Path) -> List[Dict]:
             event = {
                 "title": title,
                 "date": date,
-                "time": time,
+                "time": time or "20:00",  # Default time if not available
                 "venue": venue or "TBA",
                 "type": categorize_event_type(title, category, venue),
                 "genre": category or "general",
                 "price": "with-ticket",
-                "url": url,
-                "short_description": card_text[:200],
-                "source_name": "viva.gr",
-                "source_file": file_path.name
+                "url": url or "",
+                "description": card_text[:200],  # Changed from short_description
+                "source": "viva.gr",  # Changed from source_name
+                "location": "Athens, Greece"  # Added required field
             }
 
             # Only add events with valid dates
@@ -264,15 +264,15 @@ def parse_more_html(file_path: Path) -> List[Dict]:
             event = {
                 "title": title,
                 "date": date,
-                "time": time,
+                "time": time or "20:00",  # Default time if not available
                 "venue": venue or "TBA",
                 "type": categorize_event_type(title, category, venue),
                 "genre": category or "general",
                 "price": "with-ticket",
-                "url": url,
-                "short_description": card_text[:200],
-                "source_name": "more.com",
-                "source_file": file_path.name
+                "url": url or "",
+                "description": card_text[:200],  # Changed from short_description
+                "source": "more.com",  # Changed from source_name
+                "location": "Athens, Greece"  # Added required field
             }
 
             # Only add events with valid dates
@@ -348,15 +348,15 @@ def parse_gazarte_html(file_path: Path) -> List[Dict]:
             event = {
                 "title": title,
                 "date": date,
-                "time": time,
+                "time": time or "20:00",  # Default time if not available
                 "venue": venue,
                 "type": event_type,
                 "genre": category or "general",
                 "price": "with-ticket",
-                "url": url,
-                "short_description": description,
-                "source_name": "gazarte.gr",
-                "source_file": file_path.name
+                "url": url or "",
+                "description": description,  # Changed from short_description
+                "source": "gazarte.gr",  # Changed from source_name
+                "location": "Athens, Greece"  # Added required field
             }
 
             # Only add events with valid dates
@@ -440,8 +440,15 @@ def main():
     print(f"\nBreakdown by source:")
 
     for source in ["viva.gr", "more.com", "gazarte.gr"]:
-        count = len([e for e in unique_events if e['source_name'] == source])
+        count = len([e for e in unique_events if e['source'] == source])
         print(f"  {source}: {count} events")
+
+    # Show breakdown by type
+    print(f"\nBreakdown by type:")
+    from collections import Counter
+    type_counts = Counter(e['type'] for e in unique_events)
+    for event_type, count in type_counts.most_common():
+        print(f"  {event_type}: {count} events")
 
 if __name__ == "__main__":
     main()

@@ -15,6 +15,9 @@ export interface EventLocation {
   venue_name?: string;
   venue_address?: string;
   venue_neighborhood?: string;
+  // Support RawEvent format as well
+  venue?: string;
+  location?: string;
 }
 
 /**
@@ -80,6 +83,10 @@ const NON_ATHENS_CITIES = [
   // Kozani (northern Greece)
   'Κοζάνη',
   'Kozani',
+
+  // Mykonos (island)
+  'Μύκονος',
+  'Mykonos',
 ];
 
 /**
@@ -105,13 +112,29 @@ export function isAthensEvent(event: EventLocation): boolean {
     return false;
   }
 
-  // Check venue name for non-Athens cities
+  // Check venue name for non-Athens cities (database format)
   if (event.venue_name && containsNonAthensCity(event.venue_name)) {
     return false;
   }
 
-  // Check venue address for non-Athens cities
+  // Check venue for non-Athens cities (RawEvent format - string)
+  // Note: venue can be either a string (RawEvent) or object (Event)
+  if (event.venue) {
+    const venueText = typeof event.venue === 'string'
+      ? event.venue
+      : (event.venue as any).name || (event.venue as any).address;
+    if (venueText && containsNonAthensCity(venueText)) {
+      return false;
+    }
+  }
+
+  // Check venue address for non-Athens cities (database format)
   if (event.venue_address && containsNonAthensCity(event.venue_address)) {
+    return false;
+  }
+
+  // Check location for non-Athens cities (RawEvent format)
+  if (event.location && containsNonAthensCity(event.location)) {
     return false;
   }
 

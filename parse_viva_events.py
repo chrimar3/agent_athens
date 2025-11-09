@@ -12,9 +12,9 @@ from typing import List, Dict, Optional
 
 
 class VivaEventParser(HTMLParser):
-    """Parser for Viva.gr event HTML."""
+    """Parser for Viva.gr and More.com event HTML (Schema.org microdata)."""
 
-    def __init__(self):
+    def __init__(self, default_type='concert', source_name='viva.gr'):
         super().__init__()
         self.events = []
         self.current_event = {}
@@ -23,6 +23,8 @@ class VivaEventParser(HTMLParser):
         self.in_venue = False
         self.in_time = False
         self.current_data = []
+        self.default_type = default_type
+        self.source_name = source_name
 
     def handle_starttag(self, tag: str, attrs: List[tuple]) -> None:
         """Handle opening tags."""
@@ -36,11 +38,13 @@ class VivaEventParser(HTMLParser):
                 'date': '',
                 'time': '',
                 'venue': '',
-                'type': 'concert',
+                'type': self.default_type,
                 'genre': '',
                 'price': 'with-ticket',
                 'url': '',
-                'short_description': ''
+                'description': '',
+                'source': self.source_name,  # Set from main() based on file
+                'location': 'Athens, Greece'
             }
 
             # Extract date from data-date-time attribute (format: 2026/06/21 18:00:00)
@@ -75,11 +79,12 @@ class VivaEventParser(HTMLParser):
             content = attrs_dict.get('content', '')
 
             if itemprop == 'url':
-                # Make full URL
+                # Make full URL based on source
                 if content and content.startswith('/'):
-                    self.current_event['url'] = f"https://www.viva.gr{content}"
+                    base_url = f"https://www.{self.source_name.replace('.gr', '.com')}" if 'more' in self.source_name else f"https://www.{self.source_name}"
+                    self.current_event['url'] = f"{base_url}{content}"
             elif itemprop == 'description':
-                self.current_event['short_description'] = content[:200] if content else ''
+                self.current_event['description'] = content[:200] if content else ''
             elif itemprop == 'startDate' and not self.current_event['date']:
                 # Fallback date parsing from ISO format
                 try:
@@ -175,16 +180,51 @@ def parse_greek_date_display(date_text: str) -> Optional[str]:
 
 def main():
     """Main function to parse events and save JSON."""
-    html_file = '/Users/chrism/Project with Claude/AgentAthens/agent-athens/data/html-to-parse/2025-10-22-viva-www-viva-gr-tickets-music-.html'
-    output_file = '/Users/chrism/Project with Claude/AgentAthens/agent-athens/data/parsed/viva-music-events.json'
+    import sys
+
+    # Check if file path provided as argument
+    if len(sys.argv) > 1:
+        html_file = sys.argv[1]
+
+        # Detect source from filename
+        if 'more' in html_file:
+            source_name = 'more.com'
+            source_prefix = 'more'
+        elif 'viva' in html_file:
+            source_name = 'viva.gr'
+            source_prefix = 'viva'
+        else:
+            source_name = 'unknown'
+            source_prefix = 'events'
+
+        # Extract category from filename (music, theater, sports)
+        if 'music' in html_file:
+            category = 'music'
+            default_type = 'concert'
+        elif 'theater' in html_file:
+            category = 'theater'
+            default_type = 'theater'
+        elif 'sports' in html_file:
+            category = 'sports'
+            default_type = 'performance'
+        else:
+            category = 'general'
+            default_type = 'other'
+        output_file = f'/Users/chrism/Project with Claude/AgentAthens/agent-athens/data/parsed/{source_prefix}-{category}-events.json'
+    else:
+        html_file = '/Users/chrism/Project with Claude/AgentAthens/agent-athens/data/html-to-parse/2025-10-22-viva-www-viva-gr-tickets-music-.html'
+        output_file = '/Users/chrism/Project with Claude/AgentAthens/agent-athens/data/parsed/viva-music-events.json'
+        default_type = 'concert'
+        source_name = 'viva.gr'
 
     print(f"Reading HTML file: {html_file}")
+    print(f"Source: {source_name}")
 
     # Read and parse HTML
     with open(html_file, 'r', encoding='utf-8') as f:
         html_content = f.read()
 
-    parser = VivaEventParser()
+    parser = VivaEventParser(default_type=default_type, source_name=source_name)
     parser.feed(html_content)
 
     # Process events
@@ -196,13 +236,13 @@ def main():
         # Classify event type
         event['type'] = classify_event_type(
             event['title'],
-            event['short_description'],
+            event['description'],
             event['genre']
         )
 
         # Clean up description (remove extra whitespace)
-        if event['short_description']:
-            event['short_description'] = ' '.join(event['short_description'].split())
+        if event['description']:
+            event['description'] = ' '.join(event['description'].split())
 
         # Ensure all required fields exist
         if not event['url']:

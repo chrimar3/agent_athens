@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-11-08T06:00:37.434Z",
+  "sources": {
+    "viva.gr": {
+      "last_scraped": "2025-11-08T06:00:22.364Z",
+      "last_success": "2025-11-03T10:34:35.100Z",
+      "last_failure": "2025-11-08T06:00:22.364Z",
+      "scrape_count": 3,
+      "failure_count": 2,
+      "events_imported": 1041,
+      "last_error": "Process exited with code 1"
+    },
+    "more.com": {
+      "last_scraped": "2025-11-08T06:00:37.433Z",
+      "last_success": "2025-11-03T10:34:35.100Z",
+      "last_failure": "2025-11-08T06:00:37.433Z",
+      "scrape_count": 3,
+      "failure_count": 2,
+      "events_imported": 1027,
+      "last_error": "Process exited with code 1"
+    },
+    "gazarte.gr": {
+      "last_scraped": "2025-11-03T10:34:35.100Z",
+      "last_success": null,
+      "last_failure": "2025-11-03T10:34:35.100Z",
+      "scrape_count": 1,
+      "failure_count": 1,
+      "events_imported": 0,
+      "last_error": "Network timeout"
+    }
+  },
+  "email_ingestion": {
+    "last_scraped": "2025-11-08T06:00:07.123Z",
+    "last_success": "2025-11-08T06:00:07.123Z",
+    "last_failure": null,
+    "scrape_count": 3,
+    "failure_count": 0,
+    "events_imported": 0
+  }
+}

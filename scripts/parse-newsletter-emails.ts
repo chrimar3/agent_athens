@@ -1,36 +1,21 @@
 #!/usr/bin/env bun
 /**
- * Parse newsletter emails from data/emails-to-parse/ and extract events to database
+ * Parse newsletter emails from data/emails-to-parse/ and save as JSON
+ * Output format: RawEvent[] matching viva.gr parser standard
  *
- * Requirements:
- * - Read JSON email files
- * - Extract event information from text/html content
- * - Generate unique IDs from hash(title+date+venue)
- * - Upsert events into database
- * - Track statistics
+ * Workflow:
+ * 1. Read JSON email files
+ * 2. Extract events from text/html content
+ * 3. Save to data/parsed/newsletter-events.json
+ * 4. Import using: bun run scripts/import-newsletter-events.ts
  */
 
-import { readdir, readFile } from 'fs/promises';
+import { readdir, readFile, writeFile } from 'fs/promises';
 import { join } from 'path';
-import { createHash } from 'crypto';
-import { getDatabase, upsertEvent } from '../src/db/database';
-import type { Event } from '../src/types';
+import { existsSync } from 'fs';
 
 const EMAILS_DIR = join(import.meta.dir, '../data/emails-to-parse');
-const TIMEZONE = 'Europe/Athens';
-
-/**
- * Get current date in Athens timezone (YYYY-MM-DD)
- */
-function getAthensDate(): string {
-  // Athens is UTC+2 (EET) or UTC+3 (EEST)
-  const now = new Date();
-  const athensTime = new Date(now.toLocaleString('en-US', { timeZone: 'Europe/Athens' }));
-  const year = athensTime.getFullYear();
-  const month = String(athensTime.getMonth() + 1).padStart(2, '0');
-  const day = String(athensTime.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
-}
+const OUTPUT_FILE = join(import.meta.dir, '../data/parsed/newsletter-events.json');
 
 interface EmailData {
   subject: string;
@@ -38,74 +23,33 @@ interface EmailData {
   date: string;
   text?: string;
   html?: string;
+  messageId: string;
 }
 
-interface ExtractedEvent {
+interface RawEvent {
   title: string;
-  date: string;  // YYYY-MM-DD
-  time?: string; // HH:MM
+  date: string;      // YYYY-MM-DD
+  time: string;      // HH:MM (24-hour) or empty string
   venue: string;
-  type: string;
-  genre?: string;
+  location: string;  // Full address or "Athens, Greece"
+  type: string;      // concert|exhibition|cinema|theater|performance|workshop
+  genre: string;
+  price: string;     // "open" | "with-ticket"
   description: string;
-  url?: string;
-  priceType: 'free' | 'paid' | 'donation';
-  priceRange?: string;
-  address?: string;
-}
-
-interface Stats {
-  emailsProcessed: number;
-  eventsFound: number;
-  newEvents: number;
-  updatedEvents: number;
-  errors: string[];
+  url: string;
+  source: string;    // Email sender
 }
 
 /**
- * Generate event ID from title+date+venue
- */
-function generateEventId(title: string, date: string, venue: string): string {
-  const normalized = `${title.toLowerCase().trim()}|${date}|${venue.toLowerCase().trim()}`;
-  const hash = createHash('sha256').update(normalized).digest('hex');
-  return hash.substring(0, 16); // 16 char hex ID
-}
-
-/**
- * Parse event type from text
- */
-function parseEventType(text: string): 'concert' | 'exhibition' | 'cinema' | 'theater' | 'performance' | 'workshop' | 'other' {
-  const lower = text.toLowerCase();
-
-  if (lower.includes('concert') || lower.includes('συναυλία') || lower.includes('jazz') || lower.includes('μουσική')) {
-    return 'concert';
-  }
-  if (lower.includes('exhibition') || lower.includes('έκθεση') || lower.includes('gallery')) {
-    return 'exhibition';
-  }
-  if (lower.includes('cinema') || lower.includes('film') || lower.includes('movie') || lower.includes('ταινία')) {
-    return 'cinema';
-  }
-  if (lower.includes('theater') || lower.includes('θέατρο') || lower.includes('performance')) {
-    return 'theater';
-  }
-  if (lower.includes('workshop') || lower.includes('εργαστήριο')) {
-    return 'workshop';
-  }
-
-  return 'other';
-}
-
-/**
- * Parse Greek date to ISO format
+ * Parse Greek date to YYYY-MM-DD
  */
 function parseGreekDate(dateStr: string): string | null {
   try {
-    // Handle formats like "Σάββατο 1.11.2025" or "1.11.2025" or "01/11/2025"
+    // Handle formats: DD.MM.YYYY, DD/MM/YYYY, DD-MM-YYYY
     const patterns = [
-      /(\d{1,2})\.(\d{1,2})\.(\d{4})/,  // DD.MM.YYYY
-      /(\d{1,2})\/(\d{1,2})\/(\d{4})/,  // DD/MM/YYYY
-      /(\d{1,2})-(\d{1,2})-(\d{4})/,    // DD-MM-YYYY
+      /(\d{1,2})\.(\d{1,2})\.(\d{4})/,
+      /(\d{1,2})\/(\d{1,2})\/(\d{4})/,
+      /(\d{1,2})-(\d{1,2})-(\d{4})/,
     ];
 
     for (const pattern of patterns) {
@@ -120,37 +64,96 @@ function parseGreekDate(dateStr: string): string | null {
     }
 
     return null;
-  } catch (error) {
+  } catch {
     return null;
   }
 }
 
 /**
- * Parse time from Greek text
+ * Parse time from text (HH:MM format)
  */
-function parseTime(text: string): string | null {
-  // Look for patterns like "20:30" or "21:00"
+function parseTime(text: string): string {
   const match = text.match(/(\d{1,2}):(\d{2})/);
   if (match) {
     const [_, hours, minutes] = match;
     return `${hours.padStart(2, '0')}:${minutes}`;
   }
-  return null;
+  return '20:00'; // Default time if not found
 }
 
 /**
- * Extract events from Megaron Jazz newsletter
+ * Classify event type from text
  */
-function parseMegaronJazz(email: EmailData): ExtractedEvent[] {
-  const events: ExtractedEvent[] = [];
+function classifyEventType(text: string): string {
+  const lower = text.toLowerCase();
+
+  if (lower.includes('concert') || lower.includes('συναυλία') || lower.includes('jazz') || lower.includes('μουσική')) {
+    return 'concert';
+  }
+  if (lower.includes('exhibition') || lower.includes('έκθεση') || lower.includes('gallery')) {
+    return 'exhibition';
+  }
+  if (lower.includes('cinema') || lower.includes('film') || lower.includes('movie') || lower.includes('ταινία')) {
+    return 'cinema';
+  }
+  if (lower.includes('theater') || lower.includes('θέατρο')) {
+    return 'theater';
+  }
+  if (lower.includes('workshop') || lower.includes('εργαστήριο')) {
+    return 'workshop';
+  }
+  if (lower.includes('performance') || lower.includes('παράσταση')) {
+    return 'performance';
+  }
+
+  return 'concert'; // Default
+}
+
+/**
+ * Determine price type from text
+ */
+function determinePrice(text: string): string {
+  const lower = text.toLowerCase();
+
+  if (lower.includes('free') ||
+      lower.includes('δωρεάν') ||
+      lower.includes('ελεύθερη είσοδος') ||
+      lower.includes('open access') ||
+      lower.includes('admission free')) {
+    return 'open';
+  }
+
+  return 'with-ticket';
+}
+
+/**
+ * Extract venue name from text patterns
+ */
+function extractVenue(text: string, defaultVenue: string): string {
+  // Look for common venue patterns
+  const venuePatterns = [
+    /(?:στο|στην|στα|at|in)\s+([Α-ΩA-Z][Α-Ωα-ωA-Za-z\s]+(?:Club|Hall|Theatre|Theater|Stage|Gallery|Museum|Center|Centre))/i,
+    /Μέγαρο\s+Μουσικής/i,
+    /Ωδείο\s+Αθηνών/i,
+    /Εθνικό\s+Θέατρο/i,
+  ];
+
+  for (const pattern of venuePatterns) {
+    const match = text.match(pattern);
+    if (match) {
+      return match[1] || match[0];
+    }
+  }
+
+  return defaultVenue;
+}
+
+/**
+ * Parse Megaron Jazz newsletter
+ */
+function parseMegaronJazz(email: EmailData): RawEvent[] {
+  const events: RawEvent[] = [];
   const text = email.text || '';
-
-  // Look for event pattern: Title, empty line, then date+time
-  // Example:
-  // Νικόλας Αναδολής: Αυτοσχεδιασμοί
-  // (empty line)
-  // Σάββατο 1.11.2025, 20:30
-
   const lines = text.split('\n');
 
   for (let i = 0; i < lines.length - 2; i++) {
@@ -158,23 +161,18 @@ function parseMegaronJazz(email: EmailData): ExtractedEvent[] {
     const nextLine = lines[i + 1].trim();
     const lineAfterNext = lines[i + 2].trim();
 
-    // Check if line after next (skipping empty line) has a date pattern
+    // Pattern: Title (non-empty), empty line, date line
     const dateMatch = lineAfterNext.match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/);
 
-    // Pattern: currentLine has content, nextLine is empty, lineAfterNext has date
     if (dateMatch && currentLine.length > 0 && currentLine.length < 200 && nextLine === '') {
-      // Skip if current line is just a URL or metadata
+      // Skip metadata lines
       if (currentLine.includes('http') ||
           currentLine.includes('Copyright') ||
           currentLine.includes('ΧΟΡΗΓΟΣ') ||
           currentLine.includes('Περισσότερα') ||
           currentLine.includes('ΕΙΣΙΤΗΡΙΑ') ||
-          currentLine.includes('εκδηλώσεις')) {
-        continue;
-      }
-
-      // Skip if currentLine is ONLY a Greek day name
-      if (/^(Δευτέρα|Τρίτη|Τετάρτη|Πέμπτη|Παρασκευή|Σάββατο|Κυριακή)$/.test(currentLine)) {
+          currentLine.includes('εκδηλώσεις') ||
+          /^(Δευτέρα|Τρίτη|Τετάρτη|Πέμπτη|Παρασκευή|Σάββατο|Κυριακή)$/.test(currentLine)) {
         continue;
       }
 
@@ -182,9 +180,9 @@ function parseMegaronJazz(email: EmailData): ExtractedEvent[] {
       const time = parseTime(lineAfterNext);
 
       if (date) {
-        // Get description from following lines until next event or URL
+        // Collect description from following lines
         let description = currentLine;
-        let j = i + 3; // Start after the date line
+        let j = i + 3;
         while (j < lines.length && j < i + 15) {
           const descLine = lines[j].trim();
           if (descLine.includes('http') ||
@@ -199,8 +197,8 @@ function parseMegaronJazz(email: EmailData): ExtractedEvent[] {
           j++;
         }
 
-        // Find URL for this event (look back and ahead)
-        let url: string | undefined;
+        // Find URL
+        let url = '';
         for (let k = Math.max(0, i - 5); k < i + 20 && k < lines.length; k++) {
           const urlMatch = lines[k].match(/https:\/\/www\.megaron\.gr\/event\/[^\s)]+/);
           if (urlMatch) {
@@ -209,17 +207,18 @@ function parseMegaronJazz(email: EmailData): ExtractedEvent[] {
           }
         }
 
-        const event: ExtractedEvent = {
+        const event: RawEvent = {
           title: currentLine,
           date,
-          time: time || undefined,
+          time,
           venue: 'Μέγαρο Μουσικής Αθηνών',
+          location: 'Βασ. Σοφίας και Κόκκαλη, 115 21 Αθήνα',
           type: 'concert',
           genre: 'jazz',
-          description: description.substring(0, 500), // Limit length
-          priceType: 'paid',
+          price: 'with-ticket',
+          description: description.substring(0, 200).trim(),
           url,
-          address: 'Βασ. Σοφίας και Κόκκαλη, 115 21 Αθήνα'
+          source: 'megaron.gr'
         };
 
         events.push(event);
@@ -231,42 +230,49 @@ function parseMegaronJazz(email: EmailData): ExtractedEvent[] {
 }
 
 /**
- * Extract events from generic newsletter
+ * Parse generic newsletter (fallback)
  */
-function parseGenericNewsletter(email: EmailData): ExtractedEvent[] {
-  const events: ExtractedEvent[] = [];
+function parseGenericNewsletter(email: EmailData): RawEvent[] {
+  const events: RawEvent[] = [];
   const text = email.text || '';
 
-  // Look for common patterns
-  // This is a placeholder - needs to be enhanced based on actual newsletter formats
-
   // Extract venue from sender
-  let defaultVenue = 'Athens';
+  let defaultVenue = 'Athens Venue';
   const fromMatch = email.from.match(/"([^"]+)"/);
   if (fromMatch) {
     defaultVenue = fromMatch[1];
   }
 
-  // Try to find event patterns
-  const eventPattern = /([^\n]+)\n.*?(\d{1,2}[\.\/]\d{1,2}[\.\/]\d{4}).*?(\d{1,2}:\d{2})?/g;
+  // Try to find event patterns: title followed by date
+  const eventPattern = /([^\n]{10,150})\n.*?(\d{1,2}[\.\/]\d{1,2}[\.\/]\d{4})/g;
   let match;
 
   while ((match = eventPattern.exec(text)) !== null) {
     const title = match[1].trim();
     const dateStr = match[2];
-    const timeStr = match[3];
 
     const date = parseGreekDate(dateStr);
-    if (date && title.length > 5 && title.length < 200) {
-      events.push({
+    if (date && !title.includes('http') && !title.includes('Copyright')) {
+      const venue = extractVenue(text, defaultVenue);
+      const time = parseTime(text.substring(match.index, match.index + 200));
+      const type = classifyEventType(title + ' ' + text.substring(match.index, match.index + 200));
+      const price = determinePrice(text.substring(match.index, match.index + 200));
+
+      const event: RawEvent = {
         title,
         date,
-        time: timeStr || undefined,
-        venue: defaultVenue,
-        type: parseEventType(text),
+        time,
+        venue,
+        location: 'Athens, Greece',
+        type,
+        genre: '',
+        price,
         description: title,
-        priceType: text.toLowerCase().includes('free') || text.toLowerCase().includes('δωρεάν') ? 'free' : 'paid'
-      });
+        url: '',
+        source: email.from
+      };
+
+      events.push(event);
     }
   }
 
@@ -276,178 +282,122 @@ function parseGenericNewsletter(email: EmailData): ExtractedEvent[] {
 /**
  * Extract events from email based on sender
  */
-function extractEventsFromEmail(email: EmailData): ExtractedEvent[] {
+function extractEventsFromEmail(email: EmailData): RawEvent[] {
   // Determine parser based on sender or subject
   if (email.from.includes('megaron.gr') || email.subject.includes('Jazz@Megaron')) {
     return parseMegaronJazz(email);
   }
 
-  // Add more parsers for other venues/senders here
+  // Add more parsers for specific venues here
+  // if (email.from.includes('gazarte.gr')) { return parseGazarte(email); }
+  // if (email.from.includes('sixdogs.gr')) { return parseSixDogs(email); }
 
   // Fallback to generic parser
   return parseGenericNewsletter(email);
 }
 
 /**
- * Convert ExtractedEvent to Event type
- */
-function convertToEvent(extracted: ExtractedEvent, source: string): Event {
-  const now = new Date().toISOString();
-  const eventId = generateEventId(extracted.title, extracted.date, extracted.venue);
-
-  // Create ISO datetime
-  let startDate = extracted.date;
-  if (extracted.time) {
-    startDate = `${extracted.date}T${extracted.time}:00.000+02:00`; // Athens timezone
-  } else {
-    startDate = `${extracted.date}T19:00:00.000+02:00`; // Default to 19:00
-  }
-
-  const event: Event = {
-    "@context": "https://schema.org",
-    "@type": "MusicEvent",
-    id: eventId,
-    title: extracted.title,
-    description: extracted.description,
-    startDate,
-    endDate: undefined,
-    type: extracted.type === 'concert' ? 'concert' :
-          extracted.type === 'exhibition' ? 'exhibition' :
-          extracted.type === 'cinema' ? 'cinema' :
-          extracted.type === 'theater' ? 'theater' :
-          extracted.type === 'workshop' ? 'workshop' :
-          'other',
-    genres: extracted.genre ? [extracted.genre] : [],
-    tags: [],
-    venue: {
-      name: extracted.venue,
-      address: extracted.address || '',
-      neighborhood: undefined
-    },
-    price: {
-      type: extracted.priceType,
-      amount: undefined,
-      currency: 'EUR',
-      range: extracted.priceRange
-    },
-    url: extracted.url,
-    source,
-    createdAt: now,
-    updatedAt: now,
-    language: 'el'
-  };
-
-  return event;
-}
-
-/**
  * Main processing function
  */
-async function processEmails(): Promise<Stats> {
-  const stats: Stats = {
-    emailsProcessed: 0,
-    eventsFound: 0,
-    newEvents: 0,
-    updatedEvents: 0,
-    errors: []
-  };
-
+async function processEmails(): Promise<void> {
   console.log('📥 Reading email files from', EMAILS_DIR);
 
+  if (!existsSync(EMAILS_DIR)) {
+    console.log('⚠️  Directory not found:', EMAILS_DIR);
+    console.log('   Run: bun run src/ingest/email-ingestion.ts first\n');
+    return;
+  }
+
   try {
-    // Get all JSON files
     const files = await readdir(EMAILS_DIR);
     const jsonFiles = files.filter(f => f.endsWith('.json'));
 
-    console.log(`📧 Found ${jsonFiles.length} email files`);
+    console.log(`📧 Found ${jsonFiles.length} email files\n`);
+
+    if (jsonFiles.length === 0) {
+      console.log('✅ No emails to process');
+      return;
+    }
+
+    const allEvents: RawEvent[] = [];
+    let emailsProcessed = 0;
 
     for (const filename of jsonFiles) {
       try {
-        console.log(`\n🔄 Processing: ${filename}`);
+        console.log(`🔄 Processing: ${filename}`);
 
         // Read email data
         const filepath = join(EMAILS_DIR, filename);
         const content = await readFile(filepath, 'utf-8');
         const email: EmailData = JSON.parse(content);
 
-        stats.emailsProcessed++;
+        emailsProcessed++;
 
         // Extract events
         const extractedEvents = extractEventsFromEmail(email);
         console.log(`   Found ${extractedEvents.length} events`);
 
-        // Convert and upsert each event
-        for (const extracted of extractedEvents) {
-          try {
-            const event = convertToEvent(extracted, email.from);
-            const result = upsertEvent(event);
-
-            if (result.success) {
-              stats.eventsFound++;
-              if (result.isNew) {
-                stats.newEvents++;
-                console.log(`   ✅ NEW: ${event.title} (${event.startDate})`);
-              } else {
-                stats.updatedEvents++;
-                console.log(`   🔄 UPDATED: ${event.title} (${event.startDate})`);
-              }
-            } else {
-              stats.errors.push(`Failed to upsert: ${extracted.title}`);
-              console.log(`   ❌ FAILED: ${extracted.title}`);
-            }
-          } catch (error) {
-            const msg = `Error converting event: ${extracted.title} - ${error}`;
-            stats.errors.push(msg);
-            console.error(`   ❌ ${msg}`);
-          }
+        if (extractedEvents.length > 0) {
+          extractedEvents.forEach(e => {
+            console.log(`   - ${e.title} (${e.date} ${e.time})`);
+          });
+          allEvents.push(...extractedEvents);
         }
+
       } catch (error) {
-        const msg = `Error processing ${filename}: ${error}`;
-        stats.errors.push(msg);
-        console.error(`❌ ${msg}`);
+        console.error(`❌ Error processing ${filename}:`, error);
       }
     }
 
-  } catch (error) {
-    const msg = `Error reading emails directory: ${error}`;
-    stats.errors.push(msg);
-    console.error(`❌ ${msg}`);
-  }
+    // Remove duplicates based on title+date+venue
+    const uniqueEvents: RawEvent[] = [];
+    const seen = new Set<string>();
 
-  return stats;
-}
+    for (const event of allEvents) {
+      const key = `${event.title.toLowerCase()}|${event.date}|${event.venue.toLowerCase()}`;
+      if (!seen.has(key)) {
+        seen.add(key);
+        uniqueEvents.push(event);
+      }
+    }
 
-/**
- * Print summary
- */
-function printSummary(stats: Stats): void {
-  console.log('\n📊 Summary');
-  console.log('━'.repeat(50));
-  console.log(`Emails processed:      ${stats.emailsProcessed}`);
-  console.log(`Events found:          ${stats.eventsFound}`);
-  console.log(`New events added:      ${stats.newEvents}`);
-  console.log(`Existing events updated: ${stats.updatedEvents}`);
-
-  if (stats.errors.length > 0) {
-    console.log(`\n⚠️  Errors (${stats.errors.length}):`);
-    stats.errors.forEach((err, i) => {
-      console.log(`   ${i + 1}. ${err}`);
+    // Sort by date
+    uniqueEvents.sort((a, b) => {
+      const dateCompare = a.date.localeCompare(b.date);
+      if (dateCompare !== 0) return dateCompare;
+      return a.time.localeCompare(b.time);
     });
-  } else {
-    console.log('\n✅ No errors!');
+
+    // Save to JSON
+    await writeFile(OUTPUT_FILE, JSON.stringify(uniqueEvents, null, 2), 'utf-8');
+
+    console.log('\n' + '='.repeat(60));
+    console.log('📊 NEWSLETTER PARSING RESULTS:');
+    console.log(`   📧 ${emailsProcessed} emails processed`);
+    console.log(`   📅 ${allEvents.length} total events found`);
+    console.log(`   ✅ ${uniqueEvents.length} unique events saved`);
+    console.log(`   💾 Output: ${OUTPUT_FILE}`);
+
+    // Show breakdown by type
+    const typeBreakdown: Record<string, number> = {};
+    uniqueEvents.forEach(e => {
+      typeBreakdown[e.type] = (typeBreakdown[e.type] || 0) + 1;
+    });
+
+    console.log('\n   By type:');
+    for (const [type, count] of Object.entries(typeBreakdown)) {
+      console.log(`     ${type}: ${count}`);
+    }
+
+    console.log('\n🔄 NEXT STEP:');
+    console.log('   bun run scripts/import-newsletter-events.ts\n');
+
+  } catch (error) {
+    console.error('❌ Error reading emails directory:', error);
+    process.exit(1);
   }
-  console.log('━'.repeat(50));
 }
 
 // Run the script
-console.log('🚀 Starting newsletter email parser');
-console.log(`📍 Timezone: ${TIMEZONE}`);
-console.log(`📅 Today: ${getAthensDate()}\n`);
-
-const stats = await processEmails();
-printSummary(stats);
-
-// Exit with error code if there were issues
-if (stats.errors.length > 0) {
-  process.exit(1);
-}
+console.log('🚀 Starting newsletter email parser\n');
+await processEmails();

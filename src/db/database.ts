@@ -123,21 +123,21 @@ export function rowToEvent(row: any): Event {
  * Returns: { success: boolean, isNew: boolean }
  * NOTE: Automatically filters out non-Athens events
  */
-export function upsertEvent(event: Event): { success: boolean; isNew: boolean } {
+export function upsertEvent(event: Event, db?: Database): { success: boolean; isNew: boolean } {
   // Filter out non-Athens events
   if (!isAthensEvent(event)) {
     console.log(`⚠️  Skipping non-Athens event: ${event.title}`);
     return { success: false, isNew: false };
   }
 
-  const db = getDatabase();
+  const database = db || getDatabase();
   const row = eventToRow(event);
 
   // Check if event already exists
-  const existing = db.prepare('SELECT id FROM events WHERE id = ?').get(event.id);
+  const existing = database.prepare('SELECT id FROM events WHERE id = ?').get(event.id);
   const isNew = !existing;
 
-  const stmt = db.prepare(`
+  const stmt = database.prepare(`
     INSERT INTO events (
       id, title, description, full_description, start_date, end_date,
       type, genres, tags,
@@ -186,9 +186,9 @@ export function upsertEvent(event: Event): { success: boolean; isNew: boolean } 
 /**
  * Get all events ordered by start date
  */
-export function getAllEvents(): Event[] {
-  const db = getDatabase();
-  const rows = db.prepare("SELECT * FROM events WHERE is_cancelled = 0 ORDER BY start_date ASC").all();
+export function getAllEvents(db?: Database): Event[] {
+  const database = db || getDatabase();
+  const rows = database.prepare("SELECT * FROM events WHERE is_cancelled = 0 ORDER BY start_date ASC").all();
   return rows.map(rowToEvent);
 }
 
@@ -201,8 +201,8 @@ export function getEventsByFilter(filters: {
   startDate?: string;
   endDate?: string;
   venue?: string;
-}): Event[] {
-  const db = getDatabase();
+}, db?: Database): Event[] {
+  const database = db || getDatabase();
   const conditions: string[] = ["is_cancelled = 0"];
   const params: Record<string, any> = {};
 
@@ -237,7 +237,7 @@ export function getEventsByFilter(filters: {
     ORDER BY start_date ASC
   `;
 
-  const stmt = db.prepare(query);
+  const stmt = database.prepare(query);
   const rows = stmt.all(params);
   return rows.map(rowToEvent);
 }
@@ -245,31 +245,31 @@ export function getEventsByFilter(filters: {
 /**
  * Get event statistics
  */
-export function getEventStats(): {
+export function getEventStats(db?: Database): {
   total: number;
   byType: Record<string, number>;
   byPriceType: Record<string, number>;
   upcomingCount: number;
 } {
-  const db = getDatabase();
+  const database = db || getDatabase();
 
-  const total = db.prepare("SELECT COUNT(*) as count FROM events WHERE is_cancelled = 0").get() as { count: number };
+  const total = database.prepare("SELECT COUNT(*) as count FROM events WHERE is_cancelled = 0").get() as { count: number };
 
-  const byType = db.prepare(`
+  const byType = database.prepare(`
     SELECT type, COUNT(*) as count
     FROM events
     WHERE is_cancelled = 0
     GROUP BY type
   `).all() as Array<{ type: string; count: number }>;
 
-  const byPriceType = db.prepare(`
+  const byPriceType = database.prepare(`
     SELECT price_type, COUNT(*) as count
     FROM events
     WHERE is_cancelled = 0
     GROUP BY price_type
   `).all() as Array<{ price_type: string; count: number }>;
 
-  const upcoming = db.prepare(`
+  const upcoming = database.prepare(`
     SELECT COUNT(*) as count
     FROM events
     WHERE is_cancelled = 0 AND start_date >= datetime('now')
@@ -286,12 +286,12 @@ export function getEventStats(): {
 /**
  * Delete old events (past retention period)
  */
-export function cleanupOldEvents(retentionDays: number = 90): number {
-  const db = getDatabase();
+export function cleanupOldEvents(retentionDays: number = 90, db?: Database): number {
+  const database = db || getDatabase();
   const cutoffDate = new Date();
   cutoffDate.setDate(cutoffDate.getDate() - retentionDays);
 
-  const stmt = db.prepare("DELETE FROM events WHERE start_date < $cutoff");
+  const stmt = database.prepare("DELETE FROM events WHERE start_date < $cutoff");
   const result = stmt.run({ $cutoff: cutoffDate.toISOString() });
 
   return result.changes;
@@ -300,11 +300,11 @@ export function cleanupOldEvents(retentionDays: number = 90): number {
 /**
  * Update an existing event
  */
-export function updateEvent(event: Event): boolean {
-  const db = getDatabase();
+export function updateEvent(event: Event, db?: Database): boolean {
+  const database = db || getDatabase();
   const row = eventToRow(event);
 
-  const stmt = db.prepare(`
+  const stmt = database.prepare(`
     UPDATE events
     SET title = $title,
         description = $description,
@@ -347,11 +347,12 @@ export function updateEvent(event: Event): boolean {
 export function updateEventEnrichment(
   eventId: string,
   fullDescription: string,
-  aiContext: any
+  aiContext: any,
+  db?: Database
 ): boolean {
-  const db = getDatabase();
+  const database = db || getDatabase();
 
-  const stmt = db.prepare(`
+  const stmt = database.prepare(`
     UPDATE events
     SET full_description = $fullDescription,
         ai_context = $aiContext,

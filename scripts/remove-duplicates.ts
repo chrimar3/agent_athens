@@ -1,18 +1,24 @@
 #!/usr/bin/env bun
 /**
- * Advanced Event Deduplication Script
+ * Advanced Event Deduplication Script - Production Ready
  *
- * Multi-pass deduplication strategy using various techniques:
- * 1. URL-based (primary key - same URL = same event)
- * 2. Exact match (title + venue + date)
- * 3. Fuzzy title match (similar titles, same venue/date)
- * 4. Cross-source time windows (events ±3 days from different sources)
- * 5. Venue normalization (removes special characters)
+ * Multi-pass deduplication with recurring event protection:
+ * Pass 0: Identify and protect recurring events (CRITICAL)
+ *   - Theater/Performance runs (3+ shows over 7+ days)
+ *   - Exhibition runs (5+ instances over 14+ days)
+ *   - Weekly recurring events (4+ on same weekday)
+ *   - Festival multi-day events (3+ with Festival/Φεστιβάλ in title)
+ * Pass 1: URL-based (primary key - same URL = same event)
+ * Pass 2: Exact match (title + venue + date + TIME)
+ * Pass 3: Cross-source within 24 hours (STRICT)
+ * Pass 4: Fuzzy title match (case-insensitive + trimmed)
+ * Pass 5: Venue normalization (removes special chars)
+ * Pass 6: Suspicious timestamp cleanup (CONSERVATIVE - only 00:00, 12:00)
  *
  * Keeps highest quality version based on:
  * - Source priority (more.com > viva.gr > gazarte.gr > email)
  * - Description length (longer = more detailed)
- * - Realistic times (20:00, 21:00 > 18:00, 22:00 defaults)
+ * - Title completeness (longer = more descriptive)
  *
  * Usage: bun run scripts/remove-duplicates.ts [--dry-run]
  */
@@ -21,24 +27,176 @@ import Database from 'bun:sqlite';
 
 const db = new Database('data/events.db');
 const DRY_RUN = process.argv.includes('--dry-run');
+const REMOVAL_THRESHOLD = 0.20; // Alert if >20% would be removed
 
 if (DRY_RUN) {
   console.log('🔍 DRY RUN MODE - No changes will be made\n');
 }
 
-console.log('🧹 Advanced Event Deduplication\n');
-console.log('='.repeat(50) + '\n');
+console.log('🧹 Advanced Event Deduplication - Production Ready\n');
+console.log('='.repeat(60) + '\n');
 
 // Track statistics
 let totalRemoved = 0;
 const removalsByPass: Record<string, number> = {};
+let protectedCount = 0;
 
 /**
- * PASS 1: URL-Based Deduplication (Highest Priority)
+ * PASS 0: Recurring Event Protection (CRITICAL - RUN FIRST)
+ * Identifies and marks legitimate multi-date events
+ */
+console.log('🛡️  PASS 0: Recurring Event Protection');
+console.log('-'.repeat(60));
+
+// Add protection column if not exists
+try {
+  db.run(`
+    ALTER TABLE events
+    ADD COLUMN dedup_protected INTEGER DEFAULT 0
+  `);
+} catch (error) {
+  // Column already exists, ignore
+}
+
+try {
+  db.run(`
+    ALTER TABLE events
+    ADD COLUMN dedup_reason TEXT
+  `);
+} catch (error) {
+  // Column already exists, ignore
+}
+
+// 1. Theater/Dance/Performance runs (3+ shows over 7+ days)
+const theaterRuns = db.prepare(`
+  SELECT title, venue_name, COUNT(*) as shows,
+         MIN(date(start_date)) as first_show,
+         MAX(date(start_date)) as last_show
+  FROM events
+  WHERE start_date >= date('now')
+    AND type IN ('theater', 'performance', 'cinema')
+  GROUP BY title, venue_name
+  HAVING COUNT(*) >= 3
+    AND (julianday(MAX(start_date)) - julianday(MIN(start_date))) >= 7
+`).all() as Array<{ title: string; venue_name: string; shows: number }>;
+
+if (theaterRuns.length > 0) {
+  console.log(`Found ${theaterRuns.length} theater/performance runs`);
+
+  const protectTheaterStmt = db.prepare(`
+    UPDATE events
+    SET dedup_protected = 1, dedup_reason = 'THEATER_RUN'
+    WHERE title = ? AND venue_name = ?
+  `);
+
+  if (!DRY_RUN) {
+    theaterRuns.forEach(run => {
+      protectTheaterStmt.run(run.title, run.venue_name);
+      protectedCount += run.shows;
+    });
+  } else {
+    theaterRuns.forEach(run => protectedCount += run.shows);
+  }
+}
+
+// 2. Exhibition runs (5+ instances over 14+ days)
+const exhibitionRuns = db.prepare(`
+  SELECT title, venue_name, COUNT(*) as instances
+  FROM events
+  WHERE start_date >= date('now')
+    AND type = 'exhibition'
+  GROUP BY title, venue_name
+  HAVING COUNT(*) >= 5
+    AND (julianday(MAX(start_date)) - julianday(MIN(start_date))) >= 14
+`).all() as Array<{ title: string; venue_name: string; instances: number }>;
+
+if (exhibitionRuns.length > 0) {
+  console.log(`Found ${exhibitionRuns.length} exhibition runs`);
+
+  const protectExhibitionStmt = db.prepare(`
+    UPDATE events
+    SET dedup_protected = 1, dedup_reason = 'EXHIBITION_RUN'
+    WHERE title = ? AND venue_name = ?
+  `);
+
+  if (!DRY_RUN) {
+    exhibitionRuns.forEach(run => {
+      protectExhibitionStmt.run(run.title, run.venue_name);
+      protectedCount += run.instances;
+    });
+  } else {
+    exhibitionRuns.forEach(run => protectedCount += run.instances);
+  }
+}
+
+// 3. Weekly recurring events (4+ instances on same weekday)
+const weeklyEvents = db.prepare(`
+  SELECT title, venue_name,
+         COUNT(*) as occurrences,
+         GROUP_CONCAT(DISTINCT strftime('%w', start_date)) as weekdays
+  FROM events
+  WHERE start_date >= date('now')
+  GROUP BY title, venue_name
+  HAVING COUNT(*) >= 4
+    AND LENGTH(weekdays) <= 1
+`).all() as Array<{ title: string; venue_name: string; occurrences: number }>;
+
+if (weeklyEvents.length > 0) {
+  console.log(`Found ${weeklyEvents.length} weekly recurring events`);
+
+  const protectWeeklyStmt = db.prepare(`
+    UPDATE events
+    SET dedup_protected = 1, dedup_reason = 'WEEKLY_RECURRING'
+    WHERE title = ? AND venue_name = ?
+  `);
+
+  if (!DRY_RUN) {
+    weeklyEvents.forEach(event => {
+      protectWeeklyStmt.run(event.title, event.venue_name);
+      protectedCount += event.occurrences;
+    });
+  } else {
+    weeklyEvents.forEach(event => protectedCount += event.occurrences);
+  }
+}
+
+// 4. Festival multi-day events (3+ shows with "Festival" or "Φεστιβάλ" in title)
+const festivalEvents = db.prepare(`
+  SELECT title, venue_name, COUNT(*) as shows
+  FROM events
+  WHERE start_date >= date('now')
+    AND (title LIKE '%Festival%' OR title LIKE '%Φεστιβάλ%')
+  GROUP BY title, venue_name
+  HAVING COUNT(*) >= 3
+`).all() as Array<{ title: string; venue_name: string; shows: number }>;
+
+if (festivalEvents.length > 0) {
+  console.log(`Found ${festivalEvents.length} festival multi-day events`);
+
+  const protectFestivalStmt = db.prepare(`
+    UPDATE events
+    SET dedup_protected = 1, dedup_reason = 'FESTIVAL'
+    WHERE title = ? AND venue_name = ?
+  `);
+
+  if (!DRY_RUN) {
+    festivalEvents.forEach(event => {
+      protectFestivalStmt.run(event.title, event.venue_name);
+      protectedCount += event.shows;
+    });
+  } else {
+    festivalEvents.forEach(event => protectedCount += event.shows);
+  }
+}
+
+console.log(`\n${DRY_RUN ? 'Would protect' : 'Protected'} ${protectedCount} recurring event instances\n`);
+
+/**
+ * PASS 1: URL-Based Deduplication (PRIMARY KEY)
  * Same URL = Same event, regardless of title variations
  */
 console.log('📍 PASS 1: URL-Based Deduplication');
-console.log('-'.repeat(50));
+console.log('-'.repeat(60));
 
 const urlDuplicates = db.prepare(`
   SELECT url, COUNT(*) as count, GROUP_CONCAT(id) as ids,
@@ -47,6 +205,7 @@ const urlDuplicates = db.prepare(`
   WHERE start_date >= date('now')
     AND url IS NOT NULL
     AND url != ''
+    AND (dedup_protected = 0 OR dedup_protected IS NULL)
   GROUP BY url
   HAVING COUNT(*) > 1
   ORDER BY count DESC;
@@ -78,6 +237,7 @@ if (urlDuplicates.length > 0) {
         WHERE start_date >= date('now')
           AND url IS NOT NULL
           AND url != ''
+          AND (dedup_protected = 0 OR dedup_protected IS NULL)
       )
       WHERE rn > 1
     )
@@ -89,7 +249,6 @@ if (urlDuplicates.length > 0) {
     totalRemoved += urlRemovalCount;
     removalsByPass['URL-based'] = urlRemovalCount;
   } else {
-    // Count what would be removed
     urlDuplicates.forEach(dup => {
       urlRemovalCount += (dup.count - 1);
     });
@@ -101,21 +260,24 @@ if (urlDuplicates.length > 0) {
 }
 
 /**
- * PASS 2: Exact Match (Title + Venue + Date)
- * Classic deduplication for same event scraped multiple times
+ * PASS 2: Exact Match (Title + Venue + Date + TIME)
+ * Includes time component to preserve different showtimes
  */
-console.log('🎯 PASS 2: Exact Match (Title + Venue + Date)');
-console.log('-'.repeat(50));
+console.log('🎯 PASS 2: Exact Match (Title + Venue + Date + TIME)');
+console.log('-'.repeat(60));
 
 const exactDuplicates = db.prepare(`
-  SELECT title, venue_name, date(start_date) as date,
+  SELECT title, venue_name,
+         date(start_date) as date,
+         time(start_date) as time,
          COUNT(*) as count, GROUP_CONCAT(id) as ids
   FROM events
   WHERE start_date >= date('now')
-  GROUP BY title, venue_name, date(start_date)
+    AND (dedup_protected = 0 OR dedup_protected IS NULL)
+  GROUP BY title, venue_name, date(start_date), time(start_date)
   HAVING COUNT(*) > 1
   ORDER BY count DESC;
-`).all() as Array<{ title: string; venue_name: string; date: string; count: number; ids: string }>;
+`).all() as Array<{ title: string; venue_name: string; date: string; time: string; count: number; ids: string }>;
 
 if (exactDuplicates.length > 0) {
   console.log(`Found ${exactDuplicates.length} exact duplicate groups\n`);
@@ -127,7 +289,7 @@ if (exactDuplicates.length > 0) {
       SELECT id FROM (
         SELECT id,
           ROW_NUMBER() OVER (
-            PARTITION BY title, venue_name, date(start_date)
+            PARTITION BY title, venue_name, date(start_date), time(start_date)
             ORDER BY
               CASE source
                 WHEN 'more.com' THEN 1
@@ -140,6 +302,7 @@ if (exactDuplicates.length > 0) {
           ) as rn
         FROM events
         WHERE start_date >= date('now')
+          AND (dedup_protected = 0 OR dedup_protected IS NULL)
       )
       WHERE rn > 1
     )
@@ -149,7 +312,7 @@ if (exactDuplicates.length > 0) {
     const result = exactDeleteStmt.run();
     exactRemovalCount = result.changes;
     totalRemoved += exactRemovalCount;
-    removalsByPass['Exact match'] = exactRemovalCount;
+    removalsByPass['Exact match + time'] = exactRemovalCount;
   } else {
     exactDuplicates.forEach(dup => {
       exactRemovalCount += (dup.count - 1);
@@ -162,13 +325,13 @@ if (exactDuplicates.length > 0) {
 }
 
 /**
- * PASS 3: Cross-Source Time Window (±3 days)
- * Catches same event from different sources with slightly different dates
+ * PASS 3: Cross-Source Within 24 Hours (STRICT)
+ * Tightened from 3 days to 24 hours to reduce false positives
  */
-console.log('🌐 PASS 3: Cross-Source Time Window (±3 days)');
-console.log('-'.repeat(50));
+console.log('🌐 PASS 3: Cross-Source Within 24 Hours (STRICT)');
+console.log('-'.repeat(60));
 
-const timeWindowDuplicates = db.prepare(`
+const crossSourceDuplicates = db.prepare(`
   SELECT title, venue_name,
          COUNT(*) as count,
          MIN(date(start_date)) as earliest_date,
@@ -176,11 +339,12 @@ const timeWindowDuplicates = db.prepare(`
          GROUP_CONCAT(DISTINCT source) as sources
   FROM events
   WHERE start_date >= date('now')
-  GROUP BY title, venue_name,
-    CAST((julianday(start_date) - julianday('2025-01-01')) / 3 AS INTEGER)
+    AND (dedup_protected = 0 OR dedup_protected IS NULL)
+  GROUP BY LOWER(TRIM(title)), venue_name,
+    CAST(julianday(start_date) AS INTEGER)
   HAVING COUNT(*) > 1
     AND COUNT(DISTINCT source) > 1
-    AND (julianday(MAX(start_date)) - julianday(MIN(start_date))) <= 3
+    AND (julianday(MAX(start_date)) - julianday(MIN(start_date))) <= 1
   ORDER BY count DESC;
 `).all() as Array<{
   title: string;
@@ -191,18 +355,18 @@ const timeWindowDuplicates = db.prepare(`
   sources: string;
 }>;
 
-if (timeWindowDuplicates.length > 0) {
-  console.log(`Found ${timeWindowDuplicates.length} cross-source time window duplicates\n`);
+if (crossSourceDuplicates.length > 0) {
+  console.log(`Found ${crossSourceDuplicates.length} cross-source duplicates (within 24h)\n`);
 
-  let timeWindowRemovalCount = 0;
+  let crossSourceRemovalCount = 0;
 
-  const timeWindowDeleteStmt = db.prepare(`
+  const crossSourceDeleteStmt = db.prepare(`
     DELETE FROM events WHERE id IN (
       SELECT id FROM (
         SELECT id,
           ROW_NUMBER() OVER (
-            PARTITION BY title, venue_name,
-              CAST((julianday(start_date) - julianday('2025-01-01')) / 3 AS INTEGER)
+            PARTITION BY LOWER(TRIM(title)), venue_name,
+              CAST(julianday(start_date) AS INTEGER)
             ORDER BY
               CASE source
                 WHEN 'more.com' THEN 1
@@ -215,33 +379,34 @@ if (timeWindowDuplicates.length > 0) {
           ) as rn
         FROM events
         WHERE start_date >= date('now')
+          AND (dedup_protected = 0 OR dedup_protected IS NULL)
       )
       WHERE rn > 1
     )
   `);
 
   if (!DRY_RUN) {
-    const result = timeWindowDeleteStmt.run();
-    timeWindowRemovalCount = result.changes;
-    totalRemoved += timeWindowRemovalCount;
-    removalsByPass['Time window'] = timeWindowRemovalCount;
+    const result = crossSourceDeleteStmt.run();
+    crossSourceRemovalCount = result.changes;
+    totalRemoved += crossSourceRemovalCount;
+    removalsByPass['Cross-source 24h'] = crossSourceRemovalCount;
   } else {
-    timeWindowDuplicates.forEach(dup => {
-      timeWindowRemovalCount += (dup.count - 1);
+    crossSourceDuplicates.forEach(dup => {
+      crossSourceRemovalCount += (dup.count - 1);
     });
   }
 
-  console.log(`${DRY_RUN ? 'Would remove' : 'Removed'} ${timeWindowRemovalCount} time window duplicates\n`);
+  console.log(`${DRY_RUN ? 'Would remove' : 'Removed'} ${crossSourceRemovalCount} cross-source duplicates\n`);
 } else {
-  console.log('✅ No cross-source time window duplicates found\n');
+  console.log('✅ No cross-source duplicates found\n');
 }
 
 /**
- * PASS 4: Fuzzy Title Match (Levenshtein distance or similarity)
- * Catches similar titles like "JAZZ NIGHT" vs "Jazz Night at Six D.O.G.S"
+ * PASS 4: Fuzzy Title Match (Case-Insensitive + Trimmed)
+ * Catches title variations with different capitalization/spacing
  */
-console.log('🔤 PASS 4: Fuzzy Title Match (Case-Insensitive + Trimmed)');
-console.log('-'.repeat(50));
+console.log('🔤 PASS 4: Fuzzy Title Match (Case-Insensitive)');
+console.log('-'.repeat(60));
 
 const fuzzyDuplicates = db.prepare(`
   SELECT LOWER(TRIM(title)) as normalized_title,
@@ -251,6 +416,8 @@ const fuzzyDuplicates = db.prepare(`
          GROUP_CONCAT(title, ' | ') as original_titles
   FROM events
   WHERE start_date >= date('now')
+    AND (dedup_protected = 0 OR dedup_protected IS NULL)
+    AND LENGTH(title) >= 5
   GROUP BY LOWER(TRIM(title)), venue_name, date(start_date)
   HAVING COUNT(*) > 1
   ORDER BY count DESC;
@@ -285,6 +452,8 @@ if (fuzzyDuplicates.length > 0) {
           ) as rn
         FROM events
         WHERE start_date >= date('now')
+          AND (dedup_protected = 0 OR dedup_protected IS NULL)
+          AND LENGTH(title) >= 5
       )
       WHERE rn > 1
     )
@@ -311,18 +480,19 @@ if (fuzzyDuplicates.length > 0) {
  * Catches "Gazarte Main Stage" vs "Gazarte Main Stage!"
  */
 console.log('🏛️  PASS 5: Venue Normalization');
-console.log('-'.repeat(50));
+console.log('-'.repeat(60));
 
 const venueNormalizedDuplicates = db.prepare(`
   SELECT title,
-         REPLACE(REPLACE(REPLACE(venue_name, '!', ''), '-', ''), '.', '') as normalized_venue,
+         LOWER(REPLACE(REPLACE(REPLACE(venue_name, '!', ''), '-', ''), '.', '')) as normalized_venue,
          date(start_date) as date,
          COUNT(*) as count,
          GROUP_CONCAT(venue_name, ' | ') as original_venues
   FROM events
   WHERE start_date >= date('now')
+    AND (dedup_protected = 0 OR dedup_protected IS NULL)
   GROUP BY title,
-           REPLACE(REPLACE(REPLACE(venue_name, '!', ''), '-', ''), '.', ''),
+           LOWER(REPLACE(REPLACE(REPLACE(venue_name, '!', ''), '-', ''), '.', '')),
            date(start_date)
   HAVING COUNT(*) > 1
   ORDER BY count DESC;
@@ -345,7 +515,7 @@ if (venueNormalizedDuplicates.length > 0) {
         SELECT id,
           ROW_NUMBER() OVER (
             PARTITION BY title,
-              REPLACE(REPLACE(REPLACE(venue_name, '!', ''), '-', ''), '.', ''),
+              LOWER(REPLACE(REPLACE(REPLACE(venue_name, '!', ''), '-', ''), '.', '')),
               date(start_date)
             ORDER BY
               LENGTH(venue_name) DESC,
@@ -358,6 +528,7 @@ if (venueNormalizedDuplicates.length > 0) {
           ) as rn
         FROM events
         WHERE start_date >= date('now')
+          AND (dedup_protected = 0 OR dedup_protected IS NULL)
       )
       WHERE rn > 1
     )
@@ -380,50 +551,49 @@ if (venueNormalizedDuplicates.length > 0) {
 }
 
 /**
- * PASS 6: Default Time Deduplication (18:00, 22:00 likely duplicates)
- * Events at same venue with scraper default times (18:00 or 22:00)
+ * PASS 6: Suspicious Timestamp Cleanup (CONSERVATIVE)
+ * Only removes obvious scraper defaults (00:00, 12:00)
  */
-console.log('⏰ PASS 6: Default Time Deduplication');
-console.log('-'.repeat(50));
+console.log('⏰ PASS 6: Suspicious Timestamp Cleanup (CONSERVATIVE)');
+console.log('-'.repeat(60));
 
-const defaultTimeDuplicates = db.prepare(`
-  SELECT title, venue_name,
+const suspiciousTimestamps = db.prepare(`
+  SELECT title, venue_name, date(start_date) as date,
          COUNT(*) as count,
          GROUP_CONCAT(time(start_date), ' | ') as times,
-         GROUP_CONCAT(source, ' | ') as sources
+         GROUP_CONCAT(id, ',') as ids
   FROM events
   WHERE start_date >= date('now')
-    AND (time(start_date) IN ('18:00:00', '22:00:00'))
-  GROUP BY title, venue_name
+    AND (dedup_protected = 0 OR dedup_protected IS NULL)
+  GROUP BY title, venue_name, date(start_date)
   HAVING COUNT(*) > 1
+    AND MIN(time(start_date)) IN ('00:00:00', '12:00:00')
   ORDER BY count DESC;
 `).all() as Array<{
   title: string;
   venue_name: string;
+  date: string;
   count: number;
   times: string;
-  sources: string;
+  ids: string;
 }>;
 
-if (defaultTimeDuplicates.length > 0) {
-  console.log(`Found ${defaultTimeDuplicates.length} default time duplicates\n`);
+if (suspiciousTimestamps.length > 0) {
+  console.log(`Found ${suspiciousTimestamps.length} suspicious timestamp groups\n`);
 
-  let defaultTimeRemovalCount = 0;
+  let timestampRemovalCount = 0;
 
-  const defaultTimeDeleteStmt = db.prepare(`
+  const timestampDeleteStmt = db.prepare(`
     DELETE FROM events WHERE id IN (
       SELECT id FROM (
         SELECT id,
           ROW_NUMBER() OVER (
-            PARTITION BY title, venue_name
+            PARTITION BY title, venue_name, date(start_date)
             ORDER BY
               CASE time(start_date)
-                WHEN '20:00:00' THEN 1  -- Prefer realistic times
-                WHEN '21:00:00' THEN 2
-                WHEN '19:00:00' THEN 3
-                WHEN '22:00:00' THEN 4  -- Less realistic
-                WHEN '18:00:00' THEN 5  -- Likely scraper default
-                ELSE 6
+                WHEN '00:00:00' THEN 2  -- Obvious default
+                WHEN '12:00:00' THEN 2  -- Unlikely for evening events
+                ELSE 1                   -- Realistic times
               END,
               CASE source
                 WHEN 'more.com' THEN 1
@@ -435,50 +605,56 @@ if (defaultTimeDuplicates.length > 0) {
           ) as rn
         FROM events
         WHERE start_date >= date('now')
-          AND time(start_date) IN ('18:00:00', '22:00:00')
+          AND (dedup_protected = 0 OR dedup_protected IS NULL)
       )
       WHERE rn > 1
     )
   `);
 
   if (!DRY_RUN) {
-    const result = defaultTimeDeleteStmt.run();
-    defaultTimeRemovalCount = result.changes;
-    totalRemoved += defaultTimeRemovalCount;
-    removalsByPass['Default time'] = defaultTimeRemovalCount;
+    const result = timestampDeleteStmt.run();
+    timestampRemovalCount = result.changes;
+    totalRemoved += timestampRemovalCount;
+    removalsByPass['Timestamp cleanup'] = timestampRemovalCount;
   } else {
-    defaultTimeDuplicates.forEach(dup => {
-      defaultTimeRemovalCount += (dup.count - 1);
+    suspiciousTimestamps.forEach(dup => {
+      timestampRemovalCount += (dup.count - 1);
     });
   }
 
-  console.log(`${DRY_RUN ? 'Would remove' : 'Removed'} ${defaultTimeRemovalCount} default time duplicates\n`);
+  console.log(`${DRY_RUN ? 'Would remove' : 'Removed'} ${timestampRemovalCount} suspicious timestamp duplicates\n`);
 } else {
-  console.log('✅ No default time duplicates found\n');
+  console.log('✅ No suspicious timestamp duplicates found\n');
 }
 
 /**
  * Final Verification
  */
-console.log('='.repeat(50));
+console.log('='.repeat(60));
 console.log('📊 FINAL SUMMARY');
-console.log('='.repeat(50) + '\n');
+console.log('='.repeat(60) + '\n');
 
 const finalStats = db.prepare(`
   SELECT
     COUNT(*) as total,
+    SUM(CASE WHEN dedup_protected = 1 THEN 1 ELSE 0 END) as protected,
     COUNT(DISTINCT url) as unique_urls,
     COUNT(DISTINCT title || venue_name || date(start_date)) as unique_events
   FROM events
   WHERE start_date >= date('now');
-`).get() as { total: number; unique_urls: number; unique_events: number };
+`).get() as { total: number; protected: number; unique_urls: number; unique_events: number };
 
-console.log(`Total events: ${finalStats.total}`);
+const initialCount = finalStats.total + totalRemoved;
+const removalRate = totalRemoved / initialCount;
+
+console.log(`Events before deduplication: ${initialCount}`);
+console.log(`Protected (recurring): ${finalStats.protected}`);
+console.log(`Events after deduplication: ${finalStats.total}`);
 console.log(`Unique URLs: ${finalStats.unique_urls}`);
 console.log(`Unique (title+venue+date): ${finalStats.unique_events}\n`);
 
 if (!DRY_RUN) {
-  console.log(`✅ Successfully removed ${totalRemoved} duplicates\n`);
+  console.log(`✅ Successfully removed ${totalRemoved} duplicates (${(removalRate * 100).toFixed(1)}%)\n`);
 
   if (Object.keys(removalsByPass).length > 0) {
     console.log('Breakdown by pass:');
@@ -488,11 +664,14 @@ if (!DRY_RUN) {
     console.log('');
   }
 } else {
-  let totalWouldRemove = 0;
-  for (const count of Object.values(removalsByPass)) {
-    totalWouldRemove += count;
+  console.log(`💡 Would remove ${totalRemoved} duplicates (${(removalRate * 100).toFixed(1)}%)\n`);
+
+  if (removalRate > REMOVAL_THRESHOLD) {
+    console.log(`⚠️  WARNING: High removal rate (${(removalRate * 100).toFixed(1)}%)`);
+    console.log(`   Threshold: ${REMOVAL_THRESHOLD * 100}%`);
+    console.log(`   Review the report carefully before applying.`);
+    console.log(`   Consider running with --dry-run first.\n`);
   }
-  console.log(`💡 Would remove ${totalWouldRemove} duplicates (use without --dry-run to apply)\n`);
 }
 
 if (finalStats.total !== finalStats.unique_events) {

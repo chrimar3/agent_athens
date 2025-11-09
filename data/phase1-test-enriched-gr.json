@@ -1,0 +1,26 @@
+[
+  {
+    "event_id": "0c47c72c04904378",
+    "title": "YIANNIS VAGIANOS QUARTET “Second Take”",
+    "type": "concert",
+    "language": "gr",
+    "full_description": "[PLACEHOLDER - Would call Task tool with enriched prompt]\n\nENRICHED CONTEXT PROVIDED:\nGenerate a compelling Greek (ελληνικά) description for this cultural event in Athens, Greece.\n\nEvent Details:\n- Title: YIANNIS VAGIANOS QUARTET “Second Take”\n- Type: concert\n- Venue: Note Jazz Club\n- Date: 2025-11-05T20:00:00+02:00\n- Price: €12\n- Event Description: 5 Νοεμβριου YIANNIS VAGIANOS QUARTET “Second Take” Half Note Jazz Club\n\nVenue Context:\nAthens' premier jazz venue since 1994, located at the foot of Pangrati hill. The intimate 130-seat club features acoustics specifically designed fo...\n\nThis enriched prompt contains ~280 words of context (vs. previous ~15 words).\nExpected AI output: 405-430 words (vs. previous 300-378 words).",
+    "word_count": 107
+  },
+  {
+    "event_id": "jeremy-2025-11-04",
+    "title": "ΝΤΕΚΑΝΤΑΝΣ - JEREMY",
+    "type": "concert",
+    "language": "gr",
+    "full_description": "[PLACEHOLDER - Would call Task tool with enriched prompt]\n\nENRICHED CONTEXT PROVIDED:\nGenerate a compelling Greek (ελληνικά) description for this cultural event in Athens, Greece.\n\nEvent Details:\n- Title: ΝΤΕΚΑΝΤΑΝΣ - JEREMY\n- Type: concert\n- Venue: Λοσαντζελε Comedy Club\n- Date: 2025-11-04T21:00:00+03:00\n- Price: €10\n- Event Description: ΝΤΕΚΑΝΤΑΝΣ – η νέα stand-up comedy παράσταση του Jeremy στο Λοσάντζελε. Καυστικό χιούμορ, κοινωνική σάτιρα και γέλιο για όλα όσα μας τρελαίνουν: social media, σχέσεις, ενοίκια\n\nVenue Context:\nAthens' dedicated stand-up comedy venue, following th...\n\nThis enriched prompt contains ~280 words of context (vs. previous ~15 words).\nExpected AI output: 405-430 words (vs. previous 300-378 words).",
+    "word_count": 105
+  },
+  {
+    "event_id": "eat-drink-draw-2025-11-05",
+    "title": "Eat, Drink & Draw",
+    "type": "concert",
+    "language": "gr",
+    "full_description": "[PLACEHOLDER - Would call Task tool with enriched prompt]\n\nENRICHED CONTEXT PROVIDED:\nGenerate a compelling Greek (ελληνικά) description for this cultural event in Athens, Greece.\n\nEvent Details:\n- Title: Eat, Drink & Draw\n- Type: concert\n- Venue: CHNOPS Flavouring Curiosity\n- Date: 2025-11-05T18:00:00+03:00\n- Price: €30\n- Event Description: Ένα ταξίδι δημιουργικού πειραματισμού με την Πέρσα Ζαχαριά Καλώς ήρθες σε ένα ταξίδι όπου το τραπέζι γίνεται καμβάς και η γεύση συναντά το χρώμα, τη φαντασία και τη χαρά της δημιουργίας!\n\nVenue Context:\nCHNOPS Flavouring Curiosity, a cultural...\n\nThis enriched prompt contains ~280 words of context (vs. previous ~15 words).\nExpected AI output: 405-430 words (vs. previous 300-378 words).",
+    "word_count": 109
+  }
+]

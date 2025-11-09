@@ -50,9 +50,13 @@
       "tags": [],
       "venue": {
         "name": "Δημοτικη Αγορα Κυψελης",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Fokionos Negri 42, Kypseli, Athens 113 61",
+        "neighborhood": "Kypseli",
+        "coordinates": {
+          "lat": 38.0015,
+          "lon": 23.7335
+        },
+        "capacity": 300
       },
       "price": {
         "type": "paid",
@@ -63,7 +67,7 @@
       "url": "https://www.more.com/gr-el/tickets/happenings/marmelada-kypseli-skitsarontas-stin-agora-me-ton-panpan/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.598Z",
-      "updatedAt": "2025-10-22T17:16:25.598Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -81,9 +85,13 @@
       "tags": [],
       "venue": {
         "name": "Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Mitropoleos 44, Athens 105 63",
+        "neighborhood": "Syntagma / Technopolis",
+        "coordinates": {
+          "lat": 37.9755,
+          "lon": 23.7305
+        },
+        "capacity": 200
       },
       "price": {
         "type": "paid",
@@ -94,7 +102,7 @@
       "url": "https://www.more.com/gr-el/tickets/happenings/children/christmas/avanti-maestro-christmas-edition/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.607Z",
-      "updatedAt": "2025-10-22T17:16:25.607Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -205,9 +213,13 @@
       "tags": [],
       "venue": {
         "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "address": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75",
+        "neighborhood": "Ilissia",
+        "coordinates": {
+          "lat": 37.975,
+          "lon": 23.753
+        },
+        "capacity": 600
       },
       "price": {
         "type": "paid",
@@ -218,7 +230,7 @@
       "url": "https://www.more.com/gr-el/tickets/dance/staxtopouta/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.625Z",
-      "updatedAt": "2025-10-22T17:16:25.625Z",
+      "updatedAt": "2025-11-06 13:34:35",
       "language": "en"
     },
     {
@@ -255,7 +267,7 @@
   ],
   "meta": {
     "total": 8,
-    "lastUpdate": "2025-11-05T21:58:58.102Z",
+    "lastUpdate": "2025-11-09T18:52:19.442Z",
     "url": "https://agent-athens.netlify.app/performance-next-month"
   }
 }
