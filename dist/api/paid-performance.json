@@ -8,267 +8,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "738e43e9abdf4031",
-      "title": "Η Όπερα γίνεται παιχνίδι",
-      "description": "9 Νοε - 14 Δεκ Η Όπερα γίνεται παιχνίδι Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-      "fullDescription": "Opera Becomes Play: A Family Journey Through Musical Theater at the Maria Callas Museum\n\nIn the heart of Athens' Syntagma district, the Maria Callas Museum transforms grand opera into accessible family entertainment through \"Opera Becomes Play\" (Η Όπερα γίνεται παιχνίδι), a multi-week program running from November 9 through December 14, 2025. This innovative series reimagines the operatic art form that made Maria Callas a global icon, bringing its dramatic storytelling and musical richness to young audiences in an interactive, play-based format.\n\nThe program honors the legacy of Greece's greatest soprano by making opera approachable for children and their families. Rather than passive observation, \"Opera Becomes Play\" invites participants into the world of musical theater through hands-on activities, simplified storytelling, and age-appropriate performances. The 200-capacity venue within the museum's Family Programs space creates an intimate environment where young attendees can experience operatic works without the formality that often intimidates newcomers to the art form.\n\nRunning across six weeks, the program provides multiple opportunities for families to attend, making it ideal for those seeking regular cultural engagement during the autumn season. The extended schedule suggests a structured curriculum that builds children's understanding of opera progressively, likely introducing different operatic concepts, famous arias, or beloved stories across multiple sessions. This approach allows young participants to develop familiarity with operatic conventions while discovering how music and drama combine to create powerful theatrical experiences.\n\nThe Maria Callas Museum's location near Syntagma Square places this cultural offering at Athens' accessible center, easily reached by metro and surrounded by the city's historical landmarks. Families visiting the program can combine their cultural education with exploration of the surrounding neighborhood, from the National Garden to the nearby Plaka district. The museum itself serves as a living tribute to Callas' artistry, preserving her costumes, recordings, and personal effects while actively continuing her mission of making opera relevant to contemporary audiences.\n\nThis program represents exactly the kind of cultural bridge that keeps opera vital for future generations. By transforming potentially intimidating high art into playful, participatory experiences, \"Opera Becomes Play\" demonstrates that opera's emotional power and musical beauty transcend age and experience level. For Athenian families seeking meaningful cultural activities that combine education with entertainment, this six-week series offers an exceptional introduction to operatic tradition through the lens of Greece's most celebrated voice. The program runs throughout autumn, providing a warm indoor cultural activity as Athens transitions into winter.",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-        "address": "Mitropoleos 44, Athens 105 63",
-        "neighborhood": "Syntagma / Technopolis",
-        "coordinates": {
-          "lat": 37.9755,
-          "lon": 23.7305
-        },
-        "capacity": 200
-      },
-      "price": {
-        "type": "paid",
-        "amount": 13,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/happenings/children/i-opera-ginetai-paixnidi/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.511Z",
-      "updatedAt": "2025-11-07 00:35:40",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "ab7785d404bfb425",
-      "title": "Πρόγραμμα «Φαντασία και περιέργεια:",
-      "description": "9 Νοεμβριου Πρόγραμμα «Φαντασία και περιέργεια: Ελληνικο Παιδικο Μουσειο",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Ελληνικο Παιδικο Μουσειο",
-        "address": "Rigillis & Vas. Georgiou B' 17-19, Athens 106 75",
-        "neighborhood": "Plaka / Athens Conservatoire",
-        "coordinates": {
-          "lat": 37.975,
-          "lon": 23.752
-        },
-        "capacity": 150
-      },
-      "price": {
-        "type": "paid",
-        "amount": 20,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/museums/children/programma-fantasia-kai-periergeia/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.511Z",
-      "updatedAt": "2025-11-06 13:34:35",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "cfa48bed35b6bd32",
-      "title": "Μουσείο Αλέκος Φασιανός Well- being Yoga στο Μουσείο | ΘΈΣΗ & ΦΥΣΗ",
-      "description": "9 Νοεμβριου Μουσείο Αλέκος Φασιανός Well- being Yoga στο Μουσείο | ΘΈΣΗ & ΦΥΣΗ Μουσειο Αλεκος Φασιανος",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Μουσειο Αλεκος Φασιανος",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/museums/well-being-yoga-sto-mouseio-thesi-fysi/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.512Z",
-      "updatedAt": "2025-10-22T17:16:25.512Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "88bf00a0783b6e7a",
-      "title": "Μετέωρα-Καλαμπάκα, μονοήμερη εκδρομή",
-      "description": "9 Νοεμβριου Μετέωρα-Καλαμπάκα, μονοήμερη εκδρομή Metro Σταθμος Λαρισης",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Metro Σταθμος Λαρισης",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 30,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/walk/meteora-kalambaka-monoimeri-ekdromi/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.512Z",
-      "updatedAt": "2025-10-22T17:16:25.512Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "f281f80d250f4e85",
-      "title": "Διαδραστική Περιήγηση στην Ιερά Μονή του Οσίου Λουκά",
-      "description": "9 Νοεμβριου Διαδραστική Περιήγηση στην Ιερά Μονή του Οσίου Λουκά Ελληνικος Κοσμος – Μουσειο - Θολος",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Ελληνικος Κοσμος – Μουσειο - Θολος",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "with-ticket",
-        "amount": null,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/museums/diadrastiki-periigisi-stin-iera-moni-tou-osiou-louka/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.512Z",
-      "updatedAt": "2025-10-22T17:16:25.512Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "774896c8bc5cc9c5",
-      "title": "Οι υφές του θεάτρου στο Μουσείο",
-      "description": "9 Νοεμβριου Οι υφές του θεάτρου στο Μουσείο Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-        "address": "Mitropoleos 44, Athens 105 63",
-        "neighborhood": "Syntagma / Technopolis",
-        "coordinates": {
-          "lat": 37.9755,
-          "lon": 23.7305
-        },
-        "capacity": 200
-      },
-      "price": {
-        "type": "with-ticket",
-        "amount": null,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/happenings/children/oi-yfes-tou-theatrou-sto-mouseio/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.512Z",
-      "updatedAt": "2025-11-06 13:34:35",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "c82a13eecc041143",
-      "title": "ΚΟΛΟΣΣΟΣ H HOTELS COLLECTION - ΠΡΟΜΗΘΕΑΣ ΒΙΚΟΣ COLA",
-      "description": "9 Νοεμβριου ΚΟΛΟΣΣΟΣ H HOTELS COLLECTION - ΠΡΟΜΗΘΕΑΣ ΒΙΚΟΣ COLA KALLITHEA INDOOR HALL",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "sports"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "KALLITHEA INDOOR HALL",
-        "address": "KALLITHEA INDOOR HALL",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 5,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/sports/kolossos-h-hotels-collection-promitheas-bikos-cola/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.933Z",
-      "updatedAt": "2025-10-26T21:21:00.933Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "6941f3c6b5e03ae2",
-      "title": "Adrenaline Explosion: Genesis",
-      "description": "9 Νοεμβριου Adrenaline Explosion: Genesis ΑΘΛΗΤΙΚΟ ΚΕΝΤΡΟ ΧΑΝΘ. \"ΜΙΜΗΣ ΤΣΙΚΙΝΑΣ\"",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "sports"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ΧΑΝΘ. \"ΜΙΜΗΣ ΤΣΙΚΙΝΑΣ\"",
-        "address": "ΧΑΝΘ. \"ΜΙΜΗΣ ΤΣΙΚΙΝΑΣ\"",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 25,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/sports/adrenaline-explosion-genesis/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.933Z",
-      "updatedAt": "2025-10-26T21:21:00.933Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
       "id": "bbc20591a19c74ed",
       "title": "Μαθήματα Α' Βοηθειών (για ενήλικες)",
       "description": "12 Νοεμβριου Μαθήματα Α' Βοηθειών (για ενήλικες) Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Maker Space",
@@ -299,7 +38,7 @@
       "url": "https://www.more.com/gr-el/tickets/seminar/mathimata-a-boitheion-gia-enilikes/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.524Z",
-      "updatedAt": "2025-11-09 17:58:41",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -330,7 +69,7 @@
       "url": "https://www.more.com/gr-el/tickets/walk/mylos-ton-ksotikon-trikala-monoimeri-ekdromi-1/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.526Z",
-      "updatedAt": "2025-10-22T17:16:25.526Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -361,7 +100,7 @@
       "url": "https://www.more.com/gr-el/tickets/walk/limni-doksa-monoimeri-ekdromi-3/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.540Z",
-      "updatedAt": "2025-10-22T17:16:25.540Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -423,7 +162,7 @@
       "url": "https://www.more.com/gr-el/tickets/happenings/arxitektoniko-ergastiri-gia-paidia-1/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.543Z",
-      "updatedAt": "2025-10-22T17:16:25.543Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -454,7 +193,7 @@
       "url": "https://www.more.com/gr-el/tickets/walk/dimitsana-karytaina-monoimeri-ekdromi-1/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.952Z",
-      "updatedAt": "2025-10-26T21:21:00.952Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -521,7 +260,7 @@
       "url": "https://www.more.com/gr-el/tickets/museums/children/programma-syndeomai-simainei-sebomai/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.555Z",
-      "updatedAt": "2025-11-09 18:26:15",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -552,7 +291,7 @@
       "url": "https://www.more.com/gr-el/tickets/walk/libadeia-piges-kryas1-imeri/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.559Z",
-      "updatedAt": "2025-10-22T17:16:25.559Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -583,7 +322,7 @@
       "url": "https://www.more.com/gr-el/tickets/sports/kolossos-h-hotels-collection-peristeri/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.960Z",
-      "updatedAt": "2025-10-26T21:21:00.960Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -645,7 +384,7 @@
       "url": "https://www.more.com/gr-el/tickets/workshop/istories-apo-to-parko-stauros-niarxos/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.967Z",
-      "updatedAt": "2025-10-26T21:21:00.967Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -774,7 +513,7 @@
       "url": "https://www.more.com/gr-el/tickets/walk/monivlasioutrikala-1-imeri/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.591Z",
-      "updatedAt": "2025-10-22T17:16:25.591Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -1411,8 +1150,8 @@
     }
   ],
   "meta": {
-    "total": 44,
-    "lastUpdate": "2025-11-09T19:12:46.285Z",
+    "total": 36,
+    "lastUpdate": "2025-11-11T22:13:51.016Z",
     "url": "https://agent-athens.netlify.app/paid-performance"
   }
 }

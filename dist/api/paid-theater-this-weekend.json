@@ -38,7 +38,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/alexandria/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.532Z",
-      "updatedAt": "2025-11-07 00:58:10",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -131,7 +131,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/killing-godot-by-nicholas-kazan/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.946Z",
-      "updatedAt": "2025-10-26T21:21:00.946Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -162,7 +162,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/laponia-periodeia/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.946Z",
-      "updatedAt": "2025-10-26T21:21:00.946Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -224,7 +224,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/ayto-pou-gennietai-kai-pethainei-sto-fos/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.947Z",
-      "updatedAt": "2025-10-26T21:21:00.947Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -255,7 +255,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/th-adamakos-basilias-tou-tipota-on-tour/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.947Z",
-      "updatedAt": "2025-10-26T21:21:00.947Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -348,7 +348,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/fyki-ston-bytho-texnokosmos/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.948Z",
-      "updatedAt": "2025-10-26T21:21:00.948Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -410,7 +410,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/children/ta-stena-papoutsia/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.542Z",
-      "updatedAt": "2025-10-22T17:16:25.542Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -441,7 +441,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/oi-kalpides-2os-xronos/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.543Z",
-      "updatedAt": "2025-10-22T17:16:25.543Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -472,7 +472,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/mia-balitsa-paramythia-taksideuoune-sto-xrono/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.952Z",
-      "updatedAt": "2025-10-26T21:21:00.952Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -503,7 +503,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/omirou-odysseia/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.952Z",
-      "updatedAt": "2025-10-26T21:21:00.952Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -540,7 +540,7 @@
   ],
   "meta": {
     "total": 17,
-    "lastUpdate": "2025-11-09T19:12:46.258Z",
+    "lastUpdate": "2025-11-11T22:13:50.992Z",
     "url": "https://agent-athens.netlify.app/paid-theater-this-weekend"
   }
 }

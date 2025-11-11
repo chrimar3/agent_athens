@@ -4,10 +4,42 @@
     "price": "paid",
     "time": "tomorrow"
   },
-  "events": [],
+  "events": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "65879476ee2e46d1",
+      "title": "Μύλος των Ξωτικών-Τρίκαλα, μονοήμερη εκδρομή",
+      "description": "13 Νοε - 30 Δεκ Μύλος των Ξωτικών-Τρίκαλα, μονοήμερη εκδρομή Metro Σταθμος Λαρισης",
+      "startDate": "2025-11-13T00:00:00.000+02:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Metro Σταθμος Λαρισης",
+        "address": "",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 28,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/walk/mylos-ton-ksotikon-trikala-monoimeri-ekdromi-1/",
+      "source": "more.com",
+      "createdAt": "2025-10-22T17:16:25.526Z",
+      "updatedAt": "2025-11-09 23:52:26",
+      "language": "en"
+    }
+  ],
   "meta": {
-    "total": 0,
-    "lastUpdate": "2025-11-09T19:12:46.277Z",
+    "total": 1,
+    "lastUpdate": "2025-11-11T22:13:51.009Z",
     "url": "https://agent-athens.netlify.app/paid-performance-tomorrow"
   }
 }

@@ -7,10 +7,10 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "837c0aea6e7e6ec4",
-      "title": "Ο Γύρος του κόσμου με 5 παραμύθια - Παραμυθοχώρα",
-      "description": "9 - 30 Νοεμβριου Ο Γύρος του κόσμου με 5 παραμύθια - Παραμυθοχώρα Θεατρο 104",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
+      "id": "1415cca319466bcc",
+      "title": "ΣΠΗΛΙΟΣ ΦΛΩΡΟΣ - ΣΤΟ ΤΡΕΞΙΜΟ ΑΘΗΝΑ",
+      "description": "12 Νοεμβριου ΣΠΗΛΙΟΣ ΦΛΩΡΟΣ - ΣΤΟ ΤΡΕΞΙΜΟ ΑΘΗΝΑ ΘΕΑΤΡΟ ΑΚΡΟΠΟΛ",
+      "startDate": "2025-11-12T00:00:00.000+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -18,38 +18,7 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Θεατρο 104",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 11,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/o-gyros-tou-kosmou-me-5-paramythia-paramythoxora/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.510Z",
-      "updatedAt": "2025-10-22T17:16:25.510Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "4cc6064dd2a37b6b",
-      "title": "ΟΔΥΣΣΕΒΑΧ",
-      "description": "9 Νοε - 4 Ιαν ΟΔΥΣΣΕΒΑΧ Κινηματοθεατρο ΚΟΛΟΣΣΑΙΟΝ",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κινηματοθεατρο ΚΟΛΟΣΣΑΙΟΝ",
+        "name": "ΘΕΑΤΡΟ ΑΚΡΟΠΟΛ",
         "address": "",
         "neighborhood": null,
         "capacity": null
@@ -60,19 +29,19 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/odyssebax/",
+      "url": "https://www.more.com/gr-el/tickets/theater/spilios-floros-sto-treksimo-athina/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.510Z",
-      "updatedAt": "2025-10-22T17:16:25.510Z",
+      "createdAt": "2025-10-22T17:16:25.521Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "6f46543463a10086",
-      "title": "\"Αλυσοδεμένος ελέφαντας και ο τρομερός εχθρός\" στο Ηράκλειο Κρήτης",
-      "description": "9 Νοεμβριου \"Αλυσοδεμένος ελέφαντας και ο τρομερός εχθρός\" στο Ηράκλειο Κρήτης Αστορια",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
+      "id": "38b2c3ed239fb6e5",
+      "title": "Ψυχάρης Το Ταξίδι μου",
+      "description": "12 Νοε - 28 Ιαν Ψυχάρης Το Ταξίδι μου Θεατρο Μεταξουργειο",
+      "startDate": "2025-11-12T20:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -80,256 +49,8 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Αστορια",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/offer/alysodemenos-elefantas-kai-o-tromeros-exthros-sto-irakleio-kritis/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.511Z",
-      "updatedAt": "2025-10-22T17:16:25.511Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "0a187bc50004fec2",
-      "title": "ΟΙ ΠΕΡΙΠΕΤΕΙΕΣ ΤΗΣ ΠΕΠΠΑ",
-      "description": "1 - 30 Νοεμβριου ΟΙ ΠΕΡΙΠΕΤΕΙΕΣ ΤΗΣ ΠΕΠΠΑ Πολλαπλοι χωροι",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 12,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/oi-peripeteies-ti-peppa/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.514Z",
-      "updatedAt": "2025-10-22T17:16:25.514Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "adaca774bb423c08",
-      "title": "ΑΠΑΓΟΡΕΥΕΤΑΙ Η ΜΟΥΣΙΚΗ",
-      "description": "9 Νοε - 21 Δεκ ΑΠΑΓΟΡΕΥΕΤΑΙ Η ΜΟΥΣΙΚΗ Θεατρο Αυλαια",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ΜΟΥΣΙΚΗ Θεατρο Αυλαια",
-        "address": "ΜΟΥΣΙΚΗ Θεατρο Αυλαια",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/apagoreuetai-i-mousiki/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.932Z",
-      "updatedAt": "2025-10-26T21:21:00.932Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "66f11890ce9dd1d6",
-      "title": "20 ΒΗΜΑΤΑ ΜΠΡΟΣΤΑ του ΧΟΡΧΕ ΜΠΟΥΚΑΪ",
-      "description": "9 - 23 Νοεμβριου 20 ΒΗΜΑΤΑ ΜΠΡΟΣΤΑ του ΧΟΡΧΕ ΜΠΟΥΚΑΪ ΘΕΑΤΡΟ ΑΘΗΝΑΙΟΝ ΘΕΣΣΑΛΟΝΙΚΗ - Αιθουσα 1",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "- Αιθουσα 1",
-        "address": "- Αιθουσα 1",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 16,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/20-bimata-mprosta-xorxe-mpoukai/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.932Z",
-      "updatedAt": "2025-10-26T21:21:00.932Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "9122c42f34d4958e",
-      "title": "η μικρή λέξη αγάπη - Α. Κορτώ, 3ος κύκλος",
-      "description": "9 - 23 Νοεμβριου η μικρή λέξη αγάπη - Α. Κορτώ, 3ος κύκλος Θεατρο Απο Κοινου",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Απο Κοινου",
-        "address": "Θεατρο Απο Κοινου",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 8,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/i-mikri-leksi-agapi-a-korto-3os-kyklos/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.933Z",
-      "updatedAt": "2025-10-26T21:21:00.933Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "98d67c7a3cbf0687",
-      "title": "ΘΕΑΤΡΟ ΜΑΡΙΟΝΕΤΑΣ-ΚΟΥΚΛΟΘΕΑΤΡΟ",
-      "description": "9 Νοε - 25 Ιαν ΘΕΑΤΡΟ ΜΑΡΙΟΝΕΤΑΣ-ΚΟΥΚΛΟΘΕΑΤΡΟ Calderone Art Space",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Calderone Art Space",
-        "address": "Calderone Art Space",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 8,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/theatro-marionetas-kouklotheatro/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.933Z",
-      "updatedAt": "2025-10-26T21:21:00.933Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "7d382938805a9aec",
-      "title": "ΠΟΥΠΟΥΛapp",
-      "description": "9 Νοε - 28 Δεκ ΠΟΥΠΟΥΛapp Θεατρο Αργω - Κεντρικη Σκηνη",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Αργω - Κεντρικη Σκηνη",
-        "address": "Θεατρο Αργω - Κεντρικη Σκηνη",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/poupoulapp/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.933Z",
-      "updatedAt": "2025-10-26T21:21:00.933Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "7e3b97994a6f974f",
-      "title": "Τα γενέθλια της Ριρίκας - 3η χρονιά",
-      "description": "9 Νοε - 25 Ιαν Τα γενέθλια της Ριρίκας - 3η χρονιά Θεατρο Μεταξουργειο",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Μεταξουργειο",
-        "address": "Θεατρο Μεταξουργειο",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/offer/ta-genethlia-tis-ririkas-3i-xronia/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.933Z",
-      "updatedAt": "2025-10-26T21:21:00.933Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "16aa7c1acf8b94e1",
-      "title": "ΡΩΜΑΙΟΣ & ΙΟΥΛΙΕΤΑ... ΣΑΝ ΤΟ ΣΚΥΛΟ ΜΕ ΤΗ ΓΑΤΑ",
-      "description": "9 Νοε - 29 Μαρ ΡΩΜΑΙΟΣ & ΙΟΥΛΙΕΤΑ... ΣΑΝ ΤΟ ΣΚΥΛΟ ΜΕ ΤΗ ΓΑΤΑ Θεατρο Κατω απ΄τη γεφυρα",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Κατω απ΄τη γεφυρα",
-        "address": "Θεατρο Κατω απ΄τη γεφυρα",
+        "name": "μου Θεατρο Μεταξουργειο",
+        "address": "μου Θεατρο Μεταξουργειο",
         "neighborhood": null,
         "capacity": null
       },
@@ -339,16 +60,78 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/romaios-ioulieta-san-to-skylo-me-ti-gata/",
+      "url": "https://www.more.com/gr-el/tickets/theater/psycharis-to-taksidi-mou/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.934Z",
-      "updatedAt": "2025-10-26T21:21:00.934Z",
+      "createdAt": "2025-10-26T21:21:00.940Z",
+      "updatedAt": "2025-10-26T21:21:00.940Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "985346a9ea02e20f",
+      "title": "Όπως σας αρέσει",
+      "description": "12 Νοε - 17 Δεκ Όπως σας αρέσει Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
+      "startDate": "2025-11-12T20:00:00+02:00",
+      "endDate": null,
+      "type": "theater",
+      "genres": [
+        "theater"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
+        "address": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 10,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/opos-sas-aresei-1/",
+      "source": "more.com",
+      "createdAt": "2025-10-26T21:21:00.940Z",
+      "updatedAt": "2025-11-09 23:52:26",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "042f5f475a9825be",
+      "title": "Taniko",
+      "description": "12 Νοε - 4 Δεκ Taniko Studio Μαυρομιχαλη",
+      "startDate": "2025-11-12T20:00:00+02:00",
+      "endDate": null,
+      "type": "theater",
+      "genres": [
+        "theater"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Studio Μαυρομιχαλη",
+        "address": "Studio Μαυρομιχαλη",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 12,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/taniko/",
+      "source": "more.com",
+      "createdAt": "2025-10-26T21:21:00.940Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     }
   ],
   "meta": {
-    "total": 11,
-    "lastUpdate": "2025-11-09T19:12:46.016Z",
+    "total": 4,
+    "lastUpdate": "2025-11-11T22:13:50.755Z",
     "url": "https://agent-athens.netlify.app/theater-today"
   }
 }

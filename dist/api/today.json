@@ -6,10 +6,10 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "837c0aea6e7e6ec4",
-      "title": "Ο Γύρος του κόσμου με 5 παραμύθια - Παραμυθοχώρα",
-      "description": "9 - 30 Νοεμβριου Ο Γύρος του κόσμου με 5 παραμύθια - Παραμυθοχώρα Θεατρο 104",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
+      "id": "1415cca319466bcc",
+      "title": "ΣΠΗΛΙΟΣ ΦΛΩΡΟΣ - ΣΤΟ ΤΡΕΞΙΜΟ ΑΘΗΝΑ",
+      "description": "12 Νοεμβριου ΣΠΗΛΙΟΣ ΦΛΩΡΟΣ - ΣΤΟ ΤΡΕΞΙΜΟ ΑΘΗΝΑ ΘΕΑΤΡΟ ΑΚΡΟΠΟΛ",
+      "startDate": "2025-11-12T00:00:00.000+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -17,38 +17,7 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Θεατρο 104",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 11,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/o-gyros-tou-kosmou-me-5-paramythia-paramythoxora/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.510Z",
-      "updatedAt": "2025-10-22T17:16:25.510Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "4cc6064dd2a37b6b",
-      "title": "ΟΔΥΣΣΕΒΑΧ",
-      "description": "9 Νοε - 4 Ιαν ΟΔΥΣΣΕΒΑΧ Κινηματοθεατρο ΚΟΛΟΣΣΑΙΟΝ",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κινηματοθεατρο ΚΟΛΟΣΣΑΙΟΝ",
+        "name": "ΘΕΑΤΡΟ ΑΚΡΟΠΟΛ",
         "address": "",
         "neighborhood": null,
         "capacity": null
@@ -59,129 +28,27 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/odyssebax/",
+      "url": "https://www.more.com/gr-el/tickets/theater/spilios-floros-sto-treksimo-athina/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.510Z",
-      "updatedAt": "2025-10-22T17:16:25.510Z",
+      "createdAt": "2025-10-22T17:16:25.521Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "6f46543463a10086",
-      "title": "\"Αλυσοδεμένος ελέφαντας και ο τρομερός εχθρός\" στο Ηράκλειο Κρήτης",
-      "description": "9 Νοεμβριου \"Αλυσοδεμένος ελέφαντας και ο τρομερός εχθρός\" στο Ηράκλειο Κρήτης Αστορια",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
+      "id": "1f718bf7551bf10e",
+      "title": "Σύμφωνο Eπιβίωσης - Gagarin 205",
+      "description": "12 Νοεμβριου Σύμφωνο Eπιβίωσης - Gagarin 205 Gagarin 205 Live Music Space",
+      "startDate": "2025-11-12T00:00:00.000+02:00",
       "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Αστορια",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/offer/alysodemenos-elefantas-kai-o-tromeros-exthros-sto-irakleio-kritis/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.511Z",
-      "updatedAt": "2025-10-22T17:16:25.511Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "738e43e9abdf4031",
-      "title": "Η Όπερα γίνεται παιχνίδι",
-      "description": "9 Νοε - 14 Δεκ Η Όπερα γίνεται παιχνίδι Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-      "fullDescription": "Opera Becomes Play: A Family Journey Through Musical Theater at the Maria Callas Museum\n\nIn the heart of Athens' Syntagma district, the Maria Callas Museum transforms grand opera into accessible family entertainment through \"Opera Becomes Play\" (Η Όπερα γίνεται παιχνίδι), a multi-week program running from November 9 through December 14, 2025. This innovative series reimagines the operatic art form that made Maria Callas a global icon, bringing its dramatic storytelling and musical richness to young audiences in an interactive, play-based format.\n\nThe program honors the legacy of Greece's greatest soprano by making opera approachable for children and their families. Rather than passive observation, \"Opera Becomes Play\" invites participants into the world of musical theater through hands-on activities, simplified storytelling, and age-appropriate performances. The 200-capacity venue within the museum's Family Programs space creates an intimate environment where young attendees can experience operatic works without the formality that often intimidates newcomers to the art form.\n\nRunning across six weeks, the program provides multiple opportunities for families to attend, making it ideal for those seeking regular cultural engagement during the autumn season. The extended schedule suggests a structured curriculum that builds children's understanding of opera progressively, likely introducing different operatic concepts, famous arias, or beloved stories across multiple sessions. This approach allows young participants to develop familiarity with operatic conventions while discovering how music and drama combine to create powerful theatrical experiences.\n\nThe Maria Callas Museum's location near Syntagma Square places this cultural offering at Athens' accessible center, easily reached by metro and surrounded by the city's historical landmarks. Families visiting the program can combine their cultural education with exploration of the surrounding neighborhood, from the National Garden to the nearby Plaka district. The museum itself serves as a living tribute to Callas' artistry, preserving her costumes, recordings, and personal effects while actively continuing her mission of making opera relevant to contemporary audiences.\n\nThis program represents exactly the kind of cultural bridge that keeps opera vital for future generations. By transforming potentially intimidating high art into playful, participatory experiences, \"Opera Becomes Play\" demonstrates that opera's emotional power and musical beauty transcend age and experience level. For Athenian families seeking meaningful cultural activities that combine education with entertainment, this six-week series offers an exceptional introduction to operatic tradition through the lens of Greece's most celebrated voice. The program runs throughout autumn, providing a warm indoor cultural activity as Athens transitions into winter.",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
+      "type": "concert",
       "genres": [
         "general"
       ],
       "tags": [],
       "venue": {
-        "name": "Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-        "address": "Mitropoleos 44, Athens 105 63",
-        "neighborhood": "Syntagma / Technopolis",
-        "coordinates": {
-          "lat": 37.9755,
-          "lon": 23.7305
-        },
-        "capacity": 200
-      },
-      "price": {
-        "type": "paid",
-        "amount": 13,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/happenings/children/i-opera-ginetai-paixnidi/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.511Z",
-      "updatedAt": "2025-11-07 00:35:40",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "ab7785d404bfb425",
-      "title": "Πρόγραμμα «Φαντασία και περιέργεια:",
-      "description": "9 Νοεμβριου Πρόγραμμα «Φαντασία και περιέργεια: Ελληνικο Παιδικο Μουσειο",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Ελληνικο Παιδικο Μουσειο",
-        "address": "Rigillis & Vas. Georgiou B' 17-19, Athens 106 75",
-        "neighborhood": "Plaka / Athens Conservatoire",
-        "coordinates": {
-          "lat": 37.975,
-          "lon": 23.752
-        },
-        "capacity": 150
-      },
-      "price": {
-        "type": "paid",
-        "amount": 20,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/museums/children/programma-fantasia-kai-periergeia/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.511Z",
-      "updatedAt": "2025-11-06 13:34:35",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "cfa48bed35b6bd32",
-      "title": "Μουσείο Αλέκος Φασιανός Well- being Yoga στο Μουσείο | ΘΈΣΗ & ΦΥΣΗ",
-      "description": "9 Νοεμβριου Μουσείο Αλέκος Φασιανός Well- being Yoga στο Μουσείο | ΘΈΣΗ & ΦΥΣΗ Μουσειο Αλεκος Φασιανος",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Μουσειο Αλεκος Φασιανος",
+        "name": "Gagarin 205 Live Music Space",
         "address": "",
         "neighborhood": null,
         "capacity": null
@@ -192,116 +59,20 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/museums/well-being-yoga-sto-mouseio-thesi-fysi/",
+      "url": "https://www.more.com/gr-el/tickets/standupcomedy/symfono-epibiosis-gagarin-205/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.512Z",
-      "updatedAt": "2025-10-22T17:16:25.512Z",
+      "createdAt": "2025-10-22T17:16:25.521Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "88bf00a0783b6e7a",
-      "title": "Μετέωρα-Καλαμπάκα, μονοήμερη εκδρομή",
-      "description": "9 Νοεμβριου Μετέωρα-Καλαμπάκα, μονοήμερη εκδρομή Metro Σταθμος Λαρισης",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Metro Σταθμος Λαρισης",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 30,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/walk/meteora-kalambaka-monoimeri-ekdromi/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.512Z",
-      "updatedAt": "2025-10-22T17:16:25.512Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "f281f80d250f4e85",
-      "title": "Διαδραστική Περιήγηση στην Ιερά Μονή του Οσίου Λουκά",
-      "description": "9 Νοεμβριου Διαδραστική Περιήγηση στην Ιερά Μονή του Οσίου Λουκά Ελληνικος Κοσμος – Μουσειο - Θολος",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Ελληνικος Κοσμος – Μουσειο - Θολος",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "with-ticket",
-        "amount": null,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/museums/diadrastiki-periigisi-stin-iera-moni-tou-osiou-louka/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.512Z",
-      "updatedAt": "2025-10-22T17:16:25.512Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "774896c8bc5cc9c5",
-      "title": "Οι υφές του θεάτρου στο Μουσείο",
-      "description": "9 Νοεμβριου Οι υφές του θεάτρου στο Μουσείο Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-        "address": "Mitropoleos 44, Athens 105 63",
-        "neighborhood": "Syntagma / Technopolis",
-        "coordinates": {
-          "lat": 37.9755,
-          "lon": 23.7305
-        },
-        "capacity": 200
-      },
-      "price": {
-        "type": "with-ticket",
-        "amount": null,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/happenings/children/oi-yfes-tou-theatrou-sto-mouseio/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.512Z",
-      "updatedAt": "2025-11-06 13:34:35",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "103c8d0b56746e95",
-      "title": "Μοτίβο- Ένα Καμπαρέ δωματίου",
-      "description": "9 Νοε - 28 Δεκ Μοτίβο- Ένα Καμπαρέ δωματίου Red Jasper Cabaret Theatre",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
+      "id": "752442a4e40ad59f",
+      "title": "«ΕΠΙΛΟΓΟΣ» ΤΟΥ ΑΛΕΞΑΝΔΡΟΥ ΓΟΥΡΓΟΥΛΙΟΥ | ΒΑΣΙΛΗΣ ΠΡΟΔΡΟΜΟΥ - ΜΑΡΙΑΝΑ ΚΑΤΣΙΜΙΧΑ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ CLUB",
+      "description": "12 Νοεμβριου «ΕΠΙΛΟΓΟΣ» ΤΟΥ ΑΛΕΞΑΝΔΡΟΥ ΓΟΥΡΓΟΥΛΙΟΥ | ΒΑΣΙΛΗΣ ΠΡΟΔΡΟΜΟΥ - ΜΑΡΙΑΝΑ ΚΑΤΣΙΜΙΧΑ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ CLUB Σταυρος του Νοτου - Σταυρος του Νοτου - Club",
+      "fullDescription": "On November 12, 2025, Stavros tou Notou Club in the vibrant Neos Kosmos neighborhood presents \"Epilogos\" (Epilogue) by Alexandros Gourgoullios, featuring the exceptional talents of Vasilis Prodromou and Mariana Katsimichas. This intimate concert promises an evening of refined Greek music in one of Athens' most beloved cultural venues.\n\nStavros tou Notou Club has established itself as a cornerstone of Athens' contemporary music scene, offering an intimate setting with a capacity of 200 that creates an unparalleled connection between performers and audience. Located in Neos Kosmos, a neighborhood that beautifully balances residential charm with cultural vibrancy, the venue embodies the spirit of modern Athens while maintaining deep roots in Greek musical tradition. The club's reputation for hosting high-quality performances makes it the perfect stage for Gourgoullios' latest work.\n\nAlexandros Gourgoullios has carved a distinctive place in contemporary Greek music, known for compositions that bridge traditional elements with modern sensibilities. \"Epilogos\" represents a significant artistic statement, suggesting themes of conclusion, reflection, and perhaps new beginnings. The title itself invites audiences to contemplate the cyclical nature of artistic creation and the meaningful closure that allows for future growth.\n\nVasilis Prodromou brings his considerable musical expertise to this performance, adding depth and nuance to Gourgoullios' compositions. His collaboration with Mariana Katsimichas promises a dynamic interplay of voices and interpretations that will illuminate different facets of the work. Katsimichas, recognized for her expressive vocal abilities and emotional range, adds a complementary dimension to the evening's artistic vision.\n\nThe intimate atmosphere of Stavros tou Notou Club enhances the experience, allowing every subtle musical gesture and lyrical phrase to resonate with clarity. The venue's carefully considered acoustics and thoughtful design create an environment where music becomes a shared experience rather than mere entertainment. In a space that holds only 200 people, each audience member becomes part of the performance's energy.\n\nFor those seeking authentic Greek cultural experiences beyond tourist-oriented venues, this concert represents Athens at its artistic best. The combination of Gourgoullios' compositional vision, the performing talents of Prodromou and Katsimichas, and the unique ambiance of Stavros tou Notou Club creates an evening that speaks to both tradition and innovation. This is Greek music performed by Greeks for audiences who appreciate artistry, presented in a neighborhood venue that embodies the city's living cultural landscape.\n\nThe November 12 performance offers a rare opportunity to witness contemporary Greek music in its most authentic setting, where artistic integrity and audience connection remain paramount.",
+      "startDate": "2025-11-12T00:00:00.000+02:00",
       "endDate": null,
       "type": "concert",
       "genres": [
@@ -309,171 +80,39 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Red Jasper Cabaret Theatre",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "name": "Σταυρος του Νοτου - Σταυρος του Νοτου - Club",
+        "address": "Tharipou 37 & Frantzi, Neos Kosmos, Athens 117 43",
+        "neighborhood": "Neos Kosmos",
+        "coordinates": {
+          "lat": 37.9615,
+          "lon": 23.734
+        },
+        "capacity": 200
       },
       "price": {
         "type": "paid",
-        "amount": 10,
+        "amount": 13,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/motibo-ena-kampare-domatiou/",
+      "url": "https://www.more.com/gr-el/tickets/music/epilogos-tou-aleksandrou-gorgoliou-basilis-prodromou-mariana-katsimixa-stauros-tou-notou-club/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.512Z",
-      "updatedAt": "2025-10-22T17:16:25.512Z",
+      "createdAt": "2025-10-22T17:16:25.523Z",
+      "updatedAt": "2025-11-09 17:56:36",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "0a187bc50004fec2",
-      "title": "ΟΙ ΠΕΡΙΠΕΤΕΙΕΣ ΤΗΣ ΠΕΠΠΑ",
-      "description": "1 - 30 Νοεμβριου ΟΙ ΠΕΡΙΠΕΤΕΙΕΣ ΤΗΣ ΠΕΠΠΑ Πολλαπλοι χωροι",
-      "startDate": "2025-11-09T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 12,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/oi-peripeteies-ti-peppa/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.514Z",
-      "updatedAt": "2025-10-22T17:16:25.514Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "playfield-2025-11-09",
-      "title": "«Playfield» παιχνίδι στη φύση για οικογένειες",
-      "description": "Παιχνίδι, χρόνος παρέα και ανακάλυψη για όλους. Μια δράση διασκέδασης και δημιουργίας, για να παίξετε και να αλληλεπιδράσετε, να πειραματιστείτε και να εκφραστείτε… μικροί και μεγάλοι μαζί!",
-      "startDate": "2025-11-09T11:00:00+03:00",
+      "id": "3fac53fe1ff2724a",
+      "title": "ΓΙΑΝΝΗΣ ΤΣΕΡΟΣ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ PLUS",
+      "description": "12 Νοεμβριου ΓΙΑΝΝΗΣ ΤΣΕΡΟΣ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ PLUS Σταυρος του Νοτου - Σταυρος του Νοτου Plus",
+      "fullDescription": "Giannis Tseros brings his distinctive musical voice to Stavros tou Notou Plus on November 12, 2025, in a concert that promises to showcase one of Greece's most compelling contemporary artists. The venue, located in the culturally vibrant Neos Kosmos neighborhood of Athens, provides an intimate 300-capacity setting that perfectly complements Tseros's performance style.\n\nStavros tou Notou Plus has established itself as a cornerstone of Athens's live music scene, housed in the Neos Kosmos area where residential streets meet creative energy. This particular venue space offers audiences an immersive experience where the proximity between performer and listener creates genuine connection. The neighborhood itself reflects modern Athens at its most authentic, with traditional kafeneia sitting alongside contemporary galleries and music venues, embodying the city's evolving cultural identity.\n\nGiannis Tseros represents a generation of Greek musicians who have forged unique artistic paths while remaining deeply connected to their cultural roots. His work explores the intersection of traditional Greek musical elements with contemporary sensibilities, creating soundscapes that resonate with both local audiences and international listeners. Throughout his career, Tseros has demonstrated remarkable versatility, whether performing in intimate venues or larger concert halls, always maintaining the emotional authenticity that defines his artistry.\n\nThe concert on November 12 takes place in a venue designed specifically for optimal acoustic experience and audience engagement. Stavros tou Notou Plus has hosted numerous memorable performances, building a reputation for quality programming that attracts discerning music lovers. The 300-person capacity ensures that every attendee enjoys an unobstructed view and clear sound, characteristics that have made this venue particularly popular among artists who value direct communication with their audience.\n\nNeos Kosmos itself adds another layer to the evening's appeal. Once a working-class neighborhood, it has evolved into one of Athens's most dynamic cultural districts. The area's transformation reflects broader changes in the Greek capital, where historic character meets contemporary creativity. Before or after the concert, attendees can explore local tavernas serving traditional Greek cuisine, browse independent bookshops, or simply absorb the neighborhood's distinctive atmosphere.\n\nFor those seeking authentic cultural experiences in Athens, this concert represents an opportunity to engage with Greece's living musical tradition. Giannis Tseros's performance promises an evening where artistic excellence meets the warm hospitality that characterizes Greek cultural events. The combination of accomplished musicianship, an acoustically excellent venue, and the vibrant Neos Kosmos setting creates conditions for a memorable night of live music in the heart of Athens.",
+      "startDate": "2025-11-12T00:00:00.000+02:00",
       "endDate": null,
       "type": "concert",
       "genres": [
-        ""
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Περιβαλλοντας χωρος Σταδιου Ειρηνης και Φιλιας",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 6,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/workshop/playfield-paixnidi-sti-fysi-gia-oikogeneies/",
-      "source": "more.com",
-      "createdAt": "2025-10-31T12:22:35.864Z",
-      "updatedAt": "2025-10-31T12:44:50.787Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "muzike-family-party-2-the-breakdance-party-2025-11-09",
-      "title": "MUZIKE FAMILY PARTY #2 THE BREAKDANCE PARTY",
-      "description": "Χορευτικό event για όλη την οικογένεια! Μάθε breakdance και χόρεψε μαζί μας!Κυρ. 9 & 23/11, 11:00–12:00, The Basement.Είσοδος: 12€ | Παιδιά 6–18: 6€ | Κάτω των 6: δωρεάν.Με την υποστήριξη του ΥΠΠΟ.",
-      "startDate": "2025-11-09T11:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        ""
-      ],
-      "tags": [],
-      "venue": {
-        "name": "The Basement",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 6,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/dance/children/muzike-family-party-2-the-breakdance-party/",
-      "source": "more.com",
-      "createdAt": "2025-10-31T12:22:35.864Z",
-      "updatedAt": "2025-10-31T12:44:50.787Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "redicolo-2025-11-09",
-      "title": "Θέατρο Κούκλας από τους Redicolo στο Θέατρο Αμαλία",
-      "description": "Το Θέατρο Κούκλας Redicolo επιστρέφει στο Θέατρο Αμαλία για μια εορταστική θεατρική σεζόν: για πρώτη φορά όλες οι παραστάσεις της ομάδας, σε συνεχή ροή, σε δύο κύκλους παραστάσεων, Κυριακές πρωινά από",
-      "startDate": "2025-11-09T11:30:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "festival"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Αμαλια",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/redicolo-amalia/",
-      "source": "viva.gr",
-      "createdAt": "2025-10-30T10:35:34.383Z",
-      "updatedAt": "2025-10-31T12:44:50.787Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "001ad6c8141fc073",
-      "title": "ΑΝ ΑΚΟΥΣΕΙΣ ΤΑ ΠΑΙΔΙΑ: ΜΟΥΣΙΚΗ ΠΑΡΑΣΤΑΣΗ ΜΕ ΑΓΑΠΗΜΕΝΑ ΠΑΙΔΙΚΑ ΤΡΑΓΟΥΔΙΑ ΜΕ ΤΟΝ ΛΕΥΤΕΡΗ ΕΛΕΥΘΕΡΙΟΥ & ΤΟΝ ΑΛΚΙΒΙΑΔΗ ΚΩΝΣΤΑΝΤΟΠΟΥΛΟ",
-      "description": "Ο Λευτέρης Ελευθερίου και ο Αλκιβιάδης Κωνσταντόπουλος επιστρέφουν στον Σταυρό του Νότου με μια συναυλία με αγαπημένα παιδικά τραγούδια. Για παιδιά και όσους αισθάνονται ακόμη παιδιά.",
-      "fullDescription": "In the heart of Neos Kosmos, where families gather and childhood memories are made, Stavros tou Notou Plus opens its doors for a special musical journey designed to touch the hearts of children and adults alike. On November 9th at noon, Lefteris Eleftheriou and Alkiviadis Konstantopoulos present \"An Akousis Ta Paidia,\" a concert celebrating beloved children's songs that have shaped generations of Greek families.\n\nThis performance is more than a simple children's show. It's a carefully curated experience that honors the tradition of Greek children's music while creating new memories for young audiences. Eleftheriou and Konstantopoulos, both accomplished musicians with deep roots in Athens' cultural scene, understand the power of music to connect across generations. Their approach balances nostalgia with fresh energy, ensuring that parents rediscover songs from their own childhood while their children experience them for the first time.\n\nThe venue itself plays a crucial role in the event's intimate atmosphere. Stavros tou Notou Plus, with its 300-person capacity, provides the perfect setting for a family-friendly concert. Located in Neos Kosmos, a neighborhood known for its strong community bonds and family-oriented culture, the venue has become a cultural hub where artistic quality meets accessibility. The space is designed to accommodate families comfortably, ensuring that even the youngest audience members can enjoy the performance without the overwhelm of larger concert halls.\n\nThe noon timing is particularly thoughtful, allowing families to make this concert part of their weekend routine. It's early enough that young children remain engaged and energetic, yet late enough that parents can enjoy a relaxed morning before heading out. This scheduling reflects a deep understanding of family dynamics and the practical considerations that make cultural events accessible to households with children.\n\nWhat sets this performance apart is its inclusive approach. The subtitle \"for children and those who still feel like children\" captures the event's spirit perfectly. It acknowledges that the best children's music transcends age boundaries, speaking to the playful spirit that exists in all of us. Parents won't feel like they're simply chaperoning; they'll be active participants in a shared musical experience.\n\nThe selection of beloved children's songs promises familiarity and comfort, creating an environment where young audiences feel confident singing along and expressing themselves. This interactive element transforms passive listeners into active participants, fostering a sense of community within the concert hall. For families seeking quality cultural experiences in Athens that genuinely engage children while respecting artistic integrity, this performance at Stavros tou Notou Plus offers an ideal opportunity to create lasting memories together.",
-      "startDate": "2025-11-09T12:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "other"
+        "music"
       ],
       "tags": [],
       "venue": {
@@ -488,341 +127,95 @@
       },
       "price": {
         "type": "paid",
-        "amount": 10,
+        "amount": 13,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/music/children/an-akouseis-ta-paidia-me-leuteri-alkbiadi/",
+      "url": "https://www.more.com/gr-el/tickets/music/giannis-tseros-stauros-tou-notou-plus/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:20:09.999Z",
-      "updatedAt": "2025-11-09 17:56:36",
+      "createdAt": "2025-10-22T17:16:25.524Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "8e38fbd219026d9e",
-      "title": "Του κόκορα τα πάθη | Μουσικές Αφηγήσεις",
-      "description": "Οι “Μουσικές Αφηγήσεις” παρουσιάζουν το παραμύθι από την Άπω Ανατολή, σε διασκευή του Κώστα Φωτεινού “Του κόκορα τα πάθη”.",
-      "startDate": "2025-11-09T12:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "other"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολυχωρος Πολιτισμου \"Διελευσις\"",
-        "address": "Πολυχωρος Πολιτισμου \"Διελευσις\"",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 8,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/tou-kokora-ta-pathi-mousikes-afigiseis/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:20:10.000Z",
-      "updatedAt": "2025-10-26T21:21:01.050Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "aek-bc-2025-11-09",
-      "title": "AEK BC - ΠΑΟΚ",
-      "description": "AEK BC SEASON TICKETS 2025-2026",
-      "startDate": "2025-11-09T13:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        ""
-      ],
-      "tags": [],
-      "venue": {
-        "name": "SUNEL ARENA",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/sports/aek-bc-paok/",
-      "source": "viva.gr",
-      "createdAt": "2025-10-30T10:35:34.376Z",
-      "updatedAt": "2025-10-31T12:44:50.782Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "PerformanceEvent",
-      "id": "day-drinking-wine-glass-throwing-2025-11-09",
-      "title": "Day Drinking & Wine Glass Throwing",
-      "description": "Δεν υπάρχει πιο ωραία Κυριακή από αυτήν στο σαλόνι με ένα ποτήρι κρασί! Ειδικά αν το ποτήρι το έχεισ φτιάξει! Σεμινάριο κατασκευής κολονάτων ποτηριών κρασιού στον τροχό με την Ελισάβετ! Απαραίτητη η γ",
-      "startDate": "2025-11-09T17:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        ""
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πηλος Εργαστηριο Κεραμικης",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 50,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/workshop/day-drinking-wine-glass-throwing/",
-      "source": "more.com",
-      "createdAt": "2025-10-31T08:41:14.174Z",
-      "updatedAt": "2025-10-31T12:44:50.787Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "adaca774bb423c08",
-      "title": "ΑΠΑΓΟΡΕΥΕΤΑΙ Η ΜΟΥΣΙΚΗ",
-      "description": "9 Νοε - 21 Δεκ ΑΠΑΓΟΡΕΥΕΤΑΙ Η ΜΟΥΣΙΚΗ Θεατρο Αυλαια",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ΜΟΥΣΙΚΗ Θεατρο Αυλαια",
-        "address": "ΜΟΥΣΙΚΗ Θεατρο Αυλαια",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/apagoreuetai-i-mousiki/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.932Z",
-      "updatedAt": "2025-10-26T21:21:00.932Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "66f11890ce9dd1d6",
-      "title": "20 ΒΗΜΑΤΑ ΜΠΡΟΣΤΑ του ΧΟΡΧΕ ΜΠΟΥΚΑΪ",
-      "description": "9 - 23 Νοεμβριου 20 ΒΗΜΑΤΑ ΜΠΡΟΣΤΑ του ΧΟΡΧΕ ΜΠΟΥΚΑΪ ΘΕΑΤΡΟ ΑΘΗΝΑΙΟΝ ΘΕΣΣΑΛΟΝΙΚΗ - Αιθουσα 1",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "- Αιθουσα 1",
-        "address": "- Αιθουσα 1",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 16,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/20-bimata-mprosta-xorxe-mpoukai/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.932Z",
-      "updatedAt": "2025-10-26T21:21:00.932Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "9122c42f34d4958e",
-      "title": "η μικρή λέξη αγάπη - Α. Κορτώ, 3ος κύκλος",
-      "description": "9 - 23 Νοεμβριου η μικρή λέξη αγάπη - Α. Κορτώ, 3ος κύκλος Θεατρο Απο Κοινου",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Απο Κοινου",
-        "address": "Θεατρο Απο Κοινου",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 8,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/i-mikri-leksi-agapi-a-korto-3os-kyklos/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.933Z",
-      "updatedAt": "2025-10-26T21:21:00.933Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "98d67c7a3cbf0687",
-      "title": "ΘΕΑΤΡΟ ΜΑΡΙΟΝΕΤΑΣ-ΚΟΥΚΛΟΘΕΑΤΡΟ",
-      "description": "9 Νοε - 25 Ιαν ΘΕΑΤΡΟ ΜΑΡΙΟΝΕΤΑΣ-ΚΟΥΚΛΟΘΕΑΤΡΟ Calderone Art Space",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Calderone Art Space",
-        "address": "Calderone Art Space",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 8,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/theatro-marionetas-kouklotheatro/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.933Z",
-      "updatedAt": "2025-10-26T21:21:00.933Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "c82a13eecc041143",
-      "title": "ΚΟΛΟΣΣΟΣ H HOTELS COLLECTION - ΠΡΟΜΗΘΕΑΣ ΒΙΚΟΣ COLA",
-      "description": "9 Νοεμβριου ΚΟΛΟΣΣΟΣ H HOTELS COLLECTION - ΠΡΟΜΗΘΕΑΣ ΒΙΚΟΣ COLA KALLITHEA INDOOR HALL",
-      "startDate": "2025-11-09T20:00:00+02:00",
+      "id": "bbc20591a19c74ed",
+      "title": "Μαθήματα Α' Βοηθειών (για ενήλικες)",
+      "description": "12 Νοεμβριου Μαθήματα Α' Βοηθειών (για ενήλικες) Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Maker Space",
+      "fullDescription": "In a world where emergencies can strike without warning, the ability to respond effectively can mean the difference between life and death. On November 12, 2025, the Stavros Niarchos Foundation Cultural Center in Kallithea opens its Maker Space for a comprehensive First Aid training workshop designed specifically for adults. This essential skills course represents more than just learning medical techniques—it's about building community resilience and empowering Athenians with life-saving knowledge.\n\nThe Stavros Niarchos Foundation Cultural Center has become a beacon of contemporary learning and cultural engagement along Faliro Bay. Its Maker Space, typically buzzing with creative projects and innovative workshops, transforms into a practical training ground where participants learn to handle medical emergencies with confidence. The venue's modern facilities and collaborative atmosphere create an ideal environment for hands-on learning, where theory meets practice in a supportive, community-focused setting.\n\nThis First Aid workshop covers fundamental emergency response techniques that every adult should master. Participants will learn cardiopulmonary resuscitation (CPR), how to manage choking incidents, control bleeding, treat burns, and respond to common medical emergencies. The training emphasizes practical application through realistic scenarios, ensuring that attendees don't just understand the theory but can actually perform these critical interventions when seconds count.\n\nWhat distinguishes this workshop from standard First Aid courses is its location within one of Athens' most progressive cultural institutions. The Stavros Niarchos Foundation Cultural Center has consistently demonstrated its commitment to holistic education that extends beyond traditional arts and culture. By hosting First Aid training in the Maker Space—a facility dedicated to creativity and innovation—the center underscores an important message: practical life skills are as valuable as artistic expression.\n\nThe Kallithea location, with its stunning views of Faliro Bay and accessible public transportation connections, makes attending this workshop convenient for residents throughout Athens. The neighborhood has evolved into a cultural destination where learning and community engagement flourish alongside the Mediterranean coastline. The center's architecture itself promotes openness and accessibility, reflecting the democratic spirit of the knowledge being shared within its walls.\n\nWith capacity for 100 participants, this workshop offers an opportunity to learn alongside fellow Athenians, fostering a sense of shared responsibility for community safety. The skills acquired during this session extend far beyond the individual—they ripple outward, creating a network of capable responders throughout the city. Whether you're a parent, professional, or simply a concerned citizen, this First Aid training provides invaluable knowledge that transcends everyday boundaries.\n\nRegistration details and specific timing can be confirmed through the Stavros Niarchos Foundation Cultural Center's official channels. This November 12th workshop represents an investment in personal capability and community wellbeing that every adult should consider.",
+      "startDate": "2025-11-12T00:00:00.000+02:00",
       "endDate": null,
       "type": "performance",
       "genres": [
-        "sports"
+        "general"
       ],
       "tags": [],
       "venue": {
-        "name": "KALLITHEA INDOOR HALL",
-        "address": "KALLITHEA INDOOR HALL",
-        "neighborhood": null,
-        "capacity": null
+        "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Maker Space",
+        "address": "Evripidou & Doiranis, Kallithea, Athens 176 74",
+        "neighborhood": "Kallithea / Faliro Bay",
+        "coordinates": {
+          "lat": 37.9395,
+          "lon": 23.689
+        },
+        "capacity": 100
       },
       "price": {
-        "type": "paid",
-        "amount": 5,
+        "type": "with-ticket",
+        "amount": null,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/sports/kolossos-h-hotels-collection-promitheas-bikos-cola/",
+      "url": "https://www.more.com/gr-el/tickets/seminar/mathimata-a-boitheion-gia-enilikes/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.933Z",
-      "updatedAt": "2025-10-26T21:21:00.933Z",
+      "createdAt": "2025-10-22T17:16:25.524Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "6941f3c6b5e03ae2",
-      "title": "Adrenaline Explosion: Genesis",
-      "description": "9 Νοεμβριου Adrenaline Explosion: Genesis ΑΘΛΗΤΙΚΟ ΚΕΝΤΡΟ ΧΑΝΘ. \"ΜΙΜΗΣ ΤΣΙΚΙΝΑΣ\"",
-      "startDate": "2025-11-09T20:00:00+02:00",
+      "id": "190070ebc6979ce4",
+      "title": "ΦΕΝΙΑ ΠΑΠΑΔΟΔΗΜΑ – WOMEN’S PRAYERS – ΠΑΡΟΥΣΙΑΣΗ ΔΙΣΚΟΥ",
+      "description": "12 Νοεμβριου ΦΕΝΙΑ ΠΑΠΑΔΟΔΗΜΑ – WOMEN’S PRAYERS – ΠΑΡΟΥΣΙΑΣΗ ΔΙΣΚΟΥ Half Note Jazz Club",
+      "fullDescription": "Fenia Papadodima brings her latest musical offering, \"Women's Prayers,\" to the intimate stage of Half Note Jazz Club on November 12th, marking a significant moment in Athens' contemporary jazz scene. This album presentation promises an evening where Greek musical tradition intersects with modern jazz sensibilities, creating a sonic landscape that honors feminine spirituality and artistic expression.\n\nHalf Note Jazz Club, nestled in the Mets neighborhood just steps from the Panathenaic Stadium, has long served as Athens' premier destination for serious jazz aficionados. The venue's 200-seat capacity creates an atmosphere of closeness between performer and audience, where every nuance of musical expression resonates through the carefully designed acoustic space. The club's reputation for hosting both international jazz legends and Greece's most innovative contemporary artists makes it the perfect setting for Papadodima's album presentation.\n\n\"Women's Prayers\" represents a bold artistic statement, exploring themes of feminine strength, spiritual contemplation, and the power of collective voice through contemporary jazz composition. Papadodima's work draws from the deep well of Greek musical heritage while pushing boundaries into unexplored territories. The album title itself suggests a journey into sacred spaces, where music becomes a form of meditation and communal experience.\n\nThe Mets neighborhood surrounding Half Note Jazz Club adds another layer of cultural richness to the evening. This historic area, with its tree-lined streets and neoclassical architecture, has transformed into one of Athens' most vibrant cultural quarters. Before or after the concert, attendees can explore the neighborhood's cafes and tavernas, where conversations about art and music flow as freely as the wine.\n\nAlbum presentations at Half Note differ from standard concerts in their intimate, revelatory nature. Papadodima will likely share the creative process behind \"Women's Prayers,\" discussing the musical choices, collaborations, and inspirations that shaped the work. This format allows audiences to experience the music with deeper understanding, creating connections between sound and story that pure performance alone cannot achieve.\n\nThe concert takes place on a Wednesday evening, offering midweek cultural nourishment for Athens residents and visitors seeking authentic musical experiences. Half Note's legacy of championing Greek jazz artists ensures that this presentation will be professionally produced, with world-class sound engineering that honors the subtleties of Papadodima's compositions.\n\nFor those interested in contemporary Greek music that transcends easy categorization, this album presentation offers rare access to an artist working at the intersection of tradition and innovation. The intimate venue setting, combined with the thematic depth of \"Women's Prayers,\" promises an evening where music becomes a shared exploration of feminine experience and spiritual expression through jazz.\n\nThis is Athens cultural life at its finest: serious artistic work presented in a venue that respects both performer and audience, located in a neighborhood where history and contemporary creativity coexist harmoniously.",
+      "startDate": "2025-11-12T00:00:00.000+02:00",
       "endDate": null,
-      "type": "performance",
+      "type": "concert",
       "genres": [
-        "sports"
+        "music"
       ],
       "tags": [],
       "venue": {
-        "name": "ΧΑΝΘ. \"ΜΙΜΗΣ ΤΣΙΚΙΝΑΣ\"",
-        "address": "ΧΑΝΘ. \"ΜΙΜΗΣ ΤΣΙΚΙΝΑΣ\"",
-        "neighborhood": null,
-        "capacity": null
+        "name": "Half Note Jazz Club",
+        "address": "17 Trivonianou Street, Athens 116 36",
+        "neighborhood": "Mets",
+        "coordinates": {
+          "lat": 37.9661,
+          "lon": 23.7463
+        },
+        "capacity": 200
       },
       "price": {
         "type": "paid",
-        "amount": 25,
+        "amount": 12,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/sports/adrenaline-explosion-genesis/",
+      "url": "https://www.more.com/gr-el/tickets/music/fenia-papadodima-womens-prayers-parousia/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.933Z",
-      "updatedAt": "2025-10-26T21:21:00.933Z",
+      "createdAt": "2025-10-22T17:16:25.524Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "7d382938805a9aec",
-      "title": "ΠΟΥΠΟΥΛapp",
-      "description": "9 Νοε - 28 Δεκ ΠΟΥΠΟΥΛapp Θεατρο Αργω - Κεντρικη Σκηνη",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Αργω - Κεντρικη Σκηνη",
-        "address": "Θεατρο Αργω - Κεντρικη Σκηνη",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/poupoulapp/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.933Z",
-      "updatedAt": "2025-10-26T21:21:00.933Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "7e3b97994a6f974f",
-      "title": "Τα γενέθλια της Ριρίκας - 3η χρονιά",
-      "description": "9 Νοε - 25 Ιαν Τα γενέθλια της Ριρίκας - 3η χρονιά Θεατρο Μεταξουργειο",
-      "startDate": "2025-11-09T20:00:00+02:00",
+      "id": "38b2c3ed239fb6e5",
+      "title": "Ψυχάρης Το Ταξίδι μου",
+      "description": "12 Νοε - 28 Ιαν Ψυχάρης Το Ταξίδι μου Θεατρο Μεταξουργειο",
+      "startDate": "2025-11-12T20:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -830,39 +223,8 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Θεατρο Μεταξουργειο",
-        "address": "Θεατρο Μεταξουργειο",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/offer/ta-genethlia-tis-ririkas-3i-xronia/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.933Z",
-      "updatedAt": "2025-10-26T21:21:00.933Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "16aa7c1acf8b94e1",
-      "title": "ΡΩΜΑΙΟΣ & ΙΟΥΛΙΕΤΑ... ΣΑΝ ΤΟ ΣΚΥΛΟ ΜΕ ΤΗ ΓΑΤΑ",
-      "description": "9 Νοε - 29 Μαρ ΡΩΜΑΙΟΣ & ΙΟΥΛΙΕΤΑ... ΣΑΝ ΤΟ ΣΚΥΛΟ ΜΕ ΤΗ ΓΑΤΑ Θεατρο Κατω απ΄τη γεφυρα",
-      "startDate": "2025-11-09T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Κατω απ΄τη γεφυρα",
-        "address": "Θεατρο Κατω απ΄τη γεφυρα",
+        "name": "μου Θεατρο Μεταξουργειο",
+        "address": "μου Θεατρο Μεταξουργειο",
         "neighborhood": null,
         "capacity": null
       },
@@ -872,54 +234,82 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/romaios-ioulieta-san-to-skylo-me-ti-gata/",
+      "url": "https://www.more.com/gr-el/tickets/theater/psycharis-to-taksidi-mou/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.934Z",
-      "updatedAt": "2025-10-26T21:21:00.934Z",
+      "createdAt": "2025-10-26T21:21:00.940Z",
+      "updatedAt": "2025-10-26T21:21:00.940Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "athens-marathon-the-authentic-2025-2025-11-09",
-      "title": "Athens Marathon the Authentic 2025",
-      "description": "The Athens Marathon returns on 9 November 2025...",
-      "startDate": "2025-11-09T20:00:00+03:00",
+      "id": "985346a9ea02e20f",
+      "title": "Όπως σας αρέσει",
+      "description": "12 Νοε - 17 Δεκ Όπως σας αρέσει Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
+      "startDate": "2025-11-12T20:00:00+02:00",
       "endDate": null,
-      "type": "other",
+      "type": "theater",
       "genres": [
-        "sports"
+        "theater"
       ],
       "tags": [],
       "venue": {
-        "name": "Athens",
-        "address": "Athens",
+        "name": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
+        "address": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
         "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
         "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 35,
+        "amount": 10,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.thisisathens.org/events/athens-marathon-the-authentic-2025",
-      "source": "This is Athens",
-      "createdAt": "2025-10-29T12:39:42.292Z",
-      "updatedAt": "2025-10-29T12:39:42.292Z",
+      "url": "https://www.more.com/gr-el/tickets/theater/opos-sas-aresei-1/",
+      "source": "more.com",
+      "createdAt": "2025-10-26T21:21:00.940Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "jonas-kaufmann-2025-11-09",
-      "title": "JONAS KAUFMANN",
-      "description": "JONAS KAUFMANN",
-      "startDate": "2025-11-09T20:30:00+03:00",
+      "@type": "Event",
+      "id": "042f5f475a9825be",
+      "title": "Taniko",
+      "description": "12 Νοε - 4 Δεκ Taniko Studio Μαυρομιχαλη",
+      "startDate": "2025-11-12T20:00:00+02:00",
+      "endDate": null,
+      "type": "theater",
+      "genres": [
+        "theater"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Studio Μαυρομιχαλη",
+        "address": "Studio Μαυρομιχαλη",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 12,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/taniko/",
+      "source": "more.com",
+      "createdAt": "2025-10-26T21:21:00.940Z",
+      "updatedAt": "2025-11-09 23:52:26",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "30c52e31f96e24f1",
+      "title": "GORAN BREGOVIC - Wedding & Funeral Band",
+      "description": "GORAN BREGOVIC - Wedding & Funeral Band Από τον «Καιρό των Τσιγγάνων» μέχρι το «Underground» και το «Arizona Dream» η μουσική των Βαλκανίων ταξιδεύει σε όλο τον κόσμο! 12 Νοεμβρίου 2025 Christmas Thea",
+      "fullDescription": "On November 12, 2025, the Christmas Theater in Galatsi transforms into a Balkan musical odyssey as Goran Bregovic returns to Athens with his legendary Wedding & Funeral Band. The 20:30 performance promises an unforgettable evening where Eastern European tradition collides with contemporary global sounds in one of the city's most beloved concert venues.\n\nGoran Bregovic stands as one of the most influential figures in world music, having brought the raw energy and emotional depth of Balkan culture to international audiences through his film scores and live performances. His collaborations with director Emir Kusturica on films like \"Time of the Gypsies,\" \"Underground,\" and \"Arizona Dream\" didn't just win awards—they created a sonic identity for an entire region, blending Roma traditions with rock, orchestral arrangements, and punk attitude.\n\nThe Wedding & Funeral Band isn't merely a backing ensemble; it's a cultural institution unto itself. This powerhouse collective features traditional Bulgarian voices, brass instruments that shake the rafters, electric guitars that bridge punk and folk, and percussion that drives the audience into a state of collective euphoria. The band's name reflects Bregovic's philosophy: music serves life's most essential moments, from celebration to mourning, from birth to death, and everything in between.\n\nChristmas Theater in Galatsi provides the perfect setting for this explosive performance. With a capacity of 3,600, the venue offers an intimate-yet-grand atmosphere that allows Bregovic's music to resonate without losing its visceral impact. Located in northeastern Athens, Galatsi has become a cultural hub where traditional Greek hospitality meets contemporary arts programming. The theater's excellent acoustics and sight lines ensure every guest experiences the full sensory assault of Bregovic's genre-defying sound.\n\nExpect a setlist that spans Bregovic's remarkable career: haunting melodies from his film work, thunderous brass sections that get crowds dancing in the aisles, and moments of startling beauty where a single voice carries the weight of centuries. The concert typically runs over two hours, with the band building from tender ballads to frenzied finales that leave audiences breathless.\n\nThis November performance represents a rare opportunity to witness a living legend who has spent decades proving that Balkan music isn't a regional curiosity but a vital force in global culture. Whether you discovered Bregovic through his film scores or his explosive live albums, experiencing the Wedding & Funeral Band in person reveals why his music continues to captivate audiences worldwide. The show begins at 20:30, and given Bregovic's devoted following in Athens, early arrival is recommended.",
+      "startDate": "2025-11-12T20:30:00+02:00",
       "endDate": null,
       "type": "concert",
       "genres": [
@@ -927,7 +317,42 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Μεγαρο Μουσικης Θεσσαλονικης",
+        "name": "CHRISTMAS THEATER",
+        "address": "Leof. Veikou 137, Galatsi Olympic Hall, Athens 111 46",
+        "neighborhood": "Galatsi",
+        "coordinates": {
+          "lat": 38.0165,
+          "lon": 23.7545
+        },
+        "capacity": 3600
+      },
+      "price": {
+        "type": "paid",
+        "amount": 20,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/music/goran-bregovic-wedding-funeral-band-1/",
+      "source": "more.com",
+      "createdAt": "2025-10-26T21:20:10.001Z",
+      "updatedAt": "2025-11-09 23:52:26",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "-2025-11-12",
+      "title": "ΕΡΓΑ ΓΙΑ ΣΑΞΟΦΩΝΟ & ΚΟΥΑΡΤΕΤΟ ΕΓΧΟΡΔΩΝ",
+      "description": "ΕΡΓΑ ΓΙΑ ΣΑΞΟΦΩΝΟ & ΚΟΥΑΡΤΕΤΟ ΕΓΧΟΡΔΩΝ",
+      "startDate": "2025-11-12T20:30:00+03:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        "other"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Μεγαρο Μουσικης Θεσσαλονικης - Αιθουσα Αιμιλιος Ριαδης",
         "address": "Athens, Greece",
         "neighborhood": null,
         "coordinates": {
@@ -938,60 +363,23 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/jonas-kaufmann/",
-      "source": "viva.gr",
-      "createdAt": "2025-10-30T10:34:38.729Z",
-      "updatedAt": "2025-10-31T12:44:50.892Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "59eb1c1fdcf04941",
-      "title": "TURBONEGRO live in ATHENS",
-      "description": "???????Την Κυριακή 9 Νοεμβρίου 2025, το Gazarte Ground Stage παίρνει φωτιά, καθώς οι Turbonegro επιστρέφουν στην Αθήνα!",
-      "fullDescription": "Norwegian punk rock legends Turbonegro are bringing their explosive brand of deathpunk to Athens on November 9, 2025, at Gazarte Ground Stage in the heart of Gazi. For fans of high-octane rock and roll with a theatrical edge, this Sunday night promises to be an unforgettable experience in one of Athens' most vibrant cultural districts.\n\nTurbonegro emerged from Oslo in the late 1980s, establishing themselves as one of Scandinavia's most controversial and entertaining rock acts. Known for their sailor-themed stage costumes, unapologetically provocative lyrics, and genre-defying sound that blends punk, glam rock, and hard rock, the band has cultivated a devoted international following. Their music draws from the raw energy of MC5 and The Stooges while adding layers of camp theatricality that make their live shows legendary. Albums like \"Apocalypse Dudes\" and \"Scandinavian Leather\" have become cult classics, influencing countless bands in the underground rock scene.\n\nThe band's reputation for electrifying live performances precedes them. Turbonegro concerts are immersive experiences where audience participation is encouraged and expected. Front person Hank von Hell (or his successor, depending on the current lineup) commands the stage with charismatic intensity, while the band's tight musicianship ensures that beneath the spectacle lies genuine rock and roll craftsmanship. Their setlists typically span their extensive catalog, from early raw punk anthems to more polished later material, creating a journey through decades of Nordic rock rebellion.\n\nGazarte Ground Stage provides the perfect intimate setting for this performance. Located in the historic Gazi neighborhood, once the site of Athens' gasworks and now transformed into the city's premier nightlife and cultural quarter, Gazarte has established itself as a cornerstone venue for both Greek and international alternative music. The Ground Stage, with its 150-person capacity, offers an up-close experience where the energy exchange between performers and audience becomes palpable. The industrial aesthetic of the space, with exposed brick and metal elements, complements Turbonegro's aesthetic perfectly.\n\nThe concert begins at 21:30, giving attendees time to explore Gazi's surrounding bars and restaurants before the show. The neighborhood's streets come alive on Sunday evenings, creating a festive atmosphere that extends beyond the venue itself. For those discovering Turbonegro for the first time, prepare for a high-energy collision of punk aggression, glam swagger, and Scandinavian irreverence. For longtime fans, this Athens appearance represents a rare opportunity to experience one of punk rock's most distinctive acts in an intimate European setting.\n",
-      "startDate": "2025-11-09T21:30:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "rock"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Gazarte - Ground Stage",
-        "address": "32-34 Voutadon St, Gazi, Athens",
-        "neighborhood": "Gazi / Keramikos",
-        "coordinates": {
-          "lat": 37.9775,
-          "lon": 23.7153
-        },
-        "capacity": 150
-      },
-      "price": {
-        "type": "paid",
-        "amount": 45,
+        "amount": 10,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/music/turbonegro-live-in-athens/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:20:10.000Z",
-      "updatedAt": "2025-11-09 17:56:36",
+      "url": "https://www.more.com/gr-el/tickets/music/erga-gia-saksofono-kouarteto-egxordon/",
+      "source": "viva.gr",
+      "createdAt": "2025-10-30T10:34:38.729Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "2d93953d67f51201",
-      "title": "ΚΩΝΣΤΑΝΤΙΝΟΣ  ΚΟΥΤΣΑΒΑΚΗΣ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ PLUS",
-      "description": "Κωνσταντίνος “Κουτσαβάκης”«Όλα τα ωραία μέχρι το πρωί»Λαϊκορεμπέτικο γλέντι με πέρασμα από όλες τις μουσικέςδεκαετίες",
-      "fullDescription": "On November 9th, 2025, Stavros tou Notou Plus in the vibrant Neos Kosmos neighborhood transforms into a celebration of Greek musical heritage as Konstantinos \"Koutsavakis\" takes the stage at 21:30. The evening promises an authentic laiko-rebetiko party titled \"Όλα τα ωραία μέχρι το πρωί\" (All the Beautiful Things Until Morning), a journey through decades of Greek popular music that captures the soul of Athens nightlife.\n\nKonstantinos Koutsavakis represents a generation of artists who honor traditional Greek music while infusing it with contemporary energy. His approach to laiko and rebetiko isn't museum preservation but living, breathing celebration. The concert's subtitle suggests an evening that extends into the early hours, following the natural rhythm of Greek social culture where the best moments unfold as midnight approaches.\n\nThe program traverses multiple musical decades, offering audiences a comprehensive experience of Greek popular music evolution. From the gritty rebetiko of the early 20th century to the golden age of laiko in the 1960s and 70s, Koutsavakis creates a narrative arc that honors each era's distinctive character. This isn't a nostalgic exercise but a demonstration of how these musical traditions remain relevant and emotionally resonant today.\n\nStavros tou Notou Plus provides the ideal setting for this musical journey. Located in Neos Kosmos, a neighborhood that blends working-class authenticity with artistic energy, the venue's 300-person capacity creates an intimate atmosphere where the connection between performer and audience becomes palpable. The space has built its reputation as a home for quality Greek music, attracting audiences who appreciate authenticity over commercial polish.\n\nThe 21:30 start time follows the traditional Greek evening schedule, allowing time for dinner before arriving at the venue. This timing reflects the cultural understanding that music is best experienced as part of a complete evening, not rushed or compartmentalized. The night unfolds organically, with songs building momentum as the audience settles into the experience.\n\nFor visitors to Athens, this concert offers insight into contemporary Greek musical culture that extends beyond tourist-oriented performances. The laiko-rebetiko tradition connects directly to Greek social identity, expressing themes of love, hardship, joy, and resilience through distinctive melodic and rhythmic patterns. Koutsavakis's interpretation makes these traditions accessible to newcomers while satisfying devoted fans.\n\nThe November date places this performance in Athens's cultural season, when venues operate at full intensity and the city's artistic community is most active. Neos Kosmos remains easily accessible via public transportation, with the venue's location contributing to the authentic atmosphere. This is Greek music performed for Greek audiences and music lovers who seek genuine cultural experiences.",
-      "startDate": "2025-11-09T21:30:00+02:00",
+      "id": "51c66542b407d968",
+      "title": "Νένα Βενετσάνου-Σκληρές Βιολέτες (2ος κύκλος)",
+      "description": "νενα βενετσάνου, σκληρές βιολέτες, έντεχνο, ποίηση, μελοποιημένη, αμαξοστοιχία-θέατρο το τρένο στο ρουφ, τρένο στο ρουφ",
+      "startDate": "2025-11-12T21:00:00+02:00",
       "endDate": null,
       "type": "concert",
       "genres": [
@@ -999,31 +387,27 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Σταυρος του Νοτου - Σταυρος του Νοτου Plus",
-        "address": "Tharipou 37 & Frantzi, Neos Kosmos, Athens 117 43",
-        "neighborhood": "Neos Kosmos",
-        "coordinates": {
-          "lat": 37.9615,
-          "lon": 23.734
-        },
-        "capacity": 300
+        "name": "Αμαξοστοιχια - Θεατρο το Τρενο στο Ρουφ - Θεατρικο Βαγονι",
+        "address": "Αμαξοστοιχια - Θεατρο το Τρενο στο Ρουφ - Θεατρικο Βαγονι",
+        "neighborhood": null,
+        "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 13,
+        "amount": 16,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/music/konstantinos-koutsabakis-stauros-tou-notou-plus/",
+      "url": "https://www.more.com/gr-el/tickets/music/nena-benetsanou-sklires-bioletes-2os-kyklos/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:20:10.000Z",
-      "updatedAt": "2025-11-09 17:56:36",
+      "createdAt": "2025-10-26T21:20:10.001Z",
+      "updatedAt": "2025-10-26T21:21:01.040Z",
       "language": "en"
     }
   ],
   "meta": {
-    "total": 31,
-    "lastUpdate": "2025-11-09T19:12:45.827Z",
+    "total": 12,
+    "lastUpdate": "2025-11-11T22:13:50.572Z",
     "url": "https://agent-athens.netlify.app/today"
   }
 }

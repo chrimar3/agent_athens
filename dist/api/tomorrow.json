@@ -6,10 +6,10 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "12bccf371909fb89",
-      "title": "SLAPSHOT@Circus.Larissa",
-      "description": "10 Νοεμβριου SLAPSHOT@Circus.Larissa Circus Entertainment Hub",
-      "startDate": "2025-11-10T00:00:00.000+02:00",
+      "id": "614c75bcbe5416e6",
+      "title": "ΙΟΥΛΙΑ ΚΑΡΑΠΑΤΑΚΗ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ",
+      "description": "13 Νοε - 5 Δεκ ΙΟΥΛΙΑ ΚΑΡΑΠΑΤΑΚΗ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ Σταυρος του Νοτου - Κεντρικη Σκηνη",
+      "startDate": "2025-11-13T00:00:00.000+02:00",
       "endDate": null,
       "type": "concert",
       "genres": [
@@ -17,69 +17,7 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Circus Entertainment Hub",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 20,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/slapshotcircus-larissa/",
-      "source": "viva.gr",
-      "createdAt": "2025-10-22T17:16:25.515Z",
-      "updatedAt": "2025-10-22T17:16:25.515Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "72bd2caf229909b2",
-      "title": "Barcelona",
-      "description": "10 Νοε - 30 Δεκ Barcelona ΠΤΙ ΠΑΛΑΙ",
-      "startDate": "2025-11-10T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ΠΤΙ ΠΑΛΑΙ",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/barcelona/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.517Z",
-      "updatedAt": "2025-10-22T17:16:25.517Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "4957ade2dbf419d3",
-      "title": "ΜΑΡΙΚΑ ΜΕ ΕΙΠΑΝΕ- ΜΑΡΙΚΑ ΜΕ ΒΓΑΛΑΝΕ",
-      "description": "10 Νοε - 16 Δεκ ΜΑΡΙΚΑ ΜΕ ΕΙΠΑΝΕ- ΜΑΡΙΚΑ ΜΕ ΒΓΑΛΑΝΕ Embassy Theater",
-      "startDate": "2025-11-10T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Embassy Theater",
+        "name": "Σταυρος του Νοτου - Κεντρικη Σκηνη",
         "address": "",
         "neighborhood": null,
         "capacity": null
@@ -90,116 +28,51 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/marika-me-eipane-marika-me-bgalane-2/",
+      "url": "https://www.more.com/gr-el/tickets/music/ioulia-karapataki-stauros-tou-notou-9/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.517Z",
-      "updatedAt": "2025-10-22T17:16:25.517Z",
+      "createdAt": "2025-10-22T17:16:25.525Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "939af16ec61cb9d6",
-      "title": "Η Συναρπαστική Εξέγερση του Χούλιο Τόγκα",
-      "description": "10 Νοε - 30 Δεκ Η Συναρπαστική Εξέγερση του Χούλιο Τόγκα Θεατρο Προσκηνιο",
-      "startDate": "2025-11-10T00:00:00.000+02:00",
+      "id": "65879476ee2e46d1",
+      "title": "Μύλος των Ξωτικών-Τρίκαλα, μονοήμερη εκδρομή",
+      "description": "13 Νοε - 30 Δεκ Μύλος των Ξωτικών-Τρίκαλα, μονοήμερη εκδρομή Metro Σταθμος Λαρισης",
+      "startDate": "2025-11-13T00:00:00.000+02:00",
       "endDate": null,
-      "type": "theater",
+      "type": "performance",
       "genres": [
-        "theater"
+        "general"
       ],
       "tags": [],
       "venue": {
-        "name": "Θεατρο Προσκηνιο",
+        "name": "Metro Σταθμος Λαρισης",
         "address": "",
         "neighborhood": null,
         "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 12,
+        "amount": 28,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/i-synarpastiki-eksegersi-tou-xoulio-togka/",
+      "url": "https://www.more.com/gr-el/tickets/walk/mylos-ton-ksotikon-trikala-monoimeri-ekdromi-1/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.517Z",
-      "updatedAt": "2025-10-22T17:16:25.517Z",
+      "createdAt": "2025-10-22T17:16:25.526Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "10a904ea223fd822",
-      "title": "NOTIS Η ΕΠΙΣΤΡΟΦΗ - ΠΕΡΙΟΔΕΙΑ 2025",
-      "description": "22 Οκτ - 16 Νοε NOTIS Η ΕΠΙΣΤΡΟΦΗ - ΠΕΡΙΟΔΕΙΑ 2025 Πολλαπλοι χωροι",
-      "startDate": "2025-11-10T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 17,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/notis-i-epistrofi-1/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.518Z",
-      "updatedAt": "2025-10-22T17:16:25.518Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "gwomen-4o-2025-11-10",
-      "title": "GWomen - 4o Συνέδριο Γυναικείου Αθλητισμού",
-      "description": "Το Gazzetta διοργανώνει το 4ο Συνέδριο για τον Γυναικείο Αθλητισμό! 10 Νοεμβρίου στο Δημοτικό Θέατρο Πειραιά / Together. Stronger. Unstoppable.",
-      "startDate": "2025-11-10T16:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        ""
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Δημοτικο Θεατρο Πειραια",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/conference/gwomen-4o-synedrio-gynaikeiou-athlitismou/",
-      "source": "more.com",
-      "createdAt": "2025-10-31T12:22:35.864Z",
-      "updatedAt": "2025-10-31T12:44:50.787Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "15eed2a046713d39",
-      "title": "ΤΑ ΚΟΡΙΤΣΙΑ ΤΟΥ ΑΥΓΟΥΣΤΟΥ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ CLUB",
-      "description": "10 Νοεμβριου ΤΑ ΚΟΡΙΤΣΙΑ ΤΟΥ ΑΥΓΟΥΣΤΟΥ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ CLUB Σταυρος του Νοτου - Σταυρος του Νοτου - Club",
-      "startDate": "2025-11-10T20:00:00+02:00",
+      "id": "34a950ddf9b5b73a",
+      "title": "ΦΡΟΣΩ ΣΤΥΛΙΑΝΟΥ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ CLUB",
+      "description": "13 Νοεμβριου ΦΡΟΣΩ ΣΤΥΛΙΑΝΟΥ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ CLUB Σταυρος του Νοτου - Σταυρος του Νοτου - Club",
+      "fullDescription": "Froso Stylianou brings her distinctive voice to Stavros tou Notou Club on November 13, 2025, performing in one of Athens' most beloved intimate concert spaces. Located in the vibrant Neos Kosmos neighborhood, this 200-capacity venue has been a cornerstone of the Greek music scene since 1995, hosting generations of artists who have shaped contemporary Greek soundscapes.\n\nStavros tou Notou Club occupies a special place in Athens' cultural geography. Nestled at Tharipou 37 and Frantzi, just steps from Syngrou-Fix metro station, the venue represents three decades of commitment to live music excellence. The club's intimate setting creates an atmosphere where artists and audiences share an almost tangible connection, where every note resonates with clarity and every lyric lands with emotional precision.\n\nFroso Stylianou's performance at this historic venue promises an evening of authentic Greek musical expression. Her artistry embodies the evolving traditions of contemporary Greek music, drawing on deep cultural roots while embracing modern sensibilities. The acoustics of Stavros tou Notou Club are renowned for capturing the nuances of vocal performance, making it an ideal setting for experiencing the full range and emotional depth of her work.\n\nThe Neos Kosmos neighborhood surrounding the venue adds layers of context to the evening. This area has long been a crossroads of working-class authenticity and cultural vitality, where traditional kafeneia sit alongside modern bars, where neighborhood stories unfold on every corner. The journey to the concert becomes part of the experience itself, whether arriving by metro or walking through streets that pulse with everyday Athenian life.\n\nStavros tou Notou's longevity speaks to its importance in Athens' cultural ecosystem. For thirty years, this venue has provided a platform where established artists refine their craft and emerging voices find their audience. The club's programming philosophy emphasizes artistic integrity over commercial trends, creating a space where music lovers know they'll encounter performances of substance and authenticity.\n\nThe November 13 concert offers audiences the rare opportunity to experience live music in a setting designed specifically for listening. The 200-person capacity ensures an intimate atmosphere without the distractions of larger venues, where the focus remains firmly on the performance itself. This is music experienced as it should be: direct, unmediated, transformative.\n\nFor those seeking authentic cultural experiences in Athens, Froso Stylianou's appearance at Stavros tou Notou Club represents exactly what makes the city's music scene exceptional. The combination of accomplished artistry, historic venue, and accessible location creates an evening that resonates long after the final note fades.",
+      "startDate": "2025-11-13T00:00:00.000+02:00",
       "endDate": null,
       "type": "concert",
       "genres": [
@@ -207,30 +80,34 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Νοτου - Club",
-        "address": "Νοτου - Club",
-        "neighborhood": null,
-        "capacity": null
+        "name": "Σταυρος του Νοτου - Σταυρος του Νοτου - Club",
+        "address": "Tharipou 37 & Frantzi, Neos Kosmos, Athens 117 43",
+        "neighborhood": "Neos Kosmos",
+        "coordinates": {
+          "lat": 37.9615,
+          "lon": 23.734
+        },
+        "capacity": 200
       },
       "price": {
         "type": "paid",
-        "amount": 15,
+        "amount": 12,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/music/ta-koritsia-tou-augoustou-stauros-tou-notou-club/",
+      "url": "https://www.more.com/gr-el/tickets/music/froso-stylianou-stauros-tou-notou-club-4/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.937Z",
-      "updatedAt": "2025-10-26T21:21:00.937Z",
+      "createdAt": "2025-10-22T17:16:25.526Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "295f068bc2ddb803",
-      "title": "Kassandra Charalampi + Konstantinos Stouraitis trio feat. Takis Paterelis",
-      "description": "10 Νοεμβριου Kassandra Charalampi + Konstantinos Stouraitis trio feat. Takis Paterelis Half Note Jazz Club",
-      "startDate": "2025-11-10T20:00:00+02:00",
+      "id": "099c8adb8efefa38",
+      "title": "SPYROS MANESIS TRIO",
+      "description": "13 Νοεμβριου SPYROS MANESIS TRIO Half Note Jazz Club",
+      "startDate": "2025-11-13T20:00:00+02:00",
       "endDate": null,
       "type": "concert",
       "genres": [
@@ -249,90 +126,28 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/music/kassandra-charalampi-konstantinos-stouraitis-trio-feat-takis-paterelis/",
+      "url": "https://www.more.com/gr-el/tickets/music/spyros-manesis-trio/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.937Z",
-      "updatedAt": "2025-10-26T21:21:00.937Z",
+      "createdAt": "2025-10-26T21:21:00.941Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "49bc555e9cd8e27e",
-      "title": "NEVERMIND",
-      "description": "10 Νοε - 9 Δεκ NEVERMIND Theatre Nous-Creative space",
-      "startDate": "2025-11-10T20:00:00+02:00",
+      "id": "22cf20a92795acad",
+      "title": "ΚΑΛΟΓΕΡΑΚΙΑ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ PLUS",
+      "description": "13 Νοεμβριου ΚΑΛΟΓΕΡΑΚΙΑ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ PLUS Σταυρος του Νοτου - Σταυρος του Νοτου Plus",
+      "startDate": "2025-11-13T20:00:00+02:00",
       "endDate": null,
-      "type": "theater",
+      "type": "concert",
       "genres": [
-        "theater"
+        "music"
       ],
       "tags": [],
       "venue": {
-        "name": "Theatre Nous-Creative space",
-        "address": "Theatre Nous-Creative space",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/nevermind/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.938Z",
-      "updatedAt": "2025-10-26T21:21:00.938Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "6f750d41f566481e",
-      "title": "Δεσμώτης",
-      "description": "10 Νοε - 13 Ιαν Δεσμώτης Θεατρο OLVIO",
-      "startDate": "2025-11-10T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Δεσμώτης Θεατρο OLVIO",
-        "address": "Δεσμώτης Θεατρο OLVIO",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 8,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/desmotis/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.938Z",
-      "updatedAt": "2025-10-26T21:21:00.938Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "018c6a55c672e8cf",
-      "title": "ΑΛΙΓΑΤΟΡΕΣ",
-      "description": "10 Νοε - 30 Δεκ ΑΛΙΓΑΤΟΡΕΣ AUDITORIUM",
-      "startDate": "2025-11-10T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "AUDITORIUM",
-        "address": "AUDITORIUM",
+        "name": "του Νοτου Plus",
+        "address": "του Νοτου Plus",
         "neighborhood": null,
         "capacity": null
       },
@@ -342,56 +157,51 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/aligatores/",
+      "url": "https://www.more.com/gr-el/tickets/music/kalogerakia-stauros-tou-notou-plus-1/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.938Z",
-      "updatedAt": "2025-10-26T21:21:00.938Z",
+      "createdAt": "2025-10-26T21:21:00.941Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "7f64b4b9c956542d",
-      "title": "(Love me) Tinder",
-      "description": "10 Νοε - 30 Δεκ (Love me) Tinder Theatre of the NO",
-      "fullDescription": "In the heart of Metaxourgeio, Athens' bohemian enclave where street art meets experimental culture, Theatre of the NO presents \"(Love me) Tinder,\" a contemporary theatrical exploration of modern romance in the digital age. Running from November 10 through December 30, 2025, this extended production invites audiences into an intimate 120-capacity space where the swipe-right generation confronts the complexities of connection, intimacy, and authenticity in an era dominated by dating apps.\n\nTheatre of the NO has established itself as a vital force in Athens' alternative theater scene, consistently championing bold, unconventional performances that challenge audience expectations. The venue's intimate setting—just 120 seats—creates an immediate, almost uncomfortable proximity between performers and viewers, perfectly suited for examining the paradoxical distance that technology creates in our pursuit of closeness. This production arrives at a moment when digital dating has become normalized globally, yet questions about its impact on human connection grow increasingly urgent.\n\n\"(Love me) Tinder\" takes its title from the platform that transformed dating into a gamified experience, where potential partners are reduced to profile pictures and brief bios. The production runs nightly at 20:00, offering over seven weeks of performances through the end of December. This extended run suggests a work that resonates deeply with contemporary Athenian audiences, many of whom navigate the same digital landscapes the production explores. The 20:00 start time positions the performance as an evening's cultural centerpiece, allowing audiences to arrive after work and perhaps continue conversations about the themes raised over late-night drinks in Metaxourgeio's vibrant café scene.\n\nThe neighborhood context matters here. Metaxourgeio has evolved from a working-class district into Athens' creative heart, where abandoned warehouses transform into galleries, theaters, and alternative cultural spaces. Theatre of the NO embodies this spirit of transformation and experimentation. Walking to the venue, audiences pass street art murals, independent bookshops, and the neighborhood's characteristic mix of longtime residents and creative newcomers—a physical manifestation of the collision between tradition and modernity that likely echoes through the production itself.\n\nThe production's focus on Tinder culture speaks to universal anxieties about technology's role in human relationships, but filtered through a distinctly Greek lens. Athens, a city where traditional kafeneio culture once dictated social connections, now watches younger generations conduct romance through screens. This tension between old and new forms of connection provides rich material for theatrical exploration, making \"(Love me) Tinder\" both locally resonant and globally relevant to anyone questioning how we love in the digital age.",
-      "startDate": "2025-11-10T20:00:00+02:00",
+      "id": "4c48069933d4c8c9",
+      "title": "Πουαβρόν - Οι Τρεις Άθλιοι του Ηρακλή",
+      "description": "13 Νοε - 29 Ιαν Πουαβρόν - Οι Τρεις Άθλιοι του Ηρακλή Αμαξοστοιχια - Θεατρο το Τρενο στο Ρουφ - Θεατρικο Βαγονι",
+      "startDate": "2025-11-13T20:00:00+02:00",
       "endDate": null,
-      "type": "theater",
+      "type": "concert",
       "genres": [
-        "theater"
+        "music"
       ],
       "tags": [],
       "venue": {
-        "name": "Theatre of the NO",
-        "address": "Bouboulinas 17-19, Athens 106 82",
-        "neighborhood": "Metaxourgeio",
-        "coordinates": {
-          "lat": 37.987,
-          "lon": 23.7285
-        },
-        "capacity": 120
+        "name": "- Θεατρικο Βαγονι",
+        "address": "- Θεατρικο Βαγονι",
+        "neighborhood": null,
+        "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 15,
+        "amount": 5,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/love-me-tinder/",
+      "url": "https://www.more.com/gr-el/tickets/theater/pouavron-oi-athlioi-tou-irakli/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.938Z",
-      "updatedAt": "2025-11-07 00:39:37",
+      "createdAt": "2025-10-26T21:21:00.941Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "4669ebb0d862fc9d",
-      "title": "Three Times Three #2",
-      "description": "Το μηνιαίο ραντεβού “Three Times Three” φέρνει κοντά καλλιτέχνιδες και καλλιτέχνες από τον χώρο του σύγχρονου χορού και της πειραματικής μουσικής.",
-      "fullDescription": "Three Times Three #2 brings experimental artistry to Kypseli's cultural heart on November 10th at 21:00, continuing the monthly series that dissolves boundaries between contemporary dance and experimental music. This second edition transforms TV Control Center (KET) into an intimate laboratory where movement and sound engage in unpredictable dialogue.\n\nThe Three Times Three series has quickly established itself as Athens' essential monthly gathering for artists exploring the intersection of choreographic thinking and sonic experimentation. Each edition presents carefully curated performances that challenge conventional distinctions between dance and music, creating hybrid experiences where bodies become instruments and sound becomes spatial. The format encourages risk-taking and improvisation, qualities that define KET's programming philosophy since the venue opened its doors in 2012.\n\nTV Control Center occupies a converted 1970s television repair shop in Kypseli, maintaining the neighborhood's tradition of repurposing industrial spaces into creative venues. The 80-capacity room creates an immediacy between performers and audience that larger venues cannot achieve. Former workbenches and repair equipment remnants add textural character to the space, reminding visitors of the building's utilitarian past while serving present-day artistic exploration. This intimate scale allows audiences to perceive subtle gestural details and ambient sonic textures that would disappear in conventional theaters.\n\nKypseli itself has evolved into one of Athens' most vibrant creative neighborhoods, attracting artists, musicians, and independent cultural initiatives. The area's diverse community and accessible rent structures have fostered experimental venues like KET alongside rehearsal studios, artist collectives, and alternative performance spaces. Walking to the venue from Agios Nikolaos metro station reveals Kypseli's character through street art, independent cafes, and the architectural mix of early 20th-century apartment buildings.\n\nThe monthly rhythm of Three Times Three allows the series to build a dedicated community of regular attendees while remaining open to newcomers curious about experimental performance. Each edition features different artists, ensuring variety while maintaining conceptual coherence around the dance-music intersection. The 21:00 start time accommodates Athens' nocturnal cultural patterns, allowing audiences to experience the performance and continue their evening in Kypseli's surrounding bars and gathering spots.\n\nThis second edition promises to expand the possibilities established in the series' inaugural event, presenting artists who treat the 80-capacity room as both stage and instrument. The performance's experimental nature means audience members become witnesses to genuine creative investigation rather than polished spectacle, an approach that distinguishes KET's programming within Athens' performing arts landscape.",
-      "startDate": "2025-11-10T21:00:00+02:00",
+      "id": "2949d69d95f8c061",
+      "title": "ΗΣΑΪΑΣ ΜΑΤΙΑΜΠΑ LIVE",
+      "description": "ΗΣΑΪΑΣ ΜΑΤΙΑΜΠΑ ?? LIVE ??ΜΟΥΣΙΚΗ ΣΥΝΑΥΛΙΑ Tour acoustic live",
+      "fullDescription": "On November 13, 2025, at 21:00, Kafetheatro in the vibrant Pedion Areos neighborhood welcomes Isaias Matiaba for an intimate acoustic live performance that promises to showcase the artist's raw musical talent in one of Athens' most welcoming cultural spaces. This 100-capacity theater cafe near Plateia Viktorias offers the perfect setting for an evening where music and conversation intertwine in the warm atmosphere that has made this venue a beloved destination for those seeking authentic live music experiences.\n\nIsaias Matiaba's acoustic tour represents a stripped-down approach to performance, allowing audiences to experience the essence of his artistry without electronic embellishments. The acoustic format creates an immediacy between performer and audience that larger venues simply cannot replicate. In the intimate confines of Kafetheatro, every note, every lyric, and every moment of improvisation becomes a shared experience among the hundred fortunate attendees who will fill this cozy space.\n\nThe venue itself contributes significantly to the evening's appeal. Kafetheatro has carved out a distinctive identity in Athens' cultural landscape by combining the casual atmosphere of a cafe with the focused attention of a theater. Near Pedion Areos, one of the city's largest and most historic parks, the venue sits in a neighborhood that balances residential tranquility with urban energy. The Victoria metro station provides easy access, making this corner of Athens convenient for music lovers from across the city.\n\nThe acoustic tour format suggests an evening of storytelling through song, where Matiaba can connect directly with his audience without the barrier of full band arrangements or elaborate production. This approach has long been favored by artists seeking to establish genuine rapport with their listeners, creating moments of musical intimacy that resonate long after the final chord fades.\n\nFor those unfamiliar with Kafetheatro's unique character, the venue's 100-person capacity ensures that no seat feels distant from the performance. The theater cafe concept means attendees can enjoy refreshments while experiencing live music, creating a relaxed yet attentive atmosphere where the focus remains on the artist and the music. This combination of comfort and cultural engagement defines the venue's appeal to Athens' music community.\n\nThe November evening performance time of 21:00 aligns perfectly with Athens' cultural rhythms, allowing attendees to arrive after dinner and immerse themselves in an evening of acoustic music. The Pedion Areos neighborhood offers pre-show dining options and post-concert walks through streets that blend historic Athens character with contemporary urban life, making the concert part of a complete cultural experience in this accessible corner of the city.",
+      "startDate": "2025-11-13T21:00:00+02:00",
       "endDate": null,
       "type": "concert",
       "genres": [
@@ -399,14 +209,14 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Κεντρο ελεγχου τηλεορασεων",
-        "address": "Kyprou 91A & Sikinou 35A, Athens 113 64",
-        "neighborhood": "Kypseli",
+        "name": "Καφεθεατρο",
+        "address": "Fokionos Negri area, Athens",
+        "neighborhood": "Pedion Areos / Plateia Viktorias",
         "coordinates": {
-          "lat": 38.002,
-          "lon": 23.7325
+          "lat": 38.001,
+          "lon": 23.7335
         },
-        "capacity": 80
+        "capacity": 100
       },
       "price": {
         "type": "paid",
@@ -414,51 +224,88 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/music/three-times-three-225/",
+      "url": "https://www.more.com/gr-el/tickets/music/isaias-matiampa-live/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:20:10.000Z",
-      "updatedAt": "2025-11-07 00:39:37",
+      "createdAt": "2025-10-26T21:20:10.001Z",
+      "updatedAt": "2025-11-09 23:52:26",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "a828f4e1708932d0",
+      "title": "Δημήτρης Κρυφός στο Caja de Música",
+      "description": "live musiψ, music stage, caja de musica, Δμήτρης Κρυφός, μουσικη σκηνη, μουσικη βραδια, εντεχνη μουσικη",
+      "fullDescription": "An evening with Dimitris Kryfos at Caja de Música promises an intimate journey through contemporary Greek art music, where poetic lyrics meet sophisticated melodies in one of Athens' most acoustically refined venues. On November 13, 2025, at 21:00, this 200-capacity space in the Ampelokipoi-Gkyzi neighborhood transforms into a concert hall where every note resonates with crystalline clarity.\n\nDimitris Kryfos represents a distinctive voice in the entechni mousiki tradition, a genre that has defined Greek cultural identity since the 1960s. Art music, or έντεχνη μουσική, emerged as a fusion of poetry and music, where literary lyrics by renowned Greek poets are set to intricate compositions. Unlike commercial pop music, entechni prioritizes artistic expression, often exploring themes of love, social commentary, and philosophical reflection. Kryfos continues this legacy, crafting songs that demand attentive listening and reward those who engage with their lyrical depth.\n\nCaja de Música, located at Sinopis 27 and Michalakopoulou, has established itself as a premier destination for discerning music lovers. The venue's 150 seated positions and 50 standing spaces create an environment where performers and audience share an almost conversational intimacy. The excellent acoustics ensure that subtle vocal nuances and instrumental textures reach every corner of the room without electronic overamplification. This sonic fidelity makes Caja de Música particularly suited to entechni performances, where the interplay between voice and accompaniment demands pristine sound reproduction.\n\nThe Ampelokipoi-Gkyzi district provides an ideal setting for this cultural experience. This central Athens neighborhood combines residential tranquility with excellent connectivity, situated just a ten-minute walk from Ambelokipi Metro station. The area's tree-lined streets and mix of mid-century apartment buildings and contemporary cafes reflect Athens' layered urban character. Evening arrivals will find the neighborhood alive with locals enjoying pre-concert dinners at nearby tavernas, creating a quintessentially Athenian atmosphere.\n\nAccessibility considerations enhance the venue's appeal. Wheelchair users can navigate the space comfortably, ensuring that art music remains available to all who appreciate it. The November evening timing at 21:00 aligns with Greek cultural rhythms, when dinner concludes and the city's cultural venues awaken.\n\nAttending a Dimitris Kryfos concert at Caja de Música offers more than entertainment—it provides immersion in a living artistic tradition. As his voice fills the intimate space and lyrics unfold their meanings, attendees become participants in a cultural conversation that connects contemporary Athens with decades of Greek musical excellence. This is art music experienced as it should be: close, clear, and deeply human.",
+      "startDate": "2025-11-13T21:00:00+02:00",
+      "endDate": null,
+      "type": "concert",
+      "genres": [
+        "art music"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Caja De Musica",
+        "address": "Sinopis 27 & Michalakopoulou, Athens 115 27",
+        "neighborhood": "Ampelokipoi / Gkyzi",
+        "coordinates": {
+          "lat": 37.984,
+          "lon": 23.7515
+        },
+        "capacity": 200
+      },
+      "price": {
+        "type": "paid",
+        "amount": 8,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/music/dimitris-kryfos-sto-caja-de-musica/",
+      "source": "more.com",
+      "createdAt": "2025-10-26T21:20:10.001Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "MusicEvent",
-      "id": "-2025-11-10",
-      "title": "Το Γάλα | Αιθ. Μ. Αλέξανδρος",
-      "description": "ΤΟ ΓΑΛΑ ΤΟΥ ΒΑΣΙΛΗ ΚΑΤΣΙΚΟΝΟΥΡΗ",
-      "startDate": "2025-11-10T21:00:00+03:00",
+      "id": "stacey-kent-trio-2025-11-13",
+      "title": "Stacey Kent Trio",
+      "description": "",
+      "fullDescription": "On November 13, 2025, at 21:00, MEGARON - The Athens Concert Hall welcomes one of contemporary jazz's most celebrated voices: Stacey Kent and her exceptional trio. This performance marks a rare opportunity to experience the Grammy-nominated vocalist in Athens' most prestigious concert venue, a 2000-capacity architectural landmark nestled in the elegant Kolonaki and Ilissia districts.\n\nStacey Kent has captivated audiences worldwide with her intimate, sophisticated interpretations of the Great American Songbook and Brazilian bossa nova standards. Her crystalline voice and impeccable phrasing have earned her multiple platinum albums and collaborations with legendary composers including Nobel laureate Kazuo Ishiguro, who penned original lyrics for her recordings. Kent's artistry transcends typical jazz performance; she creates an atmosphere of warmth and sophistication that transforms each concert into an unforgettable experience.\n\nThe trio format showcases Kent at her most refined. Accompanied by world-class musicians who have toured extensively across Europe, North America, and Asia, the ensemble delivers arrangements that balance technical brilliance with emotional depth. Expect timeless standards reimagined through Kent's unique lens, alongside carefully selected contemporary compositions that highlight her versatility as an interpreter and storyteller.\n\nMEGARON provides the perfect acoustic setting for Kent's nuanced vocal style. Located in the cultural heart of Athens, where Kolonaki's refined elegance meets Ilissia's leafy boulevards, the concert hall has hosted the world's finest performers since its inauguration. The venue's exceptional acoustics ensure that every subtle inflection and harmonic detail reaches the audience with clarity and presence, making it Athens' premier destination for discerning music lovers.\n\nThis evening promises more than a concert; it offers an immersive journey through jazz's rich heritage, filtered through the sensitivity of an artist who has dedicated her career to honoring tradition while adding her distinctive voice. Whether you're a longtime admirer of Kent's work or discovering her artistry for the first time, this performance at MEGARON represents a pinnacle moment in Athens' cultural calendar.\n\nThe 21:00 start time allows attendees to savor an early dinner in nearby Kolonaki before ascending to MEGARON's elegant halls. With 2000 seats available, the venue strikes an ideal balance between intimacy and grandeur, ensuring every audience member experiences the full emotional impact of Kent's extraordinary musicianship. This is essential listening for anyone who appreciates jazz performed at its highest level.",
+      "startDate": "2025-11-13T21:00:00+03:00",
       "endDate": null,
       "type": "concert",
       "genres": [
-        ""
+        "jazz-vocal-bossa-nova"
       ],
       "tags": [],
       "venue": {
-        "name": "Αιθουσα Τεχνης & Πολιτισμου Μ.Αλεξανδρος",
-        "address": "Athens, Greece",
-        "neighborhood": null,
+        "name": "MEGARON - The Athens Concert Hall",
+        "address": "Vassilissis Sofias Avenue & Kokkali 1, Athens 115 21",
+        "neighborhood": "Kolonaki / Ilissia",
         "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
+          "lat": 37.975,
+          "lon": 23.757
         },
-        "capacity": null
+        "capacity": 2000
       },
       "price": {
         "type": "paid",
-        "amount": 15,
+        "amount": 40,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/to-gala-aith-m-aleksandros/",
-      "source": "viva.gr",
-      "createdAt": "2025-10-31T12:22:35.747Z",
-      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "url": "https://www.megaron.gr/event/stacey-kent-trio/",
+      "source": "2025-10-23-Jazz-Megaron.json",
+      "createdAt": "2025-11-03T14:01:45.442Z",
+      "updatedAt": "2025-11-07 00:58:10",
       "language": "en"
     }
   ],
   "meta": {
-    "total": 14,
-    "lastUpdate": "2025-11-09T19:12:45.828Z",
+    "total": 9,
+    "lastUpdate": "2025-11-11T22:13:50.574Z",
     "url": "https://agent-athens.netlify.app/tomorrow"
   }
 }

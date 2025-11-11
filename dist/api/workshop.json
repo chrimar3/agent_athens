@@ -6,42 +6,6 @@
   "events": [
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "43bfd05d807e02ba",
-      "title": "Εργαστήρισ για άτομα 65+: Εργαστήριο Τρισδιάστατης Εκτύπωσης (3D Printing)",
-      "description": "11 Νοε - 9 Φεβ Εργαστήρισ για άτομα 65+: Εργαστήριο Τρισδιάστατης Εκτύπωσης (3D Printing) Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Maker Space",
-      "fullDescription": "The Stavros Niarchos Foundation Cultural Center transforms digital technology into an accessible creative medium this winter with a groundbreaking three-month 3D printing workshop designed exclusively for adults aged 65 and older. Running from November 11 through February 9, 2025, this extended program invites seniors to explore one of the most revolutionary technologies of our time in a supportive, age-appropriate learning environment.\n\nLocated in the SNFCC's state-of-the-art Maker Space in Kallithea, overlooking the stunning Faliro Bay waterfront, this workshop breaks down the intimidating world of digital fabrication into manageable, engaging sessions. Participants will learn the fundamentals of 3D design software, understand how 3D printers transform digital files into physical objects, and ultimately create their own custom designs. The extended timeline allows for a gradual learning curve perfectly suited to older adults who may be encountering this technology for the first time.\n\nThe Maker Space itself represents the democratization of cutting-edge technology. Part of Renzo Piano's architectural masterpiece, this 100-capacity digital fabrication lab features professional-grade 3D printers, laser cutters, and computer workstations within a welcoming, non-intimidating atmosphere. Large windows flood the space with natural light while offering views of the SNFCC's iconic park and the Mediterranean beyond. The facility's accessibility features ensure comfort for all participants.\n\nWhat makes this program particularly valuable is its recognition that technological literacy has no age limit. Many seniors are discovering that 3D printing opens creative possibilities they never imagined—from designing custom solutions for household challenges to creating personalized gifts for grandchildren, from artistic expression to practical problem-solving. The workshop instructors specialize in patience-focused teaching methods that encourage questions and celebrate small victories.\n\nThe three-month duration allows participants to move beyond basic tutorials into genuinely creative work. Early sessions focus on navigating design software and understanding 3D printing principles. Mid-program weeks emphasize hands-on experimentation and troubleshooting. Final sessions enable participants to pursue independent projects that reflect their personal interests and creativity.\n\nLocated in Kallithea near the Faliro Bay waterfront, the SNFCC campus offers far more than just the workshop itself. Participants can arrive early to walk through the 170,000-square-meter park, enjoy coffee at the waterfront café, or explore the National Library and Greek National Opera facilities. The venue's excellent public transportation connections make it easily accessible from throughout Athens.\n\nThis workshop represents the SNFCC's commitment to lifelong learning and cultural inclusion, proving that innovation and creativity flourish at every age.",
-      "startDate": "2025-11-11T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "workshop",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Maker Space",
-        "address": "Evripidou & Doiranis, Kallithea, Athens 176 74",
-        "neighborhood": "Kallithea / Faliro Bay",
-        "coordinates": {
-          "lat": 37.9395,
-          "lon": 23.689
-        },
-        "capacity": 100
-      },
-      "price": {
-        "type": "with-ticket",
-        "amount": null,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/workshop/ergastirio-trisdiastatis-ektyposis-3d-printing/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.519Z",
-      "updatedAt": "2025-11-07 00:39:37",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "EducationEvent",
       "id": "therapeia-synolon-live-workshop-2025-11-15",
       "title": "THERAPEIA SYNOLON - Live Workshop",
@@ -72,7 +36,7 @@
       "url": "https://www.more.com/gr-el/tickets/seminar/therapeia-synolon-live-workshop/",
       "source": "more.com",
       "createdAt": "2025-10-31T12:22:35.864Z",
-      "updatedAt": "2025-10-31T12:44:50.787Z",
+      "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
@@ -144,8 +108,8 @@
     }
   ],
   "meta": {
-    "total": 4,
-    "lastUpdate": "2025-11-09T19:12:46.048Z",
+    "total": 3,
+    "lastUpdate": "2025-11-11T22:13:50.785Z",
     "url": "https://agent-athens.netlify.app/workshop"
   }
 }
