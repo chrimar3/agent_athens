@@ -174,15 +174,15 @@ function renderEventCard(event: Event): string {
   const priceClass = event.price.type === 'free' || event.price.type === 'open' ? 'price-free' : 'price-paid';
   let priceText;
   if (event.price.type === 'free' || event.price.type === 'open') {
-    priceText = 'Free Entry';
+    priceText = 'Δωρεάν είσοδος';  // Free Entry in Greek
   } else if (event.price.amount) {
     priceText = `€${event.price.amount}`;
   } else if (event.price.range) {
     priceText = event.price.range;
   } else if (event.url) {
-    priceText = '<a href="' + event.url + '" target="_blank" rel="noopener noreferrer">See pricing →</a>';
+    priceText = '<a href="' + event.url + '" target="_blank" rel="noopener noreferrer">Δείτε τιμές →</a>';  // See pricing in Greek
   } else {
-    priceText = 'Tickets Required';
+    priceText = 'Απαιτείται εισιτήριο';  // Tickets Required in Greek
   }
 
   const hasFullDescription = event.fullDescription && event.fullDescription.length > 100;
