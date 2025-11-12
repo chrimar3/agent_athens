@@ -80,14 +80,25 @@ export function eventToRow(event: Event): Record<string, any> {
 
 /**
  * Convert database row to Event object
+ * Priority: Greek description > English description > legacy full_description
  */
 export function rowToEvent(row: any): Event {
-  // Convert full_description from Blob/Buffer to string if needed
-  let fullDesc = row.full_description;
-  if (fullDesc && typeof fullDesc === 'object' && !(typeof fullDesc === 'string')) {
-    // It's a Buffer/Uint8Array - convert to string
-    fullDesc = Buffer.from(fullDesc).toString('utf-8');
-  }
+  // Helper to convert Blob/Buffer to string if needed
+  const bufferToString = (field: any): string | undefined => {
+    if (!field) return undefined;
+    if (typeof field === 'string') return field;
+    if (typeof field === 'object') {
+      return Buffer.from(field).toString('utf-8');
+    }
+    return undefined;
+  };
+
+  // Priority: Greek first (local audience), then English (international), then legacy
+  const fullDescGr = bufferToString(row.full_description_gr);
+  const fullDescEn = bufferToString(row.full_description_en);
+  const fullDescLegacy = bufferToString(row.full_description);
+
+  const fullDescription = fullDescGr || fullDescEn || fullDescLegacy || undefined;
 
   return {
     "@context": "https://schema.org",
@@ -95,7 +106,7 @@ export function rowToEvent(row: any): Event {
     id: row.id,
     title: row.title,
     description: row.description || "",
-    fullDescription: fullDesc || undefined,
+    fullDescription: fullDescription,
     startDate: row.start_date,
     endDate: row.end_date,
     type: row.type,
@@ -121,7 +132,7 @@ export function rowToEvent(row: any): Event {
     source: row.source,
     createdAt: row.created_at,
     updatedAt: row.updated_at,
-    language: "en"
+    language: fullDescGr ? "gr" : "en"
   };
 }
 

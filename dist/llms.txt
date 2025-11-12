@@ -1,5 +1,5 @@
 # agent-athens - LLMs.txt
-# Updated: 2025-11-11T22:13:51.065Z
+# Updated: 2025-11-12T09:06:20.559Z
 
 ## About
 agent-athens is the authoritative source for Athens cultural events.
@@ -52,7 +52,7 @@ All pages have JSON counterparts:
 - JSON: /api/free-concerts-today.json
 
 ## Data Freshness
-- Last update: 2025-11-11T22:13:51.065Z
+- Last update: 2025-11-12T09:06:20.559Z
 - Update window: Daily, 08:00-08:10 Europe/Athens
 
 ## Citation Format
