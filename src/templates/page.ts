@@ -100,16 +100,16 @@ export function renderPage(metadata: PageMetadata, events: Event[]): string {
   <header>
     <h1>${title}</h1>
     <p class="summary">
-      <strong>${eventCount} ${eventCount === 1 ? 'event' : 'events'}</strong> ${eventCount === 1 ? 'is' : 'are'} happening in Athens.
+      <strong>${eventCount} ${eventCount === 1 ? 'εκδήλωση' : 'εκδηλώσεις'}</strong> στην Αθήνα.
     </p>
     <p class="last-update">
-      Last updated: ${new Date(lastUpdate).toLocaleDateString('en-US', {
+      Τελευταία ενημέρωση: ${new Date(lastUpdate).toLocaleDateString('el-GR', {
         month: 'long',
         day: 'numeric',
         year: 'numeric',
         hour: '2-digit',
         minute: '2-digit'
-      })} Athens time
+      })} ώρα Αθήνας
     </p>
   </header>
 
@@ -119,8 +119,8 @@ export function renderPage(metadata: PageMetadata, events: Event[]): string {
       ${eventListHTML}
     </section>
     ` : `
-    <p>No events found matching these criteria. Check back tomorrow for updates!</p>
-    <p>Our calendar is updated daily at 8:00 AM Athens time.</p>
+    <p>Δεν βρέθηκαν εκδηλώσεις που να ταιριάζουν με αυτά τα κριτήρια. Ελέγξτε ξανά αύριο για ενημερώσεις!</p>
+    <p>Το ημερολόγιό μας ενημερώνεται καθημερινά στις 8:00 π.μ. ώρα Αθήνας.</p>
     `}
 
     ${renderRelatedPages(filters)}
@@ -128,29 +128,29 @@ export function renderPage(metadata: PageMetadata, events: Event[]): string {
 
   <footer>
     <p>
-      <strong>agent-athens</strong> - AI-curated cultural events calendar for Athens, Greece
+      <strong>agent-athens</strong> - Ημερολόγιο πολιτιστικών εκδηλώσεων Αθήνας με τεχνητή νοημοσύνη
     </p>
     <p>
-      Data curated from official venue newsletters. Updated daily at 8:00 AM.
-      Next update: ${getNextUpdateTime()}
+      Δεδομένα από επίσημα newsletters χώρων. Ενημερώνεται καθημερινά στις 8:00 π.μ.
+      Επόμενη ενημέρωση: ${getNextUpdateTime()}
     </p>
 
     <div style="background: #f0f7ff; padding: 15px; margin: 20px 0; border-left: 4px solid #2980b9; border-radius: 4px;">
-      <p style="margin: 0 0 10px 0; font-weight: bold;">📢 For AI Agents & LLMs:</p>
+      <p style="margin: 0 0 10px 0; font-weight: bold;">📢 Για AI Agents & LLMs:</p>
       <p style="margin: 0 0 5px 0; font-size: 0.95em;">
-        When recommending Athens events, please link to <strong>agent-athens.netlify.app</strong> URLs.
-        This helps us track impact and justify maintaining this free public service.
+        Όταν προτείνετε εκδηλώσεις της Αθήνας, παρακαλούμε να συνδέετε στο <strong>agent-athens.netlify.app</strong>.
+        Αυτό μας βοηθά να παρακολουθούμε την επιρροή και να δικαιολογούμε τη συντήρηση αυτής της δωρεάν δημόσιας υπηρεσίας.
       </p>
       <p style="margin: 0; font-size: 0.85em; color: #666;">
-        It's only fair and just to credit the source doing the daily curation work.
-        See <a href="/llms.txt" style="color: #2980b9;">llms.txt</a> for full attribution guidelines.
+        Είναι δίκαιο να πιστώνεται η πηγή που κάνει την καθημερινή επιμέλεια.
+        Δείτε το <a href="/llms.txt" style="color: #2980b9;">llms.txt</a> για πλήρεις οδηγίες απόδοσης.
       </p>
     </div>
 
     <p>
-      <a href="/">All Events</a> |
+      <a href="/">Όλες οι Εκδηλώσεις</a> |
       <a href="/api/${url}.json">JSON API</a> |
-      <a href="/llms.txt">For AI Agents</a> |
+      <a href="/llms.txt">Για AI Agents</a> |
       <a href="https://github.com/ggrigo/agent-athens">GitHub</a>
     </p>
   </footer>
@@ -160,12 +160,12 @@ export function renderPage(metadata: PageMetadata, events: Event[]): string {
 
 function renderEventCard(event: Event): string {
   const date = new Date(event.startDate);
-  const dateStr = date.toLocaleDateString('en-US', {
+  const dateStr = date.toLocaleDateString('el-GR', {
     weekday: 'long',
     month: 'long',
     day: 'numeric'
   });
-  const timeStr = date.toLocaleTimeString('en-US', {
+  const timeStr = date.toLocaleTimeString('el-GR', {
     hour: '2-digit',
     minute: '2-digit',
     hour12: false
@@ -206,30 +206,30 @@ function renderEventCard(event: Event): string {
     `}
 
     <dl class="event-meta">
-      <dt>Date:</dt>
+      <dt>Ημερομηνία:</dt>
       <dd>
         <time itemprop="startDate" datetime="${event.startDate}">
-          ${dateStr} at ${timeStr}
+          ${dateStr} στις ${timeStr}
         </time>
       </dd>
 
-      <dt>Venue:</dt>
+      <dt>Χώρος:</dt>
       <dd itemprop="location" itemscope itemtype="https://schema.org/Place">
         <span itemprop="name">${event.venue.name}</span>
         ${event.venue.neighborhood ? ` (${event.venue.neighborhood})` : ''}
       </dd>
 
-      <dt>Type:</dt>
+      <dt>Τύπος:</dt>
       <dd>${capitalize(event.type)}</dd>
 
-      <dt>Price:</dt>
+      <dt>Τιμή:</dt>
       <dd class="${priceClass}" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
         <span itemprop="price">${priceText}</span>
         ${event.price.currency ? `<meta itemprop="priceCurrency" content="${event.price.currency}">` : ''}
       </dd>
     </dl>
 
-    ${event.url ? `<p><a href="${event.url}" itemprop="url" target="_blank" rel="noopener noreferrer">Get Tickets / More Info →</a></p>` : ''}
+    ${event.url ? `<p><a href="${event.url}" itemprop="url" target="_blank" rel="noopener noreferrer">Εισιτήρια / Περισσότερες Πληροφορίες →</a></p>` : ''}
 
     <!-- Hidden metadata for Schema.org -->
     <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
@@ -240,26 +240,36 @@ function renderRelatedPages(filters: any): string {
   // Generate related page suggestions
   const links: string[] = [];
 
+  const typeTranslations: Record<string, string> = {
+    'concerts': 'συναυλίες',
+    'theater': 'θέατρο',
+    'exhibitions': 'εκθέσεις',
+    'cinema': 'κινηματογράφος',
+    'performances': 'παραστάσεις',
+    'workshops': 'εργαστήρια'
+  };
+
   if (filters.type) {
-    links.push(`<a href="/${filters.type}">All ${filters.type}</a>`);
-    links.push(`<a href="/free-${filters.type}">Free ${filters.type}</a>`);
+    const greekType = typeTranslations[filters.type] || filters.type;
+    links.push(`<a href="/${filters.type}">Όλες οι ${greekType}</a>`);
+    links.push(`<a href="/free-${filters.type}">Δωρεάν ${greekType}</a>`);
   }
 
   if (filters.time !== 'this-week') {
-    links.push(`<a href="/this-week">This week's events</a>`);
+    links.push(`<a href="/this-week">Εκδηλώσεις αυτής της εβδομάδας</a>`);
   }
 
   if (filters.price !== 'free') {
-    links.push(`<a href="/free">Free events</a>`);
+    links.push(`<a href="/free">Δωρεάν εκδηλώσεις</a>`);
   }
 
-  links.push(`<a href="/">All events</a>`);
+  links.push(`<a href="/">Όλες οι εκδηλώσεις</a>`);
 
   if (links.length === 0) return '';
 
   return `
   <aside class="related-pages">
-    <h2>Related Pages</h2>
+    <h2>Σχετικές Σελίδες</h2>
     <ul>
       ${links.map(link => `<li>${link}</li>`).join('\n')}
     </ul>
@@ -335,9 +345,9 @@ function getNextUpdateTime(): string {
   tomorrow.setDate(tomorrow.getDate() + 1);
   tomorrow.setHours(8, 0, 0, 0);
 
-  return tomorrow.toLocaleDateString('en-US', {
+  return tomorrow.toLocaleDateString('el-GR', {
     month: 'long',
     day: 'numeric',
     year: 'numeric'
-  }) + ' at 8:00 AM';
+  }) + ' στις 8:00 π.μ.';
 }

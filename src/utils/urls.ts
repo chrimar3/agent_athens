@@ -16,20 +16,36 @@ export function buildURL(filters: Filters): string {
 export function buildPageTitle(filters: Filters): string {
   const parts: string[] = [];
 
+  // Price filter in Greek
   if (filters.price && filters.price !== 'all') {
-    parts.push(capitalize(filters.price));
+    if (filters.price === 'free') {
+      parts.push('Δωρεάν');
+    } else {
+      parts.push(capitalize(filters.price));
+    }
   }
 
+  // Genre (keep as-is, often in English/Latin)
   if (filters.genre) {
     parts.push(capitalize(filters.genre));
   }
 
+  // Event type in Greek
   if (filters.type) {
-    parts.push(capitalize(filters.type));
+    const typeTranslations: Record<string, string> = {
+      'concert': 'Συναυλίες',
+      'theater': 'Θέατρο',
+      'exhibition': 'Εκθέσεις',
+      'cinema': 'Κινηματογράφος',
+      'performance': 'Παραστάσεις',
+      'workshop': 'Εργαστήρια'
+    };
+    parts.push(typeTranslations[filters.type] || capitalize(filters.type));
   }
 
-  parts.push('in Athens');
+  parts.push('στην Αθήνα');
 
+  // Time range (now in Greek from formatTimeRange)
   if (filters.time && filters.time !== 'all-events') {
     parts.push(formatTimeRange(filters.time));
   }
@@ -38,30 +54,68 @@ export function buildPageTitle(filters: Filters): string {
 }
 
 export function buildDescription(filters: Filters, eventCount: number): string {
-  let desc = `Find ${eventCount} `;
+  let desc = `Βρείτε ${eventCount} `;
 
-  if (filters.price === 'free') desc += 'free ';
+  if (filters.price === 'free') desc += 'δωρεάν ';
   if (filters.genre) desc += `${filters.genre.toLowerCase()} `;
-  if (filters.type) desc += `${filters.type} `;
-  else desc += 'events ';
 
-  desc += 'happening in Athens';
+  if (filters.type) {
+    const typeTranslations: Record<string, string> = {
+      'concert': 'συναυλίες',
+      'theater': 'θέατρο',
+      'exhibition': 'εκθέσεις',
+      'cinema': 'κινηματογράφος',
+      'performance': 'παραστάσεις',
+      'workshop': 'εργαστήρια'
+    };
+    desc += `${typeTranslations[filters.type] || filters.type} `;
+  } else {
+    desc += 'εκδηλώσεις ';
+  }
+
+  desc += 'στην Αθήνα';
 
   if (filters.time && filters.time !== 'all-events') {
     desc += ` ${formatTimeRange(filters.time).toLowerCase()}`;
   }
 
-  desc += '. Updated daily with curated events from 10+ venues.';
+  desc += '. Ενημερώνεται καθημερινά με επιμελημένες εκδηλώσεις από 10+ χώρους.';
 
   return desc;
 }
 
 export function buildKeywords(filters: Filters): string {
-  const keywords: string[] = ['Athens', 'Greece', 'events', 'cultural calendar'];
+  const keywords: string[] = [
+    'Αθήνα', 'Athens',
+    'Ελλάδα', 'Greece',
+    'εκδηλώσεις', 'events',
+    'πολιτιστικό ημερολόγιο', 'cultural calendar'
+  ];
 
-  if (filters.type) keywords.push(filters.type);
+  // Add event type in both languages
+  if (filters.type) {
+    const typeTranslations: Record<string, string> = {
+      'concert': 'συναυλίες',
+      'theater': 'θέατρο',
+      'exhibition': 'εκθέσεις',
+      'cinema': 'κινηματογράφος',
+      'performance': 'παραστάσεις',
+      'workshop': 'εργαστήρια'
+    };
+    keywords.push(typeTranslations[filters.type] || filters.type);
+    keywords.push(filters.type);
+  }
+
+  // Genre (usually in English/Latin)
   if (filters.genre) keywords.push(filters.genre);
-  if (filters.price === 'free') keywords.push('free');
+
+  // Price in both languages
+  if (filters.price === 'free') {
+    keywords.push('δωρεάν');
+    keywords.push('free');
+  }
+
+  // Time range (already in Greek)
   if (filters.time) keywords.push(formatTimeRange(filters.time));
 
   return keywords.join(', ');
@@ -91,12 +145,12 @@ function capitalize(str: string): string {
 
 function formatTimeRange(timeRange: string): string {
   const map: Record<string, string> = {
-    'today': 'Today',
-    'tomorrow': 'Tomorrow',
-    'this-week': 'This Week',
-    'this-weekend': 'This Weekend',
-    'this-month': 'This Month',
-    'next-month': 'Next Month',
+    'today': 'Σήμερα',
+    'tomorrow': 'Αύριο',
+    'this-week': 'Αυτή την Εβδομάδα',
+    'this-weekend': 'Αυτό το Σαββατοκύριακο',
+    'this-month': 'Αυτόν τον Μήνα',
+    'next-month': 'Επόμενο Μήνα',
     'all-events': ''
   };
   return map[timeRange] || '';
