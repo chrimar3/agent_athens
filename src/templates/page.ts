@@ -1,6 +1,8 @@
 // HTML page template with full GEO/SEO optimization
+// Greek Primary + English Metadata Strategy
 
 import type { Event, PageMetadata } from '../types';
+import { formatGreekDate, formatPriceGreek, toSchemaOrg, generateKeywords } from '../utils/i18n';
 
 export function renderPage(metadata: PageMetadata, events: Event[]): string {
   const { title, description, keywords, url, eventCount, lastUpdate, filters } = metadata;
@@ -9,22 +11,30 @@ export function renderPage(metadata: PageMetadata, events: Event[]): string {
   const eventListHTML = events.map(renderEventCard).join('\n');
 
   return `<!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- SEO: Title (60 chars max) -->
+  <!-- Primary Title: Greek -->
   <title>${title} | agent-athens</title>
 
-  <!-- SEO: Description (155 chars max) -->
+  <!-- Primary Description: Greek -->
   <meta name="description" content="${description}">
 
-  <!-- SEO: Keywords -->
-  <meta name="keywords" content="${keywords}">
+  <!-- Secondary Description: English for International Discovery -->
+  <meta name="description" lang="en" content="${eventCount} cultural events in Athens, Greece. Concerts, exhibitions, theater, performances.">
 
-  <!-- SEO: Canonical URL -->
+  <!-- Bilingual Keywords -->
+  <meta name="keywords" content="${keywords}, Αθήνα, Athens, εκδηλώσεις, events, πολιτισμός, culture">
+
+  <!-- Canonical URL (English slug for international SEO) -->
   <link rel="canonical" href="https://agent-athens.netlify.app/${url}">
+
+  <!-- Language Alternates (for future English version) -->
+  <link rel="alternate" hreflang="el" href="https://agent-athens.netlify.app/${url}">
+  <link rel="alternate" hreflang="en" href="https://agent-athens.netlify.app/${url}">
+  <link rel="alternate" hreflang="x-default" href="https://agent-athens.netlify.app/${url}">
 
   <!-- GEO: Freshness signals -->
   <meta name="date" content="${new Date().toISOString().split('T')[0]}">
@@ -33,12 +43,13 @@ export function renderPage(metadata: PageMetadata, events: Event[]): string {
   <!-- GEO: Author/source -->
   <meta name="author" content="agent-athens">
 
-  <!-- OpenGraph (social sharing) -->
+  <!-- OpenGraph: Greek Primary, English Secondary -->
   <meta property="og:title" content="${title}">
-  <meta property="og:description" content="${eventCount} events in Athens">
+  <meta property="og:description" content="${eventCount} εκδηλώσεις στην Αθήνα">
   <meta property="og:url" content="https://agent-athens.netlify.app/${url}">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:locale" content="el_GR">
+  <meta property="og:locale:alternate" content="en_US">
   <meta property="og:site_name" content="agent-athens">
 
   <!-- GEO: Location metadata -->
@@ -256,22 +267,33 @@ function renderRelatedPages(filters: any): string {
 }
 
 function generateSchemaMarkup(events: Event[], metadata: PageMetadata): string {
+  // CRITICAL: Schema.org must ALWAYS be in English for AI agent parsing
+  // Even though content is Greek, Schema.org is the universal standard
+
   const itemListElements = events.map((event, index) => ({
     "@type": "ListItem",
     "position": index + 1,
     "item": {
       "@type": event['@type'],
-      "name": event.title,
+      "name": event.title,  // Keep title as-is (might be Greek)
+      "description": `${event.type} event in Athens`,  // English description
       "startDate": event.startDate,
       "location": {
         "@type": "Place",
         "name": event.venue.name,
-        "address": event.venue.address
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": event.venue.address || "",
+          "addressLocality": "Athens",  // English
+          "addressRegion": "Attica",    // English
+          "addressCountry": "GR"
+        }
       },
       "offers": {
         "@type": "Offer",
         "price": event.price.amount || 0,
-        "priceCurrency": event.price.currency || "EUR"
+        "priceCurrency": event.price.currency || "EUR",
+        "availability": "https://schema.org/InStock"
       }
     }
   }));
@@ -279,10 +301,10 @@ function generateSchemaMarkup(events: Event[], metadata: PageMetadata): string {
   const schema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": metadata.title,
-    "description": metadata.description,
+    "name": `${metadata.title} | Cultural Events in Athens`,  // Add English context
+    "description": `${events.length} cultural events in Athens, Greece`,  // English
     "url": `https://agent-athens.netlify.app/${metadata.url}`,
-    "inLanguage": "en",
+    "inLanguage": "el",  // Changed to Greek since content is Greek
     "about": {
       "@type": "Place",
       "name": "Athens",

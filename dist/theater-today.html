@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- SEO: Title (60 chars max) -->
+  <!-- Primary Title: Greek -->
   <title>Theater in Athens Today | agent-athens</title>
 
-  <!-- SEO: Description (155 chars max) -->
+  <!-- Primary Description: Greek -->
   <meta name="description" content="Find 4 theater happening in Athens today. Updated daily with curated events from 10+ venues.">
 
-  <!-- SEO: Keywords -->
-  <meta name="keywords" content="Athens, Greece, events, cultural calendar, theater, Today">
+  <!-- Secondary Description: English for International Discovery -->
+  <meta name="description" lang="en" content="4 cultural events in Athens, Greece. Concerts, exhibitions, theater, performances.">
 
-  <!-- SEO: Canonical URL -->
+  <!-- Bilingual Keywords -->
+  <meta name="keywords" content="Athens, Greece, events, cultural calendar, theater, Today, Αθήνα, Athens, εκδηλώσεις, events, πολιτισμός, culture">
+
+  <!-- Canonical URL (English slug for international SEO) -->
   <link rel="canonical" href="https://agent-athens.netlify.app/theater-today">
+
+  <!-- Language Alternates (for future English version) -->
+  <link rel="alternate" hreflang="el" href="https://agent-athens.netlify.app/theater-today">
+  <link rel="alternate" hreflang="en" href="https://agent-athens.netlify.app/theater-today">
+  <link rel="alternate" hreflang="x-default" href="https://agent-athens.netlify.app/theater-today">
 
   <!-- GEO: Freshness signals -->
   <meta name="date" content="2025-11-12">
-  <meta name="last-modified" content="2025-11-12T09:06:20.274Z">
+  <meta name="last-modified" content="2025-11-12T09:50:08.418Z">
 
   <!-- GEO: Author/source -->
   <meta name="author" content="agent-athens">
 
-  <!-- OpenGraph (social sharing) -->
+  <!-- OpenGraph: Greek Primary, English Secondary -->
   <meta property="og:title" content="Theater in Athens Today">
-  <meta property="og:description" content="4 events in Athens">
+  <meta property="og:description" content="4 εκδηλώσεις στην Αθήνα">
   <meta property="og:url" content="https://agent-athens.netlify.app/theater-today">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:locale" content="el_GR">
+  <meta property="og:locale:alternate" content="en_US">
   <meta property="og:site_name" content="agent-athens">
 
   <!-- GEO: Location metadata -->
@@ -44,10 +53,10 @@
   {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Theater in Athens Today",
-  "description": "Find 4 theater happening in Athens today. Updated daily with curated events from 10+ venues.",
+  "name": "Theater in Athens Today | Cultural Events in Athens",
+  "description": "4 cultural events in Athens, Greece",
   "url": "https://agent-athens.netlify.app/theater-today",
-  "inLanguage": "en",
+  "inLanguage": "el",
   "about": {
     "@type": "Place",
     "name": "Athens",
@@ -67,16 +76,24 @@
         "item": {
           "@type": "Event",
           "name": "ΣΠΗΛΙΟΣ ΦΛΩΡΟΣ - ΣΤΟ ΤΡΕΞΙΜΟ ΑΘΗΝΑ",
+          "description": "theater event in Athens",
           "startDate": "2025-11-12T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "ΘΕΑΤΡΟ ΑΚΡΟΠΟΛ",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -86,16 +103,24 @@
         "item": {
           "@type": "Event",
           "name": "Ψυχάρης Το Ταξίδι μου",
+          "description": "theater event in Athens",
           "startDate": "2025-11-12T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "μου Θεατρο Μεταξουργειο",
-            "address": "μου Θεατρο Μεταξουργειο"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "μου Θεατρο Μεταξουργειο",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 9,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -105,16 +130,24 @@
         "item": {
           "@type": "Event",
           "name": "Όπως σας αρέσει",
+          "description": "theater event in Athens",
           "startDate": "2025-11-12T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
-            "address": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -124,23 +157,31 @@
         "item": {
           "@type": "Event",
           "name": "Taniko",
+          "description": "theater event in Athens",
           "startDate": "2025-11-12T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Studio Μαυρομιχαλη",
-            "address": "Studio Μαυρομιχαλη"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Studio Μαυρομιχαλη",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       }
     ]
   },
-  "datePublished": "2025-11-12T09:06:20.274Z",
-  "dateModified": "2025-11-12T09:06:20.274Z"
+  "datePublished": "2025-11-12T09:50:08.418Z",
+  "dateModified": "2025-11-12T09:50:08.418Z"
 }
   </script>
 
@@ -182,7 +223,7 @@
       <strong>4 events</strong> are happening in Athens.
     </p>
     <p class="last-update">
-      Last updated: November 12, 2025 at 11:06 AM Athens time
+      Last updated: November 12, 2025 at 11:50 AM Athens time
     </p>
   </header>
 

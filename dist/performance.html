@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- SEO: Title (60 chars max) -->
+  <!-- Primary Title: Greek -->
   <title>Performance in Athens | agent-athens</title>
 
-  <!-- SEO: Description (155 chars max) -->
+  <!-- Primary Description: Greek -->
   <meta name="description" content="Find 36 performance happening in Athens. Updated daily with curated events from 10+ venues.">
 
-  <!-- SEO: Keywords -->
-  <meta name="keywords" content="Athens, Greece, events, cultural calendar, performance, ">
+  <!-- Secondary Description: English for International Discovery -->
+  <meta name="description" lang="en" content="36 cultural events in Athens, Greece. Concerts, exhibitions, theater, performances.">
 
-  <!-- SEO: Canonical URL -->
+  <!-- Bilingual Keywords -->
+  <meta name="keywords" content="Athens, Greece, events, cultural calendar, performance, , Αθήνα, Athens, εκδηλώσεις, events, πολιτισμός, culture">
+
+  <!-- Canonical URL (English slug for international SEO) -->
   <link rel="canonical" href="https://agent-athens.netlify.app/performance">
+
+  <!-- Language Alternates (for future English version) -->
+  <link rel="alternate" hreflang="el" href="https://agent-athens.netlify.app/performance">
+  <link rel="alternate" hreflang="en" href="https://agent-athens.netlify.app/performance">
+  <link rel="alternate" hreflang="x-default" href="https://agent-athens.netlify.app/performance">
 
   <!-- GEO: Freshness signals -->
   <meta name="date" content="2025-11-12">
-  <meta name="last-modified" content="2025-11-12T09:06:20.297Z">
+  <meta name="last-modified" content="2025-11-12T09:50:08.440Z">
 
   <!-- GEO: Author/source -->
   <meta name="author" content="agent-athens">
 
-  <!-- OpenGraph (social sharing) -->
+  <!-- OpenGraph: Greek Primary, English Secondary -->
   <meta property="og:title" content="Performance in Athens">
-  <meta property="og:description" content="36 events in Athens">
+  <meta property="og:description" content="36 εκδηλώσεις στην Αθήνα">
   <meta property="og:url" content="https://agent-athens.netlify.app/performance">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:locale" content="el_GR">
+  <meta property="og:locale:alternate" content="en_US">
   <meta property="og:site_name" content="agent-athens">
 
   <!-- GEO: Location metadata -->
@@ -44,10 +53,10 @@
   {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Performance in Athens",
-  "description": "Find 36 performance happening in Athens. Updated daily with curated events from 10+ venues.",
+  "name": "Performance in Athens | Cultural Events in Athens",
+  "description": "36 cultural events in Athens, Greece",
   "url": "https://agent-athens.netlify.app/performance",
-  "inLanguage": "en",
+  "inLanguage": "el",
   "about": {
     "@type": "Place",
     "name": "Athens",
@@ -67,16 +76,24 @@
         "item": {
           "@type": "Event",
           "name": "Μαθήματα Α' Βοηθειών (για ενήλικες)",
+          "description": "performance event in Athens",
           "startDate": "2025-11-12T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Maker Space",
-            "address": "Evripidou & Doiranis, Kallithea, Athens 176 74"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Evripidou & Doiranis, Kallithea, Athens 176 74",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 0,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -86,16 +103,24 @@
         "item": {
           "@type": "Event",
           "name": "Μύλος των Ξωτικών-Τρίκαλα, μονοήμερη εκδρομή",
+          "description": "performance event in Athens",
           "startDate": "2025-11-13T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 28,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -105,16 +130,24 @@
         "item": {
           "@type": "Event",
           "name": "Λίμνη Δόξα, μονοήμερη εκδρομή",
+          "description": "performance event in Athens",
           "startDate": "2025-11-15T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 18,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -124,16 +157,24 @@
         "item": {
           "@type": "Event",
           "name": "Καρπενήσι, διήμερη εκδρομή",
+          "description": "performance event in Athens",
           "startDate": "2025-11-15T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 100,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -143,16 +184,24 @@
         "item": {
           "@type": "Event",
           "name": "Αρχιτεκτονικό Εργαστήρι για Παιδιά",
+          "description": "performance event in Athens",
           "startDate": "2025-11-16T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Aka | Architecture Kids Athens",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -162,16 +211,24 @@
         "item": {
           "@type": "Event",
           "name": "Δημητσάνα-Καρύταινα, μονοήμερη εκδρομή",
+          "description": "performance event in Athens",
           "startDate": "2025-11-16T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": "Metro Σταθμος Λαρισης"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Metro Σταθμος Λαρισης",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -181,16 +238,24 @@
         "item": {
           "@type": "Event",
           "name": "ΕΛΛΗΝΙΚΗ ΜΥΘΟΛΟΓΙΑ",
+          "description": "performance event in Athens",
           "startDate": "2025-11-16T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Paradise Park - Βιωματικο Παρκο",
-            "address": "Paradise Park - Βιωματικο Παρκο"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Paradise Park - Βιωματικο Παρκο",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 8,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -200,16 +265,24 @@
         "item": {
           "@type": "Event",
           "name": "Πρόγραμμα \"Συνδέομαι σημαίνει σέβομαι\"",
+          "description": "performance event in Athens",
           "startDate": "2025-11-21T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Ελληνικο Παιδικο Μουσειο",
-            "address": "Rigillis & Vas. Georgiou B' 17-19, Athens 106 75"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Rigillis & Vas. Georgiou B' 17-19, Athens 106 75",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -219,16 +292,24 @@
         "item": {
           "@type": "Event",
           "name": "Λιβαδειά-Πηγές Κρύας, μονοήμερη εκδρομή",
+          "description": "performance event in Athens",
           "startDate": "2025-11-22T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 17,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -238,16 +319,24 @@
         "item": {
           "@type": "Event",
           "name": "ΚΟΛΟΣΣΟΣ H HOTELS COLLECTION - ΠΕΡΙΣΤΕΡΙ",
+          "description": "performance event in Athens",
           "startDate": "2025-11-22T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "KALLITHEA INDOOR HALL",
-            "address": "KALLITHEA INDOOR HALL"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "KALLITHEA INDOOR HALL",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 5,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -257,16 +346,24 @@
         "item": {
           "@type": "Event",
           "name": "Παύλιανη-Πάρκο Παύλιανης, μονοήμερη εκδρομή",
+          "description": "performance event in Athens",
           "startDate": "2025-11-23T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -276,16 +373,24 @@
         "item": {
           "@type": "Event",
           "name": "Εργαστήρια για άτομα 65+: Ιστορίες από το Πάρκο Σταύρος Νιάρχος",
+          "description": "performance event in Athens",
           "startDate": "2025-11-25T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Αιθουσα Πολλαπλων Χρησεων 2",
-            "address": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Αιθουσα Πολλαπλων Χρησεων 2"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Αιθουσα Πολλαπλων Χρησεων 2",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 0,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -295,16 +400,24 @@
         "item": {
           "@type": "Event",
           "name": "ΜΑΝΟΣ ΒΟΥΛΑΡΙΝΟΣ - «Η ΜΕΓΑΛΗ ΑΡΠΑΧΤΗ»",
+          "description": "performance event in Athens",
           "startDate": "2025-11-26T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο Παλλας",
-            "address": "Voukourestiou 5, Athens 106 71"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Voukourestiou 5, Athens 106 71",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -314,16 +427,24 @@
         "item": {
           "@type": "Event",
           "name": "Αγία Θεοδώρα-Καρύταινα, μονοήμερη εκδρομή",
+          "description": "performance event in Athens",
           "startDate": "2025-11-29T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -333,16 +454,24 @@
         "item": {
           "@type": "Event",
           "name": "ΨΗΦΙΔΩΤΑ ΦΤΕΡΟΥΓΙΣΜΑΤΑ",
+          "description": "performance event in Athens",
           "startDate": "2025-11-29T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Μουσειο Αλεκος Φασιανος",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -352,16 +481,24 @@
         "item": {
           "@type": "Event",
           "name": "Μονή Βλασίου - Τρίκαλα Κορινθίας, μονοήμερη εκδρομή",
+          "description": "performance event in Athens",
           "startDate": "2025-11-30T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 18,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -371,16 +508,24 @@
         "item": {
           "@type": "Event",
           "name": "ΚΑΡΤΑ ΦΙΛΟΥ",
+          "description": "performance event in Athens",
           "startDate": "2025-12-01T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Ιστορικο Μουσειο Ερμουπολης",
-            "address": "Ιστορικο Μουσειο Ερμουπολης"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Ιστορικο Μουσειο Ερμουπολης",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 30,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -390,16 +535,24 @@
         "item": {
           "@type": "Event",
           "name": "Μαρμελάδα Κυψέλη: Σκιτσάροντας στην Αγορά με τον Pan Pan",
+          "description": "performance event in Athens",
           "startDate": "2025-12-04T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Δημοτικη Αγορα Κυψελης",
-            "address": "Fokionos Negri 42, Kypseli, Athens 113 61"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Fokionos Negri 42, Kypseli, Athens 113 61",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 110,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -409,16 +562,24 @@
         "item": {
           "@type": "Event",
           "name": "Avanti Maestro Christmas Edition",
+          "description": "performance event in Athens",
           "startDate": "2025-12-07T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-            "address": "Mitropoleos 44, Athens 105 63"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Mitropoleos 44, Athens 105 63",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 9,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -428,16 +589,24 @@
         "item": {
           "@type": "Event",
           "name": "Μυκήνες - Ναύπλιο, μονοήμερη εκδρομή",
+          "description": "performance event in Athens",
           "startDate": "2025-12-07T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": "Metro Σταθμος Λαρισης"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Metro Σταθμος Λαρισης",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 18,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -447,16 +616,24 @@
         "item": {
           "@type": "Event",
           "name": "Εργαστήρια για άτομα 65+: Σταμπωτά Υφάσματα - Ζωντανεύοντας την Παράδοση",
+          "description": "performance event in Athens",
           "startDate": "2025-12-10T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Αιθουσα Πολλαπλων Χρησεων 2",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 0,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -466,16 +643,24 @@
         "item": {
           "@type": "Event",
           "name": "Καλάβρυτα-Σπήλαιο Λιμνών, μονοήμερη εκδρομή",
+          "description": "performance event in Athens",
           "startDate": "2025-12-14T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": "Metro Σταθμος Λαρισης"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Metro Σταθμος Λαρισης",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -485,16 +670,24 @@
         "item": {
           "@type": "Event",
           "name": "ΣΤΑΧΤΟΠΟΥΤΑ",
+          "description": "performance event in Athens",
           "startDate": "2025-12-23T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-            "address": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 25,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -504,16 +697,24 @@
         "item": {
           "@type": "Event",
           "name": "Save a greek stray - Η προσφορά σας γίνεται ελπίδα!",
+          "description": "performance event in Athens",
           "startDate": "2025-12-31T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Donations - SGS",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -523,16 +724,24 @@
         "item": {
           "@type": "Event",
           "name": "ΕΤΗΣΙΑ ΣΥΝΔΡΟΜΗ ΜΕΛΩΝ ΑΚΟ ΓΙΑ ΕΤΟΣ 2025.",
+          "description": "performance event in Athens",
           "startDate": "2025-12-31T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "ONLINE",
-            "address": "ONLINE"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "ONLINE",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 50,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -542,16 +751,24 @@
         "item": {
           "@type": "Event",
           "name": "Εργαστήρια για άτομα 65+: Διάβαση, σε συνεργασία με το Ίδρυμα Ευγενίδου",
+          "description": "performance event in Athens",
           "startDate": "2026-03-09T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Πυργος Βιβλιων ΕΒΕ",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 0,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -561,16 +778,24 @@
         "item": {
           "@type": "Event",
           "name": "HAPPY PRODUCTIONS 7in1 PASS.",
+          "description": "performance event in Athens",
           "startDate": "2026-04-05T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Πολλαπλοι χωροι",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 129,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -580,16 +805,24 @@
         "item": {
           "@type": "Event",
           "name": "ΑΝΕΣΙΣ 4in1 PASS.",
+          "description": "performance event in Athens",
           "startDate": "2026-04-05T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρον Ανεσις",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 69,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -599,16 +832,24 @@
         "item": {
           "@type": "Event",
           "name": "ANESIS STEPHEN KING PASS.",
+          "description": "performance event in Athens",
           "startDate": "2026-04-05T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρον Ανεσις",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 39,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -618,16 +859,24 @@
         "item": {
           "@type": "Event",
           "name": "ΑΟ ΑΜΑΡΥΝΘΙΑΚΟΣ ΚΑΡΤΑ ΜΕΛΟΥΣ 2025-2026",
+          "description": "performance event in Athens",
           "startDate": "2026-06-01T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Δημοτικο Σταδιο Αμαρυνθου",
-            "address": "Δημοτικο Σταδιο Αμαρυνθου"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Δημοτικο Σταδιο Αμαρυνθου",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 100,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -637,16 +886,24 @@
         "item": {
           "@type": "Event",
           "name": "ΚΑΕ ΜΑΡΟΥΣΙ - ΕΙΣΙΤΗΡΙΑ ΔΙΑΡΚΕΙΑΣ 2025-26",
+          "description": "performance event in Athens",
           "startDate": "2026-06-30T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Αμαρουσιου, Αγιος Θωμας",
-            "address": "Αμαρουσιου, Αγιος Θωμας"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Αμαρουσιου, Αγιος Θωμας",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 80,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -656,16 +913,24 @@
         "item": {
           "@type": "Event",
           "name": "ΚΟΛΟΣΣΟΣ H HOTELS - Εισιτήρια Διαρκείας 2025 - 2026",
+          "description": "performance event in Athens",
           "startDate": "2026-06-30T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "KALLITHEA INDOOR HALL",
-            "address": "KALLITHEA INDOOR HALL"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "KALLITHEA INDOOR HALL",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 190,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -675,16 +940,24 @@
         "item": {
           "@type": "Event",
           "name": "ΠΑΣ ΓΙΑΝΝΙΝΑ: ΕΙΣ. ΔΙΑΡΚΕΙΑΣ 2025/26",
+          "description": "performance event in Athens",
           "startDate": "2026-06-30T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Ε.Σ.Ι \"Οι Ζωσιμαδες\"",
-            "address": "Ε.Σ.Ι \"Οι Ζωσιμαδες\""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Ε.Σ.Ι \"Οι Ζωσιμαδες\"",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 60,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -694,16 +967,24 @@
         "item": {
           "@type": "Event",
           "name": "ΠΑΕ ΑΡΗΣ ΕΙΣΙΤΗΡΙΑ ΔΙΑΡΚΕΙΑΣ 2025 - 2026",
+          "description": "performance event in Athens",
           "startDate": "2026-06-30T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Χαριλαου \"Κλεανθης Βικελιδης\"",
-            "address": "Χαριλαου \"Κλεανθης Βικελιδης\""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Χαριλαου \"Κλεανθης Βικελιδης\"",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 250,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -713,16 +994,24 @@
         "item": {
           "@type": "Event",
           "name": "AEK BC SEASON TICKETS 2025-2026",
+          "description": "performance event in Athens",
           "startDate": "2026-07-31T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "2025-2026 SUNEL ARENA",
-            "address": "2025-2026 SUNEL ARENA"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "2025-2026 SUNEL ARENA",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 80,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -732,23 +1021,31 @@
         "item": {
           "@type": "Event",
           "name": "ΑΠΟΛΛΩΝ ΠΑΤΡΩΝ | ΕΙΣΙΤΗΡΙΑ ΔΙΑΡΚΕΙΑΣ 2025-2026",
+          "description": "performance event in Athens",
           "startDate": "2026-07-31T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Κλειστο Γηπεδο Απολλωνα Πατρας",
-            "address": "Κλειστο Γηπεδο Απολλωνα Πατρας"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Κλειστο Γηπεδο Απολλωνα Πατρας",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 60,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       }
     ]
   },
-  "datePublished": "2025-11-12T09:06:20.297Z",
-  "dateModified": "2025-11-12T09:06:20.297Z"
+  "datePublished": "2025-11-12T09:50:08.440Z",
+  "dateModified": "2025-11-12T09:50:08.440Z"
 }
   </script>
 
@@ -790,7 +1087,7 @@
       <strong>36 events</strong> are happening in Athens.
     </p>
     <p class="last-update">
-      Last updated: November 12, 2025 at 11:06 AM Athens time
+      Last updated: November 12, 2025 at 11:50 AM Athens time
     </p>
   </header>
 

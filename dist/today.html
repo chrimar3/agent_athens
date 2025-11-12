@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- SEO: Title (60 chars max) -->
+  <!-- Primary Title: Greek -->
   <title>in Athens Today | agent-athens</title>
 
-  <!-- SEO: Description (155 chars max) -->
+  <!-- Primary Description: Greek -->
   <meta name="description" content="Find 12 events happening in Athens today. Updated daily with curated events from 10+ venues.">
 
-  <!-- SEO: Keywords -->
-  <meta name="keywords" content="Athens, Greece, events, cultural calendar, Today">
+  <!-- Secondary Description: English for International Discovery -->
+  <meta name="description" lang="en" content="12 cultural events in Athens, Greece. Concerts, exhibitions, theater, performances.">
 
-  <!-- SEO: Canonical URL -->
+  <!-- Bilingual Keywords -->
+  <meta name="keywords" content="Athens, Greece, events, cultural calendar, Today, Αθήνα, Athens, εκδηλώσεις, events, πολιτισμός, culture">
+
+  <!-- Canonical URL (English slug for international SEO) -->
   <link rel="canonical" href="https://agent-athens.netlify.app/today">
+
+  <!-- Language Alternates (for future English version) -->
+  <link rel="alternate" hreflang="el" href="https://agent-athens.netlify.app/today">
+  <link rel="alternate" hreflang="en" href="https://agent-athens.netlify.app/today">
+  <link rel="alternate" hreflang="x-default" href="https://agent-athens.netlify.app/today">
 
   <!-- GEO: Freshness signals -->
   <meta name="date" content="2025-11-12">
-  <meta name="last-modified" content="2025-11-12T09:06:20.086Z">
+  <meta name="last-modified" content="2025-11-12T09:50:08.231Z">
 
   <!-- GEO: Author/source -->
   <meta name="author" content="agent-athens">
 
-  <!-- OpenGraph (social sharing) -->
+  <!-- OpenGraph: Greek Primary, English Secondary -->
   <meta property="og:title" content="in Athens Today">
-  <meta property="og:description" content="12 events in Athens">
+  <meta property="og:description" content="12 εκδηλώσεις στην Αθήνα">
   <meta property="og:url" content="https://agent-athens.netlify.app/today">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:locale" content="el_GR">
+  <meta property="og:locale:alternate" content="en_US">
   <meta property="og:site_name" content="agent-athens">
 
   <!-- GEO: Location metadata -->
@@ -44,10 +53,10 @@
   {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "in Athens Today",
-  "description": "Find 12 events happening in Athens today. Updated daily with curated events from 10+ venues.",
+  "name": "in Athens Today | Cultural Events in Athens",
+  "description": "12 cultural events in Athens, Greece",
   "url": "https://agent-athens.netlify.app/today",
-  "inLanguage": "en",
+  "inLanguage": "el",
   "about": {
     "@type": "Place",
     "name": "Athens",
@@ -67,16 +76,24 @@
         "item": {
           "@type": "Event",
           "name": "ΣΠΗΛΙΟΣ ΦΛΩΡΟΣ - ΣΤΟ ΤΡΕΞΙΜΟ ΑΘΗΝΑ",
+          "description": "theater event in Athens",
           "startDate": "2025-11-12T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "ΘΕΑΤΡΟ ΑΚΡΟΠΟΛ",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -86,16 +103,24 @@
         "item": {
           "@type": "Event",
           "name": "Σύμφωνο Eπιβίωσης - Gagarin 205",
+          "description": "concert event in Athens",
           "startDate": "2025-11-12T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Gagarin 205 Live Music Space",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -105,16 +130,24 @@
         "item": {
           "@type": "Event",
           "name": "«ΕΠΙΛΟΓΟΣ» ΤΟΥ ΑΛΕΞΑΝΔΡΟΥ ΓΟΥΡΓΟΥΛΙΟΥ | ΒΑΣΙΛΗΣ ΠΡΟΔΡΟΜΟΥ - ΜΑΡΙΑΝΑ ΚΑΤΣΙΜΙΧΑ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ CLUB",
+          "description": "concert event in Athens",
           "startDate": "2025-11-12T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Σταυρος του Νοτου - Σταυρος του Νοτου - Club",
-            "address": "Tharipou 37 & Frantzi, Neos Kosmos, Athens 117 43"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Tharipou 37 & Frantzi, Neos Kosmos, Athens 117 43",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 13,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -124,16 +157,24 @@
         "item": {
           "@type": "Event",
           "name": "ΓΙΑΝΝΗΣ ΤΣΕΡΟΣ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ PLUS",
+          "description": "concert event in Athens",
           "startDate": "2025-11-12T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Σταυρος του Νοτου - Σταυρος του Νοτου Plus",
-            "address": "Tharipou 37 & Frantzi, Neos Kosmos, Athens 117 43"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Tharipou 37 & Frantzi, Neos Kosmos, Athens 117 43",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 13,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -143,16 +184,24 @@
         "item": {
           "@type": "Event",
           "name": "Μαθήματα Α' Βοηθειών (για ενήλικες)",
+          "description": "performance event in Athens",
           "startDate": "2025-11-12T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Maker Space",
-            "address": "Evripidou & Doiranis, Kallithea, Athens 176 74"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Evripidou & Doiranis, Kallithea, Athens 176 74",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 0,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -162,16 +211,24 @@
         "item": {
           "@type": "Event",
           "name": "ΦΕΝΙΑ ΠΑΠΑΔΟΔΗΜΑ – WOMEN’S PRAYERS – ΠΑΡΟΥΣΙΑΣΗ ΔΙΣΚΟΥ",
+          "description": "concert event in Athens",
           "startDate": "2025-11-12T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Half Note Jazz Club",
-            "address": "17 Trivonianou Street, Athens 116 36"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "17 Trivonianou Street, Athens 116 36",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -181,16 +238,24 @@
         "item": {
           "@type": "Event",
           "name": "Ψυχάρης Το Ταξίδι μου",
+          "description": "theater event in Athens",
           "startDate": "2025-11-12T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "μου Θεατρο Μεταξουργειο",
-            "address": "μου Θεατρο Μεταξουργειο"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "μου Θεατρο Μεταξουργειο",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 9,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -200,16 +265,24 @@
         "item": {
           "@type": "Event",
           "name": "Όπως σας αρέσει",
+          "description": "theater event in Athens",
           "startDate": "2025-11-12T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
-            "address": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -219,16 +292,24 @@
         "item": {
           "@type": "Event",
           "name": "Taniko",
+          "description": "theater event in Athens",
           "startDate": "2025-11-12T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Studio Μαυρομιχαλη",
-            "address": "Studio Μαυρομιχαλη"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Studio Μαυρομιχαλη",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -238,16 +319,24 @@
         "item": {
           "@type": "Event",
           "name": "GORAN BREGOVIC - Wedding & Funeral Band",
+          "description": "concert event in Athens",
           "startDate": "2025-11-12T20:30:00+02:00",
           "location": {
             "@type": "Place",
             "name": "CHRISTMAS THEATER",
-            "address": "Leof. Veikou 137, Galatsi Olympic Hall, Athens 111 46"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Leof. Veikou 137, Galatsi Olympic Hall, Athens 111 46",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -257,16 +346,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ΕΡΓΑ ΓΙΑ ΣΑΞΟΦΩΝΟ & ΚΟΥΑΡΤΕΤΟ ΕΓΧΟΡΔΩΝ",
+          "description": "concert event in Athens",
           "startDate": "2025-11-12T20:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Μεγαρο Μουσικης Θεσσαλονικης - Αιθουσα Αιμιλιος Ριαδης",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -276,23 +373,31 @@
         "item": {
           "@type": "Event",
           "name": "Νένα Βενετσάνου-Σκληρές Βιολέτες (2ος κύκλος)",
+          "description": "concert event in Athens",
           "startDate": "2025-11-12T21:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Αμαξοστοιχια - Θεατρο το Τρενο στο Ρουφ - Θεατρικο Βαγονι",
-            "address": "Αμαξοστοιχια - Θεατρο το Τρενο στο Ρουφ - Θεατρικο Βαγονι"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Αμαξοστοιχια - Θεατρο το Τρενο στο Ρουφ - Θεατρικο Βαγονι",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 16,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       }
     ]
   },
-  "datePublished": "2025-11-12T09:06:20.086Z",
-  "dateModified": "2025-11-12T09:06:20.086Z"
+  "datePublished": "2025-11-12T09:50:08.231Z",
+  "dateModified": "2025-11-12T09:50:08.231Z"
 }
   </script>
 
@@ -334,7 +439,7 @@
       <strong>12 events</strong> are happening in Athens.
     </p>
     <p class="last-update">
-      Last updated: November 12, 2025 at 11:06 AM Athens time
+      Last updated: November 12, 2025 at 11:50 AM Athens time
     </p>
   </header>
 

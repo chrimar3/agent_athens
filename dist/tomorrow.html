@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- SEO: Title (60 chars max) -->
+  <!-- Primary Title: Greek -->
   <title>in Athens Tomorrow | agent-athens</title>
 
-  <!-- SEO: Description (155 chars max) -->
+  <!-- Primary Description: Greek -->
   <meta name="description" content="Find 9 events happening in Athens tomorrow. Updated daily with curated events from 10+ venues.">
 
-  <!-- SEO: Keywords -->
-  <meta name="keywords" content="Athens, Greece, events, cultural calendar, Tomorrow">
+  <!-- Secondary Description: English for International Discovery -->
+  <meta name="description" lang="en" content="9 cultural events in Athens, Greece. Concerts, exhibitions, theater, performances.">
 
-  <!-- SEO: Canonical URL -->
+  <!-- Bilingual Keywords -->
+  <meta name="keywords" content="Athens, Greece, events, cultural calendar, Tomorrow, Αθήνα, Athens, εκδηλώσεις, events, πολιτισμός, culture">
+
+  <!-- Canonical URL (English slug for international SEO) -->
   <link rel="canonical" href="https://agent-athens.netlify.app/tomorrow">
+
+  <!-- Language Alternates (for future English version) -->
+  <link rel="alternate" hreflang="el" href="https://agent-athens.netlify.app/tomorrow">
+  <link rel="alternate" hreflang="en" href="https://agent-athens.netlify.app/tomorrow">
+  <link rel="alternate" hreflang="x-default" href="https://agent-athens.netlify.app/tomorrow">
 
   <!-- GEO: Freshness signals -->
   <meta name="date" content="2025-11-12">
-  <meta name="last-modified" content="2025-11-12T09:06:20.095Z">
+  <meta name="last-modified" content="2025-11-12T09:50:08.238Z">
 
   <!-- GEO: Author/source -->
   <meta name="author" content="agent-athens">
 
-  <!-- OpenGraph (social sharing) -->
+  <!-- OpenGraph: Greek Primary, English Secondary -->
   <meta property="og:title" content="in Athens Tomorrow">
-  <meta property="og:description" content="9 events in Athens">
+  <meta property="og:description" content="9 εκδηλώσεις στην Αθήνα">
   <meta property="og:url" content="https://agent-athens.netlify.app/tomorrow">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:locale" content="el_GR">
+  <meta property="og:locale:alternate" content="en_US">
   <meta property="og:site_name" content="agent-athens">
 
   <!-- GEO: Location metadata -->
@@ -44,10 +53,10 @@
   {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "in Athens Tomorrow",
-  "description": "Find 9 events happening in Athens tomorrow. Updated daily with curated events from 10+ venues.",
+  "name": "in Athens Tomorrow | Cultural Events in Athens",
+  "description": "9 cultural events in Athens, Greece",
   "url": "https://agent-athens.netlify.app/tomorrow",
-  "inLanguage": "en",
+  "inLanguage": "el",
   "about": {
     "@type": "Place",
     "name": "Athens",
@@ -67,16 +76,24 @@
         "item": {
           "@type": "Event",
           "name": "ΙΟΥΛΙΑ ΚΑΡΑΠΑΤΑΚΗ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ",
+          "description": "concert event in Athens",
           "startDate": "2025-11-13T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Σταυρος του Νοτου - Κεντρικη Σκηνη",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 16,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -86,16 +103,24 @@
         "item": {
           "@type": "Event",
           "name": "Μύλος των Ξωτικών-Τρίκαλα, μονοήμερη εκδρομή",
+          "description": "performance event in Athens",
           "startDate": "2025-11-13T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 28,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -105,16 +130,24 @@
         "item": {
           "@type": "Event",
           "name": "ΦΡΟΣΩ ΣΤΥΛΙΑΝΟΥ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ CLUB",
+          "description": "concert event in Athens",
           "startDate": "2025-11-13T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Σταυρος του Νοτου - Σταυρος του Νοτου - Club",
-            "address": "Tharipou 37 & Frantzi, Neos Kosmos, Athens 117 43"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Tharipou 37 & Frantzi, Neos Kosmos, Athens 117 43",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -124,16 +157,24 @@
         "item": {
           "@type": "Event",
           "name": "SPYROS MANESIS TRIO",
+          "description": "concert event in Athens",
           "startDate": "2025-11-13T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Note Jazz Club",
-            "address": "Note Jazz Club"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Note Jazz Club",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -143,16 +184,24 @@
         "item": {
           "@type": "Event",
           "name": "ΚΑΛΟΓΕΡΑΚΙΑ | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ PLUS",
+          "description": "concert event in Athens",
           "startDate": "2025-11-13T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "του Νοτου Plus",
-            "address": "του Νοτου Plus"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "του Νοτου Plus",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 14,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -162,16 +211,24 @@
         "item": {
           "@type": "Event",
           "name": "Πουαβρόν - Οι Τρεις Άθλιοι του Ηρακλή",
+          "description": "concert event in Athens",
           "startDate": "2025-11-13T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "- Θεατρικο Βαγονι",
-            "address": "- Θεατρικο Βαγονι"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "- Θεατρικο Βαγονι",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 5,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -181,16 +238,24 @@
         "item": {
           "@type": "Event",
           "name": "ΗΣΑΪΑΣ ΜΑΤΙΑΜΠΑ LIVE",
+          "description": "concert event in Athens",
           "startDate": "2025-11-13T21:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Καφεθεατρο",
-            "address": "Fokionos Negri area, Athens"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Fokionos Negri area, Athens",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -200,16 +265,24 @@
         "item": {
           "@type": "Event",
           "name": "Δημήτρης Κρυφός στο Caja de Música",
+          "description": "concert event in Athens",
           "startDate": "2025-11-13T21:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Caja De Musica",
-            "address": "Sinopis 27 & Michalakopoulou, Athens 115 27"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Sinopis 27 & Michalakopoulou, Athens 115 27",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 8,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -219,23 +292,31 @@
         "item": {
           "@type": "MusicEvent",
           "name": "Stacey Kent Trio",
+          "description": "concert event in Athens",
           "startDate": "2025-11-13T21:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "MEGARON - The Athens Concert Hall",
-            "address": "Vassilissis Sofias Avenue & Kokkali 1, Athens 115 21"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Vassilissis Sofias Avenue & Kokkali 1, Athens 115 21",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 40,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       }
     ]
   },
-  "datePublished": "2025-11-12T09:06:20.095Z",
-  "dateModified": "2025-11-12T09:06:20.095Z"
+  "datePublished": "2025-11-12T09:50:08.238Z",
+  "dateModified": "2025-11-12T09:50:08.238Z"
 }
   </script>
 
@@ -277,7 +358,7 @@
       <strong>9 events</strong> are happening in Athens.
     </p>
     <p class="last-update">
-      Last updated: November 12, 2025 at 11:06 AM Athens time
+      Last updated: November 12, 2025 at 11:50 AM Athens time
     </p>
   </header>
 

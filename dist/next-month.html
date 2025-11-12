@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- SEO: Title (60 chars max) -->
+  <!-- Primary Title: Greek -->
   <title>in Athens Next Month | agent-athens</title>
 
-  <!-- SEO: Description (155 chars max) -->
+  <!-- Primary Description: Greek -->
   <meta name="description" content="Find 137 events happening in Athens next month. Updated daily with curated events from 10+ venues.">
 
-  <!-- SEO: Keywords -->
-  <meta name="keywords" content="Athens, Greece, events, cultural calendar, Next Month">
+  <!-- Secondary Description: English for International Discovery -->
+  <meta name="description" lang="en" content="137 cultural events in Athens, Greece. Concerts, exhibitions, theater, performances.">
 
-  <!-- SEO: Canonical URL -->
+  <!-- Bilingual Keywords -->
+  <meta name="keywords" content="Athens, Greece, events, cultural calendar, Next Month, Αθήνα, Athens, εκδηλώσεις, events, πολιτισμός, culture">
+
+  <!-- Canonical URL (English slug for international SEO) -->
   <link rel="canonical" href="https://agent-athens.netlify.app/next-month">
+
+  <!-- Language Alternates (for future English version) -->
+  <link rel="alternate" hreflang="el" href="https://agent-athens.netlify.app/next-month">
+  <link rel="alternate" hreflang="en" href="https://agent-athens.netlify.app/next-month">
+  <link rel="alternate" hreflang="x-default" href="https://agent-athens.netlify.app/next-month">
 
   <!-- GEO: Freshness signals -->
   <meta name="date" content="2025-11-12">
-  <meta name="last-modified" content="2025-11-12T09:06:20.122Z">
+  <meta name="last-modified" content="2025-11-12T09:50:08.265Z">
 
   <!-- GEO: Author/source -->
   <meta name="author" content="agent-athens">
 
-  <!-- OpenGraph (social sharing) -->
+  <!-- OpenGraph: Greek Primary, English Secondary -->
   <meta property="og:title" content="in Athens Next Month">
-  <meta property="og:description" content="137 events in Athens">
+  <meta property="og:description" content="137 εκδηλώσεις στην Αθήνα">
   <meta property="og:url" content="https://agent-athens.netlify.app/next-month">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:locale" content="el_GR">
+  <meta property="og:locale:alternate" content="en_US">
   <meta property="og:site_name" content="agent-athens">
 
   <!-- GEO: Location metadata -->
@@ -44,10 +53,10 @@
   {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "in Athens Next Month",
-  "description": "Find 137 events happening in Athens next month. Updated daily with curated events from 10+ venues.",
+  "name": "in Athens Next Month | Cultural Events in Athens",
+  "description": "137 cultural events in Athens, Greece",
   "url": "https://agent-athens.netlify.app/next-month",
-  "inLanguage": "en",
+  "inLanguage": "el",
   "about": {
     "@type": "Place",
     "name": "Athens",
@@ -67,16 +76,24 @@
         "item": {
           "@type": "Event",
           "name": "Alestorm live in Athens",
+          "description": "concert event in Athens",
           "startDate": "2025-12-01T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Athens Fuzz Club",
-            "address": "Athens Fuzz Club"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens Fuzz Club",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 30,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -86,16 +103,24 @@
         "item": {
           "@type": "Event",
           "name": "ΤΟ ΠΡΑΓΜΑ live",
+          "description": "concert event in Athens",
           "startDate": "2025-12-01T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Gazarte Main Stage",
-            "address": "Gazarte Main Stage"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Gazarte Main Stage",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -105,16 +130,24 @@
         "item": {
           "@type": "Event",
           "name": "Τα άνθη του κακού",
+          "description": "theater event in Athens",
           "startDate": "2025-12-01T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "του Νεου Κοσμου",
-            "address": "του Νεου Κοσμου"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "του Νεου Κοσμου",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 14,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -124,16 +157,24 @@
         "item": {
           "@type": "Event",
           "name": "ΚΑΡΤΑ ΦΙΛΟΥ",
+          "description": "performance event in Athens",
           "startDate": "2025-12-01T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Ιστορικο Μουσειο Ερμουπολης",
-            "address": "Ιστορικο Μουσειο Ερμουπολης"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Ιστορικο Μουσειο Ερμουπολης",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 30,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -143,16 +184,24 @@
         "item": {
           "@type": "Event",
           "name": "AND ALL THAT GREEK JAZZ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-01T20:30:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Μεγαρο Μουσικης Αθηνων - Αιθουσα Γιαννης Μαρινος",
-            "address": "Μεγαρο Μουσικης Αθηνων - Αιθουσα Γιαννης Μαρινος"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Μεγαρο Μουσικης Αθηνων - Αιθουσα Γιαννης Μαρινος",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -162,16 +211,24 @@
         "item": {
           "@type": "Event",
           "name": "EMBER CIRCLE",
+          "description": "concert event in Athens",
           "startDate": "2025-12-01T20:30:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-            "address": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 16,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -181,16 +238,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "Το φάντασμα:  stage fright",
+          "description": "concert event in Athens",
           "startDate": "2025-12-01T21:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο Αμαλια",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -200,16 +265,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ΜΑΡΘΑ ΦΡΙΝΤΖΗΛΑ - THE KUBARA PROJECT Reloaded  + KALOGERAKI BROS !",
+          "description": "concert event in Athens",
           "startDate": "2025-12-01T21:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Κυτταρο Live",
-            "address": "Ipeirou 48, Athens 104 39"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Ipeirou 48, Athens 104 39",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 13,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -219,16 +292,24 @@
         "item": {
           "@type": "Event",
           "name": "AUTOMELODI (CA) LIVE IN ATHENS / OPENING ACT: VALISIA ODELL (GR)",
+          "description": "concert event in Athens",
           "startDate": "2025-12-02T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "(GR) AUX CLUB",
-            "address": "(GR) AUX CLUB"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "(GR) AUX CLUB",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -238,16 +319,24 @@
         "item": {
           "@type": "Event",
           "name": "ΝΙΚΟΣ ΞΥΛΟΥΡΗΣ- Ο ΑΡΧΑΓΓΕΛΟΣ ΤΗΣ ΚΡΗΤΗΣ",
+          "description": "theater event in Athens",
           "startDate": "2025-12-03T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο ΗΒΗ",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 18,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -257,16 +346,24 @@
         "item": {
           "@type": "Event",
           "name": "Σεμινάριο Συνήθειες & Πειθαρχία",
+          "description": "workshop event in Athens",
           "startDate": "2025-12-03T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Emmantina Hotel",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 17,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -276,16 +373,24 @@
         "item": {
           "@type": "Event",
           "name": "Πετριχώρα",
+          "description": "theater event in Athens",
           "startDate": "2025-12-03T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Πολλαπλοι χωροι",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -295,16 +400,24 @@
         "item": {
           "@type": "Event",
           "name": "Το Ημερολόγιο ενός τρελλού",
+          "description": "theater event in Athens",
           "startDate": "2025-12-03T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Πολλαπλοι χωροι",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -314,16 +427,24 @@
         "item": {
           "@type": "Event",
           "name": "ΤΑ ΛΑΙΚΑ ΜΑΚΕΔΟΝΑΣ - ΝΕΓΚΑ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-03T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο «Βαγγελης Παπαθανασιου»",
-            "address": "Θεατρο «Βαγγελης Παπαθανασιου»"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Θεατρο «Βαγγελης Παπαθανασιου»",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -333,16 +454,24 @@
         "item": {
           "@type": "Event",
           "name": "QUATUOR ÉBÈNE",
+          "description": "concert event in Athens",
           "startDate": "2025-12-03T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Αιθουσα Αιμιλιος Ριαδης",
-            "address": "Αιθουσα Αιμιλιος Ριαδης"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Αιθουσα Αιμιλιος Ριαδης",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -352,16 +481,24 @@
         "item": {
           "@type": "Event",
           "name": "Γιώργος Νταλάρας - Βασίλης Παπακωνσταντίνου",
+          "description": "concert event in Athens",
           "startDate": "2025-12-04T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "VOX",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -371,16 +508,24 @@
         "item": {
           "@type": "Event",
           "name": "Μαρμελάδα Κυψέλη: Σκιτσάροντας στην Αγορά με τον Pan Pan",
+          "description": "performance event in Athens",
           "startDate": "2025-12-04T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Δημοτικη Αγορα Κυψελης",
-            "address": "Fokionos Negri 42, Kypseli, Athens 113 61"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Fokionos Negri 42, Kypseli, Athens 113 61",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 110,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -390,16 +535,24 @@
         "item": {
           "@type": "Event",
           "name": "ΓΙΑΓΚΙΝΗΔΕΣ live στο GAZARTE",
+          "description": "concert event in Athens",
           "startDate": "2025-12-04T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "- Ground Stage",
-            "address": "- Ground Stage"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "- Ground Stage",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -409,16 +562,24 @@
         "item": {
           "@type": "Event",
           "name": "Η Πριγκίπισσα των Αγίων Σαράντα!",
+          "description": "theater event in Athens",
           "startDate": "2025-12-04T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "CORONET THEATER",
-            "address": "CORONET THEATER"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "CORONET THEATER",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -428,16 +589,24 @@
         "item": {
           "@type": "Event",
           "name": "GODSLEEP + LOUD SILENCE • ROVER BAR",
+          "description": "concert event in Athens",
           "startDate": "2025-12-04T20:30:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Rover Bar",
-            "address": "Rover Bar"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Rover Bar",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 8,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -447,16 +616,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ΡΕΣΙΤΑΛ ΠΙΑΝΟΥ SASA GERZELJ: AUTREFOIS",
+          "description": "concert event in Athens",
           "startDate": "2025-12-04T20:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Μεγαρο Μουσικης Θεσσαλονικης - Φουαγιε Μ2",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 0,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -466,16 +643,24 @@
         "item": {
           "@type": "Event",
           "name": "GODSLEEP + LOUD SILENCE • ARCH CLUB",
+          "description": "concert event in Athens",
           "startDate": "2025-12-05T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "ARCH",
-            "address": "Petrou Ralli 29 & Kritis 1, Athens 104 47"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Petrou Ralli 29 & Kritis 1, Athens 104 47",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -485,16 +670,24 @@
         "item": {
           "@type": "Event",
           "name": "Η ΓΙΟΡΤΗ για τον ΠΑΥΛΟ ΣΙΔΗΡΟΠΟΥΛΟ στο ΚΥΤΤΑΡΟ 2025",
+          "description": "concert event in Athens",
           "startDate": "2025-12-05T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Κυτταρο Live",
-            "address": "Ipeirou 48, Athens 104 39"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Ipeirou 48, Athens 104 39",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -504,16 +697,24 @@
         "item": {
           "@type": "Event",
           "name": "Μάνι \"Acidtape\" live στην Αθήνα",
+          "description": "concert event in Athens",
           "startDate": "2025-12-05T19:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Universe - Multispace",
-            "address": "Universe - Multispace"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Universe - Multispace",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -523,16 +724,24 @@
         "item": {
           "@type": "Event",
           "name": "ΤΑΦ ΛΑΘΟΣ - 20 Χρόνια Χωρίς Να Ντρέπομαι Tour - Fuzz - Παρασκευή 5 Δεκεμβρίου",
+          "description": "concert event in Athens",
           "startDate": "2025-12-05T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Δεκεμβρίου Fuzz Club",
-            "address": "Δεκεμβρίου Fuzz Club"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Δεκεμβρίου Fuzz Club",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -542,16 +751,24 @@
         "item": {
           "@type": "Event",
           "name": "MESSA(IT) live in Greece",
+          "description": "concert event in Athens",
           "startDate": "2025-12-05T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Greece Πολλαπλοι χωροι",
-            "address": "Greece Πολλαπλοι χωροι"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Greece Πολλαπλοι χωροι",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 25,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -561,16 +778,24 @@
         "item": {
           "@type": "Event",
           "name": "CLEANSED",
+          "description": "theater event in Athens",
           "startDate": "2025-12-05T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "ΙΜΚ Κεντρικη Σκηνη",
-            "address": "ΙΜΚ Κεντρικη Σκηνη"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "ΙΜΚ Κεντρικη Σκηνη",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 18,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -580,16 +805,24 @@
         "item": {
           "@type": "Event",
           "name": "ΤΟ ΜΕΓΑΛΟ ΜΑΣ ΤΣΙΡΚΟ",
+          "description": "theater event in Athens",
           "startDate": "2025-12-05T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "ΘΕΑΤΡΟΝ (Αιθ. Αντιγονη)",
-            "address": "ΘΕΑΤΡΟΝ (Αιθ. Αντιγονη)"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "ΘΕΑΤΡΟΝ (Αιθ. Αντιγονη)",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 13,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -599,16 +832,24 @@
         "item": {
           "@type": "Event",
           "name": "οι Social Waste στo WE",
+          "description": "concert event in Athens",
           "startDate": "2025-12-05T21:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "WE, Πολυχωρος Πολιτισμου & Αθλητισμου",
-            "address": "WE, Πολυχωρος Πολιτισμου & Αθλητισμου"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "WE, Πολυχωρος Πολιτισμου & Αθλητισμου",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -618,16 +859,24 @@
         "item": {
           "@type": "Event",
           "name": "Flames @ Piraeus Club Academy",
+          "description": "concert event in Athens",
           "startDate": "2025-12-05T21:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Piraeus Club Academy",
-            "address": "Piraeus 105, Athens 118 54"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Piraeus 105, Athens 118 54",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -637,16 +886,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "Cilia Katrali & Spiros Paraskevakos Live show",
+          "description": "concert event in Athens",
           "startDate": "2025-12-05T21:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Death Disco",
-            "address": "Ogygou 16, Psyrri, Athens 105 54"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Ogygou 16, Psyrri, Athens 105 54",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -656,16 +913,24 @@
         "item": {
           "@type": "Event",
           "name": "COMEDY CLUB για παιδιά - Με τον Γιώργο Χατζηπαύλου",
+          "description": "theater event in Athens",
           "startDate": "2025-12-06T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Κινηματοθεατρο ΚΟΛΟΣΣΑΙΟΝ",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -675,16 +940,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "Αγία Φωτεινή-Σπήλαιο Κάψια-Λαγκάδια,1-ήμερη",
+          "description": "concert event in Athens",
           "startDate": "2025-12-06T07:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 18,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -694,16 +967,24 @@
         "item": {
           "@type": "Event",
           "name": "Mirror-Passage-StygianPath",
+          "description": "concert event in Athens",
           "startDate": "2025-12-06T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Piraeus Club Academy",
-            "address": "Piraeus 105, Athens 118 54"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Piraeus 105, Athens 118 54",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -713,16 +994,24 @@
         "item": {
           "@type": "Event",
           "name": "Τα Χριστούγεννα του Ίκαρου Ποντίκαρου",
+          "description": "concert event in Athens",
           "startDate": "2025-12-06T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "- Αιθουσα 1",
-            "address": "- Αιθουσα 1"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "- Αιθουσα 1",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 14,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -732,16 +1021,24 @@
         "item": {
           "@type": "Event",
           "name": "Ο Άγιος Βασίλης και οι αδέξιοι βοηθοί του (2η Χρονιά)",
+          "description": "theater event in Athens",
           "startDate": "2025-12-06T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Artbox Fargani Theater",
-            "address": "Artbox Fargani Theater"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Artbox Fargani Theater",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 7.5,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -751,16 +1048,24 @@
         "item": {
           "@type": "Event",
           "name": "Όλα Μόνοι Μας",
+          "description": "theater event in Athens",
           "startDate": "2025-12-06T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο 104",
-            "address": "Θεατρο 104"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Θεατρο 104",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -770,16 +1075,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "FUNDRACAR - LIVE IN ATHENS",
+          "description": "concert event in Athens",
           "startDate": "2025-12-06T20:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "ARCH",
-            "address": "Petrou Ralli 29 & Kritis 1, Athens 104 47"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Petrou Ralli 29 & Kritis 1, Athens 104 47",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -789,16 +1102,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "PHASER / TENSION - ΔΙΠΛΗ ΠΑΡΟΥΣΙΑΣΗ ΔΙΣΚΩΝ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-06T20:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "AUX CLUB",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -808,16 +1129,24 @@
         "item": {
           "@type": "Event",
           "name": "ULTRA SUNN live at Death Disco",
+          "description": "concert event in Athens",
           "startDate": "2025-12-06T21:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Death Disco",
-            "address": "Ogygou 16, Psyrri, Athens 105 54"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Ogygou 16, Psyrri, Athens 105 54",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 22,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -827,16 +1156,24 @@
         "item": {
           "@type": "Event",
           "name": "JOHN MEDESKI SOLO live in Athens",
+          "description": "concert event in Athens",
           "startDate": "2025-12-06T21:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Gazarte Main Stage!",
-            "address": "32-34 Voutadon St, Gazi, Athens"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "32-34 Voutadon St, Gazi, Athens",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 25,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -846,16 +1183,24 @@
         "item": {
           "@type": "Event",
           "name": "ΡΕΜΠΕΤΙΣΣΕΣ ΨΥΧΕΣ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-06T21:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Αγγελων Βημα - Φουαγιε",
-            "address": "Αγγελων Βημα - Φουαγιε"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Αγγελων Βημα - Φουαγιε",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -865,16 +1210,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ΤΑ SWING ΤΟΥ ΜΑΝΩΛΗ ΧΙΩΤΗ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-06T22:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Γυαλινο Μουσικο Θεατρο",
-            "address": "Syngrou Avenue 143, Nea Smyrni, Athens 171 21"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Syngrou Avenue 143, Nea Smyrni, Athens 171 21",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -884,16 +1237,24 @@
         "item": {
           "@type": "Event",
           "name": "Avanti Maestro Christmas Edition",
+          "description": "performance event in Athens",
           "startDate": "2025-12-07T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-            "address": "Mitropoleos 44, Athens 105 63"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Mitropoleos 44, Athens 105 63",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 9,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -903,16 +1264,24 @@
         "item": {
           "@type": "Event",
           "name": "Χριστούγεννα με τον Παπαδιαμάντη",
+          "description": "theater event in Athens",
           "startDate": "2025-12-07T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο της Ημερας - Μπλε Σκηνη",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 8,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -922,16 +1291,24 @@
         "item": {
           "@type": "Event",
           "name": "Asaf Avidan",
+          "description": "concert event in Athens",
           "startDate": "2025-12-07T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Floyd",
-            "address": "Pireos 117, Athens 118 54"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Pireos 117, Athens 118 54",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 40,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -941,16 +1318,24 @@
         "item": {
           "@type": "Event",
           "name": "ΠΩΡΩΣΗ Launch",
+          "description": "concert event in Athens",
           "startDate": "2025-12-07T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Launch Πολλαπλοι χωροι",
-            "address": "Launch Πολλαπλοι χωροι"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Launch Πολλαπλοι χωροι",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -960,16 +1345,24 @@
         "item": {
           "@type": "Event",
           "name": "FRANK PETER ZIMMERMANN - DMYTRO CHONI",
+          "description": "concert event in Athens",
           "startDate": "2025-12-07T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Αιθουσα Αιμιλιος Ριαδης",
-            "address": "Αιθουσα Αιμιλιος Ριαδης"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Αιθουσα Αιμιλιος Ριαδης",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 0,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -979,16 +1372,24 @@
         "item": {
           "@type": "Event",
           "name": "ΤΑ ΧΡΙΣΤΟΥΓΕΝΝΑ ΤΟΥ ΣΚΡΟΥΤΖ",
+          "description": "theater event in Athens",
           "startDate": "2025-12-07T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο Πειραιως 131",
-            "address": "Θεατρο Πειραιως 131"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Θεατρο Πειραιως 131",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 11,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -998,16 +1399,24 @@
         "item": {
           "@type": "Event",
           "name": "Καρυοθραύστης του Ε.Τ.Α Χόφμαν 4η χρονιά επιτυχίας",
+          "description": "theater event in Athens",
           "startDate": "2025-12-07T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "BIOS",
-            "address": "Pireos 84, Athens 104 35"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Pireos 84, Athens 104 35",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1017,16 +1426,24 @@
         "item": {
           "@type": "Event",
           "name": "Μυκήνες - Ναύπλιο, μονοήμερη εκδρομή",
+          "description": "performance event in Athens",
           "startDate": "2025-12-07T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": "Metro Σταθμος Λαρισης"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Metro Σταθμος Λαρισης",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 18,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1036,16 +1453,24 @@
         "item": {
           "@type": "Event",
           "name": "Η ΜΑΓΕΙΑ ΤΩΝ ΧΡΙΣΤΟΥΓΕΝΝΩΝ",
+          "description": "theater event in Athens",
           "startDate": "2025-12-07T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Myrtillo Cafe",
-            "address": "Myrtillo Cafe"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Myrtillo Cafe",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1055,16 +1480,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "Asaf Avidan 2025",
+          "description": "concert event in Athens",
           "startDate": "2025-12-07T20:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Floyd",
-            "address": "Pireos 117, Athens 118 54"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Pireos 117, Athens 118 54",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 37,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1074,16 +1507,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "G. ROSSINI: Ο ΚΟΥΡΕΑΣ ΤΗΣ ΣΕΒΙΛΛΗΣ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-07T20:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Μεγαρο Μουσικης Θεσσαλονικης",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 0,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1093,16 +1534,24 @@
         "item": {
           "@type": "Event",
           "name": "DEAFHEAVEN live @ Kyttaro Live Club",
+          "description": "concert event in Athens",
           "startDate": "2025-12-07T20:30:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Κυτταρο Live",
-            "address": "Ipeirou 48, Athens 104 39"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Ipeirou 48, Athens 104 39",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 29,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1112,16 +1561,24 @@
         "item": {
           "@type": "Event",
           "name": "Oren Ambarchi + Tropical Geometry + Savvas Metaxas",
+          "description": "concert event in Athens",
           "startDate": "2025-12-07T21:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Gazarte Main Stage!",
-            "address": "32-34 Voutadon St, Gazi, Athens"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "32-34 Voutadon St, Gazi, Athens",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1131,16 +1588,24 @@
         "item": {
           "@type": "Event",
           "name": "WEVAL LIVE IN ATHENS",
+          "description": "concert event in Athens",
           "startDate": "2025-12-08T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Universe / Saturn Area",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 18,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1150,16 +1615,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "LAST DANCE OF IVAN VASILIEV",
+          "description": "concert event in Athens",
           "startDate": "2025-12-08T20:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Christmas Theater, Athens",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1169,16 +1642,24 @@
         "item": {
           "@type": "Event",
           "name": "ΑΦΙΕΡΩΜΑ ΣΤΟ ΜΙΜΗ ΠΛΕΣΣΑ - ΘΕΑΤΡΟ ΠΑΛΛΑΣ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-08T21:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο Παλλας",
-            "address": "Voukourestiou 5, Athens 106 71"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Voukourestiou 5, Athens 106 71",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 25,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1188,16 +1669,24 @@
         "item": {
           "@type": "PerformanceEvent",
           "name": "Κέντημα σε Κύκλο",
+          "description": "concert event in Athens",
           "startDate": "2025-12-09T18:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Δημοτικη Αγορα Κυψελης",
-            "address": "Fokionos Negri 42, Kypseli, Athens 113 61"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Fokionos Negri 42, Kypseli, Athens 113 61",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 70,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1207,16 +1696,24 @@
         "item": {
           "@type": "Event",
           "name": "NIGHT TAPES live in Athens",
+          "description": "concert event in Athens",
           "startDate": "2025-12-09T21:30:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Gazarte - Ground Stage",
-            "address": "32-34 Voutadon St, Gazi, Athens"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "32-34 Voutadon St, Gazi, Athens",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 16,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1226,16 +1723,24 @@
         "item": {
           "@type": "Event",
           "name": "Kadebostany@Larissa Τετάρτη 10 Δεκεμβρίου 2025",
+          "description": "concert event in Athens",
           "startDate": "2025-12-10T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Circus Entertainment Hub",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 25,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1245,16 +1750,24 @@
         "item": {
           "@type": "Event",
           "name": "Εργαστήρια για άτομα 65+: Σταμπωτά Υφάσματα - Ζωντανεύοντας την Παράδοση",
+          "description": "performance event in Athens",
           "startDate": "2025-12-10T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Αιθουσα Πολλαπλων Χρησεων 2",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 0,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1264,16 +1777,24 @@
         "item": {
           "@type": "Event",
           "name": "STARSAILOR 25th ANNIVERSARY live in Greece",
+          "description": "concert event in Athens",
           "startDate": "2025-12-10T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Greece Πολλαπλοι χωροι",
-            "address": "Greece Πολλαπλοι χωροι"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Greece Πολλαπλοι χωροι",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 25,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1283,16 +1804,24 @@
         "item": {
           "@type": "Event",
           "name": "ΣΤΙΣ ΜΠΟΥΑΤ ΤΗΣ ΠΛΑΚΑΣ ΜΕ ΤΟΝ ΚΩΣΤΑ ΧΑΤΖΗ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-10T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "- Κεντρικη Αιθουσα",
-            "address": "- Κεντρικη Αιθουσα"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "- Κεντρικη Αιθουσα",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1302,16 +1831,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ΣΥΝΑΥΛΙΑ ΑΛΛΗΛΕΓΓΥΗΣ ΓΙΑ ΤΑ ΙΑΤΡΙΚΑ ΕΞΟΔΑ ΤΟΥ Κ.Ν",
+          "description": "concert event in Athens",
           "startDate": "2025-12-11T19:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Κυτταρο Live",
-            "address": "Ipeirou 48, Athens 104 39"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Ipeirou 48, Athens 104 39",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1321,16 +1858,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ΟΙ ΔΕΛΦΙΝΟΙ 2025-2026",
+          "description": "concert event in Athens",
           "startDate": "2025-12-11T21:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο Εταιρειας Μακεδονικων Σπουδων",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 6,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1340,16 +1885,24 @@
         "item": {
           "@type": "Event",
           "name": "QUANTIC (UK) LIVE IN ATHENS",
+          "description": "concert event in Athens",
           "startDate": "2025-12-12T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "ARCH",
-            "address": "Petrou Ralli 29 & Kritis 1, Athens 104 47"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Petrou Ralli 29 & Kritis 1, Athens 104 47",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 22,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1359,16 +1912,24 @@
         "item": {
           "@type": "Event",
           "name": "\"Όλοι παίζουν. Βγαίνει η Νόρα\" | σκηνική σύνθεση πάνω στο Κουκλόσπιτο του Ε. Ίψεν| Ηράκλειο Κρήτης",
+          "description": "theater event in Athens",
           "startDate": "2025-12-12T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Πολιτιστικο Συνεδριακο Κεντρο Ηρακλειου - Πειραματικη Σκηνη",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1378,16 +1939,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "Bridal Expo - Bridal Fashion Week 2025",
+          "description": "concert event in Athens",
           "startDate": "2025-12-12T11:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Ζαππειο Μεγαρο",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 7,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1397,16 +1966,24 @@
         "item": {
           "@type": "Event",
           "name": "Morrissey",
+          "description": "concert event in Athens",
           "startDate": "2025-12-12T19:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Γηπεδο Tae Kwon Do, Φαληρο",
-            "address": "Γηπεδο Tae Kwon Do, Φαληρο"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Γηπεδο Tae Kwon Do, Φαληρο",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 55,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1416,16 +1993,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "Morrissey Live in Athens",
+          "description": "concert event in Athens",
           "startDate": "2025-12-12T19:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Tae Kwon Do Stadium",
-            "address": "Faliro"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Faliro",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 55,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1435,16 +2020,24 @@
         "item": {
           "@type": "Event",
           "name": "20 χρόνια ΧΑΤ ΤΡΙΚ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-12T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Πολιτισμου & Αθλητισμου",
-            "address": "Πολιτισμου & Αθλητισμου"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Πολιτισμου & Αθλητισμου",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1454,16 +2047,24 @@
         "item": {
           "@type": "Event",
           "name": "Candlelight Kirtan στην Αγγλικανική Εκκλησία του Αγίου Παύλου",
+          "description": "concert event in Athens",
           "startDate": "2025-12-12T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Εκκλησια Αγιου Παυλου",
-            "address": "Εκκλησια Αγιου Παυλου"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Εκκλησια Αγιου Παυλου",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 19,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1473,16 +2074,24 @@
         "item": {
           "@type": "Event",
           "name": "Robben Ford Live @ Fuzz Club 12/12/2025",
+          "description": "concert event in Athens",
           "startDate": "2025-12-12T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "12/12/2025 Fuzz Club",
-            "address": "12/12/2025 Fuzz Club"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "12/12/2025 Fuzz Club",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 35,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1492,16 +2101,24 @@
         "item": {
           "@type": "Event",
           "name": "HONEYBADGER “Let There Be Light” Release Show",
+          "description": "concert event in Athens",
           "startDate": "2025-12-12T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Show AN Club",
-            "address": "Show AN Club"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Show AN Club",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1511,16 +2128,24 @@
         "item": {
           "@type": "Event",
           "name": "Οι Βλαβερές Συνέπειες του Γάμου",
+          "description": "theater event in Athens",
           "startDate": "2025-12-12T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Γάμου Θεατρο Ανεσις",
-            "address": "Γάμου Θεατρο Ανεσις"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Γάμου Θεατρο Ανεσις",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 18,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1530,16 +2155,24 @@
         "item": {
           "@type": "Event",
           "name": "Δείπνο Ηλιθίων",
+          "description": "theater event in Athens",
           "startDate": "2025-12-12T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Metropolitan Urban Theater",
-            "address": "Metropolitan Urban Theater"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Metropolitan Urban Theater",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 13,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1549,16 +2182,24 @@
         "item": {
           "@type": "Event",
           "name": "Η Aρραβωνιαστικιά του Αχιλλέα - 3η χρονιά",
+          "description": "theater event in Athens",
           "startDate": "2025-12-12T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "χρονιά Θεατρο Μεταξουργειο",
-            "address": "χρονιά Θεατρο Μεταξουργειο"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "χρονιά Θεατρο Μεταξουργειο",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1568,16 +2209,24 @@
         "item": {
           "@type": "Event",
           "name": "Jazz στο Μουσείο: Michalis & Christos Kalkanis “Seeds” Duet ft. Alcmini – “The First Bloom”",
+          "description": "concert event in Athens",
           "startDate": "2025-12-12T20:30:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Ιδρυμα Βασιλη και Ελιζας Γουλανδρη",
-            "address": "Eratosthenous 13, Athens 116 35"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Eratosthenous 13, Athens 116 35",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 16,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1587,16 +2236,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ΔΑΥΙΔ ΝΑΧΜΙΑΣ: ΑΦΙΕΡΩΜΑ ΣΤΟΝ ΑΤΤΙΚ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-12T21:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Μεγαρο Μουσικης Θεσσαλονικης - Αιθουσα Αιμιλιος Ριαδης",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1606,16 +2263,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "Η αγάπη άργησε μια μέρα (2025-2026)",
+          "description": "concert event in Athens",
           "startDate": "2025-12-12T21:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο Μονης Λαζαριστων",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 7,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1625,16 +2290,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "Absinthe Green live in Athens",
+          "description": "concert event in Athens",
           "startDate": "2025-12-12T21:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Piraeus Club Academy",
-            "address": "Piraeus 105, Athens 118 54"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Piraeus 105, Athens 118 54",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1644,16 +2317,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ΕΚΤΟΣ ΥΛΗΣ RELOADED - ΠΕΡΙΟΔΕΙΑ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-12T21:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Πολλαπλοι χωροι",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 16,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1663,16 +2344,24 @@
         "item": {
           "@type": "Event",
           "name": "KADEBOSTANY @FUZZ Σάββατο 13 Δεκεμβρίου 2025",
+          "description": "concert event in Athens",
           "startDate": "2025-12-13T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Fuzz Club",
-            "address": "Patriarchou Ioakeim 1, Moschato, Athens"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Patriarchou Ioakeim 1, Moschato, Athens",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 34,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1682,16 +2371,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "Μονή Οσίου Λουκά - Αράχωβα, μονοήμερη εκδρομή",
+          "description": "concert event in Athens",
           "startDate": "2025-12-13T07:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 18,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1701,16 +2398,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "Ο Καρυοθραύστης - Metropolitan",
+          "description": "concert event in Athens",
           "startDate": "2025-12-13T17:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Metropolitan Urban Theater",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1720,16 +2425,24 @@
         "item": {
           "@type": "Event",
           "name": "DEGENERATE MIND - FIGHTING FLIES - VOYAGER STATION @ PIRAEUS CLUB ACADEMY",
+          "description": "concert event in Athens",
           "startDate": "2025-12-13T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Piraeus Club Academy",
-            "address": "Piraeus 105, Athens 118 54"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Piraeus 105, Athens 118 54",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1739,16 +2452,24 @@
         "item": {
           "@type": "Event",
           "name": "Mε δύναμη από την Κηφισιά",
+          "description": "theater event in Athens",
           "startDate": "2025-12-13T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο Σταθμος 2023 - Stathmos Theater",
-            "address": "Θεατρο Σταθμος 2023 - Stathmos Theater"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Θεατρο Σταθμος 2023 - Stathmos Theater",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 9,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1758,16 +2479,24 @@
         "item": {
           "@type": "Event",
           "name": "\"Το Ξωτικό του Αϊ-Βασίλη\" στο PARAGA",
+          "description": "theater event in Athens",
           "startDate": "2025-12-13T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Paraga",
-            "address": "Paraga"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Paraga",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1777,16 +2506,24 @@
         "item": {
           "@type": "Event",
           "name": "TUBER LIVE AT AN CLUB",
+          "description": "concert event in Athens",
           "startDate": "2025-12-13T20:30:00+02:00",
           "location": {
             "@type": "Place",
             "name": "AN Club",
-            "address": "13-15 Solomou Street, Athens 106 82"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "13-15 Solomou Street, Athens 106 82",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1796,16 +2533,24 @@
         "item": {
           "@type": "Event",
           "name": "Velocity Arena w/ Nico Moreno & Vendex",
+          "description": "concert event in Athens",
           "startDate": "2025-12-13T23:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Universe - Multispace",
-            "address": "Universe - Multispace"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Universe - Multispace",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 30,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1815,16 +2560,24 @@
         "item": {
           "@type": "PerformanceEvent",
           "name": "Μουσείο καλικάντζαροι γιρλάντες και μουσικές",
+          "description": "concert event in Athens",
           "startDate": "2025-12-14T09:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-            "address": "Mitropoleos 44, Athens 105 63"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Mitropoleos 44, Athens 105 63",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 0,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1834,16 +2587,24 @@
         "item": {
           "@type": "Event",
           "name": "Μαρίνα Σπανού - Fuzz Αθήνα",
+          "description": "concert event in Athens",
           "startDate": "2025-12-14T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Αθήνα Fuzz Club",
-            "address": "Αθήνα Fuzz Club"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Αθήνα Fuzz Club",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1853,16 +2614,24 @@
         "item": {
           "@type": "Event",
           "name": "Καλάβρυτα-Σπήλαιο Λιμνών, μονοήμερη εκδρομή",
+          "description": "performance event in Athens",
           "startDate": "2025-12-14T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": "Metro Σταθμος Λαρισης"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Metro Σταθμος Λαρισης",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1872,16 +2641,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "THE ITALIAN TENORS «A Touch of Christmas»",
+          "description": "concert event in Athens",
           "startDate": "2025-12-14T20:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Μεγαρο Μουσικης Κομοτηνης",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1891,16 +2668,24 @@
         "item": {
           "@type": "Event",
           "name": "Christmas Jazz με τους Glitter Grotesque",
+          "description": "concert event in Athens",
           "startDate": "2025-12-14T20:30:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Αμαξοστοιχια - Θεατρο το Τρενο στο Ρουφ - Μουσικο Βαγονι Orient Express",
-            "address": "Αμαξοστοιχια - Θεατρο το Τρενο στο Ρουφ - Μουσικο Βαγονι Orient Express"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Αμαξοστοιχια - Θεατρο το Τρενο στο Ρουφ - Μουσικο Βαγονι Orient Express",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 18,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1910,16 +2695,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ΒΟΥΤΣΙΚΑΚΗΣ - ΝΙΚΟΛΑΚΟΠΟΥΛΟΥ  «ΠΑΡΑΒΛΕΨΗ» live in Athens",
+          "description": "concert event in Athens",
           "startDate": "2025-12-14T20:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Gazarte - Roof Stage",
-            "address": "32-34 Voutadon St, Gazi, Athens"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "32-34 Voutadon St, Gazi, Athens",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1929,16 +2722,24 @@
         "item": {
           "@type": "Event",
           "name": "DJ PREMIER X THE ALCHEMIST LIVE IN ATHENS - HE'S THE PREEMO I'M THE CHEMIST WORLD TOUR 2025",
+          "description": "concert event in Athens",
           "startDate": "2025-12-15T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Fuzz Club",
-            "address": "Patriarchou Ioakeim 1, Moschato, Athens"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Patriarchou Ioakeim 1, Moschato, Athens",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 45,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1948,16 +2749,24 @@
         "item": {
           "@type": "Event",
           "name": "Το 3% της Βίλης Σωτηροπούλου",
+          "description": "theater event in Athens",
           "startDate": "2025-12-15T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Πολλαπλοι χωροι",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 5,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1967,16 +2776,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ANGELA GHEORGHIU",
+          "description": "concert event in Athens",
           "startDate": "2025-12-15T20:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Μεγαρο Μουσικης Θεσσαλονικης",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -1986,16 +2803,24 @@
         "item": {
           "@type": "PerformanceEvent",
           "name": "Εργαστήρια για άτομα 65+: Εικαστικά Εργαστήρια",
+          "description": "concert event in Athens",
           "startDate": "2025-12-16T17:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Maker Space",
-            "address": "Evripidou & Doiranis, Kallithea, Athens 176 74"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Evripidou & Doiranis, Kallithea, Athens 176 74",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 0,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2005,16 +2830,24 @@
         "item": {
           "@type": "Event",
           "name": "IL VOLO - CHRISTMAS THEATER",
+          "description": "theater event in Athens",
           "startDate": "2025-12-16T20:30:00+02:00",
           "location": {
             "@type": "Place",
             "name": "CHRISTMAS THEATER",
-            "address": "Leof. Veikou 137, Galatsi Olympic Hall, Athens 111 46"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Leof. Veikou 137, Galatsi Olympic Hall, Athens 111 46",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 70,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2024,16 +2857,24 @@
         "item": {
           "@type": "Event",
           "name": "ΤΑ ΜΑΓΙΚΑ ΧΡΙΣΤΟΥΓΕΝΝΑ ΤΟΥ ΠΙΝΟΚΙΟ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-17T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "CHRISTMAS THEATER, Athens",
-            "address": "CHRISTMAS THEATER, Athens"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "CHRISTMAS THEATER, Athens",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2043,16 +2884,24 @@
         "item": {
           "@type": "Event",
           "name": "Special Offer: (Love me) Tinder & Catastrophe",
+          "description": "theater event in Athens",
           "startDate": "2025-12-17T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "of the NO",
-            "address": "of the NO"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "of the NO",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 23,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2062,16 +2911,24 @@
         "item": {
           "@type": "Event",
           "name": "ΕΚΕΙΝΟΣ ΠΟΥ ΕΚΛΕΨΕ ΤΗ ΜΕΡΑ & ΠΛΗΡΩΣΕ ΤΗ ΝΥΧΤΑ",
+          "description": "theater event in Athens",
           "startDate": "2025-12-17T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο Βασιλακου _ Μαριαννα Τολη",
-            "address": "Θεατρο Βασιλακου _ Μαριαννα Τολη"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Θεατρο Βασιλακου _ Μαριαννα Τολη",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2081,16 +2938,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ΔΗΜΗΤΡΑ ΓΑΛΑΝΗ - ΕΛΕΝΗ ΤΣΑΛΙΓΟΠΟΥΛΟΥ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-17T20:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "VOX",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2100,16 +2965,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "AYTH H NYXTA MENEI",
+          "description": "concert event in Athens",
           "startDate": "2025-12-18T21:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Βασιλικο Θεατρο",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 7,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2119,16 +2992,24 @@
         "item": {
           "@type": "Event",
           "name": "ΓΕΡΜΑ - Η ανεκπλήρωτη",
+          "description": "theater event in Athens",
           "startDate": "2025-12-19T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο Τεχνης Κ. Κουν, Υπογειο",
-            "address": "Θεατρο Τεχνης Κ. Κουν, Υπογειο"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Θεατρο Τεχνης Κ. Κουν, Υπογειο",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2138,16 +3019,24 @@
         "item": {
           "@type": "Event",
           "name": "ΗΛΕΚΤΡΑ εντός",
+          "description": "theater event in Athens",
           "startDate": "2025-12-19T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Θεατρο Πορεια at Victoria",
-            "address": "Θεατρο Πορεια at Victoria"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Θεατρο Πορεια at Victoria",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2157,16 +3046,24 @@
         "item": {
           "@type": "Event",
           "name": "NIGHT BEATS (US) • ARCH CLUB",
+          "description": "concert event in Athens",
           "startDate": "2025-12-19T20:30:00+02:00",
           "location": {
             "@type": "Place",
             "name": "ARCH",
-            "address": "Petrou Ralli 29 & Kritis 1, Athens 104 47"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Petrou Ralli 29 & Kritis 1, Athens 104 47",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 22,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2176,16 +3073,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ANORIMOI",
+          "description": "concert event in Athens",
           "startDate": "2025-12-19T21:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Fuzz Club",
-            "address": "Patriarchou Ioakeim 1, Moschato, Athens"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Patriarchou Ioakeim 1, Moschato, Athens",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2195,16 +3100,24 @@
         "item": {
           "@type": "PerformanceEvent",
           "name": "Μύλος των Ξωτικών-Καλαμπάκα-Μετέωρα, διήμερη εκδρομή",
+          "description": "concert event in Athens",
           "startDate": "2025-12-20T07:45:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Metro Σταθμος Λαρισης",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 90,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2214,16 +3127,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ATHENS COLLECTIBLE FESTIVAL",
+          "description": "concert event in Athens",
           "startDate": "2025-12-20T10:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Ζαππειο Μεγαρο",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 5,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2233,16 +3154,24 @@
         "item": {
           "@type": "Event",
           "name": "Iron Beast \"Brave New World\" live στο Gagarin",
+          "description": "concert event in Athens",
           "startDate": "2025-12-20T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Live Music Space",
-            "address": "Live Music Space"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Live Music Space",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2252,16 +3181,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "VLAKASAKI SHOW",
+          "description": "concert event in Athens",
           "startDate": "2025-12-20T21:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Piraeus Club Academy",
-            "address": "Piraeus 105, Athens 118 54"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Piraeus 105, Athens 118 54",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2271,16 +3208,24 @@
         "item": {
           "@type": "Event",
           "name": "Βlend & For303 X-Mas Special w/ PAWSA",
+          "description": "concert event in Athens",
           "startDate": "2025-12-20T22:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "TAE KWON DO",
-            "address": "TAE KWON DO"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "TAE KWON DO",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 38,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2290,16 +3235,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "MONSIEUR MINIMAL  live in Athens",
+          "description": "concert event in Athens",
           "startDate": "2025-12-20T22:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Gazarte - Roof Stage",
-            "address": "32-34 Voutadon St, Gazi, Athens"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "32-34 Voutadon St, Gazi, Athens",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2309,16 +3262,24 @@
         "item": {
           "@type": "Event",
           "name": "Crossing The Illusion Live",
+          "description": "concert event in Athens",
           "startDate": "2025-12-21T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Live Κυτταρο Live",
-            "address": "Live Κυτταρο Live"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Live Κυτταρο Live",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2328,16 +3289,24 @@
         "item": {
           "@type": "Event",
           "name": "Ο ΑΗ ΒΑΣΙΛΗΣ ΚΑΙ ΤΑ ΖΩΝΤΑΝΑ ΠΑΙΧΝΙΔΙΑ",
+          "description": "theater event in Athens",
           "startDate": "2025-12-21T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "ΠΑΙΧΝΙΔΙΑ Myrtillo Cafe",
-            "address": "ΠΑΙΧΝΙΔΙΑ Myrtillo Cafe"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "ΠΑΙΧΝΙΔΙΑ Myrtillo Cafe",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2347,16 +3316,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "Greek Scene Sings for OZZY! Charity Fest",
+          "description": "concert event in Athens",
           "startDate": "2025-12-22T20:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "AN Club",
-            "address": "13-15 Solomou Street, Athens 106 82"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "13-15 Solomou Street, Athens 106 82",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2366,16 +3343,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ΕΠΙΘΕΩΡΗΤΗΣ ΝΤΡΕΙΚ ΚΑΙ Η ΜΑΥΡΗ ΧΗΡΑ (ΘΕΣ/ΚΗ)",
+          "description": "concert event in Athens",
           "startDate": "2025-12-22T21:15:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Κινηματοθεατρο ΚΟΛΟΣΣΑΙΟΝ",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2385,16 +3370,24 @@
         "item": {
           "@type": "Event",
           "name": "ΣΤΑΧΤΟΠΟΥΤΑ",
+          "description": "performance event in Athens",
           "startDate": "2025-12-23T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-            "address": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 25,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2404,16 +3397,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ΧΡΙΣΤΟΥΓΕΝΝΑ ΣΤΟ ΩΔΕΙΟ ΑΘΗΝΩΝ!",
+          "description": "concert event in Athens",
           "startDate": "2025-12-23T17:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-            "address": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 30,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2423,16 +3424,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ΚΑΡΥΟΘΡΑΥΣΤΗΣ - Ballet of Varna State Opera",
+          "description": "concert event in Athens",
           "startDate": "2025-12-23T20:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "CHRISTMAS THEATER",
-            "address": "Leof. Veikou 137, Galatsi Olympic Hall, Athens 111 46"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Leof. Veikou 137, Galatsi Olympic Hall, Athens 111 46",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2442,16 +3451,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "ΣΟΦΙΑ ΜΑΝΟΥΣΑΚΗ LIVE | ΜΥΤΙΛΗΝΗ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-23T21:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "Ρουσελειο Δημοτικο Θεατρο Μυτιληνης",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 20,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2461,16 +3478,24 @@
         "item": {
           "@type": "Event",
           "name": "Σκιαδαρέσες | Floyd",
+          "description": "concert event in Athens",
           "startDate": "2025-12-26T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Floyd",
-            "address": "Pireos 117, Athens 118 54"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Pireos 117, Athens 118 54",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 13,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2480,16 +3505,24 @@
         "item": {
           "@type": "Event",
           "name": "OZZY FOREVER - A LIVE TRIBUTE",
+          "description": "concert event in Athens",
           "startDate": "2025-12-26T20:00:00+02:00",
           "location": {
             "@type": "Place",
             "name": "TRIBUTE Fuzz Club",
-            "address": "TRIBUTE Fuzz Club"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "TRIBUTE Fuzz Club",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 16,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2499,16 +3532,24 @@
         "item": {
           "@type": "Event",
           "name": "Jazz στο Μουσείο: Sunny Side Trio – “Introducing Sunny Side Trio”",
+          "description": "concert event in Athens",
           "startDate": "2025-12-26T20:30:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Ιδρυμα Βασιλη και Ελιζας Γουλανδρη",
-            "address": "Eratosthenous 13, Athens 116 35"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Eratosthenous 13, Athens 116 35",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 16,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2518,16 +3559,24 @@
         "item": {
           "@type": "Event",
           "name": "THE ITALIAN TENORS - ΩΔΕΙΟ ΑΘΗΝΩΝ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-27T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-            "address": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 30,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2537,16 +3586,24 @@
         "item": {
           "@type": "Event",
           "name": "LEMMY LIVES - TRIBUTE LIVE + PARTY",
+          "description": "concert event in Athens",
           "startDate": "2025-12-27T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Gazarte - Ground Stage",
-            "address": "32-34 Voutadon St, Gazi, Athens"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "32-34 Voutadon St, Gazi, Athens",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 11,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2556,16 +3613,24 @@
         "item": {
           "@type": "Event",
           "name": "ΑΓΡΙΟ ΜΕΛΙ ''ΔΙΑΦΑΝΑ ΚΡΙΝΑ - ΤRIBUTE BAND''",
+          "description": "concert event in Athens",
           "startDate": "2025-12-27T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "AN Club",
-            "address": "13-15 Solomou Street, Athens 106 82"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "13-15 Solomou Street, Athens 106 82",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 12,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2575,16 +3640,24 @@
         "item": {
           "@type": "PerformanceEvent",
           "name": "S. PROKOFIEV: Η ΣΤΑΧΤΟΠΟΥΤΑ",
+          "description": "concert event in Athens",
           "startDate": "2025-12-27T12:00:00+03:00",
           "location": {
             "@type": "Place",
             "name": "ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ ΘΕΣΣΑΛΟΝΙΚΗΣ",
-            "address": "Athens, Greece"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens, Greece",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 15,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2594,16 +3667,24 @@
         "item": {
           "@type": "Event",
           "name": "EDEN presents MIND ENTERPRISES",
+          "description": "concert event in Athens",
           "startDate": "2025-12-28T16:30:00+02:00",
           "location": {
             "@type": "Place",
             "name": "Athens Conservatoire (in Greek)",
-            "address": "Athens Conservatoire (in Greek)"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Athens Conservatoire (in Greek)",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 29,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2613,16 +3694,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "Camerata Orchestra: Monteverdi Vespro della Beata Vergine",
+          "description": "concert event in Athens",
           "startDate": "2025-12-28T20:30:00+03:00",
           "location": {
             "@type": "Place",
             "name": "MEGARON - The Athens Concert Hall",
-            "address": "Vassilissis Sofias Avenue & Kokkali 1, Athens 115 21"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Vassilissis Sofias Avenue & Kokkali 1, Athens 115 21",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 55,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2632,16 +3721,24 @@
         "item": {
           "@type": "MusicEvent",
           "name": "Claudio Monteverdi: Vespro della Beata Vergine",
+          "description": "concert event in Athens",
           "startDate": "2025-12-28T20:30:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Μέγαρο Μουσικής Αθηνών",
-            "address": "Βασ. Σοφίας και Κόκκαλη, 115 21 Αθήνα"
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Βασ. Σοφίας και Κόκκαλη, 115 21 Αθήνα",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 55,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       },
@@ -2651,23 +3748,31 @@
         "item": {
           "@type": "Event",
           "name": "Save a greek stray - Η προσφορά σας γίνεται ελπίδα!",
+          "description": "performance event in Athens",
           "startDate": "2025-12-31T00:00:00.000+02:00",
           "location": {
             "@type": "Place",
             "name": "Donations - SGS",
-            "address": ""
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "",
+              "addressLocality": "Athens",
+              "addressRegion": "Attica",
+              "addressCountry": "GR"
+            }
           },
           "offers": {
             "@type": "Offer",
             "price": 10,
-            "priceCurrency": "EUR"
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
           }
         }
       }
     ]
   },
-  "datePublished": "2025-11-12T09:06:20.122Z",
-  "dateModified": "2025-11-12T09:06:20.122Z"
+  "datePublished": "2025-11-12T09:50:08.265Z",
+  "dateModified": "2025-11-12T09:50:08.265Z"
 }
   </script>
 
@@ -2709,7 +3814,7 @@
       <strong>137 events</strong> are happening in Athens.
     </p>
     <p class="last-update">
-      Last updated: November 12, 2025 at 11:06 AM Athens time
+      Last updated: November 12, 2025 at 11:50 AM Athens time
     </p>
   </header>
 
