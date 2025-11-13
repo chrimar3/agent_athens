@@ -1,41 +1,41 @@
 {
   "version": "1.0",
-  "last_updated": "2025-11-08T06:00:22.364Z",
+  "last_updated": "2025-11-12T06:00:53.192Z",
   "sources": {
     "viva.gr": {
-      "last_scraped": "2025-11-08T06:00:22.364Z",
+      "last_scraped": "2025-11-12T06:00:53.192Z",
       "last_success": "2025-11-03T10:34:35.100Z",
-      "last_failure": "2025-11-08T06:00:22.364Z",
-      "scrape_count": 3,
-      "failure_count": 2,
+      "last_failure": "2025-11-12T06:00:53.192Z",
+      "scrape_count": 5,
+      "failure_count": 4,
       "events_imported": 1041,
       "last_error": "Process exited with code 1"
     },
     "more.com": {
-      "last_scraped": "2025-11-05T06:17:24.078Z",
+      "last_scraped": "2025-11-10T06:00:33.431Z",
       "last_success": "2025-11-03T10:34:35.100Z",
-      "last_failure": "2025-11-05T06:17:24.078Z",
-      "scrape_count": 2,
-      "failure_count": 1,
+      "last_failure": "2025-11-10T06:00:33.431Z",
+      "scrape_count": 4,
+      "failure_count": 3,
       "events_imported": 1027,
       "last_error": "Process exited with code 1"
     },
     "gazarte.gr": {
-      "last_scraped": "2025-11-03T10:34:35.100Z",
+      "last_scraped": "2025-11-11T06:00:07.810Z",
       "last_success": null,
-      "last_failure": "2025-11-03T10:34:35.100Z",
-      "scrape_count": 1,
-      "failure_count": 1,
+      "last_failure": "2025-11-11T06:00:07.810Z",
+      "scrape_count": 2,
+      "failure_count": 2,
       "events_imported": 0,
-      "last_error": "Network timeout"
+      "last_error": "Process exited with code 1"
     }
   },
   "email_ingestion": {
-    "last_scraped": "2025-11-08T06:00:07.123Z",
-    "last_success": "2025-11-08T06:00:07.123Z",
-    "last_failure": null,
-    "scrape_count": 3,
-    "failure_count": 0,
+    "last_scraped": "2025-11-10T06:00:03.227Z",
+    "last_success": "2025-11-10T06:00:03.228Z",
+    "last_failure": "2025-11-12T06:00:38.015Z",
+    "scrape_count": 4,
+    "failure_count": 1,
     "events_imported": 0
   }
 }

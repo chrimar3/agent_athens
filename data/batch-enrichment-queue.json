@@ -1,0 +1,182 @@
+[
+  {
+    "id": "2a768e9db8a199e9",
+    "title": "ΣΠΥΡΙΔΟΥΛΑ LIVE | ROCK BIRTHDAY PARTY",
+    "venue": "Κυτταρο Live",
+    "type": "concert",
+    "price_type": "paid",
+    "price_amount": 12.0,
+    "has_cast": "NO"
+  },
+  {
+    "id": "b74488cdb5acb512",
+    "title": "10 ΧΡΟΝΙΑ URBAN PULSE",
+    "venue": "ΙΛΙΟΝ Plus",
+    "type": "concert",
+    "price_type": "paid",
+    "price_amount": 10.0,
+    "has_cast": "YES"
+  },
+  {
+    "id": "228887fcda7a2eb8",
+    "title": "CALIBRO 35",
+    "venue": "Gazarte Main Stage!",
+    "type": "concert",
+    "price_type": "paid",
+    "price_amount": 18.0,
+    "has_cast": "NO"
+  },
+  {
+    "id": "8486a98812b7e350",
+    "title": "Almwaya (Maya Aghniadis & Wael Sami Elkholy)",
+    "venue": "Κεντρο ελεγχου τηλεορασεων",
+    "type": "concert",
+    "price_type": "paid",
+    "price_amount": 10.0,
+    "has_cast": "NO"
+  },
+  {
+    "id": "0124410fc89204ef",
+    "title": "MAJOVOLI | ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ CLUB",
+    "venue": "Σταυρος του Νοτου - Σταυρος του Νοτου - Club",
+    "type": "concert",
+    "price_type": "paid",
+    "price_amount": 12.0,
+    "has_cast": "NO"
+  },
+  {
+    "id": "42f8f0fca7b05d6d",
+    "title": "Ο Βασίλης Λέκκας «Στον αστερισμό του Τόλη»",
+    "venue": "Caja De Musica",
+    "type": "concert",
+    "price_type": "paid",
+    "price_amount": 15.0,
+    "has_cast": "YES"
+  },
+  {
+    "id": "937296d9ef23ed56",
+    "title": "PHOTON ATHENS 2025",
+    "venue": "Universe - Multispace",
+    "type": "concert",
+    "price_type": "paid",
+    "price_amount": 35.0,
+    "has_cast": "NO"
+  },
+  {
+    "id": "837c0aea6e7e6ec4",
+    "title": "Ο Γύρος του κόσμου με 5 παραμύθια - Παραμυθοχώρα",
+    "venue": "Θεατρο 104",
+    "type": "theater",
+    "price_type": "paid",
+    "price_amount": 11.0,
+    "has_cast": "YES"
+  },
+  {
+    "id": "4cc6064dd2a37b6b",
+    "title": "ΟΔΥΣΣΕΒΑΧ",
+    "venue": "Κινηματοθεατρο ΚΟΛΟΣΣΑΙΟΝ",
+    "type": "theater",
+    "price_type": "paid",
+    "price_amount": 12.0,
+    "has_cast": "YES"
+  },
+  {
+    "id": "6f46543463a10086",
+    "title": "\"Αλυσοδεμένος ελέφαντας και ο τρομερός εχθρός\" στο",
+    "venue": "Αστορια",
+    "type": "theater",
+    "price_type": "paid",
+    "price_amount": 10.0,
+    "has_cast": "YES"
+  },
+  {
+    "id": "738e43e9abdf4031",
+    "title": "Η Όπερα γίνεται παιχνίδι",
+    "venue": "Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
+    "type": "performance",
+    "price_type": "paid",
+    "price_amount": 13.0,
+    "has_cast": "YES"
+  },
+  {
+    "id": "ab7785d404bfb425",
+    "title": "Πρόγραμμα «Φαντασία και περιέργεια:",
+    "venue": "Ελληνικο Παιδικο Μουσειο",
+    "type": "performance",
+    "price_type": "paid",
+    "price_amount": 20.0,
+    "has_cast": "NO"
+  },
+  {
+    "id": "88bf00a0783b6e7a",
+    "title": "Μετέωρα-Καλαμπάκα, μονοήμερη εκδρομή",
+    "venue": "Metro Σταθμος Λαρισης",
+    "type": "performance",
+    "price_type": "paid",
+    "price_amount": 30.0,
+    "has_cast": "NO"
+  },
+  {
+    "id": "f281f80d250f4e85",
+    "title": "Διαδραστική Περιήγηση στην Ιερά Μονή του Οσίου Λου",
+    "venue": "Ελληνικος Κοσμος – Μουσειο - Θολος",
+    "type": "performance",
+    "price_type": "with-ticket",
+    "price_amount": null,
+    "has_cast": "NO"
+  },
+  {
+    "id": "774896c8bc5cc9c5",
+    "title": "Οι υφές του θεάτρου στο Μουσείο",
+    "venue": "Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
+    "type": "performance",
+    "price_type": "with-ticket",
+    "price_amount": null,
+    "has_cast": "YES"
+  },
+  {
+    "id": "103c8d0b56746e95",
+    "title": "Μοτίβο- Ένα Καμπαρέ δωματίου",
+    "venue": "Red Jasper Cabaret Theatre",
+    "type": "concert",
+    "price_type": "paid",
+    "price_amount": 10.0,
+    "has_cast": "YES"
+  },
+  {
+    "id": "0a187bc50004fec2",
+    "title": "ΟΙ ΠΕΡΙΠΕΤΕΙΕΣ ΤΗΣ ΠΕΠΠΑ",
+    "venue": "Πολλαπλοι χωροι",
+    "type": "theater",
+    "price_type": "paid",
+    "price_amount": 12.0,
+    "has_cast": "YES"
+  },
+  {
+    "id": "playfield-2025-11-09",
+    "title": "«Playfield» παιχνίδι στη φύση για οικογένειες",
+    "venue": "Περιβαλλοντας χωρος Σταδιου Ειρηνης και Φιλιας",
+    "type": "concert",
+    "price_type": "paid",
+    "price_amount": 6.0,
+    "has_cast": "NO"
+  },
+  {
+    "id": "muzike-family-party-2-the-breakdance-party-2025-11-09",
+    "title": "MUZIKE FAMILY PARTY #2 THE BREAKDANCE PARTY",
+    "venue": "The Basement",
+    "type": "concert",
+    "price_type": "paid",
+    "price_amount": 6.0,
+    "has_cast": "YES"
+  },
+  {
+    "id": "redicolo-2025-11-09",
+    "title": "Θέατρο Κούκλας από τους Redicolo στο Θέατρο Αμαλία",
+    "venue": "Θεατρο Αμαλια",
+    "type": "concert",
+    "price_type": "paid",
+    "price_amount": 10.0,
+    "has_cast": "YES"
+  }
+]
