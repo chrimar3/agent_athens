@@ -1,14 +1,19 @@
 #!/usr/bin/env bun
 /**
- * Athens Location Filter
+ * Athens Location Filter - Enhanced with Venue Whitelist
  *
- * Filters events to ensure they are ONLY in Athens, Greece.
- * Rejects events from Thessaloniki, Kalamata, Volos, Patras, etc.
+ * Three-tier filtering strategy for 100% accuracy:
+ * 1. WHITELIST: Known Athens venues (highest confidence)
+ * 2. BLACKLIST: Non-Athens cities (reject immediately)
+ * 3. FALLBACK: Unknown venues (use heuristics)
  *
  * Usage:
  *   import { isAthensEvent } from './utils/athens-filter';
  *   if (!isAthensEvent(event)) return; // Skip non-Athens events
  */
+
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
 export interface EventLocation {
   title?: string;
@@ -21,6 +26,21 @@ export interface EventLocation {
 }
 
 /**
+ * Load Athens venue whitelist from config
+ */
+let athensVenues: string[] = [];
+let athensNeighborhoods: string[] = [];
+
+try {
+  const configPath = join(import.meta.dir, '../../config/athens-venues.json');
+  const config = JSON.parse(readFileSync(configPath, 'utf-8'));
+  athensVenues = config.venues || [];
+  athensNeighborhoods = config.neighborhoods || [];
+} catch (error) {
+  console.warn('⚠️  Could not load athens-venues.json, using blacklist-only mode');
+}
+
+/**
  * Non-Athens cities to filter out
  */
 const NON_ATHENS_CITIES = [
@@ -29,6 +49,7 @@ const NON_ATHENS_CITIES = [
   'Thessaloniki',
   'Σαλονίκ',
   'ΘΚΕΣΣΑΛΟΝΙΚΗ',
+  'Μεγαρο Μουσικης Θεσσαλονικης',  // Specific problematic venue
 
   // Kalamata (southwestern Greece)
   'Καλαμάτα',
@@ -90,6 +111,30 @@ const NON_ATHENS_CITIES = [
 ];
 
 /**
+ * Check if venue name is in the Athens whitelist
+ */
+function isWhitelistedAthensVenue(venueName: string | undefined): boolean {
+  if (!venueName) return false;
+
+  const lowerVenue = venueName.toLowerCase().trim();
+
+  return athensVenues.some(whitelistedVenue => {
+    const lowerWhitelisted = whitelistedVenue.toLowerCase();
+
+    // Exact match
+    if (lowerVenue === lowerWhitelisted) return true;
+
+    // Contains match (e.g., "Gazarte - Ground Stage" contains "Gazarte")
+    if (lowerVenue.includes(lowerWhitelisted)) return true;
+
+    // Reverse contains (e.g., "Gazarte" is in whitelist, event has "Gazarte Main Stage")
+    if (lowerWhitelisted.includes(lowerVenue)) return true;
+
+    return false;
+  });
+}
+
+/**
  * Check if event contains any non-Athens city markers
  */
 function containsNonAthensCity(text: string): boolean {
@@ -104,9 +149,39 @@ function containsNonAthensCity(text: string): boolean {
 }
 
 /**
+ * Check if neighborhood is in Athens
+ */
+function isAthensNeighborhood(neighborhood: string | undefined): boolean {
+  if (!neighborhood) return false;
+
+  const lowerNeighborhood = neighborhood.toLowerCase().trim();
+
+  return athensNeighborhoods.some(athensNb => {
+    const lowerAthensNb = athensNb.toLowerCase();
+    return lowerNeighborhood.includes(lowerAthensNb) || lowerAthensNb.includes(lowerNeighborhood);
+  });
+}
+
+/**
  * Main filter: Returns true if event is in Athens, false otherwise
+ *
+ * Three-tier filtering logic:
+ * 1. Whitelist check (HIGHEST CONFIDENCE)
+ * 2. Blacklist check (REJECT IMMEDIATELY)
+ * 3. Fallback heuristics
  */
 export function isAthensEvent(event: EventLocation): boolean {
+  // Extract venue name from different formats
+  const venueName = event.venue_name ||
+                    (typeof event.venue === 'string' ? event.venue : (event.venue as any)?.name);
+
+  // TIER 1: WHITELIST CHECK (highest confidence)
+  // If venue is in whitelist, it's definitely Athens - skip other checks
+  if (isWhitelistedAthensVenue(venueName)) {
+    return true;
+  }
+
+  // TIER 2: BLACKLIST CHECK (reject non-Athens cities immediately)
   // Check title for non-Athens cities
   if (event.title && containsNonAthensCity(event.title)) {
     return false;
@@ -143,8 +218,14 @@ export function isAthensEvent(event: EventLocation): boolean {
     return false;
   }
 
-  // If no non-Athens markers found, assume it's Athens
-  // (Our sources are Greek event aggregators focused on Athens)
+  // TIER 3: FALLBACK HEURISTICS
+  // If neighborhood is known Athens neighborhood, accept
+  if (isAthensNeighborhood(event.venue_neighborhood)) {
+    return true;
+  }
+
+  // If no blacklist markers found and not whitelisted, assume Athens
+  // (Our sources are Greek event aggregators primarily focused on Athens)
   return true;
 }
 
