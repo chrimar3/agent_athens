@@ -360,41 +360,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "TheaterEvent",
-      "id": "van-gogh-2025-11-22",
-      "title": "ΣΤΟΥΣ ΚΟΣΜΟΥΣ ΤΟΥ VAN GOGH! | ΕΡΓΑΣΤΗΡΙΟ ΓΙΑ ΠΑΙΔΙΑ",
-      "description": "22 Νοεμβριου ΣΤΟΥΣ ΚΟΣΜΟΥΣ ΤΟΥ VAN GOGH! | ΕΡΓΑΣΤΗΡΙΟ ΓΙΑ ΠΑΙΔΙΑ Εργαστηριο Θεατρου και Χορου Ενδοχωρα",
-      "startDate": "2025-11-22T20:00:00+03:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Εργαστηριο Θεατρου και Χορου Ενδοχωρα",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": null,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/children/workshop/stous-kosmous-tou-van-gogh/",
-      "source": "more.com",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "Event",
       "id": "595ab3ea0b830155",
       "title": "ΕΓΩ ΤΟ ΞΩΤΙΚΟ - 3ος χρόνος",
@@ -612,41 +577,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "-2025-11-23",
-      "title": "ΤΟ ΜΑΓΙΚΟ ΕΛΚΗΘΡΟ ΤΟΥ ΑΪ ΒΑΣΙΛΗ ! !",
-      "description": "23 Νοε - 4 Ιαν ΤΟ ΜΑΓΙΚΟ ΕΛΚΗΘΡΟ ΤΟΥ ΑΪ ΒΑΣΙΛΗ ! ! Θεατρο Βαφειο",
-      "startDate": "2025-11-23T20:00:00+03:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Βαφειο",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": null,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/to-magiko-elkithro-tou-ai-basili/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "TheaterEvent",
       "id": "3-2025-11-23",
       "title": "ΕΓΩ ΤΟ ΞΩΤΙΚΟ - 3ος χρόνος",
@@ -682,8 +612,8 @@
     }
   ],
   "meta": {
-    "total": 21,
-    "lastUpdate": "2025-11-15T10:37:16.101Z",
+    "total": 19,
+    "lastUpdate": "2025-11-15T11:32:35.104Z",
     "url": "https://agent-athens.netlify.app/paid-theater-this-weekend"
   }
 }

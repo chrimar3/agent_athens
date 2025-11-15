@@ -182,41 +182,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "wail-of-the-banshees-vol-1-2025-11-29",
-      "title": "Wail of the Banshees Vol. 1",
-      "description": "",
-      "startDate": "2025-11-29T20:00:00+03:00",
-      "endDate": null,
-      "type": "cinema",
-      "genres": [
-        "cinema"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Gazarte",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": null,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/festival/wail-of-the-banshees-vol-1/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "ScreeningEvent",
       "id": "kenny-garrett-2025-11-29",
       "title": "KENNY GARRETT",
@@ -427,8 +392,8 @@
     }
   ],
   "meta": {
-    "total": 12,
-    "lastUpdate": "2025-11-15T10:37:15.798Z",
+    "total": 11,
+    "lastUpdate": "2025-11-15T11:32:34.859Z",
     "url": "https://agent-athens.netlify.app/cinema"
   }
 }

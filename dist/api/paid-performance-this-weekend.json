@@ -140,41 +140,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "PerformanceEvent",
-      "id": "h-hotels-collection-2025-11-22",
-      "title": "ΚΟΛΟΣΣΟΣ H HOTELS COLLECTION - ΠΕΡΙΣΤΕΡΙ",
-      "description": "22 Νοεμβριου ΚΟΛΟΣΣΟΣ H HOTELS COLLECTION - ΠΕΡΙΣΤΕΡΙ KALLITHEA INDOOR HALL",
-      "startDate": "2025-11-22T20:00:00+03:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "sports"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "KALLITHEA INDOOR HALL",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": null,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.viva.gr/gr-el/tickets/sports/kolossos-h-hotels-collection-peristeri/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "Event",
       "id": "252ec12cdd5dea38",
       "title": "Παύλιανη-Πάρκο Παύλιανης, μονοήμερη εκδρομή",
@@ -276,8 +241,8 @@
     }
   ],
   "meta": {
-    "total": 8,
-    "lastUpdate": "2025-11-15T10:37:16.128Z",
+    "total": 7,
+    "lastUpdate": "2025-11-15T11:32:35.126Z",
     "url": "https://agent-athens.netlify.app/paid-performance-this-weekend"
   }
 }
