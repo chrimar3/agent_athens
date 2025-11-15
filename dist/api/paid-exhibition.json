@@ -7,6 +7,41 @@
   "events": [
     {
       "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "art-spot-2025-11-20",
+      "title": "ΚΑΛΛΙΤΕΧΝΙΚΟ ΕΡΓΑΣΤΗΡΙ - ART SPOT @Νέο Ψυχικό",
+      "description": "20 Νοε - 18 Ιουν ΚΑΛΛΙΤΕΧΝΙΚΟ ΕΡΓΑΣΤΗΡΙ - ART SPOT @Νέο Ψυχικό CharaLab",
+      "startDate": "2025-11-20T20:00:00+03:00",
+      "endDate": null,
+      "type": "exhibition",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "CharaLab",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/seminar/kallitexniko-ergastiri-art-spot-neo-psyxiko/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "Event",
       "id": "3d596866282d864f",
       "title": "✨NEON PARTY ΣΤΟ ΚΤΗΜΑ ΑΡΙΣΤΗ ✨",
@@ -35,11 +70,116 @@
       "createdAt": "2025-10-22T17:16:25.552Z",
       "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ExhibitionEvent",
+      "id": "neon-party-2025-11-21",
+      "title": "✨NEON PARTY ΣΤΟ ΚΤΗΜΑ ΑΡΙΣΤΗ ✨",
+      "description": "21 Νοεμβριου ✨NEON PARTY ΣΤΟ ΚΤΗΜΑ ΑΡΙΣΤΗ ✨ Κτημα Αριστη",
+      "startDate": "2025-11-21T20:00:00+03:00",
+      "endDate": null,
+      "type": "exhibition",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Κτημα Αριστη",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/happenings/children/festival/neon-party-sto-ktima-aristi/",
+      "source": "more.com",
+      "createdAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "on-site-crete-marketing-days-2025-11-23",
+      "title": "On site - Crete Marketing Days",
+      "description": "23 Νοεμβριου On site - Crete Marketing Days Theartemis Palace",
+      "startDate": "2025-11-23T20:00:00+03:00",
+      "endDate": null,
+      "type": "exhibition",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Theartemis Palace",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/seminar/on-site-crete-marketing-days/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ExhibitionEvent",
+      "id": "athens-english-comedy-club-2025-11-30",
+      "title": "Athens English Comedy Club",
+      "description": "30 Νοεμβριου Athens English Comedy Club Θεατρο Eliart",
+      "startDate": "2025-11-30T20:00:00+03:00",
+      "endDate": null,
+      "type": "exhibition",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Θεατρο Eliart",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/standupcomedy/athens-english-comedy-club/",
+      "source": "more.com",
+      "createdAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
     }
   ],
   "meta": {
-    "total": 1,
-    "lastUpdate": "2025-11-12T12:22:21.144Z",
+    "total": 5,
+    "lastUpdate": "2025-11-15T10:37:16.077Z",
     "url": "https://agent-athens.netlify.app/paid-exhibition"
   }
 }

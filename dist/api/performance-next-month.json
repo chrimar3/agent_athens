@@ -72,6 +72,41 @@
     },
     {
       "@context": "https://schema.org",
+      "@type": "PerformanceEvent",
+      "id": "pan-pan-2025-12-04",
+      "title": "Μαρμελάδα Κυψέλη: Σκιτσάροντας στην Αγορά με τον Pan Pan",
+      "description": "Απο 2 Οκτ.εως 4 Δεκ. Μαρμελάδα Κυψέλη: Σκιτσάροντας στην Αγορά με τον Pan Pan Δημοτικη Αγορα Κυψελης",
+      "startDate": "2025-12-04T20:00:00+03:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Δημοτικη Αγορα Κυψελης",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/happenings/marmelada-kypseli-skitsarontas-stin-agora-me-ton-panpan/",
+      "source": "more.com",
+      "createdAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "Event",
       "id": "a94f01590b13d5a0",
       "title": "Avanti Maestro Christmas Edition",
@@ -138,6 +173,76 @@
     },
     {
       "@context": "https://schema.org",
+      "@type": "PerformanceEvent",
+      "id": "avanti-maestro-christmas-edition-2025-12-07",
+      "title": "Avanti Maestro Christmas Edition",
+      "description": "7 - 28 Δεκεμβριου Avanti Maestro Christmas Edition Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
+      "startDate": "2025-12-07T20:00:00+03:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/happenings/children/christmas/avanti-maestro-christmas-edition/",
+      "source": "more.com",
+      "createdAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "PerformanceEvent",
+      "id": "-2025-12-09",
+      "title": "Κέντημα σε Κύκλο",
+      "description": "Απο 30-9 εως 9-12 Κέντημα σε Κύκλο Δημοτικη Αγορα Κυψελης",
+      "startDate": "2025-12-09T20:00:00+03:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Δημοτικη Αγορα Κυψελης",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": 300
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/happenings/offer/kentima-se-kyklo/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T08:41:14.174Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "Event",
       "id": "00057297a8f90b4a",
       "title": "Εργαστήρια για άτομα 65+: Σταμπωτά Υφάσματα - Ζωντανεύοντας την Παράδοση",
@@ -169,6 +274,76 @@
     },
     {
       "@context": "https://schema.org",
+      "@type": "PerformanceEvent",
+      "id": "65-2025-12-10",
+      "title": "Εργαστήρια για άτομα 65+: Σταμπωτά Υφάσματα - Ζωντανεύοντας την Παράδοση",
+      "description": "10 Δεκ - 14 Ιαν Εργαστήρια για άτομα 65+: Σταμπωτά Υφάσματα - Ζωντανεύοντας την Παράδοση Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Αιθουσα Πολλαπλων Χρησεων 2",
+      "startDate": "2025-12-10T20:00:00+03:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Αιθουσα Πολλαπλων Χρησεων 2",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/workshop/aei-didaskomenoi/",
+      "source": "more.com",
+      "createdAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "bridal-expo-bridal-fashion-week-2025-2025-12-12",
+      "title": "Bridal Expo - Bridal Fashion Week 2025",
+      "description": "12/12 - 14/12 Bridal Expo - Bridal Fashion Week 2025 Ζαππειο Μεγαρο",
+      "startDate": "2025-12-12T20:00:00+03:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Ζαππειο Μεγαρο",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/happenings/bridal-expo-bridal-fashion-week-2025/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "Event",
       "id": "2afbc2dac770d3a6",
       "title": "Καλάβρυτα-Σπήλαιο Λιμνών, μονοήμερη εκδρομή",
@@ -196,6 +371,111 @@
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.990Z",
       "updatedAt": "2025-10-26T21:21:00.990Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "PerformanceEvent",
+      "id": "-2025-12-14",
+      "title": "Πρόγραμμα «Ο εγκέφαλος γιορτάζει»",
+      "description": "14 - 21 Δεκεμβριου Πρόγραμμα «Ο εγκέφαλος γιορτάζει» Ελληνικο Παιδικο Μουσειο",
+      "startDate": "2025-12-14T20:00:00+03:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Ελληνικο Παιδικο Μουσειο",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": 200
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/museums/children/programma-o-egkefalos-giortazei/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T08:41:14.174Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "PerformanceEvent",
+      "id": "65-2025-12-16",
+      "title": "Εργαστήρια για άτομα 65+: Εικαστικά Εργαστήρια",
+      "description": "16 - 18 Δεκεμβριου Εργαστήρια για άτομα 65+: Εικαστικά Εργαστήρια Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Maker Space",
+      "startDate": "2025-12-16T20:00:00+03:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Maker Space",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": 100
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/workshop/eikastika-ergastiria/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T08:41:14.174Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "PerformanceEvent",
+      "id": "-2025-12-20",
+      "title": "Μύλος των Ξωτικών-Καλαμπάκα-Μετέωρα, διήμερη εκδρομή",
+      "description": "20 Δεκεμβριου Μύλος των Ξωτικών-Καλαμπάκα-Μετέωρα, διήμερη εκδρομή Metro Σταθμος Λαρισης",
+      "startDate": "2025-12-20T20:00:00+03:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Metro Σταθμος Λαρισης",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/mylos-ton-ksotikon-two-day-trip/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T08:41:14.174Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
       "language": "en"
     },
     {
@@ -235,6 +515,41 @@
     },
     {
       "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "-2025-12-23",
+      "title": "ΣΤΑΧΤΟΠΟΥΤΑ",
+      "description": "23 Δεκ - 4 Ιαν ΣΤΑΧΤΟΠΟΥΤΑ Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
+      "startDate": "2025-12-23T20:00:00+03:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": 600
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/dance/staxtopouta/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:03.833Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "Event",
       "id": "25d921cce107c502",
       "title": "Save a greek stray - Η προσφορά σας γίνεται ελπίδα!",
@@ -266,8 +581,8 @@
     }
   ],
   "meta": {
-    "total": 8,
-    "lastUpdate": "2025-11-12T12:22:20.963Z",
+    "total": 17,
+    "lastUpdate": "2025-11-15T10:37:15.842Z",
     "url": "https://agent-athens.netlify.app/performance-next-month"
   }
 }

@@ -8,10 +8,81 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "108e679dd4d13bb0",
-      "title": "Λίμνη Δόξα, μονοήμερη εκδρομή",
-      "description": "15 Νοεμβριου Λίμνη Δόξα, μονοήμερη εκδρομή Metro Σταθμος Λαρισης",
-      "startDate": "2025-11-15T00:00:00.000+02:00",
+      "id": "98aea3b312423546",
+      "title": "Πρόγραμμα \"Συνδέομαι σημαίνει σέβομαι\"",
+      "description": "21 Νοεμβριου Πρόγραμμα \"Συνδέομαι σημαίνει σέβομαι\" Ελληνικο Παιδικο Μουσειο",
+      "fullDescription": "Στην ιστορική γειτονιά της Πλάκας, κάτω από την Ακρόπολη, το Μουσείο Ελληνικής Παιδικής Τέχνης ανοίγει τις πόρτες του στις 21 Νοεμβρίου για ένα μετασχηματιστικό εργαστήριο που απευθύνεται σε μία από τις πιο ουσιαστικές δεξιότητες που μπορούν να αναπτύξουν τα παιδιά: τη συναισθηματική νοημοσύνη μέσω της ενσυναίσθησης και της διαχείρισης συγκρούσεων. Το «Συνδέομαι σημαίνει σέβομαι» αντιπροσωπεύει μια στοχαστική προσέγγιση στην παιδική εκπαίδευση που αναγνωρίζει την τέχνη ως γέφυρα ανάμεσα στην κατανόηση του εαυτού μας και τη σχέση με τους άλλους.\n\nΤο εργαστήριο ξεδιπλώνεται σε δύο διακριτούς χώρους του μουσείου. Οι συμμετέχοντες ξεκινούν το ταξίδι τους στην αίθουσα έκθεσης της Εθνικής Πινακοθήκης, όπου επιμελώς επιλεγμένα παιδικά έργα τέχνης γίνονται αφορμή για συζητήσεις σχετικά με το συναίσθημα, την προοπτική και την ανθρώπινη σύνδεση. Αυτά τα έργα, δημιουργημένα από νεαρούς καλλιτέχνες από όλη την Ελλάδα, προσφέρουν αυθεντικές ματιές στον τρόπο με τον οποίο τα παιδιά επεξεργάζονται τη σύγκρουση, εκφράζουν δύσκολα συναισθήματα και φαντάζονται λύσεις. Οι συντονιστές καθοδηγούν τους συμμετέχοντες μέσω ασκήσεων οπτικού γραμματισμού που τους ενθαρρύνουν να δουν πέρα από την επιφάνεια κάθε έργου, θέτοντας ερωτήματα που ανοίγουν βαθύτερες συνομιλίες για τον σεβασμό, τα όρια και την αμοιβαία κατανόηση.\n\nΜετά την εμπειρία της γκαλερί, η ομάδα μετακινείται στο Εργαστήριο Τεχνών του μουσείου, όπου οι θεωρητικές έννοιες μετατρέπονται σε πρακτικές, βιωματικές δραστηριότητες. Εδώ, σε ένα οικείο περιβάλλον σχεδιασμένο για πενήντα συμμετέχοντες, τα παιδιά ασχολούνται με υλικά και δημιουργικές διαδικασίες που εξωτερικεύουν εσωτερικούς αγώνες. Η δομή του εργαστηρίου αναγνωρίζει ότι η διαχείριση συγκρούσεων δεν αφορά απλώς την τήρηση κανόνων, αλλά την ανάπτυξη του συναισθηματικού λεξιλογίου για να εκφράσουμε ανάγκες, να αναγνωρίσουμε τα συναισθήματα των άλλων και να βρούμε συνεργατικές λύσεις. Μέσω καθοδηγούμενης καλλιτεχνικής δημιουργίας, παιχνιδιών ρόλων και ομαδικού στοχασμού, οι συμμετέχοντες εξασκούν τις ίδιες δεξιότητες που μόλις παρατήρησαν στα έργα της γκαλερί.\n\nΤο Μουσείο Ελληνικής Παιδικής Τέχνης, φωλιασμένο στους λαβυρινθώδεις δρόμους της Πλάκας, παρέχει το ιδανικό σκηνικό για αυτό το εργαστήριο. Μακριά από την επισημότητα των παραδοσιακών τάξεων, τα παιδιά εισέρχονται σε έναν χώρο όπου οι συναισθηματικές τους εμπειρίες και οι δημιουργικές τους εκφράσεις εκτιμώνται εξίσου σοβαρά με την ακαδημαϊκή γνώση. Η αποστολή του μουσείου να διατηρεί και να γιορτάζει τις καλλιτεχνικές φωνές των παιδιών δημιουργεί μια ατμόσφαιρα επικύρωσης και ασφάλειας, απαραίτητες προϋποθέσεις για ευάλωτες συζητήσεις σχετικά με τη σύγκρουση και τον σεβασμό.",
+      "startDate": "2025-11-21T00:00:00.000+02:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Ελληνικο Παιδικο Μουσειο",
+        "address": "Rigillis & Vas. Georgiou B' 17-19, Athens 106 75",
+        "neighborhood": "Plaka / Athens Conservatoire",
+        "coordinates": {
+          "lat": 37.975,
+          "lon": 23.752
+        },
+        "capacity": 150
+      },
+      "price": {
+        "type": "paid",
+        "amount": 20,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/museums/children/programma-syndeomai-simainei-sebomai/",
+      "source": "more.com",
+      "createdAt": "2025-10-22T17:16:25.555Z",
+      "updatedAt": "2025-11-09 23:52:26",
+      "language": "gr"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "-2025-11-21",
+      "title": "Πρόγραμμα \"Συνδέομαι σημαίνει σέβομαι\"",
+      "description": "21 Νοεμβριου Πρόγραμμα \"Συνδέομαι σημαίνει σέβομαι\" Ελληνικο Παιδικο Μουσειο",
+      "startDate": "2025-11-21T20:00:00+03:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Ελληνικο Παιδικο Μουσειο",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/museums/children/programma-syndeomai-simainei-sebomai/",
+      "source": "viva.gr",
+      "createdAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "881f73db1a61032e",
+      "title": "Λιβαδειά-Πηγές Κρύας, μονοήμερη εκδρομή",
+      "description": "22 Νοε - 28 Δεκ Λιβαδειά-Πηγές Κρύας, μονοήμερη εκδρομή Metro Σταθμος Λαρισης",
+      "startDate": "2025-11-22T00:00:00.000+02:00",
       "endDate": null,
       "type": "performance",
       "genres": [
@@ -26,23 +97,89 @@
       },
       "price": {
         "type": "paid",
-        "amount": 18,
+        "amount": 17,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/walk/limni-doksa-monoimeri-ekdromi-3/",
+      "url": "https://www.more.com/gr-el/tickets/walk/libadeia-piges-kryas1-imeri/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.540Z",
+      "createdAt": "2025-10-22T17:16:25.559Z",
       "updatedAt": "2025-11-09 23:52:26",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "50e4f7c9e63e1b54",
-      "title": "Καρπενήσι, διήμερη εκδρομή",
-      "description": "15 Νοεμβριου Καρπενήσι, διήμερη εκδρομή Metro Σταθμος Λαρισης",
-      "startDate": "2025-11-15T00:00:00.000+02:00",
+      "id": "de735d59a48c4e15",
+      "title": "ΚΟΛΟΣΣΟΣ H HOTELS COLLECTION - ΠΕΡΙΣΤΕΡΙ",
+      "description": "22 Νοεμβριου ΚΟΛΟΣΣΟΣ H HOTELS COLLECTION - ΠΕΡΙΣΤΕΡΙ KALLITHEA INDOOR HALL",
+      "startDate": "2025-11-22T20:00:00+02:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "sports"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "KALLITHEA INDOOR HALL",
+        "address": "KALLITHEA INDOOR HALL",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 5,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/sports/kolossos-h-hotels-collection-peristeri/",
+      "source": "more.com",
+      "createdAt": "2025-10-26T21:21:00.960Z",
+      "updatedAt": "2025-11-09 23:52:26",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "PerformanceEvent",
+      "id": "h-hotels-collection-2025-11-22",
+      "title": "ΚΟΛΟΣΣΟΣ H HOTELS COLLECTION - ΠΕΡΙΣΤΕΡΙ",
+      "description": "22 Νοεμβριου ΚΟΛΟΣΣΟΣ H HOTELS COLLECTION - ΠΕΡΙΣΤΕΡΙ KALLITHEA INDOOR HALL",
+      "startDate": "2025-11-22T20:00:00+03:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "sports"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "KALLITHEA INDOOR HALL",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.viva.gr/gr-el/tickets/sports/kolossos-h-hotels-collection-peristeri/",
+      "source": "viva.gr",
+      "createdAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "252ec12cdd5dea38",
+      "title": "Παύλιανη-Πάρκο Παύλιανης, μονοήμερη εκδρομή",
+      "description": "23 Νοε - 27 Δεκ Παύλιανη-Πάρκο Παύλιανης, μονοήμερη εκδρομή Metro Σταθμος Λαρισης",
+      "startDate": "2025-11-23T00:00:00.000+02:00",
       "endDate": null,
       "type": "performance",
       "genres": [
@@ -51,37 +188,6 @@
       "tags": [],
       "venue": {
         "name": "Metro Σταθμος Λαρισης",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 100,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/walk/karpenisi-diimeri-ekdromi/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.541Z",
-      "updatedAt": "2025-10-22T17:16:25.541Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "0d8f68e403f9d8e5",
-      "title": "Αρχιτεκτονικό Εργαστήρι για Παιδιά",
-      "description": "16 Νοε - 7 Ιουν Αρχιτεκτονικό Εργαστήρι για Παιδιά Aka | Architecture Kids Athens",
-      "startDate": "2025-11-16T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Aka | Architecture Kids Athens",
         "address": "",
         "neighborhood": null,
         "capacity": null
@@ -92,19 +198,19 @@
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/happenings/arxitektoniko-ergastiri-gia-paidia-1/",
+      "url": "https://www.more.com/gr-el/tickets/walk/pauliani-parko-paulianis-monoimeri-ekdromi-3/",
       "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.543Z",
-      "updatedAt": "2025-11-09 23:52:26",
+      "createdAt": "2025-10-22T17:16:25.567Z",
+      "updatedAt": "2025-10-22T17:16:25.567Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "ec78d46a75fc10f6",
-      "title": "Δημητσάνα-Καρύταινα, μονοήμερη εκδρομή",
-      "description": "16 Νοε - 20 Δεκ Δημητσάνα-Καρύταινα, μονοήμερη εκδρομή Metro Σταθμος Λαρισης",
-      "startDate": "2025-11-16T20:00:00+02:00",
+      "@type": "MusicEvent",
+      "id": "crete-marketing-days-2025-11-23",
+      "title": "Crete Marketing Days",
+      "description": "23 Νοεμβριου Crete Marketing Days Πολλαπλοι χωροι",
+      "startDate": "2025-11-23T20:00:00+03:00",
       "endDate": null,
       "type": "performance",
       "genres": [
@@ -112,30 +218,34 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Metro Σταθμος Λαρισης",
-        "address": "Metro Σταθμος Λαρισης",
+        "name": "Πολλαπλοι χωροι",
+        "address": "Athens, Greece",
         "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
         "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 20,
+        "amount": null,
         "currency": "EUR",
-        "range": null
+        "range": "with-ticket"
       },
-      "url": "https://www.more.com/gr-el/tickets/walk/dimitsana-karytaina-monoimeri-ekdromi-1/",
+      "url": "https://www.more.com/gr-el/tickets/seminar/crete-marketing-days/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.952Z",
-      "updatedAt": "2025-11-09 23:52:26",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "1119ed311e7c4ff6",
-      "title": "ΕΛΛΗΝΙΚΗ ΜΥΘΟΛΟΓΙΑ",
-      "description": "16 Νοεμβριου ΕΛΛΗΝΙΚΗ ΜΥΘΟΛΟΓΙΑ Paradise Park - Βιωματικο Παρκο",
-      "startDate": "2025-11-16T20:00:00+02:00",
+      "@type": "MusicEvent",
+      "id": "online-crete-marketing-days-2025-11-23",
+      "title": "Online - Crete Marketing Days",
+      "description": "23 Νοεμβριου Online - Crete Marketing Days Streaming - Online",
+      "startDate": "2025-11-23T20:00:00+03:00",
       "endDate": null,
       "type": "performance",
       "genres": [
@@ -143,27 +253,31 @@
       ],
       "tags": [],
       "venue": {
-        "name": "Paradise Park - Βιωματικο Παρκο",
-        "address": "Paradise Park - Βιωματικο Παρκο",
+        "name": "Streaming - Online",
+        "address": "Athens, Greece",
         "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
         "capacity": null
       },
       "price": {
         "type": "paid",
-        "amount": 8,
+        "amount": null,
         "currency": "EUR",
-        "range": null
+        "range": "with-ticket"
       },
-      "url": "https://www.more.com/gr-el/tickets/happenings/children/elliniki-mythologia-1/",
+      "url": "https://www.more.com/gr-el/tickets/seminar/online-crete-marketing-days/",
       "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.953Z",
-      "updatedAt": "2025-10-26T21:21:00.953Z",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
       "language": "en"
     }
   ],
   "meta": {
-    "total": 5,
-    "lastUpdate": "2025-11-12T12:22:21.177Z",
+    "total": 8,
+    "lastUpdate": "2025-11-15T10:37:16.128Z",
     "url": "https://agent-athens.netlify.app/paid-performance-this-weekend"
   }
 }

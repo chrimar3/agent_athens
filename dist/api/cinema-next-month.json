@@ -3,10 +3,186 @@
     "type": "cinema",
     "time": "next-month"
   },
-  "events": [],
+  "events": [
+    {
+      "@context": "https://schema.org",
+      "@type": "TheaterEvent",
+      "id": "-2025-12-01",
+      "title": "ΤΟ ΠΡΑΓΜΑ",
+      "description": "",
+      "startDate": "2025-12-01T20:00:00+03:00",
+      "endDate": null,
+      "type": "cinema",
+      "genres": [
+        "cinema"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Gazarte",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/venues/gazarte/",
+      "source": "viva.gr",
+      "createdAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "-2025-12-04",
+      "title": "ΓΙΑΓΚΙΝΗΔΕΣ",
+      "description": "",
+      "startDate": "2025-12-04T20:00:00+03:00",
+      "endDate": null,
+      "type": "cinema",
+      "genres": [
+        "cinema"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Gazarte",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/venues/gazarte/",
+      "source": "viva.gr",
+      "createdAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ScreeningEvent",
+      "id": "john-medeski-2025-12-06",
+      "title": "JOHN MEDESKI",
+      "description": "",
+      "startDate": "2025-12-06T20:00:00+03:00",
+      "endDate": null,
+      "type": "cinema",
+      "genres": [
+        "cinema"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Gazarte",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/venues/gazarte/",
+      "source": "gazarte.gr",
+      "createdAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ScreeningEvent",
+      "id": "night-tapes-2025-12-09",
+      "title": "NIGHT TAPES",
+      "description": "",
+      "startDate": "2025-12-09T20:00:00+03:00",
+      "endDate": null,
+      "type": "cinema",
+      "genres": [
+        "cinema"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Gazarte",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/venues/gazarte/",
+      "source": "gazarte.gr",
+      "createdAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ScreeningEvent",
+      "id": "starsailor-2025-12-10",
+      "title": "STARSAILOR",
+      "description": "",
+      "startDate": "2025-12-10T20:00:00+03:00",
+      "endDate": null,
+      "type": "cinema",
+      "genres": [
+        "cinema"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Gazarte",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/venues/gazarte/",
+      "source": "gazarte.gr",
+      "createdAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "language": "en"
+    }
+  ],
   "meta": {
-    "total": 0,
-    "lastUpdate": "2025-11-12T12:22:20.934Z",
+    "total": 5,
+    "lastUpdate": "2025-11-15T10:37:15.796Z",
     "url": "https://agent-athens.netlify.app/cinema-next-month"
   }
 }
