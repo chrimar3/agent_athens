@@ -7,134 +7,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "a821129872557c4b",
-      "title": "ΣΩΤΗΡΙΑ",
-      "description": "15 Νοε - 14 Δεκ ΣΩΤΗΡΙΑ Απο Μηχανης Θεατρο - Πανω Σκηνη",
-      "fullDescription": "Η θεατρική παράσταση «ΣΩΤΗΡΙΑ» έρχεται στην Πάνω Σκηνή του Από Μηχανής Θεάτρου για έναν ολόκληρο μήνα, από τις 15 Νοεμβρίου έως τις 14 Δεκεμβρίου 2025, προσφέροντας στο αθηναϊκό κοινό μια ευκαιρία να εξερευνήσει ένα έργο που φέρει βαρυσήμαντο τίτλο με πολλαπλές ερμηνείες.\n\nΤο Από Μηχανής Θέατρο, που βρίσκεται στην καρδιά της Αθήνας, έχει καθιερωθεί ως ένας από τους πιο δυναμικούς πολιτιστικούς χώρους της πόλης, φιλοξενώντας παραστάσεις που αμφισβητούν, προκαλούν και εμπλουτίζουν τη σύγχρονη θεατρική σκηνή. Η Πάνω Σκηνή, ως ο κύριος χώρος του θεάτρου, προσφέρει την ιδανική ατμόσφαιρα για έργα που επιδιώκουν άμεση επικοινωνία με το κοινό, δημιουργώντας μια εμπειρία που υπερβαίνει την απλή θέαση.\n\nΟ τίτλος «ΣΩΤΗΡΙΑ» φέρει πολλαπλά νοηματικά επίπεδα. Πέρα από το γυναικείο όνομα, που παραπέμπει σε προσωπική ιστορία και χαρακτήρα, η λέξη σωτηρία εμπεριέχει έννοιες λύτρωσης, διάσωσης και ελπίδας. Σε μια εποχή όπου η αναζήτηση νοήματος και η ανάγκη για ψυχική ανάταση είναι πιο επιτακτικές από ποτέ, ένα θεατρικό έργο που φέρει αυτόν τον τίτλο προκαλεί αμέσως το ενδιαφέρον και υπόσχεται μια εμπειρία που αγγίζει βαθιά υπαρξιακά ερωτήματα.\n\nΗ σύγχρονη αθηναϊκή θεατρική σκηνή χαρακτηρίζεται από την τόλμη και την πρωτοπορία, με δημιουργούς που δεν φοβούνται να πειραματιστούν με νέες μορφές αφήγησης και να αναζητήσουν φρέσκες εκφραστικές γλώσσες. Το Από Μηχανής Θέατρο αποτελεί σημαντικό κομμάτι αυτής της πρωτοποριακής κίνησης, προσελκύοντας τόσο σκηνοθέτες όσο και ηθοποιούς που επιθυμούν να δημιουργήσουν έργα με βάθος και ουσία.\n\nΗ διάρκεια της παράστασης για έναν ολόκληρο μήνα παρέχει στους θεατές την ευκαιρία να οργανώσουν την επίσκεψή τους με ευελιξία, ενώ δίνει χρόνο στην παραγωγή να αναπτυχθεί και να ωριμάσει μέσα από τις διαδοχικές παραστάσεις. Για όσους αγαπούν το θέατρο και αναζητούν εμπειρίες που προκαλούν σκέψη και συναίσθημα, η «ΣΩΤΗΡΙΑ» υπόσχεται μια βραδιά που θα μείνει στη μνήμη.\n\nΗ περιοχή γύρω από το θέατρο προσφέρει επίσης πολλές επιλογές για ένα ολοκληρωμένο βράδυ στην Αθήνα. Πριν ή μετά την παράσταση, οι επισκέπτες μπορούν να εξερευνήσουν τα κοντινά καφέ και εστιατόρια, να περπατήσουν στους χαρακτηριστικούς δρόμους της γειτονιάς και να βιώσουν την ζωντανή νυχτερινή ζωή της πόλης.\n\nΤο θέατρο παραμένει μια από τις πιο άμεσες και συγκλονιστικές μορφές τέχνης, προσφέροντας μια κοινή εμπειρία που ενώνει το κοινό σε έναν κοινό χρόνο και χώρο. Η «ΣΩΤΗΡΙΑ» στο Από Μηχανής Θέατρο αποτελεί μια πρόσκληση να βιώσετε αυτή τη μαγεία του ζωντανού θεάτρου και να εμπλουτίσετε την πολιτιστική σας εμπειρία στην Αθήνα αυτόν τον Νοέμβριο και Δεκέμβριο.",
-      "startDate": "2025-11-15T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Απο Μηχανης Θεατρο - Πανω Σκηνη",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/sotiria2/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.540Z",
-      "updatedAt": "2025-11-14 12:32:08",
-      "language": "gr"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "6e9caeefcf1bba62",
-      "title": "Συγγνώμη, κύριε, ποιος είστε;",
-      "description": "15 Νοεμβριου Συγγνώμη, κύριε, ποιος είστε; Red Jasper Cabaret Theatre",
-      "fullDescription": "Το Jasper Cabaret Theatre παρουσιάζει στις 15 Νοεμβρίου 2025 την κωμωδία \"Συγγνώμη, κύριε, ποιος είστε;\", μια παράσταση που υπόσχεται βραδιές γεμάτες γέλιο και απροσδόκητες ανατροπές. Αυτό το θεατρικό έργο, που συνδυάζει εξυπνάδα, χιούμορ και καυστική κοινωνική σάτιρα, έχει σχεδιαστεί για να διασκεδάσει και να προβληματίσει το κοινό ταυτόχρονα. Το Jasper Cabaret Theatre, γνωστό για την εναλλακτική του προσέγγιση και τις πρωτοποριακές παραγωγές του, αποτελεί τον ιδανικό χώρο για αυτή τη παράσταση.\n\nΤο Jasper Cabaret Theatre βρίσκεται σε μια από τις πιο δυναμικές και καλλιτεχνικές περιοχές της Αθήνας. Ο χώρος, με τη cabaret αισθητική του, δημιουργεί μια intimate και δραματική ατμόσφαιρα που φέρνει το κοινό κοντά στη δράση. Τα κόκκινα βελούδινα καθίσματα, ο εντυπωσιακός φωτισμός και η προσεγμένη σκηνογραφία συμβάλλουν στη δημιουργία μιας εμπειρίας που ξεπερνά τη συμβατική θεατρική παράσταση. Είναι ένας χώρος που ζωντανεύει με την ενέργεια των performers και τις αντιδράσεις του κοινού.\n\nΗ κωμωδία \"Συγγνώμη, κύριε, ποιος είστε;\" εξερευνεί το θέμα της ταυτότητας και των κοινωνικών προσδοκιών μέσα από μια σειρά από απίθανες και κωμικές καταστάσεις. Η πλοκή περιστρέφεται γύρω από έναν πρωταγωνιστή που βρίσκεται σε μια σειρά από παρεξηγήσεις και ταυτοτικές συγχύσεις, οδηγώντας σε απρόβλεπτες και ξεκαρδιστικές στιγμές. Το έργο χρησιμοποιεί το χιούμορ για να σχολιάσει τη σύγχρονη κοινωνία, τις κοινωνικές συμβάσεις και τον τρόπο που βλέπουμε και κρίνουμε ο ένας τον άλλον.\n\nΟι ηθοποιοί της παράστασης είναι ένα ταλαντούχο ensemble που φέρνει στη ζωή τους χαρακτήρες με ενέργεια και πειστικότητα. Η χημεία μεταξύ τους και η άψογη χρονομέτρηση των κωμικών στιγμών δημιουργούν μια ατμόσφαιρα που κρατάει το κοινό καθηλωμένο από την αρχή μέχρι το τέλος. Η σκηνοθεσία είναι δυναμική και ρυθμική, με απρόσμενες ανατροπές που κρατούν το ενδιαφέρον ζωντανό.\n\nΤο Jasper Cabaret Theatre είναι γνωστό για το εκλεκτικό του ρεπερτόριο, που περιλαμβάνει από κλασικές παραγωγές μέχρι πειραματικές παραστάσεις. Αυτή η παραγωγή ταιριάζει απόλυτα με τη φιλοσοφία του χώρου να παρουσιάζει έργα που προκαλούν, διασκεδάζουν και αφήνουν αίσθηση. Το cabaret format επιτρέπει επίσης στο κοινό να απολαμβάνει ποτά και snacks κατά τη διάρκεια της παράστασης, προσθέτοντας ένα επιπλέον στρώμα διασκέδασης στην εμπειρία.\n\nΓια όσους αναζητούν μια βραδιά γεμάτη γέλιο και έξυπνο χιούμορ, η παράσταση \"Συγγνώμη, κύριε, ποιος είστε;\" είναι η ιδανική επιλογή. Ξεκινά στις 20:00, και συνιστάται η έγκαιρη προμήθεια εισιτηρίων καθώς ο χώρος έχει περιορισμένη χωρητικότητα. Μια βραδιά που συνδυάζει θέατρο, cabaret ατμόσφαιρα και εξαιρετικές ερμηνείες σας περιμένει στο Jasper Cabaret Theatre.",
-      "startDate": "2025-11-15T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Jasper Cabaret Theatre",
-        "address": "Jasper Cabaret Theatre",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/syggnomi-kyrie-poios-eiste/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.948Z",
-      "updatedAt": "2025-11-14 12:48:54",
-      "language": "gr"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "d466fae1380dd4b1",
-      "title": "Φύκι στον Βυθό - Τεχνόκοσμος",
-      "description": "15 Νοε - 20 Δεκ Φύκι στον Βυθό - Τεχνόκοσμος Τεχνοκοσμος Θεατρικη Σκηνη",
-      "fullDescription": "Το \"Φύκι στον Βυθό\" επιστρέφει στην αθηναϊκή θεατρική σκηνή από τις 15 Νοεμβρίου μέχρι τις 20 Δεκεμβρίου 2025, στο Τεχνόκοσμο, μια παραγωγή που έχει κερδίσει τις καρδιές του κοινού και την αναγνώριση της κριτικής. Αυτό το θεατρικό έργο, βασισμένο στο αριστούργημα του Στρατή Πασχάλη, εξερευνεί το ανθρώπινο δράμα μέσα από μια ιστορία που συνδυάζει δύναμη, συγκίνηση και πολιτική σάτιρα. Ο Τεχνόκοσμος, ένας από τους πιο εμβληματικούς πολυχώρους τέχνης της Αθήνας, αποτελεί την ιδανική σκηνή για αυτή την παραγωγή.\n\nΤο \"Φύκι στον Βυθό\" διαδραματίζεται σε έναν μικρό ψαροχώρι, όπου οι κάτοικοι αντιμετωπίζουν τις καθημερινές τους δυσκολίες με χιούμορ, αξιοπρέπεια και αλληλεγγύη. Η ιστορία επικεντρώνεται στη ζωή ενός ψαρά και της οικογένειάς του, που παλεύουν να επιβιώσουν σε έναν κόσμο που φαίνεται να τους έχει ξεχάσει. Μέσα από αυτό το μικρόκοσμο, το έργο αγγίζει μεγάλα θέματα όπως η φτώχεια, η κοινωνική αδικία, και η ανθρώπινη αξιοπρέπεια. Ο Πασχάλης, με την αιχμηρή του γραφή, δημιουργεί χαρακτήρες βαθιά ανθρώπινους και συμπαθείς, που μένουν χαραγμένοι στη μνήμη του θεατή.\n\nΗ παράσταση στον Τεχνόκοσμο είναι σκηνοθετημένη με τρόπο που τονίζει τη δραματική ένταση και την κωμική ανακούφιση που συνυπάρχουν στο κείμενο. Η σκηνογραφία αναπαριστά με πειστικότητα το περιβάλλον ενός παραδοσιακού ψαροχωριού, με δίχτυα, βάρκες και τα στοιχεία που φέρνουν στο νου τη θάλασσα και την απλότητα της ζωής των ψαράδων. Ο φωτισμός και η μουσική επένδυση συμβάλλουν στη δημιουργία μιας ατμόσφαιρας που μεταφέρει το κοινό σε αυτόν τον μικρόκοσμο, κάνοντάς το να νιώσει συμμέτοχο στη δράση.\n\nΟι ηθοποιοί της παράστασης προσφέρουν ερμηνείες υψηλού επιπέδου, φέρνοντας στη ζωή τους πολύπλοκους χαρακτήρες του Πασχάλη με ευαισθησία και αυθεντικότητα. Η χημεία μεταξύ τους δημιουργεί μια ανάλαφρη και συγκινητική ατμόσφαιρα που κρατάει το κοινό καθηλωμένο. Οι διάλογοι, γεμάτοι χιούμορ και πικρία, αντανακλούν την πολυπλοκότητα της ανθρώπινης φύσης και των κοινωνικών σχέσεων.\n\nΟ Τεχνόκοσμος, που βρίσκεται στην περιοχή του Γκαζίου, είναι ένας χώρος που έχει φιλοξενήσει μερικές από τις πιο σημαντικές θεατρικές παραγωγές των τελευταίων ετών. Η θεατρική του σκηνή, με την άριστη ορατότητα και ακουστική της, προσφέρει μια ιδανική εμπειρία για τους θεατές. Ο χώρος διαθέτει επίσης café-bar, όπου το κοινό μπορεί να απολαύσει ένα ποτό πριν ή μετά την παράσταση, κάνοντας την όλη εμπειρία ακόμα πιο ολοκληρωμένη.\n\nΓια τους λάτρεις του θεάτρου που αναζητούν μια παράσταση με βάθος, συγκίνηση και πολιτική ουσία, το \"Φύκι στον Βυθό\" είναι μια ευκαιρία που δεν πρέπει να χαθεί. Οι παραστάσεις πραγματοποιούνται κάθε Παρασκή στις 20:00, και τα εισιτήρια μπορούν να προμηθευτούν online ή στο ταμείο του θεάτρου. Μια βραδιά που συνδυάζει την τέχνη του Πασχάλη με την υψηλή ποιότητα παραγωγής σας περιμένει στον Τεχνόκοσμο.",
-      "startDate": "2025-11-15T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Τεχνοκοσμος Θεατρικη Σκηνη",
-        "address": "Τεχνοκοσμος Θεατρικη Σκηνη",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/fyki-ston-bytho-texnokosmos/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.948Z",
-      "updatedAt": "2025-11-14 12:48:55",
-      "language": "gr"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "58b728f1401c94c1",
-      "title": "\"Ο ΑΛΑΝΤΙΝ και το μαγικό λυχνάρι\"",
-      "description": "15 - 22 Νοεμβριου \"Ο ΑΛΑΝΤΙΝ και το μαγικό λυχνάρι\" Πολλαπλοι χωροι",
-      "fullDescription": "Η μαγεία των Χιλίων και Μιας Νυχτών ξεδιπλώνεται στην Αθήνα αυτό το Νοέμβριο με την παράσταση \"Ο Αλαντίν και το Μαγικό Λυχνάρι\", μια θεατρική εμπειρία που υπόσχεται να μεταφέρει το κοινό σε έναν κόσμο γεμάτο περιπέτεια, χιούμορ και συγκίνηση. Από τις 15 έως τις 22 Νοεμβρίου, πολλαπλοί χώροι της πόλης φιλοξενούν αυτή την παραγωγή που αναβιώνει το κλασικό παραμύθι με φρέσκο βλέμμα και σύγχρονη σκηνική γλώσσα.\n\nΗ ιστορία του Αλαντίν, του φτωχού αλλά γενναιόδωρου νεαρού που ανακαλύπτει ένα μαγικό λυχνάρι με έναν παντοδύναμο τζίνι μέσα του, έχει γοητεύσει γενιές και γενιές. Αυτή η θεατρική διασκευή διατηρεί την ουσία του αγαπημένου παραμυθιού, ενώ παράλληλα το εμπλουτίζει με στοιχεία που απευθύνονται τόσο στα παιδιά όσο και στους ενήλικες. Η σκηνοθεσία φροντίζει να ισορροπήσει ανάμεσα στην περιπέτεια και το συναίσθημα, δημιουργώντας μια παράσταση που κρατά αμείωτο το ενδιαφέρον από την πρώτη μέχρι την τελευταία σκηνή.\n\nΤο γεγονός ότι η παράσταση φιλοξενείται σε πολλαπλούς χώρους προσφέρει στο κοινό την ευκαιρία να επιλέξει την πιο βολική τοποθεσία, καθιστώντας την εμπειρία πιο προσβάσιμη σε οικογένειες από όλες τις περιοχές της Αθήνας. Αυτή η προσέγγιση δείχνει τη δέσμευση των παραγωγών να φέρουν την τέχνη κοντά στο κοινό, αντί να περιμένουν το κοινό να έρθει σε έναν μόνο χώρο.\n\nΗ παραγωγή διακρίνεται για την προσοχή στη σκηνογραφία και τα κοστούμια, που αναπαράγουν την ατμόσφαιρα της Ανατολής με πλούσια χρώματα και εξωτικά μοτίβα. Τα εφέ φωτισμού και ήχου συμβάλλουν στη δημιουργία μιας μαγικής ατμόσφαιρας που μεταφέρει το κοινό στην Αγκράμπα, την πόλη όπου διαδραματίζεται η ιστορία. Η μουσική επένδυση, συνδυάζοντας παραδοσιακούς ανατολίτικους ήχους με σύγχρονες μελωδίες, προσθέτει άλλη μια διάσταση στην παράσταση.\n\nΟι ηθοποιοί φέρνουν ζωή στους χαρακτήρες με ενέργεια και αυθεντικότητα. Ο Αλαντίν εμφανίζεται ως ένας χαρακτήρας με τον οποίο τα παιδιά μπορούν εύκολα να ταυτιστούν - ένας απλός νεαρός με όνειρα και φιλοδοξίες που μαθαίνει σημαντικά μαθήματα για την τιμιότητα, τη γενναιότητα και την αξία της αληθινής φιλίας. Ο τζίνι προσφέρει κωμικές στιγμές που ξεσηκώνουν γέλια, ενώ ο κακός Τζαφάρ δημιουργεί την απαραίτητη ένταση.\n\nΙδανική για οικογενειακές εξόδους, η παράσταση προσφέρει ένα διασκεδαστικό απόγευμα ή βράδυ που συνδυάζει ψυχαγωγία με πολιτιστική εμπειρία. Οι παραστάσεις στις 20:00 είναι κατάλληλες και για σχολικές ομάδες και για οικογένειες που θέλουν να εισαγάγουν τα παιδιά τους στον κόσμο του θεάτρου με έναν προσιτό και διασκεδαστικό τρόπο.",
-      "startDate": "2025-11-15T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "λυχνάρι\" Πολλαπλοι χωροι",
-        "address": "λυχνάρι\" Πολλαπλοι χωροι",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 7,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/offer/o-alantin-kai-to-magiko-lyxnari-apo-to-theatro-marionetas-gkotsi/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:21:00.948Z",
-      "updatedAt": "2025-11-14 12:48:55",
-      "language": "gr"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
       "id": "2a2e0da29a8eb733",
       "title": "Οι κάλπηδες 3ος χρόνος",
       "description": "16 Νοε - 11 Ιαν Οι κάλπηδες 3ος χρόνος Θεατρο OLVIO",
@@ -318,14 +190,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 8,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/oi-kalpides-2os-xronos/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-15 09:47:12",
+      "updatedAt": "2025-11-16 17:22:21",
       "language": "gr"
     },
     {
@@ -353,14 +225,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 15,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/plastelini-vassily-sigarev/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:22:21",
       "language": "en"
     },
     {
@@ -514,14 +386,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 12,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/doriane/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-15 10:15:55",
+      "updatedAt": "2025-11-16 17:22:21",
       "language": "gr"
     },
     {
@@ -550,14 +422,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 12,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/mixalis-sebasteris-stand-up-comedy-on-tour/",
       "source": "more.com",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-15 10:15:55",
+      "updatedAt": "2025-11-16 17:22:21",
       "language": "gr"
     },
     {
@@ -780,14 +652,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 10,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/mono-alitheies/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:22:21",
       "language": "en"
     },
     {
@@ -847,14 +719,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 13,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/symbainoun-auta-kamia-fora/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:22:21",
       "language": "en"
     },
     {
@@ -913,14 +785,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 15,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/to-gala-3os-xronos/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:22:21",
       "language": "en"
     },
     {
@@ -1134,14 +1006,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 15,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/serra-i-psyxi-tou-pontou-periodeia/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:22:21",
       "language": "en"
     },
     {
@@ -1169,14 +1041,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 20,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/workshop/sta-oneira-tou-miroergastiri-enilikon/",
       "source": "more.com",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -1452,14 +1324,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 10,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/ego-to-ksotiko-1/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -1648,14 +1520,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 5,
         "currency": "EUR",
         "range": null
       },
       "url": "https://www.more.com/gr-el/tickets/theater/agios-paisios/",
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.967Z",
-      "updatedAt": "2025-11-09 18:32:01",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "gr"
     },
     {
@@ -1912,7 +1784,7 @@
       "id": "ea2c92e5521e22f7",
       "title": "Η ΣΤΑΧΤΟΠΟΥΤΑ - ΠΕΡΙΟΔΕΙΑ",
       "description": "25 Οκτ - 30 Νοε Η ΣΤΑΧΤΟΠΟΥΤΑ - ΠΕΡΙΟΔΕΙΑ Πολλαπλοι χωροι",
-      "startDate": "2025-11-30T00:00:00.000+02:00",
+      "startDate": "2025-11-30T18:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -1934,7 +1806,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/offer/i-staxtopouta-periodeia/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.591Z",
-      "updatedAt": "2025-11-09 23:52:26",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -1993,14 +1865,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 10,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/offer/i-staxtopouta-periodeia/",
       "source": "viva.gr",
       "createdAt": "2025-10-30T10:34:38.729Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -2059,14 +1931,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 10,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/to-fantasma-stage-fright/",
       "source": "viva.gr",
       "createdAt": "2025-10-30T10:35:34.383Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -2075,7 +1947,7 @@
       "id": "4b84f169445a0f51",
       "title": "ΝΙΚΟΣ ΞΥΛΟΥΡΗΣ- Ο ΑΡΧΑΓΓΕΛΟΣ ΤΗΣ ΚΡΗΤΗΣ",
       "description": "3 - 21 Δεκεμβριου ΝΙΚΟΣ ΞΥΛΟΥΡΗΣ- Ο ΑΡΧΑΓΓΕΛΟΣ ΤΗΣ ΚΡΗΤΗΣ Θεατρο ΗΒΗ",
-      "startDate": "2025-12-03T00:00:00.000+02:00",
+      "startDate": "2025-12-03T19:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -2097,69 +1969,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/ksylouris/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.594Z",
-      "updatedAt": "2025-10-22T17:16:25.594Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "028d65dbb0ec735d",
-      "title": "Πετριχώρα",
-      "description": "14 Νοε - 18 Δεκ Πετριχώρα Πολλαπλοι χωροι",
-      "startDate": "2025-12-03T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/petrixora/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.594Z",
-      "updatedAt": "2025-10-22T17:16:25.594Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "929ccac77ff21d2d",
-      "title": "Το Ημερολόγιο ενός τρελλού",
-      "description": "7 Νοε - 10 Δεκ Το Ημερολόγιο ενός τρελλού Πολλαπλοι χωροι",
-      "startDate": "2025-12-03T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 12,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/to-imerologio-enos-trellou-1/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.595Z",
-      "updatedAt": "2025-10-22T17:16:25.595Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -2187,14 +1997,76 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 12,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/to-imerologio-enos-trellou-1/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "028d65dbb0ec735d",
+      "title": "Πετριχώρα",
+      "description": "14 Νοε - 18 Δεκ Πετριχώρα Πολλαπλοι χωροι",
+      "startDate": "2025-12-03T21:00:00+02:00",
+      "endDate": null,
+      "type": "theater",
+      "genres": [
+        "theater"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Πολλαπλοι χωροι",
+        "address": "",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 10,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/petrixora/",
+      "source": "more.com",
+      "createdAt": "2025-10-22T17:16:25.594Z",
+      "updatedAt": "2025-11-16 17:20:52",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "929ccac77ff21d2d",
+      "title": "Το Ημερολόγιο ενός τρελλού",
+      "description": "7 Νοε - 10 Δεκ Το Ημερολόγιο ενός τρελλού Πολλαπλοι χωροι",
+      "startDate": "2025-12-03T21:00:00+02:00",
+      "endDate": null,
+      "type": "theater",
+      "genres": [
+        "theater"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Πολλαπλοι χωροι",
+        "address": "",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 12,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/to-imerologio-enos-trellou-1/",
+      "source": "more.com",
+      "createdAt": "2025-10-22T17:16:25.595Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -2296,7 +2168,7 @@
       "id": "65c56c2bc27e5a65",
       "title": "COMEDY CLUB για παιδιά - Με τον Γιώργο Χατζηπαύλου",
       "description": "6 - 7 Δεκεμβριου COMEDY CLUB για παιδιά - Με τον Γιώργο Χατζηπαύλου Κινηματοθεατρο ΚΟΛΟΣΣΑΙΟΝ",
-      "startDate": "2025-12-06T00:00:00.000+02:00",
+      "startDate": "2025-12-06T18:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -2318,7 +2190,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/children/comedy-club-gia-paidia-me-ton-giorgo-xatzipaulou/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.603Z",
-      "updatedAt": "2025-10-22T17:16:25.603Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -2408,14 +2280,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 12,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/children/comedy-club-gia-paidia-me-ton-giorgo-xatzipaulou/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -2424,7 +2296,7 @@
       "id": "03e927dc942d9a6d",
       "title": "Χριστούγεννα με τον Παπαδιαμάντη",
       "description": "7 Δεκ - 4 Ιαν Χριστούγεννα με τον Παπαδιαμάντη Θεατρο της Ημερας - Μπλε Σκηνη",
-      "startDate": "2025-12-07T00:00:00.000+02:00",
+      "startDate": "2025-12-07T18:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -2446,7 +2318,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/christmas/xristougenna-me-ton-papadiamanti/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.608Z",
-      "updatedAt": "2025-10-22T17:16:25.608Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -2703,37 +2575,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "74d81bb9ab6decc6",
-      "title": "Το 3% της Βίλης Σωτηροπούλου",
-      "description": "25 Οκτ - 10 Ιαν Το 3% της Βίλης Σωτηροπούλου Πολλαπλοι χωροι",
-      "startDate": "2025-12-15T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 5,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/to-3/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.619Z",
-      "updatedAt": "2025-10-22T17:16:25.619Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "TheaterEvent",
       "id": "3-2025-12-15",
       "title": "Το 3% της Βίλης Σωτηροπούλου",
@@ -2757,14 +2598,45 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 5,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/to-3/",
       "source": "more.com",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "74d81bb9ab6decc6",
+      "title": "Το 3% της Βίλης Σωτηροπούλου",
+      "description": "25 Οκτ - 10 Ιαν Το 3% της Βίλης Σωτηροπούλου Πολλαπλοι χωροι",
+      "startDate": "2025-12-15T21:00:00+02:00",
+      "endDate": null,
+      "type": "theater",
+      "genres": [
+        "theater"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Πολλαπλοι χωροι",
+        "address": "",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 5,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/to-3/",
+      "source": "more.com",
+      "createdAt": "2025-10-22T17:16:25.619Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -2980,14 +2852,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 15,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/epitheoritis-ntreik-kai-i-mauri-xira-thes/",
       "source": "viva.gr",
       "createdAt": "2025-10-30T10:35:34.383Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -3015,14 +2887,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 15,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/dance/karyothraustis-ballet-of-varna-state-opera/",
       "source": "more.com",
       "createdAt": "2025-10-31T12:22:35.864Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -3050,14 +2922,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 12,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/p-o-p-tou-thanasi-kritsaki/",
       "source": "viva.gr",
       "createdAt": "2025-10-30T10:35:34.383Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -3116,14 +2988,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 11,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/children/summer/stroumfakia-i-prasini-apostoli/",
       "source": "more.com",
       "createdAt": "2025-10-31T12:22:03.833Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -3151,14 +3023,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 11,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/children/summer/stroumfakia-i-prasini-apostoli/",
       "source": "more.com",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -3186,14 +3058,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 12,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/cry-tis-lenas-kitsopoulou/",
       "source": "viva.gr",
       "createdAt": "2025-10-30T10:35:34.383Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -3202,7 +3074,7 @@
       "id": "716b5e62254b7ec8",
       "title": "TOXIC",
       "description": "14 Ιαν - 18 Μαρ TOXIC Θεατρο Αργω - Studio",
-      "startDate": "2026-01-14T00:00:00.000+02:00",
+      "startDate": "2026-01-14T20:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -3224,7 +3096,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/toxic/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.633Z",
-      "updatedAt": "2025-10-22T17:16:25.633Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -3252,45 +3124,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 10,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/toxic/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "03cfbcbecdc11040",
-      "title": "ΦΛΑΝΤΡώ - ΘΈΑΤΡΟ ΑΛΑΜΠΡΑ",
-      "description": "16 Ιαν - 7 Μαρ ΦΛΑΝΤΡώ - ΘΈΑΤΡΟ ΑΛΑΜΠΡΑ Θεατρο Αλαμπρα",
-      "startDate": "2026-01-16T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Αλαμπρα",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 17,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/flantro-theatro-alampra/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.635Z",
-      "updatedAt": "2025-10-22T17:16:25.635Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -3349,14 +3190,45 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 17,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/flantro-theatro-alampra/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "03cfbcbecdc11040",
+      "title": "ΦΛΑΝΤΡώ - ΘΈΑΤΡΟ ΑΛΑΜΠΡΑ",
+      "description": "16 Ιαν - 7 Μαρ ΦΛΑΝΤΡώ - ΘΈΑΤΡΟ ΑΛΑΜΠΡΑ Θεατρο Αλαμπρα",
+      "startDate": "2026-01-16T21:00:00+02:00",
+      "endDate": null,
+      "type": "theater",
+      "genres": [
+        "theater"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Θεατρο Αλαμπρα",
+        "address": "",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 17,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/flantro-theatro-alampra/",
+      "source": "more.com",
+      "createdAt": "2025-10-22T17:16:25.635Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -3486,37 +3358,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "41b4d006a9e46576",
-      "title": "Extra κάρτα ΚΘΒΕ",
-      "description": "2024-2025 Extra κάρτα ΚΘΒΕ ΚΘΒΕ",
-      "startDate": "2026-01-31T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ΚΘΒΕ",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 230,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/extra-karta-kthbe/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.641Z",
-      "updatedAt": "2025-10-22T17:16:25.641Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
       "id": "44b91c85f45f3c74",
       "title": "VIP κάρτα ΚΘΒΕ",
       "description": "2024-2025 VIP κάρτα ΚΘΒΕ ΚΘΒΕ",
@@ -3601,14 +3442,45 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 120,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/extra-karta-kthbe/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "41b4d006a9e46576",
+      "title": "Extra κάρτα ΚΘΒΕ",
+      "description": "2024-2025 Extra κάρτα ΚΘΒΕ ΚΘΒΕ",
+      "startDate": "2026-01-31T21:30:00+02:00",
+      "endDate": null,
+      "type": "theater",
+      "genres": [
+        "theater"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "ΚΘΒΕ",
+        "address": "",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 230,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/extra-karta-kthbe/",
+      "source": "more.com",
+      "createdAt": "2025-10-22T17:16:25.641Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -3741,7 +3613,7 @@
       "id": "1eef6e5befcf4cf8",
       "title": "Louis C.K.",
       "description": "25 - 26 Φεβρουαριου Louis C.K. CHRISTMAS THEATER",
-      "startDate": "2026-02-25T00:00:00.000+02:00",
+      "startDate": "2026-02-25T19:30:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -3767,7 +3639,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/louis-c-k/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.643Z",
-      "updatedAt": "2025-11-06 13:34:35",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -3795,14 +3667,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 8,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/louis-c-k/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -3830,14 +3702,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 10,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/children/stroumfakia-i-prasini-apostoli-kolossaion/",
       "source": "more.com",
       "createdAt": "2025-10-31T12:22:03.833Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -3865,49 +3737,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 12,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/96-tou-prodromou-tsinikori/",
       "source": "viva.gr",
       "createdAt": "2025-10-30T10:35:34.383Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "0e65597154da69a0",
-      "title": "Dara Ó Briain",
-      "description": "11 Μαρτιου Dara Ó Briain Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-      "startDate": "2026-03-11T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-        "address": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75",
-        "neighborhood": "Ilissia",
-        "coordinates": {
-          "lat": 37.975,
-          "lon": 23.753
-        },
-        "capacity": 600
-      },
-      "price": {
-        "type": "paid",
-        "amount": 32,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/dara-o-briain/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.648Z",
-      "updatedAt": "2025-11-06 13:34:35",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -3935,23 +3772,23 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 32,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/dara-o-briain/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "5d414487582e4437",
-      "title": "ΠΑΝΔΟΧΕΙΟΝ Η ΦΙΛΟΞΕΝΗ ΕΡΗΜΙΑ",
-      "description": "12 Μαρ - 5 Απρ ΠΑΝΔΟΧΕΙΟΝ Η ΦΙΛΟΞΕΝΗ ΕΡΗΜΙΑ bijoux de kant HOOD art space",
-      "startDate": "2026-03-12T00:00:00.000+02:00",
+      "id": "0e65597154da69a0",
+      "title": "Dara Ó Briain",
+      "description": "11 Μαρτιου Dara Ó Briain Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
+      "startDate": "2026-03-11T21:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -3959,21 +3796,25 @@
       ],
       "tags": [],
       "venue": {
-        "name": "bijoux de kant HOOD art space",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
+        "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
+        "address": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75",
+        "neighborhood": "Ilissia",
+        "coordinates": {
+          "lat": 37.975,
+          "lon": 23.753
+        },
+        "capacity": 600
       },
       "price": {
         "type": "paid",
-        "amount": 12,
+        "amount": 32,
         "currency": "EUR",
         "range": null
       },
-      "url": "https://www.more.com/gr-el/tickets/theater/pandoxeion-i-filokseni-erimia/",
+      "url": "https://www.more.com/gr-el/tickets/theater/dara-o-briain/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.648Z",
-      "updatedAt": "2025-10-22T17:16:25.648Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -4001,14 +3842,45 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 16,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/pandoxeion-i-filokseni-erimia/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "5d414487582e4437",
+      "title": "ΠΑΝΔΟΧΕΙΟΝ Η ΦΙΛΟΞΕΝΗ ΕΡΗΜΙΑ",
+      "description": "12 Μαρ - 5 Απρ ΠΑΝΔΟΧΕΙΟΝ Η ΦΙΛΟΞΕΝΗ ΕΡΗΜΙΑ bijoux de kant HOOD art space",
+      "startDate": "2026-03-12T21:00:00+02:00",
+      "endDate": null,
+      "type": "theater",
+      "genres": [
+        "theater"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "bijoux de kant HOOD art space",
+        "address": "",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 12,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/pandoxeion-i-filokseni-erimia/",
+      "source": "more.com",
+      "createdAt": "2025-10-22T17:16:25.648Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -4067,14 +3939,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 25,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/dance/balletto-di-milano/",
       "source": "more.com",
       "createdAt": "2025-10-31T12:22:35.864Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -4083,7 +3955,7 @@
       "id": "3cb04d801c81743e",
       "title": "ANESIS STEPHEN KING PASS",
       "description": "STEPHEN KING PASS ANESIS STEPHEN KING PASS Θεατρον Ανεσις",
-      "startDate": "2026-04-05T00:00:00.000+02:00",
+      "startDate": "2026-04-05T20:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -4105,7 +3977,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/anesis-stephen-king-pass/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.653Z",
-      "updatedAt": "2025-10-22T17:16:25.653Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -4195,14 +4067,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 15,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/dance/marcos-ayala-tango-the-golden-years/",
       "source": "more.com",
       "createdAt": "2025-10-31T12:22:35.864Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -4244,7 +4116,7 @@
       "id": "03e777aef58c670d",
       "title": "Professor BRIAN COX: Emergence",
       "description": "24 Σεπτεμβριου Professor BRIAN COX: Emergence CHRISTMAS THEATER",
-      "startDate": "2026-09-24T00:00:00.000+02:00",
+      "startDate": "2026-09-24T19:30:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -4270,7 +4142,7 @@
       "url": "https://www.more.com/gr-el/tickets/professor-brian-cox-in-athens/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.661Z",
-      "updatedAt": "2025-11-06 13:34:35",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -4298,14 +4170,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 3,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/professor-brian-cox-in-athens/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -4341,8 +4213,8 @@
     }
   ],
   "meta": {
-    "total": 134,
-    "lastUpdate": "2025-11-15T19:41:27.365Z",
+    "total": 130,
+    "lastUpdate": "2025-11-16T17:39:20.145Z",
     "url": "https://agent-athens.netlify.app/theater"
   }
 }

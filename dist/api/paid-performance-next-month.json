@@ -42,7 +42,7 @@
       "id": "5b6d109e49931b37",
       "title": "Μαρμελάδα Κυψέλη: Σκιτσάροντας στην Αγορά με τον Pan Pan",
       "description": "Απο 2 Οκτ.εως 4 Δεκ. Μαρμελάδα Κυψέλη: Σκιτσάροντας στην Αγορά με τον Pan Pan Δημοτικη Αγορα Κυψελης",
-      "startDate": "2025-12-04T00:00:00.000+02:00",
+      "startDate": "2025-12-04T19:00:00+02:00",
       "endDate": null,
       "type": "performance",
       "genres": [
@@ -68,7 +68,7 @@
       "url": "https://www.more.com/gr-el/tickets/happenings/marmelada-kypseli-skitsarontas-stin-agora-me-ton-panpan/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.598Z",
-      "updatedAt": "2025-11-06 13:34:35",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -96,14 +96,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 110,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/happenings/marmelada-kypseli-skitsarontas-stin-agora-me-ton-panpan/",
       "source": "more.com",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -112,7 +112,7 @@
       "id": "a94f01590b13d5a0",
       "title": "Avanti Maestro Christmas Edition",
       "description": "7 - 28 Δεκεμβριου Avanti Maestro Christmas Edition Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-      "startDate": "2025-12-07T00:00:00.000+02:00",
+      "startDate": "2025-12-07T18:00:00+02:00",
       "endDate": null,
       "type": "performance",
       "genres": [
@@ -138,7 +138,7 @@
       "url": "https://www.more.com/gr-el/tickets/happenings/children/christmas/avanti-maestro-christmas-edition/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.607Z",
-      "updatedAt": "2025-11-06 13:34:35",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -197,14 +197,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 9,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/happenings/children/christmas/avanti-maestro-christmas-edition/",
       "source": "more.com",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -232,14 +232,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 6,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/happenings/offer/kentima-se-kyklo/",
       "source": "more.com",
       "createdAt": "2025-10-31T08:41:14.174Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -248,7 +248,7 @@
       "id": "00057297a8f90b4a",
       "title": "Εργαστήρια για άτομα 65+: Σταμπωτά Υφάσματα - Ζωντανεύοντας την Παράδοση",
       "description": "10 Δεκ - 14 Ιαν Εργαστήρια για άτομα 65+: Σταμπωτά Υφάσματα - Ζωντανεύοντας την Παράδοση Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Αιθουσα Πολλαπλων Χρησεων 2",
-      "startDate": "2025-12-10T00:00:00.000+02:00",
+      "startDate": "2025-12-10T18:00:00+02:00",
       "endDate": null,
       "type": "performance",
       "genres": [
@@ -270,7 +270,7 @@
       "url": "https://www.more.com/gr-el/tickets/workshop/aei-didaskomenoi/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.610Z",
-      "updatedAt": "2025-10-22T17:16:25.610Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -298,14 +298,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 95,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/workshop/aei-didaskomenoi/",
       "source": "more.com",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -333,14 +333,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 7,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/happenings/bridal-expo-bridal-fashion-week-2025/",
       "source": "more.com",
       "createdAt": "2025-10-31T12:22:35.864Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -399,14 +399,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 2,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/museums/children/programma-o-egkefalos-giortazei/",
       "source": "more.com",
       "createdAt": "2025-10-31T08:41:14.174Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -434,14 +434,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 234,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/workshop/eikastika-ergastiria/",
       "source": "more.com",
       "createdAt": "2025-10-31T08:41:14.174Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -469,14 +469,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 119,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/mylos-ton-ksotikon-two-day-trip/",
       "source": "more.com",
       "createdAt": "2025-10-31T08:41:14.174Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -485,7 +485,7 @@
       "id": "686dc7023464ea98",
       "title": "ΣΤΑΧΤΟΠΟΥΤΑ",
       "description": "23 Δεκ - 4 Ιαν ΣΤΑΧΤΟΠΟΥΤΑ Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-      "startDate": "2025-12-23T00:00:00.000+02:00",
+      "startDate": "2025-12-23T18:00:00+02:00",
       "endDate": null,
       "type": "performance",
       "genres": [
@@ -511,7 +511,7 @@
       "url": "https://www.more.com/gr-el/tickets/dance/staxtopouta/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.625Z",
-      "updatedAt": "2025-11-06 13:34:35",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -539,51 +539,20 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 50,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/dance/staxtopouta/",
       "source": "more.com",
       "createdAt": "2025-10-31T12:22:03.833Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "25d921cce107c502",
-      "title": "Save a greek stray - Η προσφορά σας γίνεται ελπίδα!",
-      "description": "2025 Save a greek stray - Η προσφορά σας γίνεται ελπίδα! Donations - SGS",
-      "startDate": "2025-12-31T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Donations - SGS",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/subscriptions/save-a-greek-stray-i-prosfora-sas-ginetai-elpida/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.627Z",
-      "updatedAt": "2025-10-22T17:16:25.627Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     }
   ],
   "meta": {
-    "total": 17,
-    "lastUpdate": "2025-11-15T19:41:27.625Z",
+    "total": 16,
+    "lastUpdate": "2025-11-16T17:39:20.394Z",
     "url": "https://agent-athens.netlify.app/paid-performance-next-month"
   }
 }

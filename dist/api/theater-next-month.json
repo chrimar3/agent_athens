@@ -60,14 +60,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 10,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/to-fantasma-stage-fright/",
       "source": "viva.gr",
       "createdAt": "2025-10-30T10:35:34.383Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -76,7 +76,7 @@
       "id": "4b84f169445a0f51",
       "title": "ΝΙΚΟΣ ΞΥΛΟΥΡΗΣ- Ο ΑΡΧΑΓΓΕΛΟΣ ΤΗΣ ΚΡΗΤΗΣ",
       "description": "3 - 21 Δεκεμβριου ΝΙΚΟΣ ΞΥΛΟΥΡΗΣ- Ο ΑΡΧΑΓΓΕΛΟΣ ΤΗΣ ΚΡΗΤΗΣ Θεατρο ΗΒΗ",
-      "startDate": "2025-12-03T00:00:00.000+02:00",
+      "startDate": "2025-12-03T19:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -98,69 +98,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/ksylouris/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.594Z",
-      "updatedAt": "2025-10-22T17:16:25.594Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "028d65dbb0ec735d",
-      "title": "Πετριχώρα",
-      "description": "14 Νοε - 18 Δεκ Πετριχώρα Πολλαπλοι χωροι",
-      "startDate": "2025-12-03T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/petrixora/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.594Z",
-      "updatedAt": "2025-10-22T17:16:25.594Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "929ccac77ff21d2d",
-      "title": "Το Ημερολόγιο ενός τρελλού",
-      "description": "7 Νοε - 10 Δεκ Το Ημερολόγιο ενός τρελλού Πολλαπλοι χωροι",
-      "startDate": "2025-12-03T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 12,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/to-imerologio-enos-trellou-1/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.595Z",
-      "updatedAt": "2025-10-22T17:16:25.595Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -188,14 +126,76 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 12,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/to-imerologio-enos-trellou-1/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "028d65dbb0ec735d",
+      "title": "Πετριχώρα",
+      "description": "14 Νοε - 18 Δεκ Πετριχώρα Πολλαπλοι χωροι",
+      "startDate": "2025-12-03T21:00:00+02:00",
+      "endDate": null,
+      "type": "theater",
+      "genres": [
+        "theater"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Πολλαπλοι χωροι",
+        "address": "",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 10,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/petrixora/",
+      "source": "more.com",
+      "createdAt": "2025-10-22T17:16:25.594Z",
+      "updatedAt": "2025-11-16 17:20:52",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "929ccac77ff21d2d",
+      "title": "Το Ημερολόγιο ενός τρελλού",
+      "description": "7 Νοε - 10 Δεκ Το Ημερολόγιο ενός τρελλού Πολλαπλοι χωροι",
+      "startDate": "2025-12-03T21:00:00+02:00",
+      "endDate": null,
+      "type": "theater",
+      "genres": [
+        "theater"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Πολλαπλοι χωροι",
+        "address": "",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 12,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/to-imerologio-enos-trellou-1/",
+      "source": "more.com",
+      "createdAt": "2025-10-22T17:16:25.595Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -297,7 +297,7 @@
       "id": "65c56c2bc27e5a65",
       "title": "COMEDY CLUB για παιδιά - Με τον Γιώργο Χατζηπαύλου",
       "description": "6 - 7 Δεκεμβριου COMEDY CLUB για παιδιά - Με τον Γιώργο Χατζηπαύλου Κινηματοθεατρο ΚΟΛΟΣΣΑΙΟΝ",
-      "startDate": "2025-12-06T00:00:00.000+02:00",
+      "startDate": "2025-12-06T18:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -319,7 +319,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/children/comedy-club-gia-paidia-me-ton-giorgo-xatzipaulou/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.603Z",
-      "updatedAt": "2025-10-22T17:16:25.603Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -409,14 +409,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 12,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/children/comedy-club-gia-paidia-me-ton-giorgo-xatzipaulou/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -425,7 +425,7 @@
       "id": "03e927dc942d9a6d",
       "title": "Χριστούγεννα με τον Παπαδιαμάντη",
       "description": "7 Δεκ - 4 Ιαν Χριστούγεννα με τον Παπαδιαμάντη Θεατρο της Ημερας - Μπλε Σκηνη",
-      "startDate": "2025-12-07T00:00:00.000+02:00",
+      "startDate": "2025-12-07T18:00:00+02:00",
       "endDate": null,
       "type": "theater",
       "genres": [
@@ -447,7 +447,7 @@
       "url": "https://www.more.com/gr-el/tickets/theater/christmas/xristougenna-me-ton-papadiamanti/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.608Z",
-      "updatedAt": "2025-10-22T17:16:25.608Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -704,37 +704,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "74d81bb9ab6decc6",
-      "title": "Το 3% της Βίλης Σωτηροπούλου",
-      "description": "25 Οκτ - 10 Ιαν Το 3% της Βίλης Σωτηροπούλου Πολλαπλοι χωροι",
-      "startDate": "2025-12-15T00:00:00.000+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 5,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/to-3/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.619Z",
-      "updatedAt": "2025-10-22T17:16:25.619Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "TheaterEvent",
       "id": "3-2025-12-15",
       "title": "Το 3% της Βίλης Σωτηροπούλου",
@@ -758,14 +727,45 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 5,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/to-3/",
       "source": "more.com",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "id": "74d81bb9ab6decc6",
+      "title": "Το 3% της Βίλης Σωτηροπούλου",
+      "description": "25 Οκτ - 10 Ιαν Το 3% της Βίλης Σωτηροπούλου Πολλαπλοι χωροι",
+      "startDate": "2025-12-15T21:00:00+02:00",
+      "endDate": null,
+      "type": "theater",
+      "genres": [
+        "theater"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Πολλαπλοι χωροι",
+        "address": "",
+        "neighborhood": null,
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 5,
+        "currency": "EUR",
+        "range": null
+      },
+      "url": "https://www.more.com/gr-el/tickets/theater/to-3/",
+      "source": "more.com",
+      "createdAt": "2025-10-22T17:16:25.619Z",
+      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -981,14 +981,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 15,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/theater/epitheoritis-ntreik-kai-i-mauri-xira-thes/",
       "source": "viva.gr",
       "createdAt": "2025-10-30T10:35:34.383Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -1016,20 +1016,20 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 15,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/dance/karyothraustis-ballet-of-varna-state-opera/",
       "source": "more.com",
       "createdAt": "2025-10-31T12:22:35.864Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     }
   ],
   "meta": {
     "total": 32,
-    "lastUpdate": "2025-11-15T19:41:27.357Z",
+    "lastUpdate": "2025-11-16T17:39:20.137Z",
     "url": "https://agent-athens.netlify.app/theater-next-month"
   }
 }

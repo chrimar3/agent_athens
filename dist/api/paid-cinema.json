@@ -31,14 +31,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 35,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/venues/gazarte/",
       "source": "gazarte.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-15 09:47:13",
+      "updatedAt": "2025-11-16 17:22:21",
       "language": "gr"
     },
     {
@@ -66,14 +66,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 35,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/venues/gazarte/",
       "source": "gazarte.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:22:21",
       "language": "en"
     },
     {
@@ -136,14 +136,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 24,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/music/festival/makaya-mccraven-live-in-athens-scenius/",
       "source": "gazarte.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -206,14 +206,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 35,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/venues/gazarte/",
       "source": "gazarte.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -241,14 +241,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 35,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/venues/gazarte/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -276,14 +276,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 35,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/venues/gazarte/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -311,14 +311,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 35,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/venues/gazarte/",
       "source": "gazarte.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -346,14 +346,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 35,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/venues/gazarte/",
       "source": "gazarte.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -381,20 +381,20 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 35,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/venues/gazarte/",
       "source": "gazarte.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     }
   ],
   "meta": {
     "total": 11,
-    "lastUpdate": "2025-11-15T19:41:27.579Z",
+    "lastUpdate": "2025-11-16T17:39:20.351Z",
     "url": "https://agent-athens.netlify.app/paid-cinema"
   }
 }

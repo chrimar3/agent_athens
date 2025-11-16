@@ -31,14 +31,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 35,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/venues/gazarte/",
       "source": "gazarte.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-15 09:47:13",
+      "updatedAt": "2025-11-16 17:22:21",
       "language": "gr"
     },
     {
@@ -66,14 +66,14 @@
       },
       "price": {
         "type": "paid",
-        "amount": null,
+        "amount": 35,
         "currency": "EUR",
         "range": "with-ticket"
       },
       "url": "https://www.more.com/venues/gazarte/",
       "source": "gazarte.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:22:21",
       "language": "en"
     },
     {
@@ -110,11 +110,46 @@
       "createdAt": "2025-10-31T12:22:03.765Z",
       "updatedAt": "2025-10-31T12:44:50.787Z",
       "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ScreeningEvent",
+      "id": "makaya-mccraven-2025-11-22",
+      "title": "MAKAYA McCRAVEN",
+      "description": "",
+      "startDate": "2025-11-22T20:00:00+03:00",
+      "endDate": null,
+      "type": "cinema",
+      "genres": [
+        "cinema"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Gazarte",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 24,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/music/festival/makaya-mccraven-live-in-athens-scenius/",
+      "source": "gazarte.gr",
+      "createdAt": "2025-11-13T09:14:04.321Z",
+      "updatedAt": "2025-11-16 17:37:34",
+      "language": "en"
     }
   ],
   "meta": {
-    "total": 3,
-    "lastUpdate": "2025-11-15T19:41:27.577Z",
+    "total": 4,
+    "lastUpdate": "2025-11-16T17:39:20.348Z",
     "url": "https://agent-athens.netlify.app/paid-cinema-this-week"
   }
 }
