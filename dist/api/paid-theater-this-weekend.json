@@ -74,37 +74,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "5d0203a42c778a92",
-      "title": "ΤΟ ΓΑΛΑ 3ος χρόνος",
-      "description": "21 Νοε - 28 Δεκ ΤΟ ΓΑΛΑ 3ος χρόνος Θεατρο Σταθμος 2023 - Stathmos Theater",
-      "startDate": "2025-11-21T21:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Σταθμος 2023 - Stathmos Theater",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/to-gala-3os-xronos/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.553Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
       "id": "8cd45ebe9e353205",
       "title": "Η άλλη Στέλλα",
       "description": "22 Νοε - 21 Δεκ Η άλλη Στέλλα Απο Μηχανης Θεατρο - Πανω Σκηνη",
@@ -330,37 +299,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "0b7d30e5f8e70004",
-      "title": "ΣΕΡΡΑ - Η ψυχή του Πόντου ΠΕΡΙΟΔΕΙΑ",
-      "description": "24 Οκτ - 23 Νοε ΣΕΡΡΑ - Η ψυχή του Πόντου ΠΕΡΙΟΔΕΙΑ Πολλαπλοι χωροι",
-      "startDate": "2025-11-22T21:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/serra-i-psyxi-tou-pontou-periodeia/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.560Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
       "id": "13a082c77465642e",
       "title": "Μια Χριστουγεννιάτικη Ιστορία",
       "description": "23 Νοε - 4 Ιαν Μια Χριστουγεννιάτικη Ιστορία Συγχρονο Θεατρο",
@@ -386,37 +324,6 @@
       "url": "https://www.more.com/gr-el/tickets/theater/children/mia-xristougenniatiki-istoria/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.566Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "595ab3ea0b830155",
-      "title": "ΕΓΩ ΤΟ ΞΩΤΙΚΟ - 3ος χρόνος",
-      "description": "23 Νοε - 4 Ιαν ΕΓΩ ΤΟ ΞΩΤΙΚΟ - 3ος χρόνος Απο Μηχανης Θεατρο - Κατω Σκηνη",
-      "startDate": "2025-11-23T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Απο Μηχανης Θεατρο - Κατω Σκηνη",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/ego-to-ksotiko-1/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.565Z",
       "updatedAt": "2025-11-15 13:08:53",
       "language": "en"
     },
@@ -612,8 +519,8 @@
     }
   ],
   "meta": {
-    "total": 19,
-    "lastUpdate": "2025-11-16T18:24:18.639Z",
+    "total": 16,
+    "lastUpdate": "2025-11-16T18:32:41.476Z",
     "url": "https://agent-athens.netlify.app/paid-theater-this-weekend"
   }
 }

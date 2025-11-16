@@ -519,41 +519,6 @@
     {
       "@context": "https://schema.org",
       "@type": "MusicEvent",
-      "id": "only-the-hard-european-tour-2025-with-terror-us-athens-2025-11-19",
-      "title": "ONLY THE HARD EUROPEAN TOUR 2025 WITH TERROR (US) - ATHENS",
-      "description": "19 - 30 Νοεμβριου ONLY THE HARD EUROPEAN TOUR 2025 WITH TERROR (US) - ATHENS ARCH",
-      "startDate": "2025-11-19T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ARCH",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 43,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/only-the-hard-european-tour-2025-with-terror-us-athens-1/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
       "id": "the-hang-an-improvisation-session-2025-11-19",
       "title": "THE HANG - AN IMPROVISATION SESSION",
       "description": "19 Νοεμβριου THE HANG - AN IMPROVISATION SESSION Half Note Jazz Club",
@@ -1460,41 +1425,6 @@
     {
       "@context": "https://schema.org",
       "@type": "MusicEvent",
-      "id": "mother-of-millions-athens-2025-11-22",
-      "title": "Mother of Millions Athens",
-      "description": "22 Νοεμβριου Mother of Millions Athens Fuzz Club",
-      "startDate": "2025-11-22T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Fuzz Club",
-        "address": "Athens, Greece",
-        "neighborhood": "Exarcheia",
-        "coordinates": {
-          "lat": 37.9815,
-          "lon": 23.722
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/mother-of-millions-fuzz-athens/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
       "id": "lemon-2025-2025-11-22",
       "title": "Lemon Περιοδεία 2025 🍋",
       "description": "15 Νοε - 28 Φεβ Lemon Περιοδεία 2025 🍋 Πολλαπλοι χωροι",
@@ -1976,41 +1906,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "trendz-in-athens-glow-pt-2-2025-11-23",
-      "title": "TRENDZ in ATHENS - [GLOW] pt.2",
-      "description": "23 Νοεμβριου TRENDZ in ATHENS - [GLOW] pt.2 ARCH",
-      "startDate": "2025-11-23T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ARCH",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 39,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/trendz-in-athens-glow-pt-2/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:37:34",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "Event",
       "id": "a3ec4353b0a731cc",
       "title": "ΒΙΒΙΛΕΝΑ \"ΑΠΟ ΤΑ ΠΑΛΙΑ ΣΤΑ ΚΑΙΝΟΥΡΙΑ\"",
@@ -2225,37 +2120,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "612f5c3993624f2a",
-      "title": "MadWalk 2025 by Three Cents",
-      "description": "26 Νοεμβριου MadWalk 2025 by Three Cents Tae Kwon Do, Madwalk",
-      "startDate": "2025-11-26T20:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Tae Kwon Do, Madwalk",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 40,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/madwalk-2025-by-three-cents/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.574Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
       "id": "ac5947846e6cdab3",
       "title": "Παναγιώτης Κούκας - Άγγελος Αγγέλου / Σταυρός του Νότου club",
       "description": "26 Νοεμβριου Παναγιώτης Κούκας - Άγγελος Αγγέλου / Σταυρός του Νότου club Σταυρος του Νοτου - Σταυρος του Νοτου - Club",
@@ -2453,41 +2317,6 @@
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.968Z",
       "updatedAt": "2025-10-26T21:21:00.968Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "otra-rota-live-2025-11-27",
-      "title": "ΑΛΕΞΑΝΔΡΟΣ ΔΑΙΚΟΣ - OTRA ROTA Live @ ΚΥΤΤΑΡΟ",
-      "description": "27 Νοεμβριου ΑΛΕΞΑΝΔΡΟΣ ΔΑΙΚΟΣ - OTRA ROTA Live @ ΚΥΤΤΑΡΟ Κυτταρο Live",
-      "startDate": "2025-11-27T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κυτταρο Live",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 9,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/aleksandros-daikos-otra-rota-live-kyttaro/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -2994,37 +2823,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "1ddb49687a269040",
-      "title": "Ο Γιάννης Κότσιρας στο Block 33",
-      "description": "28 Νοε - 5 Δεκ Ο Γιάννης Κότσιρας στο Block 33 Block 33",
-      "startDate": "2025-11-28T21:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Block 33",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/o-giannis-kotsiras-sto-block-33/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.577Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "MusicEvent",
       "id": "performance-2025-11-28",
       "title": "ΜΟΜΦΗ - PERFORMANCE",
@@ -3361,41 +3159,6 @@
     {
       "@context": "https://schema.org",
       "@type": "MusicEvent",
-      "id": "inner-wish-30-years-anniversary-2025-11-29",
-      "title": "INNER WISH - 30 YEARS ANNIVERSARY",
-      "description": "29 Νοεμβριου INNER WISH - 30 YEARS ANNIVERSARY Floyd",
-      "startDate": "2025-11-29T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Floyd",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 17,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/inner-wish-30-years-anniversary/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:37:34",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
       "id": "-2025-11-29",
       "title": "«Μες στο νερό» παιδικό μιούζικαλ - ΛΑΡΙΣΑ",
       "description": "29 Νοεμβριου «Μες στο νερό» παιδικό μιούζικαλ - ΛΑΡΙΣΑ Αμφιθεατρο Δημοτικης Πινακοθηκης Λαρισας",
@@ -3703,8 +3466,8 @@
     }
   ],
   "meta": {
-    "total": 109,
-    "lastUpdate": "2025-11-16T18:24:18.592Z",
+    "total": 102,
+    "lastUpdate": "2025-11-16T18:32:41.434Z",
     "url": "https://agent-athens.netlify.app/paid-concert-this-month"
   }
 }

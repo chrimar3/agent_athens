@@ -135,41 +135,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "-2025-11-21",
-      "title": "Πρόγραμμα \"Συνδέομαι σημαίνει σέβομαι\"",
-      "description": "21 Νοεμβριου Πρόγραμμα \"Συνδέομαι σημαίνει σέβομαι\" Ελληνικο Παιδικο Μουσειο",
-      "startDate": "2025-11-21T20:00:00+03:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Ελληνικο Παιδικο Μουσειο",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 20,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/museums/children/programma-syndeomai-simainei-sebomai/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "TheaterEvent",
       "id": "3-2025-11-21",
       "title": "ΤΟ ΓΑΛΑ 3ος χρόνος",
@@ -236,37 +201,6 @@
       "source": "more.com",
       "createdAt": "2025-11-13T09:14:04.321Z",
       "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "5d0203a42c778a92",
-      "title": "ΤΟ ΓΑΛΑ 3ος χρόνος",
-      "description": "21 Νοε - 28 Δεκ ΤΟ ΓΑΛΑ 3ος χρόνος Θεατρο Σταθμος 2023 - Stathmos Theater",
-      "startDate": "2025-11-21T21:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Σταθμος 2023 - Stathmos Theater",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/to-gala-3os-xronos/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.553Z",
-      "updatedAt": "2025-11-15 13:08:53",
       "language": "en"
     },
     {
@@ -476,37 +410,6 @@
       "createdAt": "2025-10-31T12:22:03.765Z",
       "updatedAt": "2025-11-09 23:52:26",
       "language": "gr"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "3d596866282d864f",
-      "title": "✨NEON PARTY ΣΤΟ ΚΤΗΜΑ ΑΡΙΣΤΗ ✨",
-      "description": "21 Νοεμβριου ✨NEON PARTY ΣΤΟ ΚΤΗΜΑ ΑΡΙΣΤΗ ✨ Κτημα Αριστη",
-      "startDate": "2025-11-21T22:00:00+02:00",
-      "endDate": null,
-      "type": "exhibition",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κτημα Αριστη",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/happenings/children/festival/neon-party-sto-ktima-aristi/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.552Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "en"
     },
     {
       "@context": "https://schema.org",
@@ -1025,41 +928,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "mother-of-millions-athens-2025-11-22",
-      "title": "Mother of Millions Athens",
-      "description": "22 Νοεμβριου Mother of Millions Athens Fuzz Club",
-      "startDate": "2025-11-22T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Fuzz Club",
-        "address": "Athens, Greece",
-        "neighborhood": "Exarcheia",
-        "coordinates": {
-          "lat": 37.9815,
-          "lon": 23.722
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/mother-of-millions-fuzz-athens/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "TheaterEvent",
       "id": "miro-2025-11-22",
       "title": "ΣΤΑ ΟΝΕΙΡΑ ΤΟΥ MIRO!|ΕΡΓΑΣΤΗΡΙ ΕΝΗΛΙΚΩΝ",
@@ -1198,37 +1066,6 @@
       "createdAt": "2025-10-22T17:16:25.559Z",
       "updatedAt": "2025-11-15 13:08:53",
       "language": "gr"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "0b7d30e5f8e70004",
-      "title": "ΣΕΡΡΑ - Η ψυχή του Πόντου ΠΕΡΙΟΔΕΙΑ",
-      "description": "24 Οκτ - 23 Νοε ΣΕΡΡΑ - Η ψυχή του Πόντου ΠΕΡΙΟΔΕΙΑ Πολλαπλοι χωροι",
-      "startDate": "2025-11-22T21:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/serra-i-psyxi-tou-pontou-periodeia/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.560Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "en"
     },
     {
       "@context": "https://schema.org",
@@ -1502,37 +1339,6 @@
       "url": "https://www.more.com/gr-el/tickets/walk/pauliani-parko-paulianis-monoimeri-ekdromi-3/",
       "source": "more.com",
       "createdAt": "2025-10-22T17:16:25.567Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "595ab3ea0b830155",
-      "title": "ΕΓΩ ΤΟ ΞΩΤΙΚΟ - 3ος χρόνος",
-      "description": "23 Νοε - 4 Ιαν ΕΓΩ ΤΟ ΞΩΤΙΚΟ - 3ος χρόνος Απο Μηχανης Θεατρο - Κατω Σκηνη",
-      "startDate": "2025-11-23T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Απο Μηχανης Θεατρο - Κατω Σκηνη",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/ego-to-ksotiko-1/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.565Z",
       "updatedAt": "2025-11-15 13:08:53",
       "language": "en"
     },
@@ -1996,41 +1802,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "trendz-in-athens-glow-pt-2-2025-11-23",
-      "title": "TRENDZ in ATHENS - [GLOW] pt.2",
-      "description": "23 Νοεμβριου TRENDZ in ATHENS - [GLOW] pt.2 ARCH",
-      "startDate": "2025-11-23T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ARCH",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 39,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/trendz-in-athens-glow-pt-2/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:37:34",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "TheaterEvent",
       "id": "3-2025-11-23",
       "title": "ΕΓΩ ΤΟ ΞΩΤΙΚΟ - 3ος χρόνος",
@@ -2138,8 +1909,8 @@
     }
   ],
   "meta": {
-    "total": 64,
-    "lastUpdate": "2025-11-16T18:24:18.506Z",
+    "total": 57,
+    "lastUpdate": "2025-11-16T18:32:41.356Z",
     "url": "https://agent-athens.netlify.app/paid-this-weekend"
   }
 }

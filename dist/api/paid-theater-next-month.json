@@ -171,37 +171,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "929ccac77ff21d2d",
-      "title": "Το Ημερολόγιο ενός τρελλού",
-      "description": "7 Νοε - 10 Δεκ Το Ημερολόγιο ενός τρελλού Πολλαπλοι χωροι",
-      "startDate": "2025-12-03T21:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 12,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/to-imerologio-enos-trellou-1/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.595Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
       "id": "63f7de2c55ebd94a",
       "title": "Η Πριγκίπισσα των Αγίων Σαράντα!",
       "description": "4 Δεκ - 28 Φεβ Η Πριγκίπισσα των Αγίων Σαράντα! CORONET THEATER",
@@ -290,37 +259,6 @@
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.982Z",
       "updatedAt": "2025-10-26T21:21:00.982Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "65c56c2bc27e5a65",
-      "title": "COMEDY CLUB για παιδιά - Με τον Γιώργο Χατζηπαύλου",
-      "description": "6 - 7 Δεκεμβριου COMEDY CLUB για παιδιά - Με τον Γιώργο Χατζηπαύλου Κινηματοθεατρο ΚΟΛΟΣΣΑΙΟΝ",
-      "startDate": "2025-12-06T18:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κινηματοθεατρο ΚΟΛΟΣΣΑΙΟΝ",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 12,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/children/comedy-club-gia-paidia-me-ton-giorgo-xatzipaulou/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.603Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -741,37 +679,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "74d81bb9ab6decc6",
-      "title": "Το 3% της Βίλης Σωτηροπούλου",
-      "description": "25 Οκτ - 10 Ιαν Το 3% της Βίλης Σωτηροπούλου Πολλαπλοι χωροι",
-      "startDate": "2025-12-15T21:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 5,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/to-3/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.619Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
       "id": "69c04fce9fc7f499",
       "title": "IL VOLO - CHRISTMAS THEATER",
       "description": "IL VOLO, ATHENS, ΑΘΗΝΑ, CHRISTMAS THEATER, LIVE, CLASIC MUSIC, POP",
@@ -1029,8 +936,8 @@
     }
   ],
   "meta": {
-    "total": 32,
-    "lastUpdate": "2025-11-16T18:24:18.644Z",
+    "total": 29,
+    "lastUpdate": "2025-11-16T18:32:41.481Z",
     "url": "https://agent-athens.netlify.app/paid-theater-next-month"
   }
 }

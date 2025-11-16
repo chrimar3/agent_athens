@@ -518,41 +518,6 @@
     {
       "@context": "https://schema.org",
       "@type": "MusicEvent",
-      "id": "only-the-hard-european-tour-2025-with-terror-us-athens-2025-11-19",
-      "title": "ONLY THE HARD EUROPEAN TOUR 2025 WITH TERROR (US) - ATHENS",
-      "description": "19 - 30 Νοεμβριου ONLY THE HARD EUROPEAN TOUR 2025 WITH TERROR (US) - ATHENS ARCH",
-      "startDate": "2025-11-19T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ARCH",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 43,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/only-the-hard-european-tour-2025-with-terror-us-athens-1/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
       "id": "the-hang-an-improvisation-session-2025-11-19",
       "title": "THE HANG - AN IMPROVISATION SESSION",
       "description": "19 Νοεμβριου THE HANG - AN IMPROVISATION SESSION Half Note Jazz Club",
@@ -1459,41 +1424,6 @@
     {
       "@context": "https://schema.org",
       "@type": "MusicEvent",
-      "id": "mother-of-millions-athens-2025-11-22",
-      "title": "Mother of Millions Athens",
-      "description": "22 Νοεμβριου Mother of Millions Athens Fuzz Club",
-      "startDate": "2025-11-22T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Fuzz Club",
-        "address": "Athens, Greece",
-        "neighborhood": "Exarcheia",
-        "coordinates": {
-          "lat": 37.9815,
-          "lon": 23.722
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/mother-of-millions-fuzz-athens/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
       "id": "lemon-2025-2025-11-22",
       "title": "Lemon Περιοδεία 2025 🍋",
       "description": "15 Νοε - 28 Φεβ Lemon Περιοδεία 2025 🍋 Πολλαπλοι χωροι",
@@ -1975,41 +1905,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "trendz-in-athens-glow-pt-2-2025-11-23",
-      "title": "TRENDZ in ATHENS - [GLOW] pt.2",
-      "description": "23 Νοεμβριου TRENDZ in ATHENS - [GLOW] pt.2 ARCH",
-      "startDate": "2025-11-23T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ARCH",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 39,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/trendz-in-athens-glow-pt-2/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:37:34",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "Event",
       "id": "a3ec4353b0a731cc",
       "title": "ΒΙΒΙΛΕΝΑ \"ΑΠΟ ΤΑ ΠΑΛΙΑ ΣΤΑ ΚΑΙΝΟΥΡΙΑ\"",
@@ -2224,37 +2119,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "612f5c3993624f2a",
-      "title": "MadWalk 2025 by Three Cents",
-      "description": "26 Νοεμβριου MadWalk 2025 by Three Cents Tae Kwon Do, Madwalk",
-      "startDate": "2025-11-26T20:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Tae Kwon Do, Madwalk",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 40,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/madwalk-2025-by-three-cents/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.574Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
       "id": "ac5947846e6cdab3",
       "title": "Παναγιώτης Κούκας - Άγγελος Αγγέλου / Σταυρός του Νότου club",
       "description": "26 Νοεμβριου Παναγιώτης Κούκας - Άγγελος Αγγέλου / Σταυρός του Νότου club Σταυρος του Νοτου - Σταυρος του Νοτου - Club",
@@ -2452,41 +2316,6 @@
       "source": "more.com",
       "createdAt": "2025-10-26T21:21:00.968Z",
       "updatedAt": "2025-10-26T21:21:00.968Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "otra-rota-live-2025-11-27",
-      "title": "ΑΛΕΞΑΝΔΡΟΣ ΔΑΙΚΟΣ - OTRA ROTA Live @ ΚΥΤΤΑΡΟ",
-      "description": "27 Νοεμβριου ΑΛΕΞΑΝΔΡΟΣ ΔΑΙΚΟΣ - OTRA ROTA Live @ ΚΥΤΤΑΡΟ Κυτταρο Live",
-      "startDate": "2025-11-27T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κυτταρο Live",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 9,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/aleksandros-daikos-otra-rota-live-kyttaro/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
     {
@@ -2993,37 +2822,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "1ddb49687a269040",
-      "title": "Ο Γιάννης Κότσιρας στο Block 33",
-      "description": "28 Νοε - 5 Δεκ Ο Γιάννης Κότσιρας στο Block 33 Block 33",
-      "startDate": "2025-11-28T21:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Block 33",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/o-giannis-kotsiras-sto-block-33/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.577Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "MusicEvent",
       "id": "performance-2025-11-28",
       "title": "ΜΟΜΦΗ - PERFORMANCE",
@@ -3354,41 +3152,6 @@
       "url": "https://www.more.com/gr-el/tickets/music/giorgos-xatzinasios-stefanos-korkolis-sofia-manousaki-band-irakleio/",
       "source": "viva.gr",
       "createdAt": "2025-10-30T10:34:38.729Z",
-      "updatedAt": "2025-11-16 17:37:34",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "inner-wish-30-years-anniversary-2025-11-29",
-      "title": "INNER WISH - 30 YEARS ANNIVERSARY",
-      "description": "29 Νοεμβριου INNER WISH - 30 YEARS ANNIVERSARY Floyd",
-      "startDate": "2025-11-29T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Floyd",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 17,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/inner-wish-30-years-anniversary/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
       "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
     },
@@ -4381,76 +4144,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "2184e731868fedb8",
-      "title": "GODSLEEP + LOUD SILENCE • ARCH CLUB",
-      "description": "5 Δεκεμβριου GODSLEEP + LOUD SILENCE • ARCH CLUB ARCH",
-      "startDate": "2025-12-05T20:30:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ARCH",
-        "address": "Petrou Ralli 29 & Kritis 1, Athens 104 47",
-        "neighborhood": "Tavros",
-        "coordinates": {
-          "lat": 37.9625,
-          "lon": 23.6985
-        },
-        "capacity": 700
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/godsleep-loud-silence-arch-club/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.600Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "33d31f2f901b5628",
-      "title": "Η ΓΙΟΡΤΗ για τον ΠΑΥΛΟ ΣΙΔΗΡΟΠΟΥΛΟ στο ΚΥΤΤΑΡΟ 2025",
-      "description": "5 Δεκεμβριου Η ΓΙΟΡΤΗ για τον ΠΑΥΛΟ ΣΙΔΗΡΟΠΟΥΛΟ στο ΚΥΤΤΑΡΟ 2025 Κυτταρο Live",
-      "startDate": "2025-12-05T21:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κυτταρο Live",
-        "address": "Ipeirou 48, Athens 104 39",
-        "neighborhood": "Metaxourgeio / Viktoria",
-        "coordinates": {
-          "lat": 37.9945,
-          "lon": 23.7278
-        },
-        "capacity": 500
-      },
-      "price": {
-        "type": "paid",
-        "amount": 12,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/i-giorti-gia-ton-paulo-sidiropoulo-sto-kyttaro-2025/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.601Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
       "id": "bfc1163d56d73293",
       "title": "Flames @ Piraeus Club Academy",
       "description": "FLAMES, Panic Alarm, GunSmith, Piraeus Club Academy, metal, rock, live",
@@ -4986,37 +4679,6 @@
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.025Z",
       "updatedAt": "2025-11-06 13:34:35",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "c30305558689473c",
-      "title": "WEVAL LIVE IN ATHENS",
-      "description": "8 Δεκεμβριου WEVAL LIVE IN ATHENS Universe / Saturn Area",
-      "startDate": "2025-12-08T20:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Universe / Saturn Area",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 18,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/weval-live-in-athens/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.609Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -5582,41 +5244,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "22b05bd3ef57ca49",
-      "title": "QUANTIC (UK) LIVE IN ATHENS",
-      "description": "12 Δεκεμβριου QUANTIC (UK) LIVE IN ATHENS ARCH",
-      "startDate": "2025-12-12T21:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ARCH",
-        "address": "Petrou Ralli 29 & Kritis 1, Athens 104 47",
-        "neighborhood": "Tavros",
-        "coordinates": {
-          "lat": 37.9625,
-          "lon": 23.6985
-        },
-        "capacity": 700
-      },
-      "price": {
-        "type": "paid",
-        "amount": 22,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/quantic-uk-live-in-athens/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.615Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "MusicEvent",
       "id": "absinthe-green-live-in-athens-2025-12-12",
       "title": "Absinthe Green live in Athens",
@@ -5828,41 +5455,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "0e9adb4e0164b27f",
-      "title": "KADEBOSTANY @FUZZ Σάββατο 13 Δεκεμβρίου 2025",
-      "description": "13 Δεκεμβριου KADEBOSTANY @FUZZ Σάββατο 13 Δεκεμβρίου 2025 Fuzz Club",
-      "startDate": "2025-12-13T21:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Fuzz Club",
-        "address": "Patriarchou Ioakeim 1, Moschato, Athens",
-        "neighborhood": "Tavros / Moschato",
-        "coordinates": {
-          "lat": 37.9545,
-          "lon": 23.6905
-        },
-        "capacity": 1000
-      },
-      "price": {
-        "type": "paid",
-        "amount": 34,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/kadebostany-fuzz-sabbato-13-dekembriou-2025/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.617Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
       "id": "f07ccc950077a2dc",
       "title": "Velocity Arena w/ Nico Moreno & Vendex",
       "description": "Velocity ArenaNICO MORENOVENDEXATE & SALINCIRKLEat Universe Multivenue",
@@ -6017,41 +5609,6 @@
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
       "updatedAt": "2025-11-16 17:37:34",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "4e6859921bcf4d36",
-      "title": "DJ PREMIER X THE ALCHEMIST LIVE IN ATHENS - HE'S THE PREEMO I'M THE CHEMIST WORLD TOUR 2025",
-      "description": "15 Δεκεμβριου DJ PREMIER X THE ALCHEMIST LIVE IN ATHENS - HE'S THE PREEMO I'M THE CHEMIST WORLD TOUR 2025 Fuzz Club",
-      "startDate": "2025-12-15T21:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Fuzz Club",
-        "address": "Patriarchou Ioakeim 1, Moschato, Athens",
-        "neighborhood": "Tavros / Moschato",
-        "coordinates": {
-          "lat": 37.9545,
-          "lon": 23.6905
-        },
-        "capacity": 1000
-      },
-      "price": {
-        "type": "paid",
-        "amount": 45,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/christmas/dj-premier-x-the-alchemist-live-in-athens-hes-the-preemo-im-the-chemist-world-tour-2025/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.619Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -6522,41 +6079,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "1fc4f024cd65feb7",
-      "title": "Σκιαδαρέσες | Floyd",
-      "description": "26 Δεκεμβριου Σκιαδαρέσες | Floyd Floyd",
-      "startDate": "2025-12-26T21:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Floyd",
-        "address": "Pireos 117, Athens 118 54",
-        "neighborhood": "Keramikos / Metaxourgeio",
-        "coordinates": {
-          "lat": 37.9795,
-          "lon": 23.718
-        },
-        "capacity": 2300
-      },
-      "price": {
-        "type": "paid",
-        "amount": 13,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/skiadareses-floyd/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.626Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "PerformanceEvent",
       "id": "s-prokofiev-2025-12-27",
       "title": "S. PROKOFIEV: Η ΣΤΑΧΤΟΠΟΥΤΑ",
@@ -6588,41 +6110,6 @@
       "source": "more.com",
       "createdAt": "2025-10-31T08:41:14.174Z",
       "updatedAt": "2025-10-31T12:44:50.787Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "4a5986fa0bdc8a06",
-      "title": "ΑΓΡΙΟ ΜΕΛΙ ''ΔΙΑΦΑΝΑ ΚΡΙΝΑ - ΤRIBUTE BAND''",
-      "description": "27 Δεκεμβριου ΑΓΡΙΟ ΜΕΛΙ ''ΔΙΑΦΑΝΑ ΚΡΙΝΑ - ΤRIBUTE BAND'' AN Club",
-      "startDate": "2025-12-27T20:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "AN Club",
-        "address": "13-15 Solomou Street, Athens 106 82",
-        "neighborhood": "Exarchia",
-        "coordinates": {
-          "lat": 37.9885,
-          "lon": 23.733
-        },
-        "capacity": 300
-      },
-      "price": {
-        "type": "paid",
-        "amount": 12,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/offer/agrio-meli-diafana-krina-tribute-band/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.627Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -6728,76 +6215,6 @@
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
       "updatedAt": "2025-11-16 17:37:34",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "255ece79e569751c",
-      "title": "THE ITALIAN TENORS - ΩΔΕΙΟ ΑΘΗΝΩΝ",
-      "description": "27 - 28 Δεκεμβριου THE ITALIAN TENORS - ΩΔΕΙΟ ΑΘΗΝΩΝ Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-      "startDate": "2025-12-27T20:30:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-        "address": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75",
-        "neighborhood": "Ilissia",
-        "coordinates": {
-          "lat": 37.975,
-          "lon": 23.753
-        },
-        "capacity": 600
-      },
-      "price": {
-        "type": "paid",
-        "amount": 30,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/the-italian-tenors-odeio-athinon/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.627Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "41c4412655a50a28",
-      "title": "LEMMY LIVES - TRIBUTE LIVE + PARTY",
-      "description": "27 Δεκεμβριου LEMMY LIVES - TRIBUTE LIVE + PARTY Gazarte - Ground Stage",
-      "startDate": "2025-12-27T21:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Gazarte - Ground Stage",
-        "address": "32-34 Voutadon St, Gazi, Athens",
-        "neighborhood": "Gazi / Keramikos",
-        "coordinates": {
-          "lat": 37.9775,
-          "lon": 23.7153
-        },
-        "capacity": 150
-      },
-      "price": {
-        "type": "paid",
-        "amount": 11,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/lemmy-lives-tribute-live-party/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.627Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -6961,41 +6378,6 @@
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
       "updatedAt": "2025-11-16 17:37:34",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "6954b52b0405cf1f",
-      "title": "ROCK n ROLL CHILDREN - FIREFLY - The Ultimate DIO & URIAH HEEP Live Tribute",
-      "description": "3 Ιανουαριου ROCK n ROLL CHILDREN - FIREFLY - The Ultimate DIO & URIAH HEEP Live Tribute Κυτταρο Live",
-      "startDate": "2026-01-03T20:45:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κυτταρο Live",
-        "address": "Ipeirou 48, Athens 104 39",
-        "neighborhood": "Metaxourgeio / Viktoria",
-        "coordinates": {
-          "lat": 37.9945,
-          "lon": 23.7278
-        },
-        "capacity": 500
-      },
-      "price": {
-        "type": "paid",
-        "amount": 13,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/rock-n-roll-children-firefly-the-ultimate-dio-uriah-heep-live-tribute/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.628Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -7324,37 +6706,6 @@
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.035Z",
       "updatedAt": "2025-11-06 13:34:35",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "5eb7df2175c32a2d",
-      "title": "ROME live in Greece",
-      "description": "16 - 17 Ιανουαριου ROME live in Greece Πολλαπλοι χωροι",
-      "startDate": "2026-01-16T21:30:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 25,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/rome-live-in-greece/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.634Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -8395,41 +7746,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "707810770ceeba7a",
-      "title": "ALFA MIST (UK) LIVE IN ATHENS",
-      "description": "28 Μαρτιου ALFA MIST (UK) LIVE IN ATHENS ARCH",
-      "startDate": "2026-03-28T21:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ARCH",
-        "address": "Petrou Ralli 29 & Kritis 1, Athens 104 47",
-        "neighborhood": "Tavros",
-        "coordinates": {
-          "lat": 37.9625,
-          "lon": 23.6985
-        },
-        "capacity": 700
-      },
-      "price": {
-        "type": "paid",
-        "amount": 25,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/alfa-mist-uk-live-in-athens/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.651Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
       "id": "487e9bc8acbe46eb",
       "title": "DIRE STRAITS LEGACY live in Greece!",
       "description": "DIRE STRAITS LEGACYWORLD TOUR 2026LIVE IN GREECE* ΔΕΥΤΕΡΑ 30 & ΤΡΙΤΗ 31 ΜΑΡΤΙΟΥ 2026 | ΘΕΣΣΑΛΟΝΙΚΗ – ΘΕΑΤΡΟ ΡΑΔΙΟ ΣΙΤΥ* ΠΑΡΑΣΚΕΥΗ 3 ΑΠΡΙΛΙΟΥ 2026 | ΑΘΗΝΑ – CT THEATER (CHRISTMAS THEATER)",
@@ -8487,41 +7803,6 @@
       "source": "more.com",
       "createdAt": "2025-10-26T21:20:10.037Z",
       "updatedAt": "2025-10-26T21:21:01.022Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "1223f89c183edc7e",
-      "title": "Death Disco Indoor Festival 2026",
-      "description": "3 - 4 Απριλιου Death Disco Indoor Festival 2026 Gazarte - Ground Stage",
-      "startDate": "2026-04-03T18:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Gazarte - Ground Stage",
-        "address": "32-34 Voutadon St, Gazi, Athens",
-        "neighborhood": "Gazi / Keramikos",
-        "coordinates": {
-          "lat": 37.9775,
-          "lon": 23.7153
-        },
-        "capacity": 150
-      },
-      "price": {
-        "type": "paid",
-        "amount": 50,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/death-disco-indoor-festival-2026/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.652Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -8625,41 +7906,6 @@
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
       "updatedAt": "2025-11-16 17:37:34",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "2964ac92930d2da6",
-      "title": "The Aristocrats - The Duck Tour @ Fuzz 05/04/2026",
-      "description": "5 Απριλιου The Aristocrats - The Duck Tour @ Fuzz 05/04/2026 Fuzz Club",
-      "startDate": "2026-04-05T21:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Fuzz Club",
-        "address": "Patriarchou Ioakeim 1, Moschato, Athens",
-        "neighborhood": "Tavros / Moschato",
-        "coordinates": {
-          "lat": 37.9545,
-          "lon": 23.6905
-        },
-        "capacity": 1000
-      },
-      "price": {
-        "type": "paid",
-        "amount": 35,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/the-aristocrats-the-duck-tour-fuzz-05/04/2026/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.652Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -8862,37 +8108,6 @@
       "source": "viva.gr",
       "createdAt": "2025-10-31T12:22:03.765Z",
       "updatedAt": "2025-11-06 13:34:35",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "ac24d341d98faf31",
-      "title": "RELEASE ATHENS 2026 X SNF NOSTOS",
-      "description": "21 - 25 Ιουνιου RELEASE ATHENS 2026 X SNF NOSTOS Πολλαπλοι χωροι",
-      "startDate": "2026-06-21T18:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 45,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/release-athens-2026-x-snf-nostos/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.657Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -9134,72 +8349,6 @@
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
       "updatedAt": "2025-11-16 17:37:34",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "331fce2a37e6bddd",
-      "title": "ELDER (USA) LIVE IN ATHENS",
-      "description": "2 Ιουλιου ELDER (USA) LIVE IN ATHENS ARCH",
-      "startDate": "2026-07-02T21:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ARCH",
-        "address": "Petrou Ralli 29 & Kritis 1, Athens 104 47",
-        "neighborhood": "Tavros",
-        "coordinates": {
-          "lat": 37.9625,
-          "lon": 23.6985
-        },
-        "capacity": 700
-      },
-      "price": {
-        "type": "paid",
-        "amount": 22,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/elder-usa-live-in-athens/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.659Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "89ac6fad0aaab46b",
-      "title": "Golden R. Festival 2026",
-      "description": "3 - 5 Ιουλιου Golden R. Festival 2026 Πολιτιστικο & Αθλητικο Κεντρο Ν. Σαρμανης",
-      "startDate": "2026-07-03T20:00:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολιτιστικο & Αθλητικο Κεντρο Ν. Σαρμανης",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/golden-r-festival-2026/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.660Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -9480,8 +8629,8 @@
     }
   ],
   "meta": {
-    "total": 282,
-    "lastUpdate": "2025-11-16T18:24:18.408Z",
+    "total": 257,
+    "lastUpdate": "2025-11-16T18:32:41.274Z",
     "url": "https://agent-athens.netlify.app/concert"
   }
 }

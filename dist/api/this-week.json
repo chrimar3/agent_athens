@@ -74,38 +74,6 @@
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "id": "2a2e0da29a8eb733",
-      "title": "Οι κάλπηδες 3ος χρόνος",
-      "description": "16 Νοε - 11 Ιαν Οι κάλπηδες 3ος χρόνος Θεατρο OLVIO",
-      "fullDescription": "Οι «Κάλπηδες» επιστρέφουν για τρίτη συνεχόμενη χρονιά στο Θέατρο OLVIO, μια επιτυχία που σφραγίζει το έργο ως μια από τις πιο αγαπημένες θεατρικές παραγωγές της πρόσφατης αθηναϊκής σκηνής. Από τις 16 Νοεμβρίου 2025 έως τις 11 Ιανουαρίου 2026, οι θεατές θα έχουν την ευκαιρία να απολαύσουν αυτό το ξεχωριστό έργο που έχει κερδίσει τις καρδιές χιλιάδων θεατών τις προηγούμενες σεζόν.\n\nΤο Θέατρο OLVIO, γνωστό για τη ζεστή ατμόσφαιρά του και την εξαιρετική θέαση από κάθε θέση, αποτελεί το ιδανικό σπίτι για αυτή την παραγωγή. Ο χώρος, που βρίσκεται σε προσβάσιμη τοποθεσία στην Αθήνα, έχει εξελιχθεί σε σημείο αναφοράς για ποιοτικές θεατρικές παραστάσεις που συνδυάζουν την καλλιτεχνική αξία με την ευρεία προσβασιμότητα του κοινού.\n\nΤο γεγονός ότι οι «Κάλπηδες» παρουσιάζονται για τρίτη χρονιά αποτελεί από μόνο του μαρτυρία της ποιότητας και της επικαιρότητας του έργου. Σε μια εποχή που το θεατρικό τοπίο είναι ιδιαίτερα ανταγωνιστικό, η διατήρηση μιας παράστασης στο πρόγραμμα για τρία συνεχόμενα έτη δηλώνει τη βαθιά σύνδεση που έχει αναπτυχθεί μεταξύ του έργου και του κοινού του. Κάθε χρόνο, οι «Κάλπηδες» προσελκύουν τόσο νέους θεατές που ανακαλύπτουν για πρώτη φορά αυτό το θεατρικό διαμάντι, όσο και επισκέπτες που επιστρέφουν για να ξαναζήσουν την εμπειρία.\n\nΟι «Κάλπηδες» προσφέρουν μια εύστοχη και συχνά ξεκαρδιστική ματιά στις ανθρώπινες σχέσεις, τις κοινωνικές δυναμικές και τις καθημερινές συγκρούσεις που όλοι βιώνουμε. Το έργο διακρίνεται για τους χαρακτήρες του που είναι ταυτόχρονα αναγνωρίσιμοι και παράδοξοι, για τους διαλόγους του που είναι οξυδερκείς και μνημονικοί, και για τη σκηνική του παρουσία που κρατά το κοινό προσηλωμένο από την πρώτη στιγμή μέχρι το τέλος.\n\nΗ παραγωγή απευθύνεται σε ευρύ κοινό, από νέους ενήλικες μέχρι μεγαλύτερης ηλικίας θεατές, προσφέροντας κάτι για όλους: γέλιο, συγκίνηση, κοινωνική σχολιαστική και αναγνωρισιμότητα. Είναι το ιδανικό πολιτιστικό ραντεβού για παρέες φίλων, ζευγάρια ή ακόμα και ατομική απόδραση στον κόσμο του θεάτρου.\n\nΗ χειμερινή περίοδος που καλύπτει η παράσταση, συμπεριλαμβανομένης της περιόδου των εορτών, προσφέρει την τέλεια ευκαιρία για μια ξεχωριστή βραδιά στο θέατρο. Σε μια εποχή που αναζητούμε γνήσιες και ουσιαστικές εμπειρίες, οι «Κάλπηδες» υπενθυμίζουν τη μοναδική δύναμη του ζωντανού θεάτρου να μας συνδέει, να μας διασκεδάζει και να μας κάνει να σκεφτόμαστε. Ο τρίτος χρόνος της παράστασης είναι η τελευταία σας ευκαιρία να μην χάσετε αυτό που έχουν ήδη ανακαλύψει χιλιάδες θεατές: μια θεατρική εμπειρία που θα μείνει μαζί σας.",
-      "startDate": "2025-11-16T18:15:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο OLVIO",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 8,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/oi-kalpides-2os-xronos/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.543Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "gr"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
       "id": "5d39002bf790b483",
       "title": "Τα Στενά Παπούτσια",
       "description": "16 Νοε - 4 Ιαν Τα Στενά Παπούτσια ΝΕΟΣ Ακαδημος",
@@ -723,41 +691,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "TheaterEvent",
-      "id": "vassily-sigarev-2025-11-17",
-      "title": "ΠΛΑΣΤΕΛΙΝΗ - Vassily Sigarev",
-      "description": "17 - 19 Νοεμβριου ΠΛΑΣΤΕΛΙΝΗ - Vassily Sigarev Θεατρο Αυλαια",
-      "startDate": "2025-11-17T20:00:00+03:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Αυλαια",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/plastelini-vassily-sigarev/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "Event",
       "id": "f6b5443ee9089158",
       "title": "Η ημέρα εκείνη δεν θ'αργήσει @17 Νοέμβρη Αφιέρωμα στο Πολιτικό Τραγούδι",
@@ -818,37 +751,6 @@
       "createdAt": "2025-10-22T17:16:25.544Z",
       "updatedAt": "2025-11-15 13:08:53",
       "language": "gr"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "f4ee1fdb94d62c14",
-      "title": "ΜΙΧΑΛΗΣ ΣΕΒΑΣΤΕΡΗΣ STAND UP COMEDY ON TOUR",
-      "description": "22 Οκτ - 20 Νοε ΜΙΧΑΛΗΣ ΣΕΒΑΣΤΕΡΗΣ STAND UP COMEDY ON TOUR Πολλαπλοι χωροι",
-      "startDate": "2025-11-18T20:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 12,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/mixalis-sebasteris-stand-up-comedy-on-tour/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.545Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "en"
     },
     {
       "@context": "https://schema.org",
@@ -983,37 +885,6 @@
       "createdAt": "2025-11-13T09:14:04.321Z",
       "updatedAt": "2025-11-16 17:22:21",
       "language": "gr"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "a229a5ef1f97d872",
-      "title": "#DORIAN(e)",
-      "description": "18 Νοε - 16 Δεκ #DORIAN(e) Θεατρο Ψυρρη",
-      "startDate": "2025-11-18T21:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Ψυρρη",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 16,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/doriane/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.545Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "en"
     },
     {
       "@context": "https://schema.org",
@@ -1380,41 +1251,6 @@
     {
       "@context": "https://schema.org",
       "@type": "MusicEvent",
-      "id": "only-the-hard-european-tour-2025-with-terror-us-athens-2025-11-19",
-      "title": "ONLY THE HARD EUROPEAN TOUR 2025 WITH TERROR (US) - ATHENS",
-      "description": "19 - 30 Νοεμβριου ONLY THE HARD EUROPEAN TOUR 2025 WITH TERROR (US) - ATHENS ARCH",
-      "startDate": "2025-11-19T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ARCH",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 43,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/only-the-hard-european-tour-2025-with-terror-us-athens-1/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
       "id": "the-hang-an-improvisation-session-2025-11-19",
       "title": "THE HANG - AN IMPROVISATION SESSION",
       "description": "19 Νοεμβριου THE HANG - AN IMPROVISATION SESSION Half Note Jazz Club",
@@ -1442,41 +1278,6 @@
         "range": "with-ticket"
       },
       "url": "https://www.more.com/gr-el/tickets/music/terry-vakirtzoglou-the-hang/an-improvisation/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "TheaterEvent",
-      "id": "-2025-11-19",
-      "title": "ΜΟΝΟ ΑΛΗΘΕΙΕΣ",
-      "description": "19 Νοε - 18 Δεκ ΜΟΝΟ ΑΛΗΘΕΙΕΣ ΠΛΥΦΑ - Κτιριο 7Γ",
-      "startDate": "2025-11-19T20:00:00+03:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ΠΛΥΦΑ - Κτιριο 7Γ",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/mono-alitheies/",
       "source": "viva.gr",
       "createdAt": "2025-11-13T09:14:04.321Z",
       "updatedAt": "2025-11-16 17:22:21",
@@ -2196,41 +1997,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "-2025-11-21",
-      "title": "Πρόγραμμα \"Συνδέομαι σημαίνει σέβομαι\"",
-      "description": "21 Νοεμβριου Πρόγραμμα \"Συνδέομαι σημαίνει σέβομαι\" Ελληνικο Παιδικο Μουσειο",
-      "startDate": "2025-11-21T20:00:00+03:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Ελληνικο Παιδικο Μουσειο",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 20,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/museums/children/programma-syndeomai-simainei-sebomai/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "TheaterEvent",
       "id": "3-2025-11-21",
       "title": "ΤΟ ΓΑΛΑ 3ος χρόνος",
@@ -2297,37 +2063,6 @@
       "source": "more.com",
       "createdAt": "2025-11-13T09:14:04.321Z",
       "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "5d0203a42c778a92",
-      "title": "ΤΟ ΓΑΛΑ 3ος χρόνος",
-      "description": "21 Νοε - 28 Δεκ ΤΟ ΓΑΛΑ 3ος χρόνος Θεατρο Σταθμος 2023 - Stathmos Theater",
-      "startDate": "2025-11-21T21:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Σταθμος 2023 - Stathmos Theater",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/to-gala-3os-xronos/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.553Z",
-      "updatedAt": "2025-11-15 13:08:53",
       "language": "en"
     },
     {
@@ -2537,37 +2272,6 @@
       "createdAt": "2025-10-31T12:22:03.765Z",
       "updatedAt": "2025-11-09 23:52:26",
       "language": "gr"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "3d596866282d864f",
-      "title": "✨NEON PARTY ΣΤΟ ΚΤΗΜΑ ΑΡΙΣΤΗ ✨",
-      "description": "21 Νοεμβριου ✨NEON PARTY ΣΤΟ ΚΤΗΜΑ ΑΡΙΣΤΗ ✨ Κτημα Αριστη",
-      "startDate": "2025-11-21T22:00:00+02:00",
-      "endDate": null,
-      "type": "exhibition",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κτημα Αριστη",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/happenings/children/festival/neon-party-sto-ktima-aristi/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.552Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "en"
     },
     {
       "@context": "https://schema.org",
@@ -3086,41 +2790,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "mother-of-millions-athens-2025-11-22",
-      "title": "Mother of Millions Athens",
-      "description": "22 Νοεμβριου Mother of Millions Athens Fuzz Club",
-      "startDate": "2025-11-22T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Fuzz Club",
-        "address": "Athens, Greece",
-        "neighborhood": "Exarcheia",
-        "coordinates": {
-          "lat": 37.9815,
-          "lon": 23.722
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/mother-of-millions-fuzz-athens/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "TheaterEvent",
       "id": "miro-2025-11-22",
       "title": "ΣΤΑ ΟΝΕΙΡΑ ΤΟΥ MIRO!|ΕΡΓΑΣΤΗΡΙ ΕΝΗΛΙΚΩΝ",
@@ -3259,37 +2928,6 @@
       "createdAt": "2025-10-22T17:16:25.559Z",
       "updatedAt": "2025-11-15 13:08:53",
       "language": "gr"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "0b7d30e5f8e70004",
-      "title": "ΣΕΡΡΑ - Η ψυχή του Πόντου ΠΕΡΙΟΔΕΙΑ",
-      "description": "24 Οκτ - 23 Νοε ΣΕΡΡΑ - Η ψυχή του Πόντου ΠΕΡΙΟΔΕΙΑ Πολλαπλοι χωροι",
-      "startDate": "2025-11-22T21:00:00+02:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/serra-i-psyxi-tou-pontou-periodeia/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.560Z",
-      "updatedAt": "2025-11-15 13:08:53",
-      "language": "en"
     },
     {
       "@context": "https://schema.org",
@@ -3506,8 +3144,8 @@
     }
   ],
   "meta": {
-    "total": 104,
-    "lastUpdate": "2025-11-16T18:24:18.273Z",
+    "total": 93,
+    "lastUpdate": "2025-11-16T18:32:41.148Z",
     "url": "https://agent-athens.netlify.app/this-week"
   }
 }

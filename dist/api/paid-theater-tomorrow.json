@@ -7,41 +7,6 @@
   "events": [
     {
       "@context": "https://schema.org",
-      "@type": "TheaterEvent",
-      "id": "vassily-sigarev-2025-11-17",
-      "title": "ΠΛΑΣΤΕΛΙΝΗ - Vassily Sigarev",
-      "description": "17 - 19 Νοεμβριου ΠΛΑΣΤΕΛΙΝΗ - Vassily Sigarev Θεατρο Αυλαια",
-      "startDate": "2025-11-17T20:00:00+03:00",
-      "endDate": null,
-      "type": "theater",
-      "genres": [
-        "theater"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρο Αυλαια",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/theater/plastelini-vassily-sigarev/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "Event",
       "id": "1bb544846bfe8243",
       "title": "ΠΛΑΣΤΕΛΙΝΗ - Vassily Sigarev",
@@ -74,8 +39,8 @@
     }
   ],
   "meta": {
-    "total": 2,
-    "lastUpdate": "2025-11-16T18:24:18.636Z",
+    "total": 1,
+    "lastUpdate": "2025-11-16T18:32:41.472Z",
     "url": "https://agent-athens.netlify.app/paid-theater-tomorrow"
   }
 }

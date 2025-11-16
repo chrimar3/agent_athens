@@ -245,41 +245,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "MusicEvent",
-      "id": "-2025-11-21",
-      "title": "Πρόγραμμα \"Συνδέομαι σημαίνει σέβομαι\"",
-      "description": "21 Νοεμβριου Πρόγραμμα \"Συνδέομαι σημαίνει σέβομαι\" Ελληνικο Παιδικο Μουσειο",
-      "startDate": "2025-11-21T20:00:00+03:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Ελληνικο Παιδικο Μουσειο",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 20,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/museums/children/programma-syndeomai-simainei-sebomai/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "Event",
       "id": "881f73db1a61032e",
       "title": "Λιβαδειά-Πηγές Κρύας, μονοήμερη εκδρομή",
@@ -879,41 +844,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "5b6d109e49931b37",
-      "title": "Μαρμελάδα Κυψέλη: Σκιτσάροντας στην Αγορά με τον Pan Pan",
-      "description": "Απο 2 Οκτ.εως 4 Δεκ. Μαρμελάδα Κυψέλη: Σκιτσάροντας στην Αγορά με τον Pan Pan Δημοτικη Αγορα Κυψελης",
-      "startDate": "2025-12-04T19:00:00+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Δημοτικη Αγορα Κυψελης",
-        "address": "Fokionos Negri 42, Kypseli, Athens 113 61",
-        "neighborhood": "Kypseli",
-        "coordinates": {
-          "lat": 38.0015,
-          "lon": 23.7335
-        },
-        "capacity": 300
-      },
-      "price": {
-        "type": "paid",
-        "amount": 110,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/happenings/marmelada-kypseli-skitsarontas-stin-agora-me-ton-panpan/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.598Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "PerformanceEvent",
       "id": "pan-pan-2025-12-04",
       "title": "Μαρμελάδα Κυψέλη: Σκιτσάροντας στην Αγορά με τον Pan Pan",
@@ -945,41 +875,6 @@
       "source": "more.com",
       "createdAt": "2025-11-13T09:14:04.321Z",
       "updatedAt": "2025-11-16 17:37:34",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "a94f01590b13d5a0",
-      "title": "Avanti Maestro Christmas Edition",
-      "description": "7 - 28 Δεκεμβριου Avanti Maestro Christmas Edition Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-      "startDate": "2025-12-07T18:00:00+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Οικογενειακα Προγραμματα - Μουσειο Μαρια Καλλας",
-        "address": "Mitropoleos 44, Athens 105 63",
-        "neighborhood": "Syntagma / Technopolis",
-        "coordinates": {
-          "lat": 37.9755,
-          "lon": 23.7305
-        },
-        "capacity": 200
-      },
-      "price": {
-        "type": "paid",
-        "amount": 9,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/happenings/children/christmas/avanti-maestro-christmas-edition/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.607Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -1081,37 +976,6 @@
       "source": "more.com",
       "createdAt": "2025-10-31T08:41:14.174Z",
       "updatedAt": "2025-11-16 17:37:34",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "00057297a8f90b4a",
-      "title": "Εργαστήρια για άτομα 65+: Σταμπωτά Υφάσματα - Ζωντανεύοντας την Παράδοση",
-      "description": "10 Δεκ - 14 Ιαν Εργαστήρια για άτομα 65+: Σταμπωτά Υφάσματα - Ζωντανεύοντας την Παράδοση Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Αιθουσα Πολλαπλων Χρησεων 2",
-      "startDate": "2025-12-10T18:00:00+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Αιθουσα Πολλαπλων Χρησεων 2",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "with-ticket",
-        "amount": null,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/workshop/aei-didaskomenoi/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.610Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -1322,41 +1186,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "686dc7023464ea98",
-      "title": "ΣΤΑΧΤΟΠΟΥΤΑ",
-      "description": "23 Δεκ - 4 Ιαν ΣΤΑΧΤΟΠΟΥΤΑ Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-      "startDate": "2025-12-23T18:00:00+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Αμφιθεατρο Ιωαννης Δεσποτοπουλος Ωδειο Αθηνων",
-        "address": "Rigillis Street & Vasileos Konstantinou Avenue, Athens 106 75",
-        "neighborhood": "Ilissia",
-        "coordinates": {
-          "lat": 37.975,
-          "lon": 23.753
-        },
-        "capacity": 600
-      },
-      "price": {
-        "type": "paid",
-        "amount": 25,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/dance/staxtopouta/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.625Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "MusicEvent",
       "id": "-2025-12-23",
       "title": "ΣΤΑΧΤΟΠΟΥΤΑ",
@@ -1388,37 +1217,6 @@
       "source": "more.com",
       "createdAt": "2025-10-31T12:22:03.833Z",
       "updatedAt": "2025-11-16 17:37:34",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "25d921cce107c502",
-      "title": "Save a greek stray - Η προσφορά σας γίνεται ελπίδα!",
-      "description": "2025 Save a greek stray - Η προσφορά σας γίνεται ελπίδα! Donations - SGS",
-      "startDate": "2025-12-31T18:00:00+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Donations - SGS",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 10,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/subscriptions/save-a-greek-stray-i-prosfora-sas-ginetai-elpida/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.627Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -1629,37 +1427,6 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "1a9f6f78462af8cd",
-      "title": "Εργαστήρια για άτομα 65+: Διάβαση, σε συνεργασία με το Ίδρυμα Ευγενίδου",
-      "description": "9 Μαρτιου Εργαστήρια για άτομα 65+: Διάβαση, σε συνεργασία με το Ίδρυμα Ευγενίδου Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Πυργος Βιβλιων ΕΒΕ",
-      "startDate": "2026-03-09T18:00:00+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος - Πυργος Βιβλιων ΕΒΕ",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "with-ticket",
-        "amount": null,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/workshop/diabasi-se-synergasia-me-to-idryma-eygenidou/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.648Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "PerformanceEvent",
       "id": "65-2026-03-09",
       "title": "Εργαστήρια για άτομα 65+: Διάβαση, σε συνεργασία με το Ίδρυμα Ευγενίδου",
@@ -1726,99 +1493,6 @@
       "source": "more.com",
       "createdAt": "2025-10-31T12:22:35.864Z",
       "updatedAt": "2025-11-16 17:37:34",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "dbf0db62d4a777d0",
-      "title": "HAPPY PRODUCTIONS 7in1 PASS.",
-      "description": "7in1 PASS HAPPY PRODUCTIONS 7in1 PASS. Πολλαπλοι χωροι",
-      "startDate": "2026-04-05T18:00:00+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Πολλαπλοι χωροι",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 129,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/subscriptions/happy-productions-7in1-pass/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.653Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "d41e47436f831bfe",
-      "title": "ΑΝΕΣΙΣ 4in1 PASS.",
-      "description": "ΑΝΕΣΙΣ 4in1 PASS ΑΝΕΣΙΣ 4in1 PASS. Θεατρον Ανεσις",
-      "startDate": "2026-04-05T20:00:00+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρον Ανεσις",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 69,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/subscriptions/anesis-4in1-pass/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.653Z",
-      "updatedAt": "2025-11-16 17:20:52",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "a9ed06408ca0679d",
-      "title": "ANESIS STEPHEN KING PASS.",
-      "description": "STEPHEN KING PASS ANESIS STEPHEN KING PASS. Θεατρον Ανεσις",
-      "startDate": "2026-04-05T20:00:00+02:00",
-      "endDate": null,
-      "type": "performance",
-      "genres": [
-        "general"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Θεατρον Ανεσις",
-        "address": "",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 39,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/subscriptions/anesis-stephen-king-pass/",
-      "source": "more.com",
-      "createdAt": "2025-10-22T17:16:25.653Z",
-      "updatedAt": "2025-11-16 17:20:52",
       "language": "en"
     },
     {
@@ -2180,8 +1854,8 @@
     }
   ],
   "meta": {
-    "total": 65,
-    "lastUpdate": "2025-11-16T18:24:18.458Z",
+    "total": 55,
+    "lastUpdate": "2025-11-16T18:32:41.315Z",
     "url": "https://agent-athens.netlify.app/performance"
   }
 }

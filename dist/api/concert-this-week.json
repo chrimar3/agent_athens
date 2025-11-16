@@ -518,41 +518,6 @@
     {
       "@context": "https://schema.org",
       "@type": "MusicEvent",
-      "id": "only-the-hard-european-tour-2025-with-terror-us-athens-2025-11-19",
-      "title": "ONLY THE HARD EUROPEAN TOUR 2025 WITH TERROR (US) - ATHENS",
-      "description": "19 - 30 Νοεμβριου ONLY THE HARD EUROPEAN TOUR 2025 WITH TERROR (US) - ATHENS ARCH",
-      "startDate": "2025-11-19T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "ARCH",
-        "address": "Athens, Greece",
-        "neighborhood": null,
-        "coordinates": {
-          "lat": 37.9838,
-          "lon": 23.7276
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 43,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/only-the-hard-european-tour-2025-with-terror-us-athens-1/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
       "id": "the-hang-an-improvisation-session-2025-11-19",
       "title": "THE HANG - AN IMPROVISATION SESSION",
       "description": "19 Νοεμβριου THE HANG - AN IMPROVISATION SESSION Half Note Jazz Club",
@@ -1459,41 +1424,6 @@
     {
       "@context": "https://schema.org",
       "@type": "MusicEvent",
-      "id": "mother-of-millions-athens-2025-11-22",
-      "title": "Mother of Millions Athens",
-      "description": "22 Νοεμβριου Mother of Millions Athens Fuzz Club",
-      "startDate": "2025-11-22T20:00:00+03:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "music"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Fuzz Club",
-        "address": "Athens, Greece",
-        "neighborhood": "Exarcheia",
-        "coordinates": {
-          "lat": 37.9815,
-          "lon": 23.722
-        },
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 15,
-        "currency": "EUR",
-        "range": "with-ticket"
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/mother-of-millions-fuzz-athens/",
-      "source": "viva.gr",
-      "createdAt": "2025-11-13T09:14:04.321Z",
-      "updatedAt": "2025-11-16 17:22:21",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicEvent",
       "id": "lemon-2025-2025-11-22",
       "title": "Lemon Περιοδεία 2025 🍋",
       "description": "15 Νοε - 28 Φεβ Lemon Περιοδεία 2025 🍋 Πολλαπλοι χωροι",
@@ -1777,8 +1707,8 @@
     }
   ],
   "meta": {
-    "total": 52,
-    "lastUpdate": "2025-11-16T18:24:18.377Z",
+    "total": 50,
+    "lastUpdate": "2025-11-16T18:32:41.244Z",
     "url": "https://agent-athens.netlify.app/concert-this-week"
   }
 }
