@@ -74,11 +74,46 @@
       "createdAt": "2025-11-13T09:14:04.321Z",
       "updatedAt": "2025-11-16 17:22:21",
       "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "on-site-crete-marketing-days-2025-11-23",
+      "title": "On site - Crete Marketing Days",
+      "description": "23 Νοεμβριου On site - Crete Marketing Days Theartemis Palace",
+      "startDate": "2025-11-23T20:00:00+03:00",
+      "endDate": null,
+      "type": "exhibition",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Theartemis Palace",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 10,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/seminar/on-site-crete-marketing-days/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-11-16 17:37:34",
+      "language": "en"
     }
   ],
   "meta": {
-    "total": 2,
-    "lastUpdate": "2025-11-16T18:32:41.457Z",
+    "total": 3,
+    "lastUpdate": "2025-11-17T17:55:30.532Z",
     "url": "https://agent-athens.netlify.app/paid-exhibition-this-week"
   }
 }

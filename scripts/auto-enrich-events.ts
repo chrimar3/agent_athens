@@ -115,17 +115,7 @@ function validateEnrichment(description: string): {
 }
 
 /**
- * Call seo_content_writer agent to generate description
- */
-async function callContentWriterAgent(prompt: string): Promise<string> {
-  // This will be handled by Claude Code's Task tool with seo_content_writer agent
-  // The agent will receive the prompt and return the description
-  // This is a synchronous wrapper - actual call happens via Task tool
-  throw new Error('This function should be called via Task tool with seo_content_writer agent');
-}
-
-/**
- * Enrich a single event using seo_content_writer agent
+ * Enrich a single event using seo-content-writer agent
  */
 async function enrichEvent(event: any): Promise<{
   success: boolean;
@@ -139,28 +129,30 @@ async function enrichEvent(event: any): Promise<{
     console.log(`\n🤖 Enriching: ${event.title}`);
     console.log(`   Venue: ${event.venue_name}`);
     console.log(`   Date: ${event.start_date}`);
+    console.log(`   📝 Generating Greek description...`);
 
-    // Generate description using seo_content_writer agent
-    // Note: This will be executed via Task tool
-    console.log(`   📝 Generating 400-word Greek description...`);
+    // NOTE: This function will be called by Claude Code using the Task tool
+    // The seo-content-writer agent will process the prompt and return the description
+    // This is a placeholder that should trigger Claude Code to use Task tool
 
-    // For now, show the prompt - will be replaced with actual agent call
-    console.log(`\n${'='.repeat(60)}`);
-    console.log('PROMPT FOR SEO_CONTENT_WRITER AGENT:');
-    console.log('='.repeat(60));
-    console.log(prompt);
-    console.log('='.repeat(60));
-    console.log('\n⏸️  PAUSED: Use Task tool with seo_content_writer agent');
-    console.log('   Copy the prompt above and call the agent\n');
+    // When Claude Code sees this pattern, it should use:
+    // await Task({
+    //   subagent_type: 'seo-content-writer',
+    //   description: `Generate Greek event description for ${event.title}`,
+    //   prompt: prompt
+    // });
 
-    // This will be replaced with actual Task tool call
-    // For testing, we'll return the prompt
-    return {
-      success: false,
-      error: 'Requires Task tool integration - prompt shown above'
-    };
+    throw new Error(`TASK_TOOL_REQUIRED: Use seo-content-writer agent with prompt:\n${prompt}`);
 
   } catch (error: any) {
+    // If error message starts with TASK_TOOL_REQUIRED, this needs manual Task tool call
+    if (error.message.startsWith('TASK_TOOL_REQUIRED')) {
+      return {
+        success: false,
+        error: 'Manual Task tool integration required - see prompt in error message'
+      };
+    }
+
     return {
       success: false,
       error: error.message

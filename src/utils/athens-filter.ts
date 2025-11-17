@@ -17,6 +17,7 @@ import { join } from 'path';
 
 export interface EventLocation {
   title?: string;
+  description?: string;  // ADD: Check description field too
   venue_name?: string;
   venue_address?: string;
   venue_neighborhood?: string;
@@ -50,6 +51,17 @@ const NON_ATHENS_CITIES = [
   'Σαλονίκ',
   'ΘΚΕΣΣΑΛΟΝΙΚΗ',
   'Μεγαρο Μουσικης Θεσσαλονικης',  // Specific problematic venue
+  'Θεατρο Μονης Λαζαριστων',       // Moni Lazariston Theater
+  'Θέατρο Μονής Λαζαριστών',
+  'Moni Lazariston',
+  'Νοησις',                         // Noesis Science Center
+  'Noesis',
+
+  // Komotini (northeastern Greece)
+  'Κομοτην',
+  'Komotini',
+  'Μεγαρο Μουσικης Κομοτηνης',     // Komotini Concert Hall
+  'Μέγαρο Μουσικής Κομοτηνής',
 
   // Kalamata (southwestern Greece)
   'Καλαμάτα',
@@ -184,6 +196,11 @@ export function isAthensEvent(event: EventLocation): boolean {
   // TIER 2: BLACKLIST CHECK (reject non-Athens cities immediately)
   // Check title for non-Athens cities
   if (event.title && containsNonAthensCity(event.title)) {
+    return false;
+  }
+
+  // Check description for non-Athens cities (catches mislabeled venues)
+  if (event.description && containsNonAthensCity(event.description)) {
     return false;
   }
 
