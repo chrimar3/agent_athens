@@ -7,37 +7,6 @@
   "events": [
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "id": "f6b5443ee9089158",
-      "title": "Η ημέρα εκείνη δεν θ'αργήσει @17 Νοέμβρη Αφιέρωμα στο Πολιτικό Τραγούδι",
-      "description": "πολιτικο τραγουδι 17 νοεμβρηπολυτεχνειοχουντα",
-      "startDate": "2025-11-17T20:30:00+02:00",
-      "endDate": null,
-      "type": "concert",
-      "genres": [
-        "other"
-      ],
-      "tags": [],
-      "venue": {
-        "name": "Circus Entertainment Hub",
-        "address": "Circus Entertainment Hub",
-        "neighborhood": null,
-        "capacity": null
-      },
-      "price": {
-        "type": "paid",
-        "amount": 12,
-        "currency": "EUR",
-        "range": null
-      },
-      "url": "https://www.more.com/gr-el/tickets/music/i-imera-ekeini-den-thargisei-17-noembri-afieroma-sto-politiko-tragoudi/",
-      "source": "more.com",
-      "createdAt": "2025-10-26T21:20:10.010Z",
-      "updatedAt": "2025-10-26T21:21:01.041Z",
-      "language": "en"
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "MusicEvent",
       "id": "richard-bona-alfredo-rodriguez-trio-2025-11-18",
       "title": "Richard Bona - Alfredo Rodriguez Trio",
@@ -8348,8 +8317,8 @@
     }
   ],
   "meta": {
-    "total": 249,
-    "lastUpdate": "2025-11-17T17:55:30.527Z",
+    "total": 248,
+    "lastUpdate": "2025-11-18T12:21:32.510Z",
     "url": "https://agent-athens.netlify.app/paid-concert"
   }
 }

@@ -237,11 +237,116 @@
       "createdAt": "2025-10-31T12:22:35.864Z",
       "updatedAt": "2025-11-16 17:37:34",
       "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "PerformanceEvent",
+      "id": "runway-2025-11-24",
+      "title": "RUNWAY της Χριστιάνας Κοσιάρη",
+      "description": "24 Νοεμβριου RUNWAY της Χριστιάνας Κοσιάρη Θεατρο Αμαλια",
+      "startDate": "2025-11-24T20:00:00+03:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Θεατρο Αμαλια",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 10,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/dance/runway/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T08:41:14.174Z",
+      "updatedAt": "2025-11-16 17:37:34",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "central-wine-fair-2025-2025-11-24",
+      "title": "Central Wine Fair 2025",
+      "description": "24 Νοεμβριου Central Wine Fair 2025 Αιγλη Ζαππειου Ballroom",
+      "startDate": "2025-11-24T20:00:00+03:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Αιγλη Ζαππειου Ballroom",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 9,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/happenings/festival/central-wine-fair-2025/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-11-16 17:37:34",
+      "language": "en"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "id": "genai-summit-4-2025-11-24",
+      "title": "GenAI Summit 4",
+      "description": "24 Νοεμβριου GenAI Summit 4 Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος",
+      "startDate": "2025-11-24T20:00:00+03:00",
+      "endDate": null,
+      "type": "performance",
+      "genres": [
+        "general"
+      ],
+      "tags": [],
+      "venue": {
+        "name": "Κεντρο Πολιτισμου Ιδρυμα Σταυρος Νιαρχος",
+        "address": "Athens, Greece",
+        "neighborhood": null,
+        "coordinates": {
+          "lat": 37.9838,
+          "lon": 23.7276
+        },
+        "capacity": null
+      },
+      "price": {
+        "type": "paid",
+        "amount": 125,
+        "currency": "EUR",
+        "range": "with-ticket"
+      },
+      "url": "https://www.more.com/gr-el/tickets/conference/genai-summit-4/",
+      "source": "more.com",
+      "createdAt": "2025-10-31T12:22:35.864Z",
+      "updatedAt": "2025-11-16 17:37:34",
+      "language": "en"
     }
   ],
   "meta": {
-    "total": 7,
-    "lastUpdate": "2025-11-17T17:55:30.370Z",
+    "total": 10,
+    "lastUpdate": "2025-11-18T12:21:32.354Z",
     "url": "https://agent-athens.netlify.app/performance-this-week"
   }
 }
